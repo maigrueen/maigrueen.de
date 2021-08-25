@@ -1,0 +1,79 @@
+.header {
+  background-color: #a3d698;
+  padding: 20px;
+}
+
+h2 {
+  font-family: 'Sintony', sans-serif;
+  color: #273582;
+}
+
+h3 {
+  font-family: 'Sintony', sans-serif;
+  color: #273582;
+}
+
+button {
+  font-family: 'Sintony', sans-serif;
+  color: #273582;
+  border: none;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #b2b0b0;
+}
+
+input[type=number] {
+  font-family: 'Sintony', sans-serif;
+  border: none;
+  width: 50%;
+  padding: 10px;
+}
+
+th {
+  font-family: 'Sintony', sans-serif;
+  color: #273582;
+}
+
+svg {
+  pointer-events: none;
+}
+
+.chart-container {
+  position: fixed;
+  margin: auto;
+  height: 50vh;
+  width: 50vw;
+}
+
+/* Media Query für Smartphone */
+@media only screen and (max-width: 600px) {
+
+  button {
+    font-family: 'Sintony', sans-serif;
+    color: #273582;
+    border: none;
+    padding: 10px;
+    transition: 0.3s;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  input[type=number] {
+    font-family: 'Sintony', sans-serif;
+    border: none;
+    width: 50%;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  .chart-container {
+    position: fixed;
+    margin: auto;
+    height: 100vh;
+    width: 100vw;
+  }
+}

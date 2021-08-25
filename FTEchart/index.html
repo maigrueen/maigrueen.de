@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Input FTEs</title>
+  <link rel="stylesheet" href="FTEchart.css">
+  <script defer src="https://pro.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-DtPgXIYsUR6lLmJK14ZNUi11aAoezQtw4ut26Zwy9/6QXHH8W3+gjrRDT+lHiiW4" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="header">
+    <h2>Input</h2>
+    <table>
+      <tr>
+        <th style="text-align:left"></th>
+        <th style="text-align:left">Available</th>
+        <th style="text-align:left">Required</th>
+      </tr>
+      <tr>
+        <th style="text-align:left">FE</th>
+        <td><input type="number" id="newFEa" placeholder="z.B. 2"></td>
+        <td><input type="number" id="newFEr" placeholder="z.B. 2"></td>
+      </tr>
+      <tr>
+        <th style="text-align:left">BE</th>
+        <td><input type="number" id="newBEa" placeholder="z.B. 2"></td>
+        <td><input type="number" id="newBEr" placeholder="z.B. 2"></td>
+      </tr>
+      <tr>
+        <th style="text-align:left">QA</th>
+        <td><input type="number" id="newQAa" placeholder="z.B. 2"></td>
+        <td><input type="number" id="newQAr" placeholder="z.B. 2"></td>
+      </tr>
+      <tr>
+        <th style="text-align:left">TPM</th>
+        <td><input type="number" id="newTPMa" placeholder="z.B. 2"></td>
+        <td><input type="number" id="newTPMr" placeholder="z.B. 2"></td>
+      </tr>
+    </table>
+    <br />
+    <button type="button" id="btn"><i class="fal fa-plus-circle"></i> Auswerten</button>
+  </div>
+
+  <div>
+    <h2>Output</h2>
+    <div class="chart-container">
+      <canvas id="myChart"></canvas>
+    </div>
+  </div>
+
+  <script src="FTEchart.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+</body>
+</html>

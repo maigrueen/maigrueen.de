@@ -1,0 +1,127 @@
+.header {
+  background-color: #a3d698;
+  padding: 20px;
+}
+
+.filter {
+  font-family: 'Sintony', sans-serif;
+  color: #273582;
+  background-color: #e8e8e8;
+  padding: 20px;
+}
+
+.sorting {
+  font-family: 'Sintony', sans-serif;
+  color: #273582;
+  background-color: #e8e8e8;
+  padding: 20px;
+}
+
+.sorting label {
+  font-family: 'Sintony', sans-serif;
+  color: #273582;
+  font-size: 80%;
+}
+
+h2 {
+  font-family: 'Sintony', sans-serif;
+  color: #273582;
+}
+
+h3 {
+  font-family: 'Sintony', sans-serif;
+  color: #273582;
+}
+
+ul {
+  font-family: 'Sintony', sans-serif;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+ul li:nth-of-type(odd) {
+  background-color: #e8e8e8;
+}
+
+li {
+  font-family: 'Sintony', sans-serif;
+  color: #273582;
+  padding: 10px;
+  line-height: 40px;
+}
+
+li label {
+  margin-right: 50px;
+}
+
+input[type=checkbox]:checked + label {
+  color: #a3d698;
+  text-decoration: line-through;
+}
+
+button {
+  font-family: 'Sintony', sans-serif;
+  color: #273582;
+  border: none;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #b2b0b0;
+}
+
+
+.filterOff {
+  font-family: 'Sintony', sans-serif;
+  color: #273582;
+  border: none;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.filterOn {
+  background-color: #b2b0b0;
+}
+
+.removeBtn {
+  float:right;
+}
+
+input[type=text] {
+  font-family: 'Sintony', sans-serif;
+  border: none;
+  padding:10px;
+}
+
+svg {
+  pointer-events: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .sorting label {
+    font-family: 'Sintony', sans-serif;
+    color: #273582;
+    margin-right: 10px;
+  }
+
+  button {
+    font-family: 'Sintony', sans-serif;
+    color: #273582;
+    border: none;
+    padding: 10px;
+    transition: 0.3s;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  input[type=text] {
+    font-family: 'Sintony', sans-serif;
+    border: none;
+    padding:10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+}
