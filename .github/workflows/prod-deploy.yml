@@ -40,5 +40,5 @@ jobs:
           username: web6
           # ftp password
           password: ${{ secrets.PROD_FTP_PASSWORD }}
-          # Folder to upload from, must end with trailing slash /
-          local-dir: /home/www/maigrueen.de/
+          # Path to upload to on the server. Must end with trailing slash /
+          server-dir: /home/www/maigrueen.de/
