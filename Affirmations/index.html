@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/skeleton.css">
     <link rel="stylesheet" href="../css/timeline.css">
+    <link rel="stylesheet" href="affirmations.css">
 
     <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -37,7 +38,7 @@
                         <div id="app">
                             <p>Here is your daily Affirmation:</p>
                             <h2>{{ selectedAffirmation }}</h2>
-                            <button v-on:click="changeAffirmation">I'm not vibing, give me a new one</button>
+                            <button class="abs" v-on:click="changeAffirmation">I'm not vibing, give me a new one</button>
                         </div>
                     </div>
                 </div>
