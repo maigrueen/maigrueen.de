@@ -4,7 +4,7 @@
     <div id="app">
         <h2>Here is your daily Affirmation:</h2>
         <p>{{ selectedAffirmation }}</p>
-        <button v-on:click="changeAffirmation()">I'm not vibing, give me a new one</button>
+        <button v-on:click="selectedAffirmation = 'New Affirmation">I'm not vibing, give me a new one</button>
     </div>
     <script src="https://unpkg.com/vue"></script>
     <script>
