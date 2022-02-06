@@ -1,15 +1,15 @@
 <html>
 
 <body>
-    <div id="example">
+    <div id="app">
         <h2>Here is your daily Affirmation:</h2>
         <p>{{ selectedAffirmation }}</p>
-        <button v-on:click="created()">I'm not vibing, give me a new one</button>
+        <button v-on:click="changeAffirmation()">I'm not vibing, give me a new one</button>
     </div>
     <script src="https://unpkg.com/vue"></script>
     <script>
         new Vue({
-            el: '#example',
+            el: '#app',
             data: {
                 affirmations: [
                 'Everything I need is within myself.',
@@ -37,6 +37,11 @@
             created () {
                 const idx = Math.floor(Math.random() * this.affirmations.length);
                 this.selectedAffirmation = this.affirmations[idx]
+            },
+            methods: {
+                changeAffirmation(selectedAffirmation) {
+                    this.selectedAffirmation = selectedAffirmation
+                }
             }
         })
     </script>
