@@ -38,7 +38,7 @@
                 const idx = Math.floor(Math.random() * this.affirmations.length);
                 this.selectedAffirmation = this.affirmations[idx]
             },
-            computed: {
+            methods: {
                 changeAffirmation() {
                     return this.selectedAffirmation
                 }
