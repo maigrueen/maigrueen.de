@@ -1,38 +1,56 @@
 <html>
+
 <head>
 
-  <!-- Basic Page Needs
+    <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>Daily Affirmations</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
+    <meta charset="utf-8">
+    <title>Daily Affirmations</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-  <!-- Mobile Specific Metas
+    <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- FONT
+    <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
 
-  <!-- CSS
+    <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="../css/normalize.css">
-  <link rel="stylesheet" href="../css/skeleton.css">
-  <link rel="stylesheet" href="../css/timeline.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/skeleton.css">
+    <link rel="stylesheet" href="../css/timeline.css">
 
-  <!-- Favicon
+    <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="../images\favicon.png">
+    <link rel="icon" type="image/png" href="../images\favicon.png">
 
 </head>
+
 <body>
-    <div id="app">
-        <h2>Here is your daily Affirmation:</h2>
-        <p>{{ selectedAffirmation }}</p>
-        <button v-on:click="reloadPage">I'm not vibing, give me a new one</button>
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns" style="margin-top: 10%">
+                <img src="images\logo.png" alt="maigrueen Logo" style="margin-bottom: 10%" />
+
+                <!-- there are a few shorthand columns widths as well -->
+                <div class="row">
+                    <div class="two-thirds column">
+                        <div id="app">
+                            <h2>Here is your daily Affirmation:</h2>
+                            <p>{{ selectedAffirmation }}</p>
+                            <button v-on:click="reloadPage">I'm not vibing, give me a new one</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </div>
+
+
     <script src="https://unpkg.com/vue"></script>
     <script>
         new Vue({
