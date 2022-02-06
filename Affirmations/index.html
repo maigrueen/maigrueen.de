@@ -37,7 +37,7 @@
                         <div id="app">
                             <h2>Here is your daily Affirmation:</h2>
                             <p>{{ selectedAffirmation }}</p>
-                            <button v-on:click="reloadPage">I'm not vibing, give me a new one</button>
+                            <button v-on:click="changeAffirmation">I'm not vibing, give me a new one</button>
                         </div>
                     </div>
                 </div>
@@ -124,12 +124,12 @@
                 selectedAffirmation: ''
             },
             created() {
-                const idx = Math.floor(Math.random() * this.affirmations.length);
-                this.selectedAffirmation = this.affirmations[idx]
+                this.changeAffirmation()
             },
             methods: {
-                reloadPage() {
-                    window.location.reload();
+                changeAffirmation() {
+                    const idx = Math.floor(Math.random() * this.affirmations.length);
+                    this.selectedAffirmation = this.affirmations[idx]
                 }
             }
         })
