@@ -3,14 +3,23 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script type = "text/javascript" src = "vue.js"></script>
   <title>Daily Affirmations</title>
   <link rel="stylesheet" href="affirmations.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/timeline.css">
 </head>
 <body>
   <div class="header">
     <h2>A new affirmation for you every day</h2>
     <p>Hier steht eine Affirmation</p>
     <button>not vibing? Get a new one</button>
+
+    <div id="app">
+        {{ message }}
+    </div>
+   
   </div>
 
   <script src="affirmations.js"></script>
