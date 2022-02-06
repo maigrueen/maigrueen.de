@@ -1,12 +1,14 @@
 <html>
-   <head>
-   </head>
-   <body>
-    <div id="hello-vue" class="demo">
-        {{ message }}
-      </div>
-
-      <script src="vue.js"></script>
-      <script src="https://unpkg.com/vue@next"></script>
-   </body>
+  <body>
+    <div id="example">
+      <p>{{ hello }}</p>
+    </div>
+    <script src="https://unpkg.com/vue"></script>
+    <script>
+        new Vue({
+            el: '#example',
+            data: { hello: 'Hello World!' }
+        })
+    </script>
+  </body>
 </html>
