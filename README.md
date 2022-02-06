@@ -1,6 +1,10 @@
 # maigrueen.de
 
-
+### maigrueen.de
+Code stolen from:
+* Skeleton Framework: http://getskeleton.com/
+* timeline.js: not available anymore :(
+* normalize.css https://necolas.github.io/normalize.css/ keine Ahnung welches Problem das behoben hat.
 
 ### Affirmations
 Code stolen from:
