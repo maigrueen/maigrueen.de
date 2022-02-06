@@ -28,6 +28,18 @@
         [v-cloak]::before {
             content: "loading…"
         }
+
+        .container {
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: space-evenly;
+            min-height: 100%;
+        }
+
+        .box2 {
+            position: absolute;
+        }
+
     </style>
 
     <!-- Favicon
@@ -45,10 +57,18 @@
                     <div class="twelve columns">
 
                         <div id="app" v-cloak>
-                            <p>Here is your daily Affirmation:</p>
-                            <h2>{{ selectedAffirmation }}</h2>
-                            <button style="position: absolute;" v-on:click="changeAffirmation">I'm not vibing, give me a new
-                                one</button>
+                            <div class="container">
+                                <div class="box1">
+                                    <p>Here is your daily Affirmation:</p>
+                                    <h2>{{ selectedAffirmation }}</h2>
+                                </div>
+    
+                                <div class="box2">
+                                    <button v-on:click="changeAffirmation">I'm not vibing, give me a new
+                                        one</button>
+                                </div>
+                                
+                            </div>
                         </div>
 
                     </div>
