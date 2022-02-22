@@ -11,6 +11,14 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- Progressive Web App (PWA)
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="manifest" href="/manifest.json">
+
+    <link rel="apple-touch-icon" href="../images/logo.png">
+    <meta name="apple-mobile-web-app-status-bar" content="#FFE1C4">
+    <meta name="theme-color" content="#FFE1C4">
+
     <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
@@ -58,12 +66,11 @@
                 width: 80%;
             }
         }
-
     </style>
 
     <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="icon" type="image/png" href="../images\favicon.png">
+    <link rel="icon" type="image/png" href="../images/favicon.png">
 
 </head>
 
@@ -71,7 +78,7 @@
     <div class="container">
         <div class="row">
             <div class="twelve columns" style="margin-top: 10%">
-                <img src="../images\logo.png" alt="maigrueen Logo" style="margin-bottom: 10%" />
+                <img src="../images/logo.png" alt="maigrueen Logo" style="margin-bottom: 10%" />
                 <div class="row">
                     <div class="twelve columns">
 
@@ -250,6 +257,13 @@
         })
 
         app.mount('#app')
+
+
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/sw.js')
+                .then(reg => console.log('service worker registered'))
+                .catch(err => console.log('service worker not registered', err));
+        }
     </script>
 </body>
 
