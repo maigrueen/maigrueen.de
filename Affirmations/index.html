@@ -25,8 +25,8 @@
 
     <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/skeleton.css">
+    <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/timeline.css">
     <style>
         [v-cloak]>* {
@@ -77,31 +77,40 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="twelve columns" style="margin-top: 10%">
+            <div class="six columns" style="margin-top: 5%">
                 <img src="../images/logo.png" alt="maigrueen Logo" style="margin-bottom: 10%" />
-                <div class="row">
-                    <div class="twelve columns">
+            </div>
+            <div class="six columns" style="margin-top: 5%">
+                <button v-on:click="changeTheme">
+                    <span v-if="this.theme == 'darkMode'">Light</span>
+                    <span v-else>Dark</span>
+                </button>
 
-                        <div id="app" v-cloak>
-                            <div class="flex-container">
-                                <div class="box1">
-                                    <p>Here is your daily Affirmation:</p>
-                                    <h2>{{ selectedAffirmation }}</h2>
-                                    <img class="bgimg" v-bind:src="selectedImage" />
-                                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="twelve columns">
 
-                                <div class="box2">
-                                    <button v-on:click="changeAffirmation">I'm not vibing, give me a new
-                                        one</button>
-                                </div>
-                            </div>
+                <div id="app" v-cloak>
+                    <div class="flex-container">
+                        <div class="box1">
+                            <p>Here is your daily Affirmation:</p>
+                            <h2>{{ selectedAffirmation }}</h2>
+                            <img class="bgimg" v-bind:src="selectedImage" />
                         </div>
 
+                        <div class="box2">
+                            <button v-on:click="changeAffirmation">I'm not vibing, give me a new
+                                one</button>
+                        </div>
                     </div>
                 </div>
 
             </div>
         </div>
+
+    </div>
+
     </div>
 
 
@@ -241,10 +250,15 @@
                         'img/working_from_anywhere_re_9obt.svg',
                     ],
                     selectedImage: '',
+                    theme: '',
                 }
             },
             created() {
                 this.changeAffirmation()
+            },
+            mounted() {
+                let localTheme = localStorage.getItem('theme'); //gets stored theme value if any
+                document.documentElement.setAttribute('data-theme', localTheme); // updates the data-theme attribute
             },
             methods: {
                 changeAffirmation() {
@@ -253,6 +267,11 @@
                     this.selectedAffirmation = this.affirmations[idx]
                     this.selectedImage = this.images[idy]
                 },
+                changeTheme() {
+                    this.theme = this.theme == 'darkMode' ? '' : 'darkMode'; //toggles theme value
+                    document.documentElement.setAttribute('data-theme', this.theme); // sets the data-theme attribute
+                    localStorage.setItem('theme', this.theme); // stores theme value on local storage
+                }
             },
         })
 
