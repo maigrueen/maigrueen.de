@@ -40,7 +40,7 @@
   --btn-prim-color-focus: #1eaedb;
   --form-color-border: #d1d1d1;
 
-  --element-size: 6rem;
+  --element-size: 6.2rem;
 }
 
 :root.dark-theme {

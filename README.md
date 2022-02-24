@@ -15,4 +15,4 @@ Code stolen from:
 * Reload the page to get a new affirmation: https://stackoverflow.com/questions/62975890/how-to-reload-refresh-a-webpage-in-vue-js-after-a-certain-event-or-a-button-is-c
 * Illustrations: https://undraw.co/
 * Progressive Web App: https://medium.com/notonlycss/turn-your-website-into-a-pwa-6aaecb95f8b9
-* Dark mode: https://dev.to/lindaojo/dark-mode-using-css-variables-vue-js-37il // https://dev.to/tqbit/create-your-own-dark-mode-toggle-component-with-vue-js-1284
+* Dark Mode: https://dev.to/tqbit/create-your-own-dark-mode-toggle-component-with-vue-js-1284
