@@ -81,16 +81,18 @@
                 <img src="../images/logo.png" alt="maigrueen Logo" style="margin-bottom: 10%" />
             </div>
             <div class="six columns" style="margin-top: 5%">
-                <button v-on:click="changeTheme">
-                    <span v-if="this.theme == 'darkMode'">Light</span>
-                    <span v-else>Dark</span>
-                </button>
+
+                <input @change="changeTheme" id="checkbox" type="checkbox" class="switch-checkbox" />
+                <label for="checkbox" class="switch-label">
+                    <span>🌙</span>
+                    <span>☀️</span>
+                    <div class="switch-toggle" :class="{ 'switch-toggle-checked': userTheme === 'dark-theme' }"></div>
+                </label>
 
             </div>
         </div>
         <div class="row">
             <div class="twelve columns">
-
                 <div id="app" v-cloak>
                     <div class="flex-container">
                         <div class="box1">
@@ -98,10 +100,8 @@
                             <h2>{{ selectedAffirmation }}</h2>
                             <img class="bgimg" v-bind:src="selectedImage" />
                         </div>
-
                         <div class="box2">
-                            <button v-on:click="changeAffirmation">I'm not vibing, give me a new
-                                one</button>
+                            <button v-on:click="changeAffirmation">I'm not vibing, give me a new one</button>
                         </div>
                     </div>
                 </div>
@@ -250,28 +250,47 @@
                         'img/working_from_anywhere_re_9obt.svg',
                     ],
                     selectedImage: '',
-                    theme: '',
+                    userTheme: "light-theme",
                 }
             },
             created() {
                 this.changeAffirmation()
             },
             mounted() {
-                let localTheme = localStorage.getItem('theme'); //gets stored theme value if any
-                document.documentElement.setAttribute('data-theme', localTheme); // updates the data-theme attribute
+                const initUserTheme = this.getMediaPreference();
+                this.setTheme(initUserTheme);
             },
             methods: {
+                changeTheme() {
+                    const activeTheme = localStorage.getItem("user-theme");
+                    if (activeTheme === "light-theme") {
+                        this.setTheme("dark-theme");
+                    } else {
+                        this.setTheme("light-theme");
+                    }
+                },
+
+                setTheme(theme) {
+                    localStorage.setItem("user-theme", theme);
+                    this.userTheme = theme;
+                    document.documentElement.className = theme;
+                },
+
+                getMediaPreference() {
+                    const hasDarkPreference = window.matchMedia("(prefers-color-scheme: dark)").matches;
+                    if (hasDarkPreference) {
+                        return "dark-theme";
+                    } else {
+                        return "light-theme";
+                    }
+                },
+
                 changeAffirmation() {
                     const idx = Math.floor(Math.random() * this.affirmations.length);
                     const idy = Math.floor(Math.random() * this.images.length);
                     this.selectedAffirmation = this.affirmations[idx]
                     this.selectedImage = this.images[idy]
                 },
-                changeTheme() {
-                    this.theme = this.theme == 'darkMode' ? '' : 'darkMode'; //toggles theme value
-                    document.documentElement.setAttribute('data-theme', this.theme); // sets the data-theme attribute
-                    localStorage.setItem('theme', this.theme); // stores theme value on local storage
-                }
             },
         })
 

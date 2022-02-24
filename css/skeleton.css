@@ -40,9 +40,10 @@
   --btn-prim-color-focus: #1eaedb;
   --form-color-border: #d1d1d1;
 
+  --element-size: 6rem;
 }
 
-[data-theme="darkMode"] {
+:root.dark-theme {
   --background-color: #00241b;
   --text-color: #a3d698;
   --link-color: #273582;
@@ -54,6 +55,47 @@
   --btn-prim-color: #7e8eeb;
   --btn-prim-color-focus: #1eaedb;
   --form-color-border: #5b6c5d;
+}
+
+.switch-checkbox {
+  display: none;
+}
+
+.switch-label {
+  /* for width, use the standard element-size */
+  width: var(--element-size); 
+
+  /* for other dimensions, calculate values based on it */
+  border-radius: var(--element-size);
+  border: calc(var(--element-size) * 0.025) solid var(--btn-color-border);
+  padding: calc(var(--element-size) * 0.1);
+  font-size: calc(var(--element-size) * 0.3);
+  height: calc(var(--element-size) * 0.35);
+
+  align-items: center;
+  background: var(--text-color);
+  cursor: pointer;
+  display: flex;
+  position: relative;
+  transition: background 0.5s ease;
+  justify-content: space-between;
+  z-index: 1;
+} 
+
+.switch-toggle {
+  position: absolute;
+  background-color: var(--background-color);
+  border-radius: 50%;
+  top: calc(var(--element-size) * 0.07);
+  left: calc(var(--element-size) * 0.07);
+  height: calc(var(--element-size) * 0.4);
+  width: calc(var(--element-size) * 0.4);
+  transform: translateX(0);
+  transition: transform 0.3s ease, background-color 0.5s ease;
+}
+
+.switch-toggle-checked {
+  transform: translateX(calc(var(--element-size) * 0.6)) !important;
 }
 
 /* Grid
@@ -221,6 +263,7 @@ body {
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
   color: var(--text-color);
+  background-color: var(--background-color);
 }
 
 /* Typography
