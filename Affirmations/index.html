@@ -37,15 +37,15 @@
             content: "loading…"
         }
 
-        .toggler {
-            float: right;
-        }
-
         .flex-container {
             display: flex;
             flex-flow: column wrap;
-            justify-content: center;
+            justify-content: space-between;
             min-height: 50vh;
+        }
+
+        .toggler {
+            align-self: flex-end;
         }
 
         .box2 {
@@ -85,22 +85,24 @@
                 <img src="../images/logo.png" alt="maigrueen Logo" style="margin-bottom: 10%" />
             </div>
         </div>
+
         <div class="row">
             <div class="twelve columns">
+
                 <div id="app" v-cloak>
-                    <div class="toggler">
-                        <input @change="changeTheme" id="checkbox" type="checkbox" class="switch-checkbox" />
-                        <label for="checkbox" class="switch-label">
-                            <span>🌙</span>
-                            <span>☀️</span>
-                            <div class="switch-toggle" :class="{ 'switch-toggle-checked': userTheme === 'dark-theme' }">
-                            </div>
-                        </label>
-                    </div>
 
                     <div class="flex-container">
+                        <div class="toggler">
+                            <input @change="changeTheme" id="checkbox" type="checkbox" class="switch-checkbox" />
+                            <label for="checkbox" class="switch-label">
+                                <span>🌙</span>
+                                <span>☀️</span>
+                                <div class="switch-toggle" :class="{ 'switch-toggle-checked': userTheme === 'dark-theme' }">
+                                </div>
+                            </label>
+                        </div>
+
                         <div class="box1">
-                            <p>Here is your daily Affirmation:</p>
                             <h2>{{ selectedAffirmation }}</h2>
                             <img class="bgimg" v-bind:src="selectedImage" />
                         </div>
@@ -108,12 +110,11 @@
                             <button v-on:click="changeAffirmation">I'm not vibing, give me a new one</button>
                         </div>
                     </div>
+
                 </div>
 
             </div>
         </div>
-
-    </div>
 
     </div>
 
