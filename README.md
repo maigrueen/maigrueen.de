@@ -1,14 +1,14 @@
 # maigrueen.de
 
 ### maigrueen.de
-Code stolen from:
+Ideas, Concepts and Excercises from:
 * Skeleton Framework: http://getskeleton.com/
 * timeline.js: not available anymore :(
-* normalize.css https://necolas.github.io/normalize.css/ keine Ahnung welches Problem das behoben hat.
+* normalize.css https://necolas.github.io/normalize.css/
 * Colors: https://coolors.co/7e8eeb-273582-a3d698-5b6c5d-00241b
 
 ### Affirmations
-Code stolen from:
+Ideas, Concepts and Excercises from:
 * Build App: https://flaviocopes.com/vue-first-app/
 * Randomize Affirmations: https://stackoverflow.com/questions/45752960/how-to-get-random-element-in-vue-js
 * Do something with the Button click: https://dev.to/ericchapman/vue-js-101-part-2-button-click-5b87
