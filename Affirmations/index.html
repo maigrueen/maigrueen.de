@@ -5,7 +5,7 @@
     <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta charset="utf-8">
-    <title>Daily Affirmations</title>
+    <title>Affirmations</title>
 
     <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -27,7 +27,6 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="stylesheet" href="../css/skeleton.css">
     <link rel="stylesheet" href="../css/normalize.css">
-    <link rel="stylesheet" href="../css/timeline.css">
     <style>
         [v-cloak]>* {
             display: none
@@ -81,7 +80,7 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="twleve columns" style="margin-top: 5%">
+            <div class="twelve columns" style="margin-top: 5%">
                 <img src="../images/logo.png" alt="maigrueen Logo" style="margin-bottom: 10%" />
             </div>
         </div>
@@ -97,7 +96,8 @@
                             <label for="checkbox" class="switch-label">
                                 <span>🌙</span>
                                 <span>☀️</span>
-                                <div class="switch-toggle" :class="{ 'switch-toggle-checked': userTheme === 'dark-theme' }">
+                                <div class="switch-toggle"
+                                    :class="{ 'switch-toggle-checked': userTheme === 'dark-theme' }">
                                 </div>
                             </label>
                         </div>

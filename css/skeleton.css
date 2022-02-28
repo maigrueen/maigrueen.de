@@ -46,8 +46,8 @@
 :root.dark-theme {
   --background-color: #00241b;
   --text-color: #a3d698;
-  --link-color: #273582;
-  --link-color-hover: #7e8eeb;
+  --link-color: #E5F3E2;
+  --link-color-hover: #5b6c5d;
   --btn-color: #555;
   --btn-color-border: #bbb;
   --btn-color-focus: #5b6c5d;
