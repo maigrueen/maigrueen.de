@@ -200,6 +200,7 @@
             show projects</button>
           <button v-on:click="this.cert = !this.cert" v-bind:class="{ active: this.cert }"><i class="fal fa-file-certificate"> </i>
             show education</button>
+          <p v-if="!this.job && !this.project && !this.cert">Please click on a button to show jobs, projects or education.</p>
           <ul>
             <li v-show="job">
               <div>
