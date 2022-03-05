@@ -21,6 +21,12 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="fontawesome-pro-5.15.4-web/css/all.css">
+  <style>
+    .active {
+      background-color: #5b6c5d;
+      color: #a3d698;
+    }
+  </style>
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -33,12 +39,12 @@
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
-    <div class="row">
-      <div class="two-thirds column" style="margin-top: 10%">
-        <img src="images\logo.png" alt="maigrueen Logo" style="margin-bottom: 10%" />
-      </div>
-      <div class="one-third column" style="margin-top: 10%">
-        <div id="app">
+    <div id="app">
+      <div class="row">
+        <div class="two-thirds column" style="margin-top: 10%">
+          <img src="images\logo.png" alt="maigrueen Logo" style="margin-bottom: 10%" />
+        </div>
+        <div class="one-third column" style="margin-top: 10%">
           <div class="toggler">
             <input @change="changeTheme" id="checkbox" type="checkbox" class="switch-checkbox" />
             <label for="checkbox" class="switch-label">
@@ -50,316 +56,345 @@
           </div>
         </div>
       </div>
-    </div>
 
 
-    <div class="row">
-      <div class="two-thirds column">
+      <div class="row">
+        <div class="two-thirds column">
 
-        <template>
-          <darkmode />
-        </template>
+          <template>
+            <darkmode />
+          </template>
 
-        <h1>Moin!</h1>
-        <p>
-          My name is Astrid, I'm living in Schleswig-Holstein and working as a Project, Process and Quality Manager.
-          You can find out more about me below.
+          <h1>Moin!</h1>
+          <p>
+            My name is Astrid, I'm living in Schleswig-Holstein and working as a Project, Process and Quality Manager.
+            You can find out more about me below.
+            <br>
+
+            tl;dr: I make my environment a little bit better every day - and I want my colleagues to find it easy to
+            make their own environment a little bit better every day.
+            <br>
+            <br>
+
+            With my educational background - I studied natural sciences in the information society - I have laid a
+            foundation as a communicator between different disciplines from the very beginning. Through my work
+            experience, I was able to develop as an empathetic mediator between different stakeholders.
+            <br>
+
+            I have already been able to prove my proactive and structured way of working in several projects since
+            2009. My greatest strength is organisation: Getting a quick grip on what neets to be done, interfacing
+            between different
+            stakeholders to achieve an aligned outcome, and documentating and reporting results: be it within the
+            team, with clients and service providers, or
+            even across disciplines, from creation to controlling. Of course, I am also used to having several
+            projects on the table at the same time.
+            <br>
+
+            Because I always have holistic improvement in mind, I have had the opportunity to prove myself in
+            organisational development in recent years. At my current employer, I was able to initiate and accompany
+            both recognised quick wins and larger process improvements that accompanied the development as an agile
+            organisation.
+            <br>
+            <br>
+
+            I like to find individual and efficient solutions to achieve goals, tailored to different target groups
+            and strategically
+            chosen objectives. Of course, I also fall back on well-known and proven methods and do not reinvent the
+            wheel every time. I feel particularly comfortable in an agile context.
+            Since sustainability is important to me, I pay particular attention to the communication and involvement
+            of all stakeholders in change management, for individual milestones and features as well as for projects
+            as a whole.
+            <br>
+            <br>
+
+          </p>
+        </div>
+        <div class="one-third column">
+          <h2>Contact</h2>
+          <a href="mailto:astrid@maigrueen.de">write me</a>
           <br>
 
-          tl;dr: I make my environment a little bit better every day - and I want my colleagues to find it easy to
-          make their own environment a little bit better every day.
+          <a href="https://www.linkedin.com/in/deichmann">LinkedIn</a>
           <br>
           <br>
 
-          With my educational background - I studied natural sciences in the information society - I have laid a
-          foundation as a communicator between different disciplines from the very beginning. Through my work
-          experience, I was able to develop as an empathetic mediator between different stakeholders.
-          <br>
-
-          I have already been able to prove my proactive and structured way of working in several projects since
-          2009. My greatest strength is organisation: Getting a quick grip on what neets to be done, interfacing
-          between different
-          stakeholders to achieve an aligned outcome, and documentating and reporting results: be it within the
-          team, with clients and service providers, or
-          even across disciplines, from creation to controlling. Of course, I am also used to having several
-          projects on the table at the same time.
-          <br>
-
-          Because I always have holistic improvement in mind, I have had the opportunity to prove myself in
-          organisational development in recent years. At my current employer, I was able to initiate and accompany
-          both recognised quick wins and larger process improvements that accompanied the development as an agile
-          organisation.
-          <br>
-          <br>
-
-          I like to find individual and efficient solutions to achieve goals, tailored to different target groups
-          and strategically
-          chosen objectives. Of course, I also fall back on well-known and proven methods and do not reinvent the
-          wheel every time. I feel particularly comfortable in an agile context.
-          Since sustainability is important to me, I pay particular attention to the communication and involvement
-          of all stakeholders in change management, for individual milestones and features as well as for projects
-          as a whole.
-          <br>
-          <br>
-
-        </p>
+          <h3>Qualities</h3>
+          <ul>
+            <li>goal-oriented</li>
+            <li>analytical</li>
+            <li>structured</li>
+            <li>proactive</li>
+            <li>independent</li>
+          </ul>
+        </div>
       </div>
-      <div class="one-third column">
-        <h2>Contact</h2>
-        <a href="mailto:astrid@maigrueen.de">write me</a>
-        <br>
 
-        <a href="https://www.linkedin.com/in/deichmann">LinkedIn</a>
-        <br>
-        <br>
-
-        <h3>Qualities</h3>
-        <ul>
-          <li>goal-oriented</li>
-          <li>analytical</li>
-          <li>structured</li>
-          <li>proactive</li>
-          <li>independent</li>
-        </ul>
+      <div class="row">
+        <div class="two-thirds column">
+          <h3>Tooling</h3>
+          <table class="u-half-width">
+            <thead>
+              <tr>
+                <th>Area</th>
+                <th>Tools</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Office Tooling</td>
+                <td>MS Office, LibreOffice, Google Drive, LaTeX</td>
+              </tr>
+              <tr>
+                <td>Project and Process Management</td>
+                <td>Jira, Confluence, Asana, Trello, Blueworks Live (BPMN 2.0)</td>
+              </tr>
+              <tr>
+                <td>Content Management Systems</td>
+                <td>CoreMedia, Magnolia, TYPO3, WordPress</td>
+              </tr>
+              <tr>
+                <td>Web Development</td>
+                <td>HTML, CSS, JavaScript</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="one-third column">
+          <h3>Languages</h3>
+          <table class="u-half-width">
+            <thead>
+              <tr>
+                <th>Language</th>
+                <th>Level</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>German</td>
+                <td>native</td>
+              </tr>
+              <tr>
+                <td>English</td>
+                <td>B2</td>
+              </tr>
+              <tr>
+                <td>Spanish</td>
+                <td>A1</td>
+              </tr>
+              <tr>
+                <td>Swedish</td>
+                <td>A1</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
-    </div>
 
-    <div class="row">
-      <div class="two-thirds column">
-        <h3>Tooling</h3>
-        <table class="u-half-width">
-          <thead>
-            <tr>
-              <th>Area</th>
-              <th>Tools</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Office Tooling</td>
-              <td>MS Office, LibreOffice, Google Drive, LaTeX</td>
-            </tr>
-            <tr>
-              <td>Project and Process Management</td>
-              <td>Jira, Confluence, Asana, Trello, Blueworks Live (BPMN 2.0)</td>
-            </tr>
-            <tr>
-              <td>Content Management Systems</td>
-              <td>CoreMedia, Magnolia, TYPO3, WordPress</td>
-            </tr>
-            <tr>
-              <td>Web Development</td>
-              <td>HTML, CSS, JavaScript</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="one-third column">
-        <h3>Languages</h3>
-        <table class="u-half-width">
-          <thead>
-            <tr>
-              <th>Language</th>
-              <th>Level</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>German</td>
-              <td>native</td>
-            </tr>
-            <tr>
-              <td>English</td>
-              <td>B2</td>
-            </tr>
-            <tr>
-              <td>Spanish</td>
-              <td>A1</td>
-            </tr>
-            <tr>
-              <td>Swedish</td>
-              <td>A1</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
+      <div class="twelve columns">
+        <h2>Experience</h2>
 
-    <div class="twelve columns">
-      <h2>Experience & Education</h2>
-
-      <section class="timeline">
-        <ul>
-          <li>
-            <div>
-              <time>2022 - now</time><i class="fal fa-briefcase"></i> <em>netzkontor nord gmbh, Process Manager:</em> Process management incl. optimization, facilitation of
-              workshops for stakeholders, requirements management, IT lifecycle management
-            </div>
-          </li>
-          <li>
-            <div>
-              <time>2022</time><i class="fal fa-laptop-code"></i> <em>Web Project: Affirmations App, JavaScript, HTML, CSS:</em> <a href="/Affirmations/index.html">Progressive Web App that shows
-                randomized Affirmations for daily use</a>, <a
-                href="https://github.com/maigrueen/maigrueen.de/tree/main/Affirmations">Repository</a>
-            </div>
-          </li>
-          <li>
-            <div>
-              <time>2021 - 2022</time><i class="fal fa-briefcase"></i> <em>Aperto GmbH, Process and Quality Manager:</em> Process management incl. optimization, facilitation of
-              workshops for stakeholders, testing for compliance, requirements management, development of strategies
-              for the introduction of new processes, stakeholder management, administration of Jira &
-              Confluence
-            </div>
-          </li>
-          <li>
-            <div>
-              <time>2021</time><i class="fal fa-file-certificate"></i> <em>The PowerMBA, Digital Business Programme:</em> Business Strategy, Entrepreneurship, Leadership, Scaling and
-              Growth, Fundraising, Branding
-            </div>
-          </li>
-          <li>
-            <div>
-              <time>2021</time><i class="fal fa-laptop-code"></i> <em>Web Project: feelin', JavaScript, HTML, CSS:</em> <a href="https://feelin.team/">feelin’ - anonymous mood app for
-                workshops and team sessions</a>
-            </div>
-          </li>
-          <li>
-            <div>
-              <time>2020</time><i class="fal fa-file-certificate"></i> <em>Next Generation Leadership Programme, Aperto GmbH / yuii:</em> Personal & People Leadership Skills, Coaching Mindset & Techniques,
-              Business Storytelling
-            </div>
-          </li>
-          <li>
-            <div>
-              <time>2018</time><i class="fal fa-file-certificate"></i> <em>ITIL v3 Foundation, AXELOS:</em> Key concepts of Service Management, 5 Phases of IT Service Management, Roles and
-              Responsibilities, Process Model
-            </div>
-          </li>
-          <li>
-            <div>
-              <time>2018</time><i class="fal fa-laptop-code"></i> <em>Web Project: FTE Chart Planning App, JavaScript, HTML, CSS:</em> <a href="/FTEchart/index.html">FTE Chart - visualizes the planning of
-                full term equivalents</a>, <a href="https://github.com/maigrueen/FTEchart">Repository</a>
-            </div>
-          </li>
-          <li>
-            <div>
-              <time>2018</time><i class="fal fa-laptop-code"></i> <em>Web Project: ToDo List App, JavaScript, HTML, CSS:</em> <a href="/ToDoList/index.html">ToDo List - saves ToDos in the locale
-                cache</a>, <a href="https://github.com/maigrueen/ToDoList">Repository</a>
-            </div>
-          </li>
-          <li>
-            <div>
-              <time>2017</time><i class="fal fa-file-certificate"></i> <em>Stakeholder Management, yuii:</em> Stakeholder Maps and canvases, Communiction with different stakeholders
-            </div>
-          </li>
-          <li>
-            <div>
-              <time>2017 - 2021</time><i class="fal fa-briefcase"></i> <em>Aperto GmbH</em> Techical Project Manager / Service Manager: Project management and technical consulting
-              for website projects e.g.bmvg.de, baloise.ch, dihk.de, team development of software and infrastructure
-              teams, service management, development of internal KPIs for serviceteams, administration of Jira &
-              Confluence
-              <br>
-              Projects:
-              <a href="https://www.bvg.de/">bvg.de</a>, <a href="https://www.idw.de/">idw.de</a>, <a
-                href="https://www.dihk.de/">dihk.de</a>, <a href="https://www.baloise.ch/">baloise.ch</a>, <a
-                href="https://www.bmvg.de/">bmvg.de</a>
-            </div>
-          </li>
-          <li>
-            <div>
-              <time>2016</time><i class="fal fa-file-certificate"></i> <em>Lynda.com:</em> Agile Projectmanagement Foundations
-            </div>
-          </li>
-          <li>
-            <div>
-              <time>2016</time><i class="fal fa-file-certificate"></i> <em>Code School:</em> Web Development Foundations: PHP, SQL, HTML, CSS, JavaScript
-            </div>
-          </li>
-          <li>
-            <div>
-              <time>2016</time><i class="fal fa-file-certificate"></i> <em>Dierk Söllner Beratung:</em> Scrum Foundation
-            </div>
-          </li>
-          <li>
-            <div>
-              <time>2015 - 2017</time><i class="fal fa-briefcase"></i> <em>event it AG, Project Manager IT:</em> Development & support of participant management software, interface
-              between clients & developers, first level support, on-site support of client events (technology &
-              organisation of participant management)
-            </div>
-          </li>
-          <li>
-            <div>
-              <time>2014 - 2015</time><i class="fal fa-briefcase"></i> <em>VDVO e.V., Office staff:</em> Conception, implementation & moderation of board meetings, meetings,
-              roadshows, conferences & trade fair appearances, sponsor & participant acquisition, partner & speaker
-              management, member support & administration, project management & marketing, strategy development &
-              market observation
-            </div>
-          </li>
-          <li>
-            <div>
-              <time>2013 - 2014</time><i class="fal fa-briefcase"></i> <em>SWOP GmbH, Project Manager Meetings / Conferences:</em> Conception and implementation of meetings,
-              roadshows, conventions and conferences, project controlling, acquisition of sponsors and participants,
-              partner and speaker management, content management of events in the higher education sector, design &
-              layout of meeting & promotional materials
-            </div>
-          </li>
-          <li>
-            <div>
-              <time>2011 - 2012</time><i class="fal fa-briefcase"></i> <em>Universität Potsdam, Support of the pearls • Potsdam Research Network office:</em> Support with all work processes in the office, support with applications to BMBF, DFG, etc., independent organisation of high-profile
-              events, maintenance of the homepage & social media
-            </div>
-          </li>
-          <li>
-            <div>
-              <time>2010 - 2012</time><i class="fal fa-briefcase"></i> <em>Technische Universität Berlin, Coordination of the development of the engineering faculty for the Turkish-German
-                University Istanbul:</em> Coordination & administration of the DAAD-funded project, conception &
+        <section class="timeline">
+          <button v-on:click="this.job = !this.job" v-bind:class="{ active: this.job }"><i class="fal fa-briefcase"></i> show
+            jobs</button>
+          <button v-on:click="this.project = !this.project" v-bind:class="{ active: this.project }"><i class="fal fa-laptop-code"></i>
+            show projects</button>
+          <button v-on:click="this.cert = !this.cert" v-bind:class="{ active: this.cert }"><i class="fal fa-file-certificate"> </i>
+            show education</button>
+          <ul>
+            <li v-show="job">
+              <div>
+                <time>2022 - now</time><i class="fal fa-briefcase"></i> <em>netzkontor nord gmbh, Process Manager:</em>
+                Process management incl. optimization, facilitation of
+                workshops for stakeholders, requirements management, IT lifecycle management
+              </div>
+            </li>
+            <li v-show="project">
+              <div>
+                <time>2022</time><i class="fal fa-laptop-code"></i> <em>Web Project: Affirmations App, JavaScript, HTML,
+                  CSS:</em> <a href="/Affirmations/index.html">Progressive Web App that shows
+                  randomized Affirmations for daily use</a>, <a
+                  href="https://github.com/maigrueen/maigrueen.de/tree/main/Affirmations">Repository</a>
+              </div>
+            </li>
+            <li v-show="job">
+              <div>
+                <time>2021 - 2022</time><i class="fal fa-briefcase"></i> <em>Aperto GmbH, Process and Quality
+                  Manager:</em> Process management incl. optimization, facilitation of
+                workshops for stakeholders, testing for compliance, requirements management, development of strategies
+                for the introduction of new processes, stakeholder management, administration of Jira &
+                Confluence
+              </div>
+            </li>
+            <li v-show="cert">
+              <div>
+                <time>2021</time><i class="fal fa-file-certificate"></i> <em>The PowerMBA, Digital Business
+                  Programme:</em> Business Strategy, Entrepreneurship, Leadership, Scaling and
+                Growth, Fundraising, Branding
+              </div>
+            </li>
+            <li v-show="project">
+              <div>
+                <time>2021</time><i class="fal fa-laptop-code"></i> <em>Web Project: feelin', JavaScript, HTML,
+                  CSS:</em> <a href="https://feelin.team/">feelin’ - anonymous mood app for
+                  workshops and team sessions</a>
+              </div>
+            </li>
+            <li v-show="cert">
+              <div>
+                <time>2020</time><i class="fal fa-file-certificate"></i> <em>Next Generation Leadership Programme,
+                  Aperto GmbH / yuii:</em> Personal & People Leadership Skills, Coaching Mindset & Techniques,
+                Business Storytelling
+              </div>
+            </li>
+            <li v-show="cert">
+              <div>
+                <time>2018</time><i class="fal fa-file-certificate"></i> <em>ITIL v3 Foundation, AXELOS:</em> Key
+                concepts of Service Management, 5 Phases of IT Service Management, Roles and
+                Responsibilities, Process Model
+              </div>
+            </li>
+            <li v-show="project">
+              <div>
+                <time>2018</time><i class="fal fa-laptop-code"></i> <em>Web Project: FTE Chart Planning App, JavaScript,
+                  HTML, CSS:</em> <a href="/FTEchart/index.html">FTE Chart - visualizes the planning of
+                  full term equivalents</a>, <a href="https://github.com/maigrueen/FTEchart">Repository</a>
+              </div>
+            </li>
+            <li v-show="project">
+              <div>
+                <time>2018</time><i class="fal fa-laptop-code"></i> <em>Web Project: ToDo List App, JavaScript, HTML,
+                  CSS:</em> <a href="/ToDoList/index.html">ToDo List - saves ToDos in the locale
+                  cache</a>, <a href="https://github.com/maigrueen/ToDoList">Repository</a>
+              </div>
+            </li>
+            <li v-show="cert">
+              <div>
+                <time>2017</time><i class="fal fa-file-certificate"></i> <em>Stakeholder Management, yuii:</em>
+                Stakeholder Maps and canvases, Communiction with different stakeholders
+              </div>
+            </li>
+            <li v-show="job">
+              <div>
+                <time>2017 - 2021</time><i class="fal fa-briefcase"></i> <em>Aperto GmbH</em> Techical Project Manager /
+                Service Manager: Project management and technical consulting
+                for website projects e.g.bmvg.de, baloise.ch, dihk.de, team development of software and infrastructure
+                teams, service management, development of internal KPIs for serviceteams, administration of Jira &
+                Confluence
+                <br>
+                Projects:
+                <a href="https://www.bvg.de/">bvg.de</a>, <a href="https://www.idw.de/">idw.de</a>, <a
+                  href="https://www.dihk.de/">dihk.de</a>, <a href="https://www.baloise.ch/">baloise.ch</a>, <a
+                  href="https://www.bmvg.de/">bmvg.de</a>
+              </div>
+            </li>
+            <li v-show="cert">
+              <div>
+                <time>2016</time><i class="fal fa-file-certificate"></i> <em>Lynda.com:</em> Agile Projectmanagement
+                Foundations
+              </div>
+            </li>
+            <li v-show="cert">
+              <div>
+                <time>2016</time><i class="fal fa-file-certificate"></i> <em>Code School:</em> Web Development
+                Foundations: PHP, SQL, HTML, CSS, JavaScript
+              </div>
+            </li>
+            <li v-show="cert">
+              <div>
+                <time>2016</time><i class="fal fa-file-certificate"></i> <em>Dierk Söllner Beratung:</em> Scrum
+                Foundation
+              </div>
+            </li>
+            <li v-show="job">
+              <div>
+                <time>2015 - 2017</time><i class="fal fa-briefcase"></i> <em>event it AG, Project Manager IT:</em>
+                Development & support of participant management software, interface
+                between clients & developers, first level support, on-site support of client events (technology &
+                organisation of participant management)
+              </div>
+            </li>
+            <li v-show="job">
+              <div>
+                <time>2014 - 2015</time><i class="fal fa-briefcase"></i> <em>VDVO e.V., Office staff:</em> Conception,
+                implementation & moderation of board meetings, meetings,
+                roadshows, conferences & trade fair appearances, sponsor & participant acquisition, partner & speaker
+                management, member support & administration, project management & marketing, strategy development &
+                market observation
+              </div>
+            </li>
+            <li v-show="job">
+              <div>
+                <time>2013 - 2014</time><i class="fal fa-briefcase"></i> <em>SWOP GmbH, Project Manager Meetings /
+                  Conferences:</em> Conception and implementation of meetings,
+                roadshows, conventions and conferences, project controlling, acquisition of sponsors and participants,
+                partner and speaker management, content management of events in the higher education sector, design &
+                layout of meeting & promotional materials
+              </div>
+            </li>
+            <li v-show="job">
+              <div>
+                <time>2011 - 2012</time><i class="fal fa-briefcase"></i> <em>Universität Potsdam, Support of the pearls
+                  • Potsdam Research Network office:</em> Support with all work processes in the office, support with
+                applications to BMBF, DFG, etc., independent organisation of high-profile
+                events, maintenance of the homepage & social media
+              </div>
+            </li>
+            <li v-show="job">
+              <div>
+                <time>2010 - 2012</time><i class="fal fa-briefcase"></i> <em>Technische Universität Berlin, Coordination
+                  of the development of the engineering faculty for the Turkish-German
+                  University Istanbul:</em> Coordination & administration of the DAAD-funded project, conception &
                 coordination of engineering bachelor & master degree programmes, programme development, research,
                 organisation of workshops & conferences in Germany & Turkey, presentation of the project at conferences,
                 maintenance of the international professional network
-            </div>
-          </li>
-          <li>
-            <div>
-              <time>2009 - 2010</time><i class="fal fa-briefcase"></i> <em>Technische Universität Berlin, Support in the development of study programmes and accreditation of mathematics &
-                science study programmes:</em> Development and adaptation of new teaching concepts for mathematics teaching,
+              </div>
+            </li>
+            <li v-show="job">
+              <div>
+                <time>2009 - 2010</time><i class="fal fa-briefcase"></i> <em>Technische Universität Berlin, Support in
+                  the development of study programmes and accreditation of mathematics &
+                  science study programmes:</em> Development and adaptation of new teaching concepts for mathematics
+                teaching,
                 documentation of study programme schedules, creation of module catalogues, research, revision of study
                 programme schedules
-            </div>
-          </li>
-          <li>
-            <div>
-              <time>2008 - 2013</time><i class="fal fa-file-certificate"></i> <em>Technische Universität Berlin, Studies:</em> cand. Bachelor of Science Natural Sciences in the Information Society, major
-              in Mathematics and Computer Science
-            </div>
-          </li>
-          <li>
-            <div>
-              <time>2007 - 2008</time><i class="fal fa-file-certificate"></i> <em>Fachhochschule Lübeck, Studies:</em> cand. Diplom-Ingenieur Environmental Engineering
-            </div>
-          </li>
-          <li>
-            <div>
-              <time>2004 - 2007</time><i class="fal fa-file-certificate"></i> <em>OSZIMT, A-levels:</em> focus on mathematics and computer engineering
-            </div>
-          </li>
+              </div>
+            </li>
+            <li v-show="cert">
+              <div>
+                <time>2008 - 2013</time><i class="fal fa-file-certificate"></i> <em>Technische Universität Berlin,
+                  Studies:</em> cand. Bachelor of Science Natural Sciences in the Information Society, major
+                in Mathematics and Computer Science
+              </div>
+            </li>
+            <li v-show="cert">
+              <div>
+                <time>2007 - 2008</time><i class="fal fa-file-certificate"></i> <em>Fachhochschule Lübeck, Studies:</em>
+                cand. Diplom-Ingenieur Environmental Engineering
+              </div>
+            </li>
+            <li v-show="cert">
+              <div>
+                <time>2004 - 2007</time><i class="fal fa-file-certificate"></i> <em>OSZIMT, A-levels:</em> focus on
+                mathematics and computer engineering
+              </div>
+            </li>
 
+      </div>
     </div>
-
   </div>
-
-  <!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 
 </html>
 
-<script src="timeline.js"></script>
 <script src="https://unpkg.com/vue@3.2.29/dist/vue.global.prod.js"></script>
 <script>
   const app = Vue.createApp({
     data: function () {
       return {
         userTheme: "light-theme",
+        job: true,
+        project: true,
+        cert: true,
       }
     },
     mounted() {
@@ -390,10 +425,10 @@
           return "light-theme";
         }
       },
-
     },
   })
 
   app.mount('#app')
 
 </script>
+<script src="timeline.js"></script>
