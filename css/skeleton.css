@@ -41,6 +41,8 @@
   --btn-prim-color: #7e8eeb;
   --btn-prim-color-focus: #1eaedb;
   --form-color-border: #d1d1d1;
+  --button-active-background: #E5F3E2;
+  --button-active-font: #222;
 
   --element-size: 6.2rem;
 }
@@ -50,14 +52,16 @@
   --background-timeline: #5b6c5d;
   --text-color: #a3d698;
   --link-color: #E5F3E2;
-  --link-color-hover: #5b6c5d;
+  --link-color-hover: #bbb;
   --btn-color: #555;
   --btn-color-border: #bbb;
-  --btn-color-focus: #5b6c5d;
+  --btn-color-focus: #bbb;
   --btn-color-focus-border: #5b6c5d;
   --btn-prim-color: #7e8eeb;
   --btn-prim-color-focus: #1eaedb;
   --form-color-border: #5b6c5d;
+  --button-active-background: #5b6c5d;
+  --button-active-font: #a3d698;
 }
 
 /* *,
@@ -416,6 +420,11 @@ input[type="button"].button-primary:focus {
   color: var(--background-color);
   background-color: var(--btn-prim-color-focus);
   border-color: var(--btn-prim-color-focus);
+}
+
+.active {
+  background-color: var(--button-active-background);
+  color: var(--button-active-font);
 }
 
 /* Lists
