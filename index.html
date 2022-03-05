@@ -112,7 +112,7 @@
           <br>
 
           <a href="https://github.com/maigrueen">GitHub</a>
-          <br>          
+          <br>
           <br>
 
           <h3>Qualities</h3>
@@ -191,19 +191,23 @@
         <h2>Experience</h2>
 
         <section class="timeline">
-          <button v-on:click="this.job = !this.job" v-bind:class="{ active: this.job }"><i class="fal fa-briefcase"></i> show
+          <button v-on:click="this.job = !this.job" v-bind:class="{ active: this.job }"><i class="fal fa-briefcase"></i>
+            show
             jobs</button>
-          <button v-on:click="this.project = !this.project" v-bind:class="{ active: this.project }"><i class="fal fa-laptop-code"></i>
+          <button v-on:click="this.project = !this.project" v-bind:class="{ active: this.project }"><i
+              class="fal fa-laptop-code"></i>
             show projects</button>
-          <button v-on:click="this.cert = !this.cert" v-bind:class="{ active: this.cert }"><i class="fal fa-file-certificate"> </i>
+          <button v-on:click="this.cert = !this.cert" v-bind:class="{ active: this.cert }"><i
+              class="fal fa-file-certificate"> </i>
             show education</button>
-          <p v-if="!this.job && !this.project && !this.cert">Please click on a button to show jobs, projects or education.</p>
+          <p v-if="!this.job && !this.project && !this.cert">Please click on a button to show jobs, projects or
+            education.</p>
           <ul>
             <li v-show="job">
               <div>
                 <time>2022 - now</time><i class="fal fa-briefcase"></i> <em>netzkontor nord gmbh, Process Manager:</em>
-                Process management incl. optimization, facilitation of
-                workshops for stakeholders, requirements management, IT lifecycle management
+                Process management, Process optimization, Process automation, facilitation of workshops for
+                stakeholders, requirements management, IT lifecycle management
               </div>
             </li>
             <li v-show="project">
