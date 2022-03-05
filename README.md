@@ -6,6 +6,7 @@ Ideas, Concepts and Excercises from:
 * timeline.js: not available anymore :(
 * normalize.css https://necolas.github.io/normalize.css/
 * Colors: https://coolors.co/7e8eeb-273582-a3d698-5b6c5d-00241b
+* TImeline: https://codepen.io/tutsplus/pen/QNeJgR
 
 ### Affirmations
 Ideas, Concepts and Excercises from:
