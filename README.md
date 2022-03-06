@@ -9,5 +9,3 @@ Ideas, Concepts and Excercises from:
 * Illustrations: https://undraw.co/
 * Progressive Web App: https://medium.com/notonlycss/turn-your-website-into-a-pwa-6aaecb95f8b9
 * Dark Mode: https://dev.to/tqbit/create-your-own-dark-mode-toggle-component-with-vue-js-1284
-
-deploy test
