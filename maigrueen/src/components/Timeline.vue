@@ -81,14 +81,9 @@ export default {
         <div>
           <time>2022</time><i class="fal fa-laptop-code"></i>
           <em> Web Project: Affirmations App, JavaScript, HTML, CSS: </em>
-          <a href="/Affirmations/index.html"
-            >Progressive Web App that shows randomized Affirmations for daily
-            use</a
-          >,
-          <a
-            href="https://github.com/maigrueen/maigrueen.de/tree/main/Affirmations"
-            >Repository</a
-          >
+          <a href="https://maigrueen.de/Affirmations/index.html" target="_blank">
+          Progressive Web App that shows randomized Affirmations for daily use</a>,
+          <a href="https://github.com/maigrueen/maigrueen.de/tree/main/Affirmations" target="_blank">Repository</a>
         </div>
       </li>
       <li v-show="job">
@@ -113,9 +108,7 @@ export default {
         <div>
           <time>2021</time><i class="fal fa-laptop-code"></i>
           <em> Web Project: feelin', JavaScript, HTML, CSS: </em>
-          <a href="https://feelin.team/"
-            >feelin’ - anonymous mood app for workshops and team sessions</a
-          >
+          <a href="https://feelin.team/" target="_blank">feelin’ - anonymous mood app for workshops and team sessions</a>
         </div>
       </li>
       <li v-show="cert">
@@ -138,18 +131,14 @@ export default {
         <div>
           <time>2018</time><i class="fal fa-laptop-code"></i>
           <em> Web Project: FTE Chart Planning App, JavaScript, HTML, CSS: </em>
-          <a href="/FTEchart/index.html"
-            >FTE Chart - visualizes the planning of full term equivalents</a
-          >, <a href="https://github.com/maigrueen/FTEchart">Repository</a>
+          <a href="https://maigrueen.de/FTEchart/index.html" target="_blank">FTE Chart - visualizes the planning of full term equivalents</a>, <a href="https://github.com/maigrueen/FTEchart" target="_blank">Repository</a>
         </div>
       </li>
       <li v-show="project">
         <div>
           <time>2018</time><i class="fal fa-laptop-code"></i>
           <em> Web Project: ToDo List App, JavaScript, HTML, CSS: </em>
-          <a href="/ToDoList/index.html"
-            >ToDo List - saves ToDos in the locale cache</a
-          >, <a href="https://github.com/maigrueen/ToDoList">Repository</a>
+          <a href="https://maigrueen.de/ToDoList/index.html" target="_blank">ToDo List - saves ToDos in the locale cache</a>, <a href="https://github.com/maigrueen/ToDoList" target="_blank">Repository</a>
         </div>
       </li>
       <li v-show="cert">
@@ -170,11 +159,11 @@ export default {
           for serviceteams, administration of Jira & Confluence
           <br />
           Projects:
-          <a href="https://www.bvg.de/">bvg.de</a>,
-          <a href="https://www.idw.de/">idw.de</a>,
-          <a href="https://www.dihk.de/">dihk.de</a>,
-          <a href="https://www.baloise.ch/">baloise.ch</a>,
-          <a href="https://www.bmvg.de/">bmvg.de</a>
+          <a href="https://www.bvg.de/" target="_blank">bvg.de</a>,
+          <a href="https://www.idw.de/" target="_blank">idw.de</a>,
+          <a href="https://www.dihk.de/" target="_blank">dihk.de</a>,
+          <a href="https://www.baloise.ch/" target="_blank">baloise.ch</a>,
+          <a href="https://www.bmvg.de/" target="_blank">bmvg.de</a>
         </div>
       </li>
       <li v-show="cert">
