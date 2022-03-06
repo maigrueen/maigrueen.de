@@ -87,7 +87,8 @@ import Timeline from "./components/Timeline.vue";
 
 <style>
 @import "./assets/base.css";
-@import "./assets/fontawesome-pro-5.15.4-web/css/all.css";
+@import "./assets/fontawesome-pro-5.15.4-web/css/fontawesome.css";
+@import "./assets/fontawesome-pro-5.15.4-web/css/light.css";
 
 header {
   display: flex;
