@@ -35,11 +35,8 @@ jobs:
           node-version: '16.x'
         working-directory: ./maigrueen
       - run: npm install
-        working-directory: ./maigrueen
       - run: npm run build --if-present
-        working-directory: ./maigrueen
       - run: npm test
-        working-directory: ./maigrueen
 
       - name: FTP Prod Deploy
         # You may pin to the exact commit or the version.
