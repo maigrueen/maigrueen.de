@@ -22,7 +22,7 @@ jobs:
     defaults: 
       run:
         shell: bash
-       #working-directory: ./pfad
+      working-directory: ./maigrueen
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -33,7 +33,6 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '16.x'
-        working-directory: ./maigrueen
       - run: npm install
       - run: npm run build --if-present
       - run: npm test
