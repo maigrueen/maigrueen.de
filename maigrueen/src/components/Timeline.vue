@@ -42,7 +42,6 @@ export default {
     window.addEventListener("resize", callbackFunc);
     window.addEventListener("scroll", callbackFunc);
   })(); */
-  
 </script>
 
 <template>
@@ -72,7 +71,7 @@ export default {
       <li v-show="job">
         <div>
           <time>2022 - now</time><i class="fal fa-briefcase"></i>
-          <em>netzkontor nord gmbh, Process Manager:</em>
+          <em> netzkontor nord gmbh, Process Manager: </em>
           Process management, Process optimization, Process automation,
           facilitation of workshops for stakeholders, requirements management,
           IT lifecycle management
@@ -81,7 +80,7 @@ export default {
       <li v-show="project">
         <div>
           <time>2022</time><i class="fal fa-laptop-code"></i>
-          <em>Web Project: Affirmations App, JavaScript, HTML, CSS:</em>
+          <em> Web Project: Affirmations App, JavaScript, HTML, CSS: </em>
           <a href="/Affirmations/index.html"
             >Progressive Web App that shows randomized Affirmations for daily
             use</a
@@ -95,7 +94,7 @@ export default {
       <li v-show="job">
         <div>
           <time>2021 - 2022</time><i class="fal fa-briefcase"></i>
-          <em>Aperto GmbH, Process and Quality Manager:</em> Process management
+          <em> Aperto GmbH, Process and Quality Manager: </em> Process management
           incl. optimization, facilitation of workshops for stakeholders,
           testing for compliance, requirements management, development of
           strategies for the introduction of new processes, stakeholder
@@ -105,7 +104,7 @@ export default {
       <li v-show="cert">
         <div>
           <time>2021</time><i class="fal fa-file-certificate"></i>
-          <em>The PowerMBA, Digital Business Programme:</em> Business Strategy,
+          <em> The PowerMBA, Digital Business Programme: </em> Business Strategy,
           Entrepreneurship, Leadership, Scaling and Growth, Fundraising,
           Branding
         </div>
@@ -113,7 +112,7 @@ export default {
       <li v-show="project">
         <div>
           <time>2021</time><i class="fal fa-laptop-code"></i>
-          <em>Web Project: feelin', JavaScript, HTML, CSS:</em>
+          <em> Web Project: feelin', JavaScript, HTML, CSS: </em>
           <a href="https://feelin.team/"
             >feelin’ - anonymous mood app for workshops and team sessions</a
           >
@@ -122,7 +121,7 @@ export default {
       <li v-show="cert">
         <div>
           <time>2020</time><i class="fal fa-file-certificate"></i>
-          <em>Next Generation Leadership Programme, Aperto GmbH / yuii:</em>
+          <em> Next Generation Leadership Programme, Aperto GmbH / yuii: </em>
           Personal & People Leadership Skills, Coaching Mindset & Techniques,
           Business Storytelling
         </div>
@@ -130,7 +129,7 @@ export default {
       <li v-show="cert">
         <div>
           <time>2018</time><i class="fal fa-file-certificate"></i>
-          <em>ITIL v3 Foundation, AXELOS:</em> Key concepts of Service
+          <em> ITIL v3 Foundation, AXELOS: </em> Key concepts of Service
           Management, 5 Phases of IT Service Management, Roles and
           Responsibilities, Process Model
         </div>
@@ -138,7 +137,7 @@ export default {
       <li v-show="project">
         <div>
           <time>2018</time><i class="fal fa-laptop-code"></i>
-          <em>Web Project: FTE Chart Planning App, JavaScript, HTML, CSS:</em>
+          <em> Web Project: FTE Chart Planning App, JavaScript, HTML, CSS: </em>
           <a href="/FTEchart/index.html"
             >FTE Chart - visualizes the planning of full term equivalents</a
           >, <a href="https://github.com/maigrueen/FTEchart">Repository</a>
@@ -147,7 +146,7 @@ export default {
       <li v-show="project">
         <div>
           <time>2018</time><i class="fal fa-laptop-code"></i>
-          <em>Web Project: ToDo List App, JavaScript, HTML, CSS:</em>
+          <em> Web Project: ToDo List App, JavaScript, HTML, CSS: </em>
           <a href="/ToDoList/index.html"
             >ToDo List - saves ToDos in the locale cache</a
           >, <a href="https://github.com/maigrueen/ToDoList">Repository</a>
@@ -156,7 +155,7 @@ export default {
       <li v-show="cert">
         <div>
           <time>2017</time><i class="fal fa-file-certificate"></i>
-          <em>Stakeholder Management, yuii:</em>
+          <em> Stakeholder Management, yuii: </em>
           Stakeholder Maps and canvases, Communiction with different
           stakeholders
         </div>
@@ -164,7 +163,7 @@ export default {
       <li v-show="job">
         <div>
           <time>2017 - 2021</time><i class="fal fa-briefcase"></i>
-          <em>Aperto GmbH</em> Techical Project Manager / Service Manager:
+          <em> Aperto GmbH, Techical Project Manager / Service Manager: </em>
           Project management and technical consulting for website projects
           e.g.bmvg.de, baloise.ch, dihk.de, team development of software and
           infrastructure teams, service management, development of internal KPIs
@@ -181,26 +180,26 @@ export default {
       <li v-show="cert">
         <div>
           <time>2016</time><i class="fal fa-file-certificate"></i>
-          <em>Lynda.com:</em> Agile Projectmanagement Foundations
+          <em> Lynda.com: </em> Agile Projectmanagement Foundations
         </div>
       </li>
       <li v-show="cert">
         <div>
           <time>2016</time><i class="fal fa-file-certificate"></i>
-          <em>Code School:</em> Web Development Foundations: PHP, SQL, HTML,
+          <em> Code School: </em> Web Development Foundations: PHP, SQL, HTML,
           CSS, JavaScript
         </div>
       </li>
       <li v-show="cert">
         <div>
           <time>2016</time><i class="fal fa-file-certificate"></i>
-          <em>Dierk Söllner Beratung:</em> Scrum Foundation
+          <em> Dierk Söllner Beratung: </em> Scrum Foundation
         </div>
       </li>
       <li v-show="job">
         <div>
           <time>2015 - 2017</time><i class="fal fa-briefcase"></i>
-          <em>event it AG, Project Manager IT:</em>
+          <em> event it AG, Project Manager IT: </em>
           Development & support of participant management software, interface
           between clients & developers, first level support, on-site support of
           client events (technology & organisation of participant management)
@@ -209,7 +208,7 @@ export default {
       <li v-show="job">
         <div>
           <time>2014 - 2015</time><i class="fal fa-briefcase"></i>
-          <em>VDVO e.V., Office staff:</em> Conception, implementation &
+          <em> VDVO e.V., Office staff: </em> Conception, implementation &
           moderation of board meetings, meetings, roadshows, conferences & trade
           fair appearances, sponsor & participant acquisition, partner & speaker
           management, member support & administration, project management &
@@ -219,7 +218,7 @@ export default {
       <li v-show="job">
         <div>
           <time>2013 - 2014</time><i class="fal fa-briefcase"></i>
-          <em>SWOP GmbH, Project Manager Meetings / Conferences:</em> Conception
+          <em> SWOP GmbH, Project Manager Meetings / Conferences: </em> Conception
           and implementation of meetings, roadshows, conventions and
           conferences, project controlling, acquisition of sponsors and
           participants, partner and speaker management, content management of
@@ -230,11 +229,8 @@ export default {
       <li v-show="job">
         <div>
           <time>2011 - 2012</time><i class="fal fa-briefcase"></i>
-          <em
-            >Universität Potsdam, Support of the pearls • Potsdam Research
-            Network office:</em
-          >
-          Support with all work processes in the office, support with
+          <em> Universität Potsdam, Support of the pearls • Potsdam Research
+            Network office: </em>Support with all work processes in the office, support with
           applications to BMBF, DFG, etc., independent organisation of
           high-profile events, maintenance of the homepage & social media
         </div>
@@ -242,11 +238,9 @@ export default {
       <li v-show="job">
         <div>
           <time>2010 - 2012</time><i class="fal fa-briefcase"></i>
-          <em
-            >Technische Universität Berlin, Coordination of the development of
+          <em> Technische Universität Berlin, Coordination of the development of
             the engineering faculty for the Turkish-German University
-            Istanbul:</em
-          >
+            Istanbul: </em>
           Coordination & administration of the DAAD-funded project, conception &
           coordination of engineering bachelor & master degree programmes,
           programme development, research, organisation of workshops &
@@ -257,11 +251,9 @@ export default {
       <li v-show="job">
         <div>
           <time>2009 - 2010</time><i class="fal fa-briefcase"></i>
-          <em
-            >Technische Universität Berlin, Support in the development of study
+          <em> Technische Universität Berlin, Support in the development of study
             programmes and accreditation of mathematics & science study
-            programmes:</em
-          >
+            programmes: </em>
           Development and adaptation of new teaching concepts for mathematics
           teaching, documentation of study programme schedules, creation of
           module catalogues, research, revision of study programme schedules
@@ -270,7 +262,7 @@ export default {
       <li v-show="cert">
         <div>
           <time>2008 - 2013</time><i class="fal fa-file-certificate"></i>
-          <em>Technische Universität Berlin, Studies:</em> cand. Bachelor of
+          <em> Technische Universität Berlin, Studies: </em> cand. Bachelor of
           Science Natural Sciences in the Information Society, major in
           Mathematics and Computer Science
         </div>
@@ -278,14 +270,14 @@ export default {
       <li v-show="cert">
         <div>
           <time>2007 - 2008</time><i class="fal fa-file-certificate"></i>
-          <em>Fachhochschule Lübeck, Studies:</em>
+          <em> Fachhochschule Lübeck, Studies: </em>
           cand. Diplom-Ingenieur Environmental Engineering
         </div>
       </li>
       <li v-show="cert">
         <div>
           <time>2004 - 2007</time><i class="fal fa-file-certificate"></i>
-          <em>OSZIMT, A-levels:</em> focus on mathematics and computer
+          <em> OSZIMT, A-levels: </em> focus on mathematics and computer
           engineering
         </div>
       </li>
@@ -366,7 +358,6 @@ time {
   margin-bottom: 8px;
 }
 
-
 /* TIMELINE EFFECTS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* 
@@ -398,7 +389,6 @@ time {
   opacity: 1;
 } */
 
-
 /* TIMELINE GENERAL MEDIA QUERIES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -428,7 +418,6 @@ time {
     border-color: transparent var(--background-timeline) transparent transparent;
   }
 }
-
 
 /* TIMELINE EXTRA/CLIP PATH STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -488,7 +477,6 @@ time {
     transform: translateX(-50%) scale(1);
   }
 }
-
 
 /* TIMELINE FOOTER STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */

@@ -57,31 +57,29 @@ import Timeline from "./components/Timeline.vue";
         attention to the communication and involvement of all stakeholders in
         change management, for individual milestones and features as well as for
         projects as a whole.
-        <br />
-        <br />
       </p>
-      <h1>Reach out</h1>
-      <a href="mailto:astrid@maigrueen.de">write me</a>
-      <br />
+      <h3>Reach out</h3>
+      <a href="mailto:astrid@maigrueen.de">write me</a> or
+      <a href="https://www.linkedin.com/in/deichmann">find me on LinkedIn</a> or
+      <a href="https://github.com/maigrueen">find me on GitHub</a>
 
-      <a href="https://www.linkedin.com/in/deichmann">LinkedIn</a>
-      <br />
+      <h3>My core values</h3>
+      <p>Autonomy, transparency, learning new stuff - those are my big three. 
+        <br>
 
-      <a href="https://github.com/maigrueen">GitHub</a>
-      <br />
-      <br />
+        If you don't mind German check out this link for a fast method to find you core values: <a href="https://einguterplan.de/werte/">Werte-Onlinetest from einguterplan.de</a></p>
 
-      <h1>My core values</h1>
-        <p>Autonomy, transparency, curiosity</p>
+      <h3>Tools I love to work with</h3>
+      <p>
+        Notion, Atlassian Jira, Atlassian Confluence, Atlassian Service
+        Management, Trello, Microsoft Office Excel
+      </p>
 
-      <h1>Tools I love to work with</h1>
-      <p>Notion, Atlassian Jira, Atlassian Confluence, Atlassian Service Management, Trello, Microsoft Office Excel</p>
-
-      <h1>Languages</h1>
+      <h3>Languages</h3>
       <p>German (native), English (B2), Swedish (A1), Spanish (A1)</p>
-      <p>Basics in HTML, CSS, JavaScript (Vanilla, vue.js)</p>
+      <p>Basics in HTML, CSS, JavaScript (Vanilla, vue.js), proficient in BPMN 2.0</p>
 
-      <h1>Experience</h1>
+      <h3>Experience</h3>
       <Timeline />
     </main>
   </div>
@@ -89,6 +87,7 @@ import Timeline from "./components/Timeline.vue";
 
 <style>
 @import "./assets/base.css";
+@import "./assets/fontawesome-pro-5.15.4-web/css/all.css";
 
 header {
   display: flex;
