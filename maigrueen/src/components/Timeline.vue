@@ -81,7 +81,7 @@ export default {
         <div>
           <time>2022</time><i class="fal fa-laptop-code"></i>
           <em> Web Project: Affirmations App, JavaScript, HTML, CSS: </em>
-          <a href="https://maigrueen.de/Affirmations/index.html" target="_blank">
+          <a href="https://affirmations.maigrueen.de" target="_blank">
           Progressive Web App that shows randomized Affirmations for daily use</a>,
           <a href="https://github.com/maigrueen/maigrueen.de/tree/main/Affirmations" target="_blank">Repository</a>
         </div>
@@ -131,14 +131,14 @@ export default {
         <div>
           <time>2018</time><i class="fal fa-laptop-code"></i>
           <em> Web Project: FTE Chart Planning App, JavaScript, HTML, CSS: </em>
-          <a href="https://maigrueen.de/FTEchart/index.html" target="_blank">FTE Chart - visualizes the planning of full term equivalents</a>, <a href="https://github.com/maigrueen/FTEchart" target="_blank">Repository</a>
+          <a href="https://ftechart.maigrueen.de " target="_blank">FTE Chart - visualizes the planning of full term equivalents</a>, <a href="https://github.com/maigrueen/FTEchart" target="_blank">Repository</a>
         </div>
       </li>
       <li v-show="project">
         <div>
           <time>2018</time><i class="fal fa-laptop-code"></i>
           <em> Web Project: ToDo List App, JavaScript, HTML, CSS: </em>
-          <a href="https://maigrueen.de/ToDoList/index.html" target="_blank">ToDo List - saves ToDos in the locale cache</a>, <a href="https://github.com/maigrueen/ToDoList" target="_blank">Repository</a>
+          <a href="https://todo.maigrueen.de" target="_blank">ToDo List - saves ToDos in the locale cache</a>, <a href="https://github.com/maigrueen/ToDoList" target="_blank">Repository</a>
         </div>
       </li>
       <li v-show="cert">
