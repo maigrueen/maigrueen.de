@@ -26,50 +26,6 @@
     <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="stylesheet" href="./css/skeleton.css">
-    <link rel="stylesheet" href="./css/normalize.css">
-    <style>
-        [v-cloak]>* {
-            display: none
-        }
-
-        [v-cloak]::before {
-            content: "loading…"
-        }
-
-        .flex-container {
-            display: flex;
-            flex-flow: column wrap;
-            justify-content: space-between;
-            min-height: 50vh;
-        }
-
-        .toggler {
-            align-self: flex-end;
-        }
-
-        .box2 {
-            position: fixed;
-            bottom: 20px;
-        }
-
-        .bgimg {
-            opacity: 0.9;
-            float: right;
-            width: 50%;
-        }
-
-        @media (max-width: 550px) {
-
-            .box2 {
-                align-self: center;
-            }
-
-            .bgimg {
-                float: none;
-                width: 80%;
-            }
-        }
-    </style>
 
     <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -78,41 +34,28 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="twelve columns" style="margin-top: 5%">
-                <img src="./images/logo.png" alt="maigrueen Logo" style="margin-bottom: 10%" />
-            </div>
-        </div>
+    <div id="app" v-cloak>
 
-        <div class="row">
-            <div class="twelve columns">
-
-                <div id="app" v-cloak>
-
-                    <div class="flex-container">
-                        <div class="toggler">
-                            <input @change="changeTheme" id="checkbox" type="checkbox" class="switch-checkbox" />
-                            <label for="checkbox" class="switch-label">
-                                <span>🌙</span>
-                                <span>☀️</span>
-                                <div class="switch-toggle"
-                                    :class="{ 'switch-toggle-checked': userTheme === 'dark-theme' }">
-                                </div>
-                            </label>
-                        </div>
-
-                        <div class="box1">
-                            <h2>{{ selectedAffirmation }}</h2>
-                            <img class="bgimg" v-bind:src="selectedImage" />
-                        </div>
-                        <div class="box2">
-                            <button v-on:click="changeAffirmation">I'm not vibing, give me a new one</button>
-                        </div>
+        <header>
+            <img src="./images/logo.png" alt="Logo green leaf in a circle" />
+            <div class="toggler">
+                <input @change="changeTheme" id="checkbox" type="checkbox" class="switch-checkbox" />
+                <label for="checkbox" class="switch-label">
+                    <span>🌙</span>
+                    <span>☀️</span>
+                    <div class="switch-toggle" :class="{ 'switch-toggle-checked': userTheme === 'dark-theme' }">
                     </div>
+                </label>
+            </div>
+        </header>
 
-                </div>
-
+        <div class="container">
+            <div class="box1">
+                <h2>{{ selectedAffirmation }}</h2>
+                <img class="bgimg" v-bind:src="selectedImage" />
+            </div>
+            <div class="box2">
+                <button v-on:click="changeAffirmation">I'm not vibing, give me a new one</button>
             </div>
         </div>
 
@@ -254,6 +197,13 @@
                         'img/wilderness_81ka.svg',
                         'img/with_love_re_1q3m.svg',
                         'img/working_from_anywhere_re_9obt.svg',
+                        'img/exciting_news_re_y1iw.svg',
+                        'img/ideas_flow_re_bmea.svg',
+                        'img/people_re_8spw.svg',
+                        'img/positive_attitude_re_wu7d.svg',
+                        'img/quiz_re_aol4.svg',
+                        'img/things_to_say_re_9bcw.svg',
+                        'img/to_the_moon_re_q21i.svg',
                     ],
                     selectedImage: '',
                     userTheme: "light-theme",
