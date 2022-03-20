@@ -11,37 +11,38 @@ export default {
 
 // Timeline JS
 /* (function () {
-    "use strict";
-  
-    // define variables
-    var items = document.querySelectorAll(".timeline li");
-  
-    // check if an element is in viewport
-    // http://stackoverflow.com/questions/123999/how-to-tell-if-a-dom-element-is-visible-in-the-current-viewport
-    function isElementInViewport(el) {
-      var rect = el.getBoundingClientRect();
-      return (
-        rect.top >= 0 &&
-        rect.left >= 0 &&
-        rect.bottom <=
-          (window.innerHeight || document.documentElement.clientHeight) &&
-        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-      );
-    }
-  
-    function callbackFunc() {
-      for (var i = 0; i < items.length; i++) {
-        if (isElementInViewport(items[i])) {
-          items[i].classList.add("in-view");
-        }
+  "use strict";
+
+  // define variables
+  var items = document.querySelectorAll(".timeline li");
+
+  // check if an element is in viewport
+  // http://stackoverflow.com/questions/123999/how-to-tell-if-a-dom-element-is-visible-in-the-current-viewport
+  function isElementInViewport(el) {
+    var rect = el.getBoundingClientRect();
+    return (
+      rect.top >= 0 &&
+      rect.left >= 0 &&
+      rect.bottom <=
+        (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+  }
+
+  function callbackFunc() {
+    for (var i = 0; i < items.length; i++) {
+      console.log("we are here");
+      if (isElementInViewport(items[i])) {
+        items[i].classList.add("in-view");
       }
     }
-  
-    // listen for events
-    window.addEventListener("load", callbackFunc);
-    window.addEventListener("resize", callbackFunc);
-    window.addEventListener("scroll", callbackFunc);
-  })(); */
+  }
+
+  // listen for events
+  window.addEventListener("load", callbackFunc);
+  window.addEventListener("resize", callbackFunc);
+  window.addEventListener("scroll", callbackFunc);
+})(); */
 </script>
 
 <template>
@@ -69,46 +70,58 @@ export default {
     </p>
     <ul>
       <li v-show="job">
-        <div>
-          <time>2022 - now</time><i class="fal fa-briefcase"></i>
-          <em> netzkontor nord gmbh, Process Manager: </em>
-          Process management, Process optimization, Process automation,
-          facilitation of workshops for stakeholders, requirements management,
-          IT lifecycle management
-        </div>
+        <transition>
+          <div>
+            <time>2022 - now</time><i class="fal fa-briefcase"></i>
+            <em> netzkontor nord gmbh, Process Manager: </em>
+            Process management, Process optimization, Process automation,
+            facilitation of workshops for stakeholders, requirements management,
+            IT lifecycle management
+          </div>
+        </transition>
       </li>
       <li v-show="project">
-        <div>
-          <time>2022</time><i class="fal fa-laptop-code"></i>
-          <em> Web Project: Affirmations App, JavaScript, HTML, CSS: </em>
-          <a href="https://affirmations.maigrueen.de" target="_blank">
-          Progressive Web App that shows randomized Affirmations for daily use</a>,
-          <a href="https://github.com/maigrueen/maigrueen.de/tree/main/Affirmations" target="_blank">Repository</a>
-        </div>
+        <transition>
+          <div class="example-div">
+            <time>2022</time><i class="fal fa-laptop-code"></i>
+            <em> Web Project: Affirmations App, JavaScript, HTML, CSS: </em>
+            <a href="https://affirmations.maigrueen.de" target="_blank">
+              Progressive Web App that shows randomized Affirmations for daily
+              use</a
+            >,
+            <a
+              href="https://github.com/maigrueen/maigrueen.de/tree/main/Affirmations"
+              target="_blank"
+              >Repository</a
+            >
+          </div>
+        </transition>
       </li>
       <li v-show="job">
         <div>
           <time>2021 - 2022</time><i class="fal fa-briefcase"></i>
-          <em> Aperto GmbH, Process and Quality Manager: </em> Process management
-          incl. optimization, facilitation of workshops for stakeholders,
-          testing for compliance, requirements management, development of
-          strategies for the introduction of new processes, stakeholder
-          management, administration of Jira & Confluence
+          <em> Aperto GmbH, Process and Quality Manager: </em> Process
+          management incl. optimization, facilitation of workshops for
+          stakeholders, testing for compliance, requirements management,
+          development of strategies for the introduction of new processes,
+          stakeholder management, administration of Jira & Confluence
         </div>
       </li>
       <li v-show="cert">
         <div>
           <time>2021</time><i class="fal fa-file-certificate"></i>
-          <em> The PowerMBA, Digital Business Programme: </em> Business Strategy,
-          Entrepreneurship, Leadership, Scaling and Growth, Fundraising,
-          Branding
+          <em> The PowerMBA, Digital Business Programme: </em> Business
+          Strategy, Entrepreneurship, Leadership, Scaling and Growth,
+          Fundraising, Branding
         </div>
       </li>
       <li v-show="project">
         <div>
           <time>2021</time><i class="fal fa-laptop-code"></i>
           <em> Web Project: feelin', JavaScript, HTML, CSS: </em>
-          <a href="https://feelin.team/" target="_blank">feelin’ - anonymous mood app for workshops and team sessions</a>
+          <a href="https://feelin.team/" target="_blank"
+            >feelin’ - anonymous mood app for workshops and team sessions</a
+          >
         </div>
       </li>
       <li v-show="cert">
@@ -131,14 +144,24 @@ export default {
         <div>
           <time>2018</time><i class="fal fa-laptop-code"></i>
           <em> Web Project: FTE Chart Planning App, JavaScript, HTML, CSS: </em>
-          <a href="https://ftechart.maigrueen.de " target="_blank">FTE Chart - visualizes the planning of full term equivalents</a>, <a href="https://github.com/maigrueen/FTEchart" target="_blank">Repository</a>
+          <a href="https://ftechart.maigrueen.de " target="_blank"
+            >FTE Chart - visualizes the planning of full term equivalents</a
+          >,
+          <a href="https://github.com/maigrueen/FTEchart" target="_blank"
+            >Repository</a
+          >
         </div>
       </li>
       <li v-show="project">
         <div>
           <time>2018</time><i class="fal fa-laptop-code"></i>
           <em> Web Project: ToDo List App, JavaScript, HTML, CSS: </em>
-          <a href="https://todo.maigrueen.de" target="_blank">ToDo List - saves ToDos in the locale cache</a>, <a href="https://github.com/maigrueen/ToDoList" target="_blank">Repository</a>
+          <a href="https://todo.maigrueen.de" target="_blank"
+            >ToDo List - saves ToDos in the locale cache</a
+          >,
+          <a href="https://github.com/maigrueen/ToDoList" target="_blank"
+            >Repository</a
+          >
         </div>
       </li>
       <li v-show="cert">
@@ -207,8 +230,8 @@ export default {
       <li v-show="job">
         <div>
           <time>2013 - 2014</time><i class="fal fa-briefcase"></i>
-          <em> SWOP GmbH, Project Manager Meetings / Conferences: </em> Conception
-          and implementation of meetings, roadshows, conventions and
+          <em> SWOP GmbH, Project Manager Meetings / Conferences: </em>
+          Conception and implementation of meetings, roadshows, conventions and
           conferences, project controlling, acquisition of sponsors and
           participants, partner and speaker management, content management of
           events in the higher education sector, design & layout of meeting &
@@ -218,8 +241,10 @@ export default {
       <li v-show="job">
         <div>
           <time>2011 - 2012</time><i class="fal fa-briefcase"></i>
-          <em> Universität Potsdam, Support of the pearls • Potsdam Research
-            Network office: </em>Support with all work processes in the office, support with
+          <em>
+            Universität Potsdam, Support of the pearls • Potsdam Research
+            Network office: </em
+          >Support with all work processes in the office, support with
           applications to BMBF, DFG, etc., independent organisation of
           high-profile events, maintenance of the homepage & social media
         </div>
@@ -227,9 +252,10 @@ export default {
       <li v-show="job">
         <div>
           <time>2010 - 2012</time><i class="fal fa-briefcase"></i>
-          <em> Technische Universität Berlin, Coordination of the development of
-            the engineering faculty for the Turkish-German University
-            Istanbul: </em>
+          <em>
+            Technische Universität Berlin, Coordination of the development of
+            the engineering faculty for the Turkish-German University Istanbul:
+          </em>
           Coordination & administration of the DAAD-funded project, conception &
           coordination of engineering bachelor & master degree programmes,
           programme development, research, organisation of workshops &
@@ -240,9 +266,11 @@ export default {
       <li v-show="job">
         <div>
           <time>2009 - 2010</time><i class="fal fa-briefcase"></i>
-          <em> Technische Universität Berlin, Support in the development of study
+          <em>
+            Technische Universität Berlin, Support in the development of study
             programmes and accreditation of mathematics & science study
-            programmes: </em>
+            programmes:
+          </em>
           Development and adaptation of new teaching concepts for mathematics
           teaching, documentation of study programme schedules, creation of
           module catalogues, research, revision of study programme schedules
@@ -286,7 +314,7 @@ export default {
   width: 6px;
   margin: 0 auto;
   padding-top: 50px;
-  background: var(--text-color);
+  background: var(--timeline);
 }
 
 .timeline ul li::after {

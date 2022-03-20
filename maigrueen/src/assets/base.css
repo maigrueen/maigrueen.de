@@ -2,7 +2,8 @@
 
 :root {
   --background-color: #FFF;
-  --background-timeline: #E5F3E2;
+  --background-timeline: #a3d698;
+  --timeline: #a3d698;
   --text-color: #222;
   --link-color: #273582;
   --link-color-hover: #7e8eeb;
@@ -13,7 +14,7 @@
   --btn-prim-color: #7e8eeb;
   --btn-prim-color-focus: #1eaedb;
   --form-color-border: #d1d1d1;
-  --button-active-background: #E5F3E2;
+  --button-active-background: #a3d698;
   --button-active-font: #222;
 
   --element-size: 6.2rem;
@@ -22,6 +23,7 @@
 :root.dark-theme {
   --background-color: #00241b;
   --background-timeline: #5b6c5d;
+  --timeline: #a3d698;
   --text-color: #a3d698;
   --link-color: #E5F3E2;
   --link-color-hover: #bbb;
