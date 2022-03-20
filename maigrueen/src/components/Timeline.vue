@@ -7,28 +7,6 @@ export default {
       cert: true,
     };
   },
-  directives: {
-    infocus: {
-      isLiteral: true,
-      inserted: (el, binding, vnode) => {
-        let f = () => {
-          let rect = el.getBoundingClientRect()
-          let inView = (
-            rect.width > 0 &&
-            rect.height > 0 &&
-            rect.top >= 0 &&
-            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)
-          )
-          if (inView) {
-            el.classList.add(binding.value)
-            window.removeEventListener('scroll', f)
-          }
-        }
-        window.addEventListener('scroll', f)
-        f()
-      }
-    }
-  }
 };
 
 // Timeline JS
@@ -92,31 +70,35 @@ export default {
     </p>
     <ul>
       <li v-show="job">
-        <div class="hidden" v-infocus="'showElement'">
-          <time>2022 - now</time><i class="fal fa-briefcase"></i>
-          <em> netzkontor nord gmbh, Process Manager: </em>
-          Process management, Process optimization, Process automation,
-          facilitation of workshops for stakeholders, requirements management,
-          IT lifecycle management
-        </div>
+        <transition>
+          <div>
+            <time>2022 - now</time><i class="fal fa-briefcase"></i>
+            <em> netzkontor nord gmbh, Process Manager: </em>
+            Process management, Process optimization, Process automation,
+            facilitation of workshops for stakeholders, requirements management,
+            IT lifecycle management
+          </div>
+        </transition>
       </li>
       <li v-show="project">
-        <div class="hidden" v-infocus="'showElement'">
-          <time>2022</time><i class="fal fa-laptop-code"></i>
-          <em> Web Project: Affirmations App, JavaScript, HTML, CSS: </em>
-          <a href="https://affirmations.maigrueen.de" target="_blank">
-            Progressive Web App that shows randomized Affirmations for daily
-            use</a
-          >,
-          <a
-            href="https://github.com/maigrueen/maigrueen.de/tree/main/Affirmations"
-            target="_blank"
-            >Repository</a
-          >
-        </div>
+        <transition>
+          <div class="example-div">
+            <time>2022</time><i class="fal fa-laptop-code"></i>
+            <em> Web Project: Affirmations App, JavaScript, HTML, CSS: </em>
+            <a href="https://affirmations.maigrueen.de" target="_blank">
+              Progressive Web App that shows randomized Affirmations for daily
+              use</a
+            >,
+            <a
+              href="https://github.com/maigrueen/maigrueen.de/tree/main/Affirmations"
+              target="_blank"
+              >Repository</a
+            >
+          </div>
+        </transition>
       </li>
       <li v-show="job">
-        <div class="hidden" v-infocus="'showElement'">
+        <div>
           <time>2021 - 2022</time><i class="fal fa-briefcase"></i>
           <em> Aperto GmbH, Process and Quality Manager: </em> Process
           management incl. optimization, facilitation of workshops for
@@ -395,27 +377,6 @@ time {
 
 /* TIMELINE EFFECTS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-.hidden {
-  opacity: 0;
-}
-
-.hidden-right {
-  transform: translate(50px, 0);
-}
-
-.hidden-left {
-  transform: translate(-50px, 0);
-}
-
-.showElement {
-  opacity: 1;
-  transform: translate(0, 0);
-  -webkit-transition: all 0.5s ease-out;
-  -moz-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
-}
-
 /* 
 .timeline ul li::after {
   transition: background 0.5s ease-in-out;
