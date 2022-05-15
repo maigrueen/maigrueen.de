@@ -17,23 +17,6 @@
   --element-size: 6.2rem;
 }
 
-:root.dark-theme {
-  --background-color: #00241b;
-  --background-timeline: #5b6c5d;
-  --text-color: #a3d698;
-  --link-color: #E5F3E2;
-  --link-color-hover: #bbb;
-  --btn-color: #bbb;
-  --btn-color-border: #bbb;
-  --btn-color-focus: #bbb;
-  --btn-color-focus-border: #5b6c5d;
-  --btn-prim-color: #7e8eeb;
-  --btn-prim-color-focus: #1eaedb;
-  --form-color-border: #5b6c5d;
-  --button-active-background: #5b6c5d;
-  --button-active-font: #a3d698;
-}
-
 html {
   font-family: 'Raleway', sans-serif;
   font-size: 62.5%;
@@ -48,8 +31,8 @@ body {
   background-color: var(--background-color);
 
   position: relative;
-  width: 100%;
-  max-width: 960px;
+  width: 1072px;
+  height: 1448px;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
