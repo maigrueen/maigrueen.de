@@ -35,6 +35,12 @@ jobs:
           node-version: '16.x'
       - run: npm install
       - run: npm run build --if-present
+      
+      - name: Setup Go environment
+        uses: actions/setup-go@v3.1.0
+        with: 
+          go-version: 1.18.2
+      - run: go run .
 
       - name: FTP Prod Deploy
         # You may pin to the exact commit or the version.
