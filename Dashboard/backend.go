@@ -16,6 +16,10 @@ import (
 	"google.golang.org/api/sheets/v4"
 )
 
+const (
+	Port = ":8080"
+)
+
 // Retrieve a token, saves the token, then returns the generated client.
 func getClient(config *oauth2.Config) *http.Client {
 	// The file token.json stores the user's access and refresh tokens, and is
@@ -71,6 +75,28 @@ func saveToken(path string, token *oauth2.Token) {
 	json.NewEncoder(f).Encode(token)
 }
 
+//to HTML stuff
+func serveStatic(w http.ResponseWriter, r *http.Request) {
+	t, err := template.ParseFiles("index.html")
+	if err != nil {
+		fmt.Println(err)
+	}
+	items := struct {
+		Day     string
+		Note    string
+		Period  string
+		Fertile string
+		PMS     string
+	}{
+		Day:     "Today is day 14 of your cycle.",
+		Note:    "Nothing is going on today.",
+		Period:  "Next Period in 27 Days.",
+		Fertile: "Next Fertile in 8 Days.",
+		PMS:     "Next PMS in 21 Days.",
+	}
+	t.Execute(w, items)
+}
+
 func main() {
 
 	ctx := context.Background()
@@ -91,33 +117,6 @@ func main() {
 		log.Fatalf("Unable to retrieve Sheets client: %v", err)
 	}
 
-	//to HTML stuff
-	t, err := template.ParseFiles("index.html")
-
-	if err != nil {
-		panic(err)
-	}
-
-	data := struct {
-		Day     string
-		Note    string
-		Period  string
-		Fertile string
-		PMS     string
-	}{
-		Day:     "Today is day 14 of your cycle.",
-		Note:    "Nothing is going on today.",
-		Period:  "Next Period in 27 Days.",
-		Fertile: "Next Fertile in 8 Days.",
-		PMS:     "Next PMS in 21 Days.",
-	}
-
-	err = t.Execute(os.Stdout, data)
-
-	if err != nil {
-		panic(err)
-	}
-
 	// Spreadsheet Stuff
 	spreadsheetId := "1QdIWv_HQP3Mw8BCuqEknCkD-dqUDP_J7WkDnMZeV0wo"
 	readRange := "Summary!A1:B5"
@@ -134,5 +133,8 @@ func main() {
 			fmt.Printf("%d %s %s\n", row, column[0], column[1])
 		}
 	}
+
+	http.HandleFunc("/", serveStatic)
+	http.ListenAndServe(Port, nil)
 
 }
