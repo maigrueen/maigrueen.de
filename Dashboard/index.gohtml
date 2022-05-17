@@ -39,15 +39,15 @@
     </header>
 
     <div>
-        <h2>Today is day 13 of your cycle. <br />
-            Nothing is going on today.
+        <h2>{{ .Day }} <br />
+            {{ .Note }}
         </h2>
     </div>
 
     <div>
-        <h4>Next Period in <b>28 Days</b> (6/11/2022). <br />
-            Next Fertile in <b>9 Days</b> (5/24/2022). <br />
-            Next PMS in <b>21 Days</b> (6/4/2022).
+        <h4>{{ .Period }} <br />
+            {{ .Fertile }} <br />
+            {{ .PMS }} 
         </h4>
     </div>
 
