@@ -92,7 +92,7 @@ func main() {
 	}
 
 	//to HTML stuff
-	t, err := template.ParseFiles("index.gohtml")
+	t, err := template.ParseFiles("index.html")
 
 	if err != nil {
 		panic(err)
