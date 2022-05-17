@@ -134,6 +134,7 @@ func main() {
 		}
 	}
 
+	//Generate and Serve HTML
 	http.HandleFunc("/", serveStatic)
 	http.ListenAndServe(Port, nil)
 
