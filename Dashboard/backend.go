@@ -11,6 +11,7 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"time"
 
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/google"
@@ -117,12 +118,14 @@ func main() {
 		Period  string
 		Fertile string
 		PMS     string
+		Date    time.Time
 	}{
 		Day:     "Today is day 14 of your cycle.",
 		Note:    "Nothing is going on today.",
 		Period:  "Next Period in 27 Days.",
 		Fertile: "Next Fertile in 8 Days.",
 		PMS:     "Next PMS in 21 Days.",
+		Date:    time.Now(),
 	}
 
 	template := template.Must(template.New("").ParseFiles("index.gohtml"))
@@ -133,7 +136,7 @@ func main() {
 	outputPath := "./index.html"
 	f, _ := os.Create(outputPath)
 	w := bufio.NewWriter(f)
-	w.WriteString(string(processed.Bytes()))
+	w.WriteString(string(processed.String()))
 	w.Flush()
 
 }
