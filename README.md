@@ -22,3 +22,8 @@ Ideas, Concepts and Excercises from:
 ### Period Tracker
 * https://www.reddit.com/r/WitchesVsPatriarchy/comments/uiun31/i_built_a_cycle_tracking_smart_light_ill_explain/
 * http://www.alizaaufrichtig.com/period-tracker
+
+### Dashboard for Period Tracker (displaying on a ebook reader)
+* Using ebook readers: https://www.raspberrypi.com/news/using-e-ink-raspberry-pi/
+* Quickstart with Google Sheets API for Go: https://developers.google.com/sheets/api/quickstart/go
+* Generate a HTML Template with Go: https://betterprogramming.pub/how-to-generate-html-with-golang-templates-5fad0d91252

@@ -18,10 +18,6 @@ import (
 	"google.golang.org/api/sheets/v4"
 )
 
-const (
-	Port = ":8080"
-)
-
 // Retrieve a token, saves the token, then returns the generated client.
 func getClient(config *oauth2.Config) *http.Client {
 	// The file token.json stores the user's access and refresh tokens, and is
