@@ -1,0 +1,57 @@
+<html>
+
+<head>
+
+    <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>Dashboard</title>
+
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="./css/skeleton.css">
+
+    <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="./images/favicon.png">
+
+    <!-- Meta
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta property="og:title" content="Astrids Dashboard" />
+    <meta property="og:url" content="https://dashboard.maigrueen.de" />
+    <meta property="og:type" content="website" />
+
+</head>
+
+<body>
+
+    <header>
+        <img src="./images/logo.png" alt="Logo green leaf in a circle" />
+        <h1>Hello Astrid!</h1>
+    </header>
+
+    <div>
+        <h2>{{ .Day }} <br />
+            {{ .Note }}
+        </h2>
+    </div>
+
+    <div>
+        <h4>{{ .Period }} <br />
+            {{ .Fertile }} <br />
+            {{ .PMS }} 
+        </h4>
+    </div>
+
+
+</body>
+
+</html>

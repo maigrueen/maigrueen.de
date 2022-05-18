@@ -1,6 +1,8 @@
 package main
 
 import (
+	"bufio"
+	"bytes"
 	"context"
 	"encoding/json"
 	"fmt"
@@ -75,28 +77,6 @@ func saveToken(path string, token *oauth2.Token) {
 	json.NewEncoder(f).Encode(token)
 }
 
-//to HTML stuff
-func serveStatic(w http.ResponseWriter, r *http.Request) {
-	t, err := template.ParseFiles("index.html")
-	if err != nil {
-		fmt.Println(err)
-	}
-	items := struct {
-		Day     string
-		Note    string
-		Period  string
-		Fertile string
-		PMS     string
-	}{
-		Day:     "Today is day 14 of your cycle.",
-		Note:    "Nothing is going on today.",
-		Period:  "Next Period in 27 Days.",
-		Fertile: "Next Fertile in 8 Days.",
-		PMS:     "Next PMS in 21 Days.",
-	}
-	t.Execute(w, items)
-}
-
 func main() {
 
 	ctx := context.Background()
@@ -134,8 +114,30 @@ func main() {
 		}
 	}
 
-	//Generate and Serve HTML
-	http.HandleFunc("/test", serveStatic)
-	http.ListenAndServe(Port, nil)
+	//to HTML stuff
+	data := struct {
+		Day     string
+		Note    string
+		Period  string
+		Fertile string
+		PMS     string
+	}{
+		Day:     "Today is day 14 of your cycle.",
+		Note:    "Nothing is going on today.",
+		Period:  "Next Period in 27 Days.",
+		Fertile: "Next Fertile in 8 Days.",
+		PMS:     "Next PMS in 21 Days.",
+	}
+
+	template := template.Must(template.New("").ParseFiles("index.gohtml"))
+
+	var processed bytes.Buffer
+	template.ExecuteTemplate(&processed, "index.gohtml", data)
+
+	outputPath := "./index.html"
+	f, _ := os.Create(outputPath)
+	w := bufio.NewWriter(f)
+	w.WriteString(string(processed.Bytes()))
+	w.Flush()
 
 }
