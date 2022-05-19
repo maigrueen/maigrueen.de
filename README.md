@@ -27,3 +27,6 @@ Ideas, Concepts and Excercises from:
 * Using ebook readers: https://www.raspberrypi.com/news/using-e-ink-raspberry-pi/
 * Quickstart with Google Sheets API for Go: https://developers.google.com/sheets/api/quickstart/go
 * Generate a HTML Template with Go: https://betterprogramming.pub/how-to-generate-html-with-golang-templates-5fad0d91252
+* Build with GitHub Actions: https://medium.com/swlh/setting-up-github-actions-for-go-project-ea84f4ed3a40
+* Build and Install Go Programs: https://www.digitalocean.com/community/tutorials/how-to-build-and-install-go-programs
+* Set env variables GOOS and GOARCH to build for linux: https://stackoverflow.com/questions/20829155/how-to-cross-compile-from-windows-to-linux
