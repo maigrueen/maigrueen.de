@@ -49,11 +49,6 @@ jobs:
       - name: Run build
         working-directory: Dashboard
         run: go build .
-      - name: Run vet & lint
-        working-directory: Dashboard
-        run: |
-          go vet .
-          golint .
 
       - name: FTP Prod Deploy
         # You may pin to the exact commit or the version.
