@@ -42,7 +42,16 @@ jobs:
         uses: actions/setup-go@v3.1.0
         with: 
           go-version-file: './go.mod'
-      - run: go run ./maigrueen/Dashboard/backend.go
+      - name: Install dependencies
+        run: |
+          go version
+          go get -u golang.org/x/lint/golint
+      - name: Run build
+        run: go build .
+      - name: Run vet & lint
+        run: |
+          go vet .
+          golint .
 
       - name: FTP Prod Deploy
         # You may pin to the exact commit or the version.
