@@ -43,11 +43,11 @@ jobs:
         with: 
           go-version-file: './go.mod'
       - name: Install dependencies
-        working-directory: ./maigrueen/Dashboard
         run: |
           go version
           go get -u golang.org/x/lint/golint
       - name: Run build
+        working-directory: ./maigrueen/Dashboard
         run: go build /home/runner/work/maigrueen/maigrueen.de/Dashboard/backend.go
       - name: Run vet & lint
         run: |
