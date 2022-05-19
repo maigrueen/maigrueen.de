@@ -105,38 +105,33 @@ func main() {
 	if len(resp.Values) == 0 {
 		fmt.Println("No data found.")
 	} else {
-		for row, column := range resp.Values {
-			// Print columns A and B, which correspond to indices 0 and 1.
-			fmt.Printf("%d %s %s\n", row, column[0], column[1])
+		data := struct {
+			Day     string
+			Note    string
+			Period  string
+			Fertile string
+			PMS     string
+			Date    time.Time
+		}{
+			Day:     fmt.Sprintf("%s %s", resp.Values[0][0], resp.Values[0][1]),
+			Note:    fmt.Sprintf("%s %s", resp.Values[1][0], resp.Values[1][1]),
+			Period:  fmt.Sprintf("%s %s", resp.Values[2][0], resp.Values[2][1]),
+			Fertile: fmt.Sprintf("%s %s", resp.Values[3][0], resp.Values[3][1]),
+			PMS:     fmt.Sprintf("%s %s", resp.Values[4][0], resp.Values[4][1]),
+			Date:    time.Now(),
 		}
+
+		//to HTML stuff
+		template := template.Must(template.New("").ParseFiles("index.gohtml"))
+
+		var processed bytes.Buffer
+		template.ExecuteTemplate(&processed, "index.gohtml", data)
+
+		outputPath := "./index.html"
+		f, _ := os.Create(outputPath)
+		w := bufio.NewWriter(f)
+		w.WriteString(string(processed.String()))
+		w.Flush()
 	}
-
-	//to HTML stuff
-	data := struct {
-		Day     string
-		Note    string
-		Period  string
-		Fertile string
-		PMS     string
-		Date    time.Time
-	}{
-		Day:     "Today is day 14 of your cycle.",
-		Note:    "Nothing is going on today.",
-		Period:  "Next Period in 27 Days.",
-		Fertile: "Next Fertile in 8 Days.",
-		PMS:     "Next PMS in 21 Days.",
-		Date:    time.Now(),
-	}
-
-	template := template.Must(template.New("").ParseFiles("index.gohtml"))
-
-	var processed bytes.Buffer
-	template.ExecuteTemplate(&processed, "index.gohtml", data)
-
-	outputPath := "./index.html"
-	f, _ := os.Create(outputPath)
-	w := bufio.NewWriter(f)
-	w.WriteString(string(processed.String()))
-	w.Flush()
 
 }
