@@ -47,7 +47,7 @@ jobs:
           go version
           go get -u golang.org/x/lint/golint
       - name: Run build
-        run: go build .
+        run: go build ./Dashboard/backend.go
       - name: Run vet & lint
         run: |
           go vet .
