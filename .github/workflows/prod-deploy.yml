@@ -50,6 +50,7 @@ jobs:
         working-directory: Dashboard
         run: go build .
       - name: Run vet & lint
+        working-directory: Dashboard
         run: |
           go vet .
           golint .
