@@ -48,7 +48,7 @@ jobs:
           go get -u golang.org/x/lint/golint
       - name: Run build
         working-directory: Dashboard
-        run: go build /home/runner/work/maigrueen/maigrueen.de/Dashboard/backend.go
+        run: go build .
       - name: Run vet & lint
         run: |
           go vet .
