@@ -42,7 +42,13 @@ jobs:
         uses: actions/setup-go@v3.1.0
         with: 
           go-version-file: './go.mod'
-      - run: go version
+      - name: Install dependencies
+        run: |
+          go version
+          go get -u golang.org/x/lint/golint
+      - name: Run build
+        working-directory: Dashboard
+        run: go build .
 
       - name: FTP Prod Deploy
         # You may pin to the exact commit or the version.
