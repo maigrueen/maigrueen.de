@@ -23,7 +23,7 @@ jobs:
         with:
           credentials_json: ${{ secrets.GOOGLE_API }}
       
-      - name: Build Node.js for Affirmations App
+      - name: Build Node.js for maigrueen Website
         uses: actions/setup-node@v1
         with:
           node-version: '16.x'
