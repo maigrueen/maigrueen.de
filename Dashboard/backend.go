@@ -8,7 +8,6 @@ import (
 	"html/template"
 	"log"
 	"os"
-	"time"
 
 	"google.golang.org/api/sheets/v4"
 )
@@ -40,14 +39,12 @@ func main() {
 			Period  string
 			Fertile string
 			PMS     string
-			Date    time.Time
 		}{
 			Day:     fmt.Sprintf("%s %s", resp.Values[0][0], resp.Values[0][1]),
 			Note:    fmt.Sprintf("%s %s", resp.Values[1][0], resp.Values[1][1]),
 			Period:  fmt.Sprintf("%s %s", resp.Values[2][0], resp.Values[2][1]),
 			Fertile: fmt.Sprintf("%s %s", resp.Values[3][0], resp.Values[3][1]),
 			PMS:     fmt.Sprintf("%s %s", resp.Values[4][0], resp.Values[4][1]),
-			Date:    time.Now(),
 		}
 
 		//to HTML stuff
