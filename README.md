@@ -32,5 +32,5 @@ Ideas, Concepts and Excercises from:
 * Build and Install Go Programs: https://www.digitalocean.com/community/tutorials/how-to-build-and-install-go-programs
 * Set env variables GOOS and GOARCH to build for linux: https://stackoverflow.com/questions/20829155/how-to-cross-compile-from-windows-to-linux
 * Authenticate to Google Cloud via GitHub Action: https://github.com/marketplace/actions/authenticate-to-google-cloud#authenticating-via-service-account-key-json-1
-* Authenticate for Google APIs in Golang with a Google Service Account: https://stackoverflow.com/questions/58874474/unable-to-access-google-spreadsheets-with-a-service-account-credentials-using-go
-test
+* ( Authenticate for Google APIs in Golang with a Google Service Account: https://stackoverflow.com/questions/58874474/unable-to-access-google-spreadsheets-with-a-service-account-credentials-using-go nit relevant anymore, but maybe I need it for local testing sometime )
+* Reach Google Sheets API (without Authentification, because GitHub Actions do that for us) https://pkg.go.dev/google.golang.org/api@v0.80.0/sheets/v4
