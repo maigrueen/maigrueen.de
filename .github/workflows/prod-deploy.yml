@@ -17,14 +17,13 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       
-      # Authentication for Dashboard App
       - id: 'auth'
-        name: 'Authenticate to Google Cloud'
+        name: 'Authenticate to Google Cloud for Dashboard App'
         uses: 'google-github-actions/auth@v0'
         with:
           credentials_json: ${{ secrets.GOOGLE_API }}
       
-      - name: Build Node.js for Affirmations App
+      - name: Build Node.js for maigrueen Website
         uses: actions/setup-node@v1
         with:
           node-version: '16.x'
