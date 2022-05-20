@@ -1,18 +1,6 @@
 :root {
   --background-color: #FFF;
-  --background-timeline: #E5F3E2;
   --text-color: #222;
-  --link-color: #273582;
-  --link-color-hover: #7e8eeb;
-  --btn-color: #555;
-  --btn-color-border: #bbb;
-  --btn-color-focus: #333;
-  --btn-color-focus-border: #888;
-  --btn-prim-color: #7e8eeb;
-  --btn-prim-color-focus: #1eaedb;
-  --form-color-border: #d1d1d1;
-  --button-active-background: #E5F3E2;
-  --button-active-font: #222;
 
   --element-size: 6.2rem;
 }
@@ -34,7 +22,7 @@ body {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
-  padding: 0 100px;
+  padding: 0 20px;
   box-sizing: border-box;
 }
 
@@ -83,67 +71,6 @@ h6 {
   letter-spacing: 0;
 }
 
-/* Links
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-a {
-  color: var(--link-color);
-}
-a:hover {
-  color: var(--link-color-hover);
-}
-
-/* Buttons
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-.button,
-button {
-  display: inline-block;
-  height: 38px;
-  padding: 0 30px;
-  color: var(--btn-color);
-  text-align: center;
-  font-size: 11px;
-  font-weight: 600;
-  line-height: 38px;
-  letter-spacing: 0.1rem;
-  text-transform: uppercase;
-  text-decoration: none;
-  white-space: nowrap;
-  background-color: transparent;
-  border-radius: 4px;
-  border: 1px solid var(--btn-color-border);
-  cursor: pointer;
-  box-sizing: border-box;
-}
-
-.button:hover,
-button:hover,
-.button:focus,
-button:focus {
-  color: var(--btn-color-focus);
-  border-color: var(--btn-color-focus-border);
-  outline: 0;
-}
-.button.button-primary,
-button.button-primary {
-  color: var(--background-color);
-  background-color: var(--btn-prim-color);
-  border-color: var(--btn-prim-color);
-}
-.button.button-primary:hover,
-button.button-primary:hover,
-.button.button-primary:focus,
-button.button-primary:focus {
-  color: var(--background-color);
-  background-color: var(--btn-prim-color-focus);
-  border-color: var(--btn-prim-color-focus);
-}
-
-.active {
-  background-color: var(--button-active-background);
-  color: var(--button-active-font);
-}
-
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 ul {
@@ -182,24 +109,4 @@ header {
 
 img {
   margin-right: 5em;
-}
-
-.container {
-  display: flex;
-  justify-content: space-between;
-  min-height: 70vh;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: space-around;
-}
-
-.box2 {
-  position: fixed;
-  bottom: 20px;
-}
-
-.bgimg {
-  opacity: 0.9;
-  float: right;
-  width: 50%;
 }
