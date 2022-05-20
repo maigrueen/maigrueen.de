@@ -26,6 +26,7 @@ Ideas, Concepts and Excercises from:
 ### Dashboard for Period Tracker (displaying on a ebook reader)
 * Using ebook readers: https://www.raspberrypi.com/news/using-e-ink-raspberry-pi/
 * Quickstart with Google Sheets API for Go: https://developers.google.com/sheets/api/quickstart/go
+* Consuming a restful API with Go: https://tutorialedge.net/golang/consuming-restful-api-with-go/
 * Generate a HTML Template with Go: https://betterprogramming.pub/how-to-generate-html-with-golang-templates-5fad0d91252
 * Build with GitHub Actions: https://medium.com/swlh/setting-up-github-actions-for-go-project-ea84f4ed3a40
 * Build and Install Go Programs: https://www.digitalocean.com/community/tutorials/how-to-build-and-install-go-programs

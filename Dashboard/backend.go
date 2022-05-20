@@ -3,34 +3,22 @@ package main
 import (
 	"bufio"
 	"bytes"
+	"context"
 	"fmt"
 	"html/template"
 	"log"
 	"os"
 	"time"
 
-	"golang.org/x/oauth2"
-	"golang.org/x/oauth2/jwt"
 	"google.golang.org/api/sheets/v4"
 )
 
 func main() {
 
-	// Create a JWT configurations object for the Google service account
-	conf := &jwt.Config{
-		Email:        "github-deployment@dashboard-350519.iam.gserviceaccount.com",
-		PrivateKey:   []byte("-----BEGIN PRIVATE KEY-----\thisismykey-----END PRIVATE KEY-----\n"),
-		PrivateKeyID: "myid",
-		TokenURL:     "https://oauth2.googleapis.com/token",
-		Scopes: []string{
-			"https://www.googleapis.com/auth/spreadsheets.readonly",
-		},
-	}
+	//Reach API
+	ctx := context.Background()
+	sheetsService, err := sheets.NewService(ctx)
 
-	client := conf.Client(oauth2.NoContext)
-
-	// Create a service object for Google sheets
-	srv, err := sheets.New(client)
 	if err != nil {
 		log.Fatalf("Unable to retrieve Sheets client: %v", err)
 	}
@@ -38,7 +26,7 @@ func main() {
 	// Spreadsheet Stuff
 	spreadsheetId := "1QdIWv_HQP3Mw8BCuqEknCkD-dqUDP_J7WkDnMZeV0wo"
 	readRange := "Summary!A1:B5"
-	resp, err := srv.Spreadsheets.Values.Get(spreadsheetId, readRange).Do()
+	resp, err := sheetsService.Spreadsheets.Values.Get(spreadsheetId, readRange).Do()
 	if err != nil {
 		log.Fatalf("Unable to retrieve data from sheet: %v", err)
 	}
