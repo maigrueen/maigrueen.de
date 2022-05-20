@@ -30,3 +30,5 @@ Ideas, Concepts and Excercises from:
 * Build with GitHub Actions: https://medium.com/swlh/setting-up-github-actions-for-go-project-ea84f4ed3a40
 * Build and Install Go Programs: https://www.digitalocean.com/community/tutorials/how-to-build-and-install-go-programs
 * Set env variables GOOS and GOARCH to build for linux: https://stackoverflow.com/questions/20829155/how-to-cross-compile-from-windows-to-linux
+* Authenticate to Google Cloud via GitHub Action: https://github.com/marketplace/actions/authenticate-to-google-cloud#authenticating-via-service-account-key-json-1
+* Authenticate for Google APIs in Golang with a Google Service Account: https://stackoverflow.com/questions/58874474/unable-to-access-google-spreadsheets-with-a-service-account-credentials-using-go
