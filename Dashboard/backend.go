@@ -40,8 +40,8 @@ func main() {
 			Fertile string
 			PMS     string
 		}{
-			Day:     fmt.Sprintf("%s %s", resp.Values[0][0], resp.Values[0][1]),
-			Note:    fmt.Sprintf("%s %s", resp.Values[1][0], resp.Values[1][1]),
+			Day:     fmt.Sprintf("%s", resp.Values[0][0]),
+			Note:    fmt.Sprintf("%s", resp.Values[1][0]),
 			Period:  fmt.Sprintf("%s %s", resp.Values[2][0], resp.Values[2][1]),
 			Fertile: fmt.Sprintf("%s %s", resp.Values[3][0], resp.Values[3][1]),
 			PMS:     fmt.Sprintf("%s %s", resp.Values[4][0], resp.Values[4][1]),
