@@ -9,7 +9,7 @@ export default {
   },
 };
 
-// Timeline JS - Test Commit
+// Timeline JS
 /* (function () {
   "use strict";
 
@@ -89,7 +89,7 @@ export default {
             href="https://github.com/maigrueen/maigrueen.de/tree/main/PeriodTracker"
             target="_blank"
             >Repository PWA Tracker</a
-          >
+          >,
           <a
             href="https://github.com/maigrueen/maigrueen.de/tree/main/Dashboard"
             target="_blank"
@@ -125,8 +125,11 @@ export default {
       <li v-show="job">
         <div>
           <time>2021 - 2022</time><i class="fal fa-briefcase"></i>
-          <em> IBM iX Berlin GmbH (formerly Aperto GmbH), Process and Quality Manager: </em> Process
-          management incl. optimization, facilitation of workshops for
+          <em>
+            IBM iX Berlin GmbH (formerly Aperto GmbH), Process and Quality
+            Manager:
+          </em>
+          Process management incl. optimization, facilitation of workshops for
           stakeholders, testing for compliance, requirements management,
           development of strategies for the introduction of new processes,
           stakeholder management, administration of Jira & Confluence
@@ -152,7 +155,10 @@ export default {
       <li v-show="cert">
         <div>
           <time>2020</time><i class="fal fa-file-certificate"></i>
-          <em> Next Generation Leadership Programme, IBM iX Berlin GmbH (formerly Aperto GmbH) / yuii: </em>
+          <em>
+            Next Generation Leadership Programme, IBM iX Berlin GmbH (formerly
+            Aperto GmbH) / yuii:
+          </em>
           Personal & People Leadership Skills, Coaching Mindset & Techniques,
           Business Storytelling
         </div>
@@ -200,7 +206,10 @@ export default {
       <li v-show="job">
         <div>
           <time>2017 - 2021</time><i class="fal fa-briefcase"></i>
-          <em> IBM iX Berlin GmbH (formerly Aperto GmbH), Techical Project Manager / Service Manager: </em>
+          <em>
+            IBM iX Berlin GmbH (formerly Aperto GmbH), Techical Project Manager
+            / Service Manager:
+          </em>
           Project management and technical consulting for website projects
           e.g.bmvg.de, baloise.ch, dihk.de, team development of software and
           infrastructure teams, service management, development of internal KPIs
