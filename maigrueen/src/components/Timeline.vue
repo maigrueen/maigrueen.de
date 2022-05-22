@@ -69,38 +69,63 @@ export default {
       Please click on a button to show jobs, projects or education.
     </p>
     <ul>
+      <li v-show="project">
+        <div>
+          <time>2022</time><i class="fal fa-laptop-code"></i>
+          <em>
+            Web Project: Adaption of Period Tracker and Personal Dashboard,
+            Google Sheets, Golang, HTML, CSS:
+          </em>
+          Adapting the
+          <a
+            href="http://www.alizaaufrichtig.com/period-tracker"
+            target="_blank"
+            >Period Tracker from Aliza Aufrichtig</a
+          >
+          and building a small Progressive Web App to make tracking daily as
+          easy as possible. Creation of a Dashboard to show a data summary using
+          the Google Sheets API in the Webbrowser of an ebook Reader.
+          <a
+            href="https://github.com/maigrueen/maigrueen.de/tree/main/PeriodTracker"
+            target="_blank"
+            >Repository PWA Tracker</a
+          >
+          <a
+            href="https://github.com/maigrueen/maigrueen.de/tree/main/Dashboard"
+            target="_blank"
+            >Repository Dashboard</a
+          >
+        </div>
+      </li>
+
       <li v-show="job">
-        <transition>
-          <div>
-            <time>2022 - now</time><i class="fal fa-briefcase"></i>
-            <em> netzkontor nord gmbh, Process Manager: </em>
-            Process management, Process optimization, Process automation,
-            facilitation of workshops for stakeholders, requirements management,
-            IT lifecycle management
-          </div>
-        </transition>
+        <div>
+          <time>2022 - now</time><i class="fal fa-briefcase"></i>
+          <em> netzkontor nord gmbh, Process Manager: </em>
+          Process management, Process optimization, Process automation,
+          facilitation of workshops for stakeholders, requirements management,
+          IT lifecycle management
+        </div>
       </li>
       <li v-show="project">
-        <transition>
-          <div class="example-div">
-            <time>2022</time><i class="fal fa-laptop-code"></i>
-            <em> Web Project: Affirmations App, JavaScript, HTML, CSS: </em>
-            <a href="https://affirmations.maigrueen.de" target="_blank">
-              Progressive Web App that shows randomized Affirmations for daily
-              use</a
-            >,
-            <a
-              href="https://github.com/maigrueen/maigrueen.de/tree/main/Affirmations"
-              target="_blank"
-              >Repository</a
-            >
-          </div>
-        </transition>
+        <div>
+          <time>2022</time><i class="fal fa-laptop-code"></i>
+          <em> Web Project: Affirmations App, JavaScript, HTML, CSS: </em>
+          <a href="https://affirmations.maigrueen.de" target="_blank">
+            Progressive Web App that shows randomized Affirmations for daily
+            use</a
+          >,
+          <a
+            href="https://github.com/maigrueen/maigrueen.de/tree/main/Affirmations"
+            target="_blank"
+            >Repository</a
+          >
+        </div>
       </li>
       <li v-show="job">
         <div>
           <time>2021 - 2022</time><i class="fal fa-briefcase"></i>
-          <em> Aperto GmbH, Process and Quality Manager: </em> Process
+          <em> IBM iX Berlin GmbH (formerly Aperto GmbH), Process and Quality Manager: </em> Process
           management incl. optimization, facilitation of workshops for
           stakeholders, testing for compliance, requirements management,
           development of strategies for the introduction of new processes,
@@ -127,7 +152,7 @@ export default {
       <li v-show="cert">
         <div>
           <time>2020</time><i class="fal fa-file-certificate"></i>
-          <em> Next Generation Leadership Programme, Aperto GmbH / yuii: </em>
+          <em> Next Generation Leadership Programme, IBM iX Berlin GmbH (formerly Aperto GmbH) / yuii: </em>
           Personal & People Leadership Skills, Coaching Mindset & Techniques,
           Business Storytelling
         </div>
@@ -175,7 +200,7 @@ export default {
       <li v-show="job">
         <div>
           <time>2017 - 2021</time><i class="fal fa-briefcase"></i>
-          <em> Aperto GmbH, Techical Project Manager / Service Manager: </em>
+          <em> IBM iX Berlin GmbH (formerly Aperto GmbH), Techical Project Manager / Service Manager: </em>
           Project management and technical consulting for website projects
           e.g.bmvg.de, baloise.ch, dihk.de, team development of software and
           infrastructure teams, service management, development of internal KPIs
