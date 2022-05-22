@@ -22,28 +22,22 @@ jobs:
           filters: |
             maigrueen:
               - 'maigrueen/**'
-            dashboard:
-              - 'Dashboard/**'
       
       - id: 'auth'
         name: 'Authenticate to Google Cloud for Dashboard App'
-        if: steps.filter.outputs.dashboard == 'true'
         uses: 'google-github-actions/auth@v0'
         with:
           credentials_json: ${{ secrets.GOOGLE_API }}
           
       - name: Build Go for Dashboard App
-        if: steps.filter.outputs.dashboard == 'true'
         uses: actions/setup-go@v3.1.0
         with: 
           go-version-file: './go.mod'
       - name: Install dependencies
-        if: steps.filter.outputs.dashboard == 'true'
         run: |
           go version
           go get -u golang.org/x/lint/golint
       - name: Run build
-        if: steps.filter.outputs.dashboard == 'true'
         working-directory: Dashboard
         run: go run .
       
