@@ -1,5 +1,7 @@
 name: CI
 
+# commment on 30.07.2022 because github wants to deacivate my schedule
+
 on:
   push:
     branches: [ main ]
