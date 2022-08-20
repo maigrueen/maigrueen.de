@@ -33,8 +33,11 @@ jobs:
         run: |
           go version
           go get -u golang.org/x/lint/golint
-      - name: Run build
+      - name: Run build for Dashboard
         working-directory: Dashboard
+        run: go run .
+      - name: Run build for API
+        working-directory: AffirmationsAPI
         run: go run .
       
       - name: Build Node.js for maigrueen Website
