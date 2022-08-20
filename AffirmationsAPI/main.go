@@ -24,7 +24,6 @@ type Affirmation struct {
 var Affirmations []Affirmation
 
 func returnAllAffirmations(w http.ResponseWriter, r *http.Request) {
-	fmt.Println("Endpoint Hit: returnAllAffirmations")
 	json.NewEncoder(w).Encode(Affirmations)
 }
 
@@ -63,7 +62,6 @@ func handleRequests() {
 }
 
 func main() {
-	fmt.Println("Rest API v2.0 - Mux Routers")
 	Affirmations = []Affirmation{
 		Affirmation{Id: "1", Content: "Everything I need is within myself."},
 		Affirmation{Id: "2", Content: "I accept myself exactly as I am."},
