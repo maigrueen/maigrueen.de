@@ -52,5 +52,5 @@ jobs:
         with:
           server: www103.your-server.de
           username: maigru
-          password: ${{ FTP_HETZNER }}
+          password: ${{ secrets.FTP_HETZNER }}
           server-dir: /home/www/maigrueen.dev/
