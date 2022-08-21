@@ -54,5 +54,5 @@ jobs:
           username: maigru
           password: ${{ secrets.FTP_HETZNER }}
           server-dir: /home/public_html/maigrueen.dev/
-          protocol: ftps
-          port: 22
+          protocol: ftp
+          port: 21
