@@ -50,9 +50,7 @@ jobs:
       - name: FTP Prod Deploy
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
         with:
-          server: www103.your-server.de
+          server: https://www103.your-server.de
           username: maigru
           password: ${{ secrets.FTP_HETZNER }}
           server-dir: /home/public_html/maigrueen.dev/
-          protocol: ftp
-          port: 21
