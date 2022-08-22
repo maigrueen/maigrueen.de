@@ -35,7 +35,3 @@ Ideas, Concepts and Excercises from:
 * ( Authenticate for Google APIs in Golang with a Google Service Account: https://stackoverflow.com/questions/58874474/unable-to-access-google-spreadsheets-with-a-service-account-credentials-using-go nit relevant anymore, but maybe I need it for local testing sometime )
 * Reach Google Sheets API (without Authentification, because GitHub Actions do that for us) https://pkg.go.dev/google.golang.org/api@v0.80.0/sheets/v4
 * For Local Development set Credentials before running with: set GOOGLE_APPLICATION_CREDENTIALS=Path
-
-### Affirmations API
-* Setup API Endpoints with Golang: https://tutorialedge.net/golang/creating-restful-api-with-golang/
-* Deploy API: https://codesahara.com/blog/how-to-deploy-golang-to-production-step-by-step/
