@@ -54,3 +54,4 @@ jobs:
           username: maigru
           password: ${{ secrets.FTP_HETZNER }}
           server-dir: /home/public_html/maigrueen.dev/
+          git-ftp-args: --insecure
