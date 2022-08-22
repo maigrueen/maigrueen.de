@@ -36,9 +36,6 @@ jobs:
       - name: Run build for Dashboard
         working-directory: Dashboard
         run: go run .
-      - name: Build API
-        working-directory: AffirmationsAPI
-        run: go build .
       
       - name: Build Node.js for maigrueen Website
         uses: actions/setup-node@v1
