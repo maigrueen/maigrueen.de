@@ -58,7 +58,7 @@ func handleRequests() {
 	myRouter.HandleFunc(version+"/affirmation/{id}", returnSingleAffirmation)
 	myRouter.HandleFunc(version+"/random", returnRandomAffirmation)
 
-	log.Fatal(http.ListenAndServe(":1000", myRouter))
+	log.Fatal(http.ListenAndServe(":210120", myRouter))
 }
 
 func main() {
