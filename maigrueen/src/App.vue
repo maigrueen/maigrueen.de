@@ -33,9 +33,9 @@ import Timeline from "./components/Timeline.vue";
 
         I have already been able to prove my proactive and structured way of
         working in several projects since 2009. My greatest strength is
-        organisation: Getting a quick grip on what neets to be done, interfacing
+        organisation: Getting a quick grip on what needs to be done, interfacing
         between different stakeholders to achieve an aligned outcome, and
-        documentating and reporting results: be it within the team, with clients
+        documenting and reporting results: be it within the team, with clients
         and service providers, or even across disciplines, from creation to
         controlling. Of course, I am also used to having several projects on the
         table at the same time.
@@ -44,7 +44,7 @@ import Timeline from "./components/Timeline.vue";
         Because I always have holistic improvement in mind, I have had the
         opportunity to prove myself in organisational development in recent
         years. At my current employer, I was able to initiate and accompany both
-        recognised quick wins and larger process improvements that accompanied
+        recognized quick wins and larger process improvements that accompanied
         the development as an agile organisation.
         <br />
         <br />
