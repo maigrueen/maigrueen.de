@@ -68,7 +68,16 @@ export default {
     <p v-if="!this.job && !this.project && !this.cert">
       Please click on a button to show jobs, projects or education.
     </p>
+    
     <ul>
+    
+      <li v-show="cert">
+        <div>
+          <time>2022</time><i class="fal fa-file-certificate"></i>
+          <em> Change Management Specialist (CMS), Management and Strategy Institute (MSI): </em> Implementing Change in a corporate environment 
+        </div>
+      </li>
+    
       <li v-show="project">
         <div>
           <time>2022</time><i class="fal fa-laptop-code"></i>
@@ -107,6 +116,7 @@ export default {
           IT lifecycle management
         </div>
       </li>
+      
       <li v-show="project">
         <div>
           <time>2022</time><i class="fal fa-laptop-code"></i>
@@ -122,6 +132,7 @@ export default {
           >
         </div>
       </li>
+      
       <li v-show="job">
         <div>
           <time>2021 - 2022</time><i class="fal fa-briefcase"></i>
@@ -135,6 +146,7 @@ export default {
           stakeholder management, administration of Jira & Confluence
         </div>
       </li>
+      
       <li v-show="cert">
         <div>
           <time>2021</time><i class="fal fa-file-certificate"></i>
@@ -143,6 +155,7 @@ export default {
           Fundraising, Branding
         </div>
       </li>
+      
       <li v-show="project">
         <div>
           <time>2021</time><i class="fal fa-laptop-code"></i>
@@ -152,6 +165,7 @@ export default {
           >
         </div>
       </li>
+      
       <li v-show="cert">
         <div>
           <time>2020</time><i class="fal fa-file-certificate"></i>
@@ -163,6 +177,7 @@ export default {
           Business Storytelling
         </div>
       </li>
+      
       <li v-show="cert">
         <div>
           <time>2018</time><i class="fal fa-file-certificate"></i>
@@ -171,6 +186,7 @@ export default {
           Responsibilities, Process Model
         </div>
       </li>
+      
       <li v-show="project">
         <div>
           <time>2018</time><i class="fal fa-laptop-code"></i>
@@ -183,6 +199,7 @@ export default {
           >
         </div>
       </li>
+      
       <li v-show="project">
         <div>
           <time>2018</time><i class="fal fa-laptop-code"></i>
@@ -195,6 +212,7 @@ export default {
           >
         </div>
       </li>
+      
       <li v-show="cert">
         <div>
           <time>2017</time><i class="fal fa-file-certificate"></i>
@@ -203,6 +221,7 @@ export default {
           stakeholders
         </div>
       </li>
+      
       <li v-show="job">
         <div>
           <time>2017 - 2021</time><i class="fal fa-briefcase"></i>
@@ -223,12 +242,14 @@ export default {
           <a href="https://www.bmvg.de/" target="_blank">bmvg.de</a>
         </div>
       </li>
+      
       <li v-show="cert">
         <div>
           <time>2016</time><i class="fal fa-file-certificate"></i>
           <em> Lynda.com: </em> Agile Projectmanagement Foundations
         </div>
       </li>
+      
       <li v-show="cert">
         <div>
           <time>2016</time><i class="fal fa-file-certificate"></i>
@@ -236,12 +257,14 @@ export default {
           CSS, JavaScript
         </div>
       </li>
+      
       <li v-show="cert">
         <div>
           <time>2016</time><i class="fal fa-file-certificate"></i>
           <em> Dierk Söllner Beratung: </em> Scrum Foundation
         </div>
       </li>
+      
       <li v-show="job">
         <div>
           <time>2015 - 2017</time><i class="fal fa-briefcase"></i>
@@ -251,6 +274,7 @@ export default {
           client events (technology & organisation of participant management)
         </div>
       </li>
+      
       <li v-show="job">
         <div>
           <time>2014 - 2015</time><i class="fal fa-briefcase"></i>
@@ -261,6 +285,7 @@ export default {
           marketing, strategy development & market observation
         </div>
       </li>
+      
       <li v-show="job">
         <div>
           <time>2013 - 2014</time><i class="fal fa-briefcase"></i>
@@ -272,6 +297,7 @@ export default {
           promotional materials
         </div>
       </li>
+      
       <li v-show="job">
         <div>
           <time>2011 - 2012</time><i class="fal fa-briefcase"></i>
@@ -283,6 +309,7 @@ export default {
           high-profile events, maintenance of the homepage & social media
         </div>
       </li>
+      
       <li v-show="job">
         <div>
           <time>2010 - 2012</time><i class="fal fa-briefcase"></i>
@@ -297,6 +324,7 @@ export default {
           conferences, maintenance of the international professional network
         </div>
       </li>
+      
       <li v-show="job">
         <div>
           <time>2009 - 2010</time><i class="fal fa-briefcase"></i>
@@ -310,6 +338,7 @@ export default {
           module catalogues, research, revision of study programme schedules
         </div>
       </li>
+      
       <li v-show="cert">
         <div>
           <time>2008 - 2013</time><i class="fal fa-file-certificate"></i>
@@ -318,6 +347,7 @@ export default {
           Mathematics and Computer Science
         </div>
       </li>
+      
       <li v-show="cert">
         <div>
           <time>2007 - 2008</time><i class="fal fa-file-certificate"></i>
@@ -325,6 +355,7 @@ export default {
           cand. Diplom-Ingenieur Environmental Engineering
         </div>
       </li>
+      
       <li v-show="cert">
         <div>
           <time>2004 - 2007</time><i class="fal fa-file-certificate"></i>
@@ -332,6 +363,7 @@ export default {
           engineering
         </div>
       </li>
+      
     </ul>
   </section>
 </template>
