@@ -38,14 +38,14 @@ jobs:
         run: go run .
       
       - name: Build Node.js for maigrueen Website
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3.5.1
         with:
           node-version: '16.x'
       - run: npm install
       - run: npm run build --if-present
 
       - name: FTP Prod Deploy
-        uses: SamKirkland/FTP-Deploy-Action@4.1.0
+        uses: SamKirkland/FTP-Deploy-Action@4.3.2
         with:
           server: server45.webgo24.de
           username: web6
