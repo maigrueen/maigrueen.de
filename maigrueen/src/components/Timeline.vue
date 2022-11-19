@@ -111,9 +111,7 @@ export default {
         <div>
           <time>2022 - now</time><i class="fal fa-briefcase"></i>
           <em> netzkontor nord gmbh, Process Manager: </em>
-          Process management, Process optimization, Process automation,
-          facilitation of workshops for stakeholders, requirements management,
-          IT lifecycle management
+          Creation of internal standards and best practices for Process management, Process analyzation and optimization, facilitation of workshops for stakeholders, requirements management, IT lifecycle management, Rollout management for internal tools, administration of Jira and Confluence, programming in SQL, PHP and JavaScript, administration of JobRouter Process automation Tool
         </div>
       </li>
       
@@ -140,10 +138,7 @@ export default {
             IBM iX Berlin GmbH (formerly Aperto GmbH), Process and Quality
             Manager:
           </em>
-          Process management incl. optimization, facilitation of workshops for
-          stakeholders, testing for compliance, requirements management,
-          development of strategies for the introduction of new processes,
-          stakeholder management, administration of Jira & Confluence
+          Process management incl. optimization with focus on quote to cash process, facilitation of workshops for stakeholders, steering and execution of compliance testings (Business Controls Management), coordination of export regulations, maintenance of ISO 9001 quality management framework, requirements management, development of strategies for the introduction of new processes, stakeholder management, administration of Jira, Jira Service Management & Confluence
         </div>
       </li>
       
@@ -226,15 +221,12 @@ export default {
         <div>
           <time>2017 - 2021</time><i class="fal fa-briefcase"></i>
           <em>
-            IBM iX Berlin GmbH (formerly Aperto GmbH), Techical Project Manager
+            IBM iX Berlin GmbH (formerly Aperto GmbH), Technical Project Manager
             / Service Manager:
           </em>
-          Project management and technical consulting for website projects
-          e.g.bmvg.de, baloise.ch, dihk.de, team development of software and
-          infrastructure teams, service management, development of internal KPIs
-          for serviceteams, administration of Jira & Confluence
+          Project management, controlling and technical consulting for digital projects e.g dihk.de, idw.de, bvg.de, team development of software and infrastructure teams, agile service management, Partner management of Hosting Providers, Pre-Sales support with focus on IT Services, development of internal KPIs for serviceteams, administration of Jira, Jira Service Management & Confluence
           <br />
-          Projects:
+          Selection of Projects:
           <a href="https://www.bvg.de/" target="_blank">bvg.de</a>,
           <a href="https://www.idw.de/" target="_blank">idw.de</a>,
           <a href="https://www.dihk.de/" target="_blank">dihk.de</a>,
