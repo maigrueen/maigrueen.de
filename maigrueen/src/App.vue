@@ -13,13 +13,13 @@ import Timeline from "./components/Timeline.vue";
     <main>
       <h1>Moin!</h1>
       <p>
-        My name is Astrid, I'm living in Schleswig-Holstein and working as a
+        My name is Astrid, I'm living in Lower Saxony in Germany and I'm working as a
         Project, Process and Quality Manager. You can find out more about me
         below.
         <br />
 
         tl;dr: I make my environment a little bit better every day - and I want
-        my colleagues to find it easy to make their own environment a little bit
+        people around me to find it easy to make their own environment a little bit
         better every day.
         <br />
         <br />
