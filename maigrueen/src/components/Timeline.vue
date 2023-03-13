@@ -70,6 +70,27 @@ export default {
     </p>
     
     <ul>
+          <li v-show="cert">
+        <div>
+          <time>2023</time><i class="fal fa-file-certificate"></i>
+          <em> Certified Jira Administrator for Cloud, Atlassian: </em> Manage, customize, and configures Jira from within the Jira user interface, while ensuring the performance, scalability and day-to-day manageability of the product. 
+        </div>
+      </li>
+      
+            <li v-show="cert">
+        <div>
+          <time>2023</time><i class="fal fa-file-certificate"></i>
+          <em> Certified in Managing Jira Projects for Cloud, Atlassian: </em> Configure and automate Jira Software for team- and company-managed Scrum and Kanban projects 
+        </div>
+      </li>
+      
+      <li v-show="job">
+        <div>
+          <time>2023 - now</time><i class="fal fa-briefcase"></i>
+          <em> brainbits GmbH, Atlassian Consultant: </em>
+          Consulting, conception and implementation of Projects with Atlassian Tooling
+        </div>
+      </li>
     
       <li v-show="cert">
         <div>
@@ -109,7 +130,7 @@ export default {
 
       <li v-show="job">
         <div>
-          <time>2022 - now</time><i class="fal fa-briefcase"></i>
+          <time>2022 - 2022</time><i class="fal fa-briefcase"></i>
           <em> netzkontor nord gmbh, Process Manager: </em>
           Creation of internal standards and best practices for Process management, Process analyzation and optimization, facilitation of workshops for stakeholders, requirements management, IT lifecycle management, Rollout management for internal tools, administration of Jira and Confluence, programming in SQL, PHP and JavaScript, administration of JobRouter Process automation Tool
         </div>
