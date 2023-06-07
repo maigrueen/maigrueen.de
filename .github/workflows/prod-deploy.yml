@@ -25,7 +25,7 @@ jobs:
       - run: npm run build --if-present
 
       - name: FTP Prod Deploy
-        uses: SamKirkland/FTP-Deploy-Action@4.3.2
+        uses: SamKirkland/FTP-Deploy-Action@4.3.4
         with:
           server: server45.webgo24.de
           username: web6
