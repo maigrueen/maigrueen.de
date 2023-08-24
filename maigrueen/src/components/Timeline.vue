@@ -73,7 +73,7 @@ export default {
     <li v-show="cert">
         <div>
           <time>2023</time><i class="fal fa-file-certificate"></i>
-          <em> Cloud Organization Admin Certification, Atlassian: </em> Administrate Atlassian CLoud products across multiple cloud sites. 
+          <em> Cloud Organization Admin Certification, Atlassian: </em> Administrate Atlassian Cloud products across multiple cloud sites. 
         </div>
       </li>
 
