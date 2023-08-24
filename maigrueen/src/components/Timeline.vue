@@ -80,7 +80,7 @@ export default {
       <li v-show="cert">
         <div>
           <time>2023</time><i class="fal fa-file-certificate"></i>
-          <em> Certified Jira Service Project Manager, Atlassian: </em> Manage, customize, and configures Jira Service Management. 
+          <em> Certified Jira Service Project Manager, Atlassian: </em> Manage, customize, and configure Jira Service Management. 
         </div>
       </li>
 
@@ -88,7 +88,7 @@ export default {
           <li v-show="cert">
         <div>
           <time>2023</time><i class="fal fa-file-certificate"></i>
-          <em> Certified Jira Administrator for Cloud, Atlassian: </em> Manage, customize, and configures Jira from within the Jira user interface, while ensuring the performance, scalability and day-to-day manageability of the product. 
+          <em> Certified Jira Administrator for Cloud, Atlassian: </em> Manage, customize, and configure Jira from within the Jira user interface, while ensuring the performance, scalability and day-to-day manageability of the product. 
         </div>
       </li>
 
