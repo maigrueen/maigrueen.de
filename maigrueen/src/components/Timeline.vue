@@ -70,6 +70,21 @@ export default {
     </p>
     
     <ul>
+    <li v-show="cert">
+        <div>
+          <time>2023</time><i class="fal fa-file-certificate"></i>
+          <em> Cloud Organization Admin Certification, Atlassian: </em> Administrate Atlassian CLoud products across multiple cloud sites. 
+        </div>
+      </li>
+
+      <li v-show="cert">
+        <div>
+          <time>2023</time><i class="fal fa-file-certificate"></i>
+          <em> Certified Jira Service Project Manager, Atlassian: </em> Manage, customize, and configures Jira Service Management. 
+        </div>
+      </li>
+
+      
           <li v-show="cert">
         <div>
           <time>2023</time><i class="fal fa-file-certificate"></i>
