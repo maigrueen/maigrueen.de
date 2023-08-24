@@ -91,6 +91,13 @@ export default {
           <em> Certified Jira Administrator for Cloud, Atlassian: </em> Manage, customize, and configures Jira from within the Jira user interface, while ensuring the performance, scalability and day-to-day manageability of the product. 
         </div>
       </li>
+
+          <li v-show="cert">
+        <div>
+          <time>2023</time><i class="fal fa-file-certificate"></i>
+          <em> ITIL 4 Foundation Certificate in IT Service Management, PeopleCert </em> End-to-end operating model for the creation, delivery and continual improvement of technology-enabled products and services. 
+        </div>
+      </li>
       
             <li v-show="cert">
         <div>
