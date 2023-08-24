@@ -95,7 +95,7 @@ export default {
           <li v-show="cert">
         <div>
           <time>2023</time><i class="fal fa-file-certificate"></i>
-          <em> ITIL 4 Foundation Certificate in IT Service Management, PeopleCert </em> End-to-end operating model for the creation, delivery and continual improvement of technology-enabled products and services. 
+          <em> ITIL 4 Foundation Certificate in IT Service Management, PeopleCert: </em> End-to-end operating model for the creation, delivery and continual improvement of technology-enabled products and services. 
         </div>
       </li>
       
