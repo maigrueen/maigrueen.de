@@ -23,7 +23,7 @@ func main() {
 	}
 
 	// Spreadsheet Stuff
-	spreadsheetId := "1QdIWv_HQP3Mw8BCuqEknCkD-dqUDP_J7WkDnMZeV0wo"
+	spreadsheetId := "1cr0Id2OYiZOBZAr9GCiP6RTCPe722SU6mmpTb_Bg7Wc"
 	readRange := "Summary!A1:B5"
 	resp, err := sheetsService.Spreadsheets.Values.Get(spreadsheetId, readRange).Do()
 	if err != nil {
