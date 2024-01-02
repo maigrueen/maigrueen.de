@@ -4,7 +4,7 @@ on:
   push:
     branches: [ main ]
   schedule:
-    - cron: '0 1 * * *'  # every night at 1 (UTC)
+    - cron: '0 1 * * *'  # every night at 1 (UTC) - bla comment because github disables everything after 60 days
 
 jobs:
   build:
