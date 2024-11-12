@@ -1,6 +1,6 @@
 {
-    "name": "PeriodTracker",
-    "short_name": "PeriodTracker",
+    "name": "DogTracker",
+    "short_name": "DogTracker",
     "start_url": "./index.html",
     "display": "standalone",
     "background_color": "#F4F4F4",
