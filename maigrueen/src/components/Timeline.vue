@@ -70,6 +70,14 @@ export default {
     </p>
     
     <ul>
+      <li v-show="job">
+        <div>
+          <time>2024 - now</time><i class="fal fa-briefcase"></i>
+          <em> Eficode Germany GmbH, Senior Atlassian Consultant: </em>
+          Process consulting and optimization, ITSM consulting, Atlassian Expert with focus on Jira Software and Jira Service Management, Creation and implementation of workshops and requirements gathering, system configuration and system administration for Jira and Confluence.
+        </div>
+      </li>
+
     <li v-show="cert">
         <div>
           <time>2023</time><i class="fal fa-file-certificate"></i>
@@ -108,7 +116,7 @@ export default {
       
       <li v-show="job">
         <div>
-          <time>2023 - now</time><i class="fal fa-briefcase"></i>
+          <time>2023 - 2023</time><i class="fal fa-briefcase"></i>
           <em> brainbits GmbH, Atlassian Consultant: </em>
           Consulting, conception and implementation of Projects with Atlassian Tooling
         </div>
