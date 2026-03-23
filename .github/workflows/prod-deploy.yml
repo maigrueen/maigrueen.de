@@ -41,7 +41,7 @@ jobs:
 #        run: go run .
 
       - name: FTP Prod Deploy
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.6
         with:
           server: server45.webgo24.de
           username: web6
