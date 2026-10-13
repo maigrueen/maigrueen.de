@@ -13,8 +13,8 @@ import Timeline from "./components/Timeline.vue";
     <main>
       <h1>Moin!</h1>
       <p>
-        My name is Astrid, I'm living in Lower Saxony in Germany and I'm working as a
-        Project, Process and Quality Manager, currently with a focus on Atlassian Tools. You can find out more about me
+        My name is Astrid, I'm living in Schleswig-Holstein in Germany and I'm working as a
+        Project, Process and Knowledge  Manager, currently with a focus on Atlassian Tools. You can find out more about me
         below.
         <br />
 
