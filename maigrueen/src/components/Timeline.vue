@@ -72,7 +72,15 @@ export default {
     <ul>
       <li v-show="job">
         <div>
-          <time>2024 - now</time><i class="fal fa-briefcase"></i>
+          <time>2026 - now</time><i class="fal fa-briefcase"></i>
+          <em> Demicon GmbH, Senior Business Consultant: </em>
+          Process consulting and optimization, ITSM consulting, Atlassian Expert with focus on Jira Service Management, Creation and implementation of workshops and requirements gathering, system configuration and system administration for Jira and Confluence.
+        </div>
+      </li>
+      
+      <li v-show="job">
+        <div>
+          <time>2024 - 2026</time><i class="fal fa-briefcase"></i>
           <em> Eficode Germany GmbH, Senior Atlassian Consultant: </em>
           Process consulting and optimization, ITSM consulting, Atlassian Expert with focus on Jira Software and Jira Service Management, Creation and implementation of workshops and requirements gathering, system configuration and system administration for Jira and Confluence.
         </div>
