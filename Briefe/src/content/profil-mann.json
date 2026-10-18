@@ -1,40 +1,196 @@
 {
   "name": "Friedrich (Fritz) Böttcher",
   "lebensdaten": "* 5. August 1905 in Hagen-Kabel · vermisst seit Juni 1944, vermutlich gestorben Juni/Juli 1944 in sowjetischer Gefangenschaft",
-  "foto": "",
-  "text": "Friedrich „Fritz“ Böttcher wurde am 5. August 1905 in Hagen-Kabel in Westfalen geboren, als Sohn des Schuhmachers Karl Böttcher und seiner Frau Katharina Luise, geb. Schäfer. Nach der Volksschule besuchte er das Lehrerseminar in Herdecke und arbeitete ab 1924 als Volksschullehrer. Als er 1937 die ersten erhaltenen Briefe an Erna schrieb, lebte er in Riede im Kreis Wolfhagen.\n\nAm 29. September 1938 heiratete er Erna Steinmetz in Lohne bei Fritzlar. Am 3. März 1941 wurde er zum Militär eingezogen. Zuletzt gehörte er als Unteroffizier zum Füsilier-Bataillon der 6. Luftwaffen-Feld-Division. Ab Januar 1944 war er in Weißrussland eingesetzt.\n\nSein letzter erhaltener Brief stammt vom 20. Juni 1944. Zwei Tage später begann die sowjetische Großoffensive, bei der seine Division eingeschlossen wurde. Fritz blieb vermisst. Ein Gutachten des DRK-Suchdienstes von 1972 kommt zu dem Schluss, dass er mit hoher Wahrscheinlichkeit Ende Juni oder Anfang Juli 1944 in Gefangenschaft geriet und kurz danach starb. Ort und Datum seines Todes sind nicht bekannt.",
+  "foto": "Fritz-Pilsen.jpg",
+  "fotoText": "Fritz Böttcher in Pilsen",
+  "text": "Friedrich „Fritz“ Böttcher wurde am 5. August 1905 in Hagen-Kabel in Westfalen geboren, als Sohn des Schuhmachers Karl Böttcher und seiner Frau Katharina Luise, geb. Schäfer. Nach der Volksschule besuchte er das Lehrerseminar in Herdecke und arbeitete ab 1924 als Volksschullehrer. Als er 1937 die ersten erhaltenen Briefe an Erna schrieb, lebte er in Riede im Kreis Wolfhagen.\n\nAm 29. September 1938 heiratete er Erna Steinmetz in Lohne bei Fritzlar. Am 3. März 1941 wurde er zum Militär eingezogen. Zuletzt gehörte er als Unteroffizier (befördert am 1. Dezember 1943) zum Füsilier-Bataillon der 6. Luftwaffen-Feld-Division. Ab Januar 1944 war er in Weißrussland eingesetzt.\n\nSein letzter erhaltener Brief stammt vom 20. Juni 1944. Zwei Tage später begann die sowjetische Großoffensive, die die deutsche Front in Weißrussland zusammenbrechen ließ. Nach dem Bericht eines Kameraden brach seine Einheit am 26. Juni von Witebsk auf. Fritz blieb vermisst. Der Kamerad schrieb Erna später, er habe in Gefangenschaft gehört, dass auch Fritz gefangen genommen wurde. Ein Gutachten des DRK-Suchdienstes von 1972 kommt zu dem Schluss, dass er mit hoher Wahrscheinlichkeit Ende Juni oder Anfang Juli 1944 in Gefangenschaft geriet und kurz danach starb. Ort und Datum seines Todes sind nicht bekannt.",
   "lebenslauf": [
-    { "zeit": "1905", "titel": "Geburt", "text": "am 5. August in Hagen-Kabel (Westfalen), als Sohn des Schuhmachers Karl Böttcher und Katharina Luise, geb. Schäfer" },
-    { "zeit": "1911 – 1919", "titel": "Volksschule", "text": "in Hagen-Kabel" },
-    { "zeit": "1919 – 1924", "titel": "Lehrerseminar", "text": "Ausbildung zum Volksschullehrer in Herdecke" },
-    { "zeit": "1924", "titel": "Lehrer", "text": "Beginn seiner Tätigkeit als Volksschullehrer" },
-    { "zeit": "1937", "titel": "Riede (Kreis Wolfhagen)", "text": "Von hier schreibt er im Herbst 1937 die frühesten erhaltenen Briefe an Erna. Im Ahnenpass ist Riede als sein Ort eingetragen" },
-    { "zeit": "3. April 1938", "titel": "Verlobung", "text": "mit Erna Steinmetz" },
-    { "zeit": "29. September 1938", "titel": "Hochzeit", "text": "mit Ida Elisabeth Erna Steinmetz in Lohne bei Fritzlar (Fritz ist 33, Erna 31)" },
-    { "zeit": "3. März 1941", "titel": "Einberufung", "text": "zum Militär" },
-    { "zeit": "1943", "titel": "Pilsen", "text": "Seine Einheit liegt in Pilsen (Böhmen) im Realgymnasium. Heimaturlaub vom 7. bis 13. Dezember 1943" },
-    { "zeit": "18. – 27. Januar 1944", "titel": "Verlegung nach Osten", "text": "Abmarsch aus Pilsen am 18. Januar, am 25. Januar in Minsk, am 27. Januar in Witebsk" },
-    { "zeit": "8. Februar 1944", "titel": "Feldersatz-Bataillon 6 (L)", "text": "Feldpostnummer 58937 A, ab 27. Mai 1944 58937 B (1. Kompanie)" },
-    { "zeit": "5. Juni 1944", "titel": "Füsilier-Bataillon 6 (L)", "text": "Feldpostnummer 58787 A. Das Bataillon gehört zur 6. Luftwaffen-Feld-Division, Fritz ist Unteroffizier" },
-    { "zeit": "20. Juni 1944", "titel": "Letzter Brief", "text": "der letzte erhaltene Brief an Erna" },
-    { "zeit": "22. Juni 1944", "titel": "Sowjetische Großoffensive", "text": "Beginn des Angriffs der Roten Armee in Weißrussland. Laut DRK-Gutachten muss seine Division zurückgehen und wird bei Wolma, südöstlich von Minsk, eingeschlossen" },
-    { "zeit": "Juni/Juli 1944", "titel": "Vermisst, vermutlich gestorben", "text": "Nach dem Gutachten des DRK-Suchdienstes (1972) geriet er mit hoher Wahrscheinlichkeit in sowjetische Gefangenschaft und starb kurz danach in einem Sammellager, auf dem Transport oder in einem Arbeitslager. Ort und Datum sind nicht bekannt" }
+    {
+      "zeit": "1905",
+      "titel": "Geburt",
+      "text": "am 5. August in Hagen-Kabel (Westfalen), als Sohn des Schuhmachers Karl Böttcher und Katharina Luise, geb. Schäfer"
+    },
+    {
+      "zeit": "1911 – 1919",
+      "titel": "Volksschule",
+      "text": "in Hagen-Kabel"
+    },
+    {
+      "zeit": "1919 – 1924",
+      "titel": "Lehrerseminar",
+      "text": "Ausbildung zum Volksschullehrer in Herdecke"
+    },
+    {
+      "zeit": "1924",
+      "titel": "Lehrer",
+      "text": "Beginn seiner Tätigkeit als Volksschullehrer"
+    },
+    {
+      "zeit": "1937",
+      "titel": "Riede (Kreis Wolfhagen)",
+      "text": "Von hier schreibt er im Herbst 1937 die frühesten erhaltenen Briefe an Erna. Im Ahnenpass ist Riede als sein Ort eingetragen"
+    },
+    {
+      "zeit": "3. April 1938",
+      "titel": "Verlobung",
+      "text": "mit Erna Steinmetz"
+    },
+    {
+      "zeit": "29. September 1938",
+      "titel": "Hochzeit",
+      "text": "mit Ida Elisabeth Erna Steinmetz in Lohne bei Fritzlar (Fritz ist 33, Erna 31)"
+    },
+    {
+      "zeit": "3. März 1941",
+      "titel": "Einberufung",
+      "text": "zum Militär"
+    },
+    {
+      "zeit": "1943",
+      "titel": "Pilsen",
+      "text": "Seine Einheit liegt in Pilsen (Böhmen) im Realgymnasium. Heimaturlaub vom 7. bis 13. Dezember 1943"
+    },
+    {
+      "zeit": "1. Dezember 1943",
+      "titel": "Beförderung zum Unteroffizier",
+      "text": "Zu Weihnachten 1943 schickt er Erna eine handgeschriebene Karte „Es lebe unser Unteroffizier!!!“ („Kriegsweihnacht 1943“) und einen Zettel „aus dem Tannenzweig“: Er sei ab dem 1. Dezember 1943 zum Unteroffizier befördert, und er habe sich sehr gefreut"
+    },
+    {
+      "zeit": "18. – 27. Januar 1944",
+      "titel": "Verlegung nach Osten",
+      "text": "Abmarsch aus Pilsen am 18. Januar, am 25. Januar in Minsk, am 27. Januar in Witebsk"
+    },
+    {
+      "zeit": "8. Februar 1944",
+      "titel": "Feldersatz-Bataillon 6 (L)",
+      "text": "Feldpostnummer 58937 A, ab 27. Mai 1944 58937 B (1. Kompanie)"
+    },
+    {
+      "zeit": "5. Juni 1944",
+      "titel": "Füsilier-Bataillon 6 (L)",
+      "text": "Feldpostnummer 58787 A. Das Bataillon gehört zur 6. Luftwaffen-Feld-Division, Fritz ist Unteroffizier (seit 1. Dezember 1943)"
+    },
+    {
+      "zeit": "20. Juni 1944",
+      "titel": "Letzter Brief",
+      "text": "der letzte erhaltene Brief an Erna"
+    },
+    {
+      "zeit": "22. Juni 1944",
+      "titel": "Sowjetische Großoffensive",
+      "text": "Beginn des Angriffs der Roten Armee in Weißrussland. Laut DRK-Gutachten muss die 6. Luftwaffen-Feld-Division, die im Raum Orscha (75 km südlich von Witebsk) eingesetzt ist, nach Südwesten zurückgehen und wird bei Wolma, südöstlich von Minsk, eingeschlossen"
+    },
+    {
+      "zeit": "26. Juni 1944",
+      "titel": "Aufbruch von Witebsk",
+      "text": "Nach dem Bericht eines Kameraden (Peter Winkler, Brief an Erna, vermutlich 1945) bricht die Einheit an diesem Tag von Witebsk auf, und die Männer verlieren sich am Abend aus den Augen"
+    },
+    {
+      "zeit": "Juni/Juli 1944",
+      "titel": "Vermisst, vermutlich gestorben",
+      "text": "Winkler gerät am 9. Juli 1944 in Gefangenschaft und hört dort, dass auch Fritz und zwei weitere Kameraden gefangen genommen wurden. Nach dem Gutachten des DRK-Suchdienstes (1972) starb Fritz mit hoher Wahrscheinlichkeit kurz nach der Gefangennahme in einem Sammellager, auf dem Transport oder in einem Arbeitslager. Ort und Datum sind nicht bekannt"
+    }
   ],
   "familie": [
-    { "name": "Karl Johann Ludwig Christian Böttcher", "beziehung": "Vater", "jahre": "1867 – 1926" },
-    { "name": "Katharina Luise Böttcher, geb. Schäfer", "beziehung": "Mutter", "jahre": "geboren 1867" },
-    { "name": "Erna Böttcher, geb. Steinmetz", "beziehung": "Ehefrau", "jahre": "1907 – 1990", "link": "/frau" }
+    {
+      "name": "Karl Johann Ludwig Christian Böttcher",
+      "beziehung": "Vater",
+      "jahre": "1867 – 1926"
+    },
+    {
+      "name": "Katharina Luise Böttcher, geb. Schäfer",
+      "beziehung": "Mutter",
+      "jahre": "geboren 1867"
+    },
+    {
+      "name": "Erna Böttcher, geb. Steinmetz",
+      "beziehung": "Ehefrau",
+      "jahre": "1907 – 1990",
+      "link": "/frau"
+    }
   ],
   "dokumente": [
     {
+      "titel": "Weihnachten 1943",
+      "bilder": [
+        {
+          "datei": "19431224-Fritz.jpg",
+          "text": "Kriegsweihnacht 1943: „Es lebe unser Unteroffizier!!!“"
+        },
+        {
+          "datei": "19431224-Fritz-02.jpg",
+          "text": "Zettel von Fritz an Erna: ab 1.12.43 zum Unteroffizier befördert"
+        }
+      ]
+    },
+    {
       "titel": "Die Suche nach Fritz",
       "bilder": [
-        { "datei": "19441220-Suchantrag-Armee-Fritz.jpg", "text": "20.12.1944: Oberkommando des Heeres an Erna Böttcher, Verbleib unbekannt" },
-        { "datei": "19550119-Suchantrag-Rotes-Kreuz-Fritz.jpg", "text": "19.01.1955: Deutsches Rotes Kreuz, Fritzlar" },
-        { "datei": "19720131-Suchantrag-Rotes-Kreuz-Fritz.jpg", "text": "31.01.1972: DRK-Suchdienst München, Anschreiben" },
-        { "datei": "19720131-Suchantrag-Rotes-Kreuz-Fritz-02.jpg", "text": "31.01.1972: Gutachten, Blatt 1" },
-        { "datei": "19720131-Suchantrag-Rotes-Kreuz-Fritz-03.jpg", "text": "31.01.1972: Gutachten, Blatt 2" },
-        { "datei": "Fritz-Rahmendaten-Armee.jpg", "text": "Handschriftliche Notiz zu den Eckdaten 1938 bis 1944" }
+        {
+          "datei": "19441220-Suchantrag-Armee-Fritz.jpg",
+          "text": "20.12.1944: Oberkommando des Heeres an Erna Böttcher, Verbleib unbekannt"
+        },
+        {
+          "datei": "19550119-Suchantrag-Rotes-Kreuz-Fritz.jpg",
+          "text": "19.01.1955: Deutsches Rotes Kreuz, Fritzlar"
+        },
+        {
+          "datei": "19720131-Suchantrag-Rotes-Kreuz-Fritz.jpg",
+          "text": "31.01.1972: DRK-Suchdienst München, Anschreiben"
+        },
+        {
+          "datei": "19720131-Suchantrag-Rotes-Kreuz-Fritz-02.jpg",
+          "text": "31.01.1972: Gutachten, Blatt 1"
+        },
+        {
+          "datei": "19720131-Suchantrag-Rotes-Kreuz-Fritz-03.jpg",
+          "text": "31.01.1972: Gutachten, Blatt 2"
+        },
+        {
+          "datei": "Fritz-Rahmendaten-Armee.jpg",
+          "text": "Handschriftliche Notiz zu den Eckdaten 1938 bis 1944"
+        }
+      ]
+    },
+    {
+      "titel": "Ahnenpass",
+      "bilder": [
+        {
+          "datei": "Ahnenpass-Fritz.jpg",
+          "text": "Titelseite"
+        },
+        {
+          "datei": "Ahnenpass-Fritz-02.jpg",
+          "text": "Ahnentafel"
+        },
+        {
+          "datei": "Ahnenpass-Fritz-03.jpg",
+          "text": "Friedrich Böttcher und seine Eltern (S. 8–9)"
+        },
+        {
+          "datei": "Ahnenpass-Fritz-04.jpg",
+          "text": "Großeltern (S. 10–11)"
+        },
+        {
+          "datei": "Ahnenpass-Fritz-05.jpg",
+          "text": "Urgroßeltern väterlicherseits (S. 12–13)"
+        },
+        {
+          "datei": "Ahnenpass-Fritz-06.jpg",
+          "text": "Urgroßeltern mütterlicherseits (S. 14–15)"
+        },
+        {
+          "datei": "Ahnenpass-Fritz-07.jpg",
+          "text": "Ur-Urgroßeltern väterlicherseits (S. 16–17)"
+        },
+        {
+          "datei": "Ahnenpass-Fritz-08.jpg",
+          "text": "Ur-Ur-Urgroßeltern (S. 24–25)"
+        },
+        {
+          "datei": "Ahnenpass-Fritz-09.jpg",
+          "text": "Ergänzungen (S. 40–41)"
+        }
       ]
     }
   ]
