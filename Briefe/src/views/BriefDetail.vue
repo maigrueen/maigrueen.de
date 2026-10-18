@@ -1,6 +1,6 @@
 <script setup>
 import { computed } from "vue";
-import { briefe, bildUrl, datumDe } from "../briefe";
+import { briefe, bildUrl, datumDe, metaZeile } from "../briefe";
 
 const props = defineProps({ id: String });
 const i = computed(() => briefe.findIndex((b) => b.id === props.id));
@@ -13,7 +13,7 @@ const weiter = computed(() => briefe[i.value + 1]);
   <p v-if="!brief">Brief nicht gefunden. <router-link to="/">Zur Übersicht</router-link></p>
   <article v-else>
     <h1>{{ datumDe(brief.datum) }}</h1>
-    <p v-if="brief.ort" class="meta">Geschrieben in {{ brief.ort }}</p>
+    <p v-if="brief.titel || metaZeile(brief)" class="meta">{{ [brief.titel, metaZeile(brief)].filter(Boolean).join(" · ") }}</p>
 
     <div class="bilder">
       <a v-for="b in brief.bilder" :key="b" :href="bildUrl(b)" target="_blank">

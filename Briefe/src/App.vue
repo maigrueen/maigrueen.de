@@ -10,9 +10,9 @@ import ThemeToggle from "./components/ThemeToggle.vue";
     </header>
     <nav>
       <router-link to="/">Briefe</router-link>
-      <router-link to="/mann">Der Mann</router-link>
-      <router-link to="/frau">Die Frau</router-link>
-      <router-link to="/karte">Karte</router-link>
+      <router-link to="/mann">Fritz</router-link>
+      <router-link to="/frau">Erna</router-link>
+      <!-- <router-link to="/karte">Karte</router-link> -->
     </nav>
     <main><router-view /></main>
   </div>
