@@ -1,8 +1,86 @@
 {
-  "name": "Name der Frau",
-  "lebensdaten": "geboren 1918 in …, gestorben 19…",
-  "text": "Kurze Beschreibung.",
+  "name": "Erna Böttcher, geb. Steinmetz",
+  "lebensdaten": "* 10. Juli 1907 in Kirchberg (Niedenstein) · † 28. Mai 1990 in Riedstadt",
+  "foto": "",
+  "text": "Ida Elisabeth Erna Steinmetz wurde am 10. Juli 1907 in Kirchberg bei Niedenstein geboren. Sie wuchs mit mehreren Geschwistern auf.\n\nAm 29. September 1938 heiratete sie in Lohne bei Fritzlar Friedrich Böttcher. Die Briefe, die er ihr zwischen 1937 und 1944 schrieb, sind auf dieser Seite zu lesen. Im Juni 1944 wurde er in Weißrussland vermisst. Erna suchte über Jahrzehnte nach Gewissheit: 1944 fragte sie beim Oberkommando des Heeres nach, 1955 und 1972 wandte sie sich an das Deutsche Rote Kreuz. Sie lebte in dieser Zeit in Fritzlar.\n\nErna überlebte ihren Mann um 46 Jahre. Sie starb am 28. Mai 1990 in Riedstadt im Alter von 82 Jahren.",
   "lebenslauf": [
-    { "zeit": "1918", "titel": "Geburt", "text": "in …" }
+    {
+      "zeit": "1907",
+      "titel": "Geburt",
+      "text": "am 10. Juli in Kirchberg, Niedenstein, als Tochter von Johannes Steinmetz und Anna Elise Auguste Hedwig, geb. Gonnermann"
+    },
+    {
+      "zeit": "3. April 1938",
+      "titel": "Verlobung",
+      "text": "mit Friedrich Böttcher"
+    },
+    {
+      "zeit": "29. September 1938",
+      "titel": "Hochzeit",
+      "text": "in Lohne bei Fritzlar mit Friedrich Böttcher"
+    },
+    {
+      "zeit": "Juni 1944",
+      "titel": "Ehemann vermisst",
+      "text": "Friedrich Böttcher wird in Weißrussland vermisst"
+    },
+    {
+      "zeit": "2. November 1944",
+      "titel": "Anfrage beim Heer",
+      "text": "Erna fragt beim Oberkommando des Heeres nach seinem Verbleib. Die Antwort vom 20. Dezember 1944: Die Personalunterlagen der Einheit sind verloren, sein Verbleib ist unbekannt"
+    },
+    {
+      "zeit": "19. Januar 1955",
+      "titel": "Registrierung beim Roten Kreuz",
+      "text": "Das DRK in Fritzlar bestätigt die Registrierung ihres Mannes in der Vermissten- und Kriegsgefangenen-Registrierung des Kreisnachforschungsdienstes"
+    },
+    {
+      "zeit": "31. Januar 1972",
+      "titel": "Gutachten des DRK-Suchdienstes",
+      "text": "Der Suchdienst München teilt ihr das Ergebnis seiner Nachforschungen mit: Fritz ist mit hoher Wahrscheinlichkeit kurz nach seiner Gefangennahme im Sommer 1944 gestorben"
+    },
+    {
+      "zeit": "1990",
+      "titel": "Tod",
+      "text": "am 28. Mai in Riedstadt, im Alter von 82 Jahren"
+    }
+  ],
+  "familie": [
+    {
+      "name": "Johannes Steinmetz",
+      "beziehung": "Vater",
+      "jahre": "1876 – 1966"
+    },
+    {
+      "name": "Anna Elise Auguste Hedwig Steinmetz, geb. Gonnermann",
+      "beziehung": "Mutter",
+      "jahre": "1882 – 1941"
+    },
+    {
+      "name": "Friedrich Böttcher",
+      "beziehung": "Ehemann",
+      "jahre": "1905 – 1944",
+      "link": "/mann"
+    },
+    {
+      "name": "Johann Heinrich Steinmetz",
+      "beziehung": "Bruder",
+      "jahre": "geboren 1905"
+    },
+    {
+      "name": "Hugo Steinmetz",
+      "beziehung": "Bruder",
+      "jahre": "1910 – 1978"
+    },
+    {
+      "name": "Dorothea Nelly Edith Wackerbarth, geb. Steinmetz",
+      "beziehung": "Schwester",
+      "jahre": "1914 – 2007"
+    },
+    {
+      "name": "Erna Wally Agnes Trömner, geb. Steinmetz",
+      "beziehung": "Schwester",
+      "jahre": "1921 – 1974"
+    }
   ]
 }
