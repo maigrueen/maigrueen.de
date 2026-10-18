@@ -1,13 +1,19 @@
 {
   "name": "Erna Böttcher, geb. Steinmetz",
   "lebensdaten": "* 10. Juli 1907 in Kirchberg (Niedenstein) · † 28. Mai 1990 in Riedstadt",
-  "foto": "",
-  "text": "Ida Elisabeth Erna Steinmetz wurde am 10. Juli 1907 in Kirchberg bei Niedenstein geboren. Sie wuchs mit mehreren Geschwistern auf.\n\nAm 29. September 1938 heiratete sie in Lohne bei Fritzlar Friedrich Böttcher. Die Briefe, die er ihr zwischen 1937 und 1944 schrieb, sind auf dieser Seite zu lesen. Im Juni 1944 wurde er in Weißrussland vermisst. Erna suchte über Jahrzehnte nach Gewissheit: 1944 fragte sie beim Oberkommando des Heeres nach, 1955 und 1972 wandte sie sich an das Deutsche Rote Kreuz. Sie lebte in dieser Zeit in Fritzlar.\n\nErna überlebte ihren Mann um 46 Jahre. Sie starb am 28. Mai 1990 in Riedstadt im Alter von 82 Jahren.",
+  "foto": "19410000-Erna.jpg",
+  "fotoText": "Erna Böttcher, 1941",
+  "text": "Ida Elisabeth Erna Steinmetz wurde am 10. Juli 1907 in Kirchberg bei Niedenstein im Kreis Fritzlar geboren und wuchs mit mehreren Geschwistern auf. Briefe ihrer Eltern von 1922 und 1940/41 zeigen eine enge Familie: Aus dem Elternhaus in Kirchberg schrieben sie der 15-Jährigen von Obsternte, Schlachtung und den Fortschritten der kleinen Schwester Agnes, später aus Kassel von der schweren Krankheit der Mutter, die 1941 starb.\n\nAm 29. September 1938 heiratete sie in Lohne bei Fritzlar Friedrich Böttcher, der im März 1941 zum Militär eingezogen wurde. Die Briefe, die er ihr zwischen 1937 und 1944 schrieb, sind auf dieser Seite zu lesen. Erna lebte im Kreis Wolfhagen und arbeitete zuletzt als Zivilangestellte im Reserve-Lazarett Merxhausen, bis sie dort zum 30. April 1945 entlassen wurde.\n\nIm Juni 1944 wurde Fritz in Weißrussland vermisst. Erna suchte über Jahrzehnte nach Gewissheit: 1944 fragte sie beim Oberkommando des Heeres nach, ein ehemaliger Kamerad schrieb ihr von der Gefangennahme, 1955 und 1972 wandte sie sich an das Deutsche Rote Kreuz. Im Oktober 1948 hielt sie in ihrem Tagebuch fest, wie sehr sie sich wünschte, dass er aus Russland zurückkehrt.\n\nIn späteren Jahren schrieb sie Stationen ihres Lebens in kurzen Notizen auf: Mit 51 lernte sie schwimmen, mit 55 machte sie den Führerschein, mit 66 und 67 flog sie nach Klagenfurt und Salzburg. Sie überlebte ihren Mann um 46 Jahre und starb am 28. Mai 1990 in Riedstadt im Alter von 82 Jahren.",
   "lebenslauf": [
     {
       "zeit": "1907",
       "titel": "Geburt",
-      "text": "am 10. Juli in Kirchberg, Niedenstein, als Tochter von Johannes Steinmetz und Anna Elise Auguste Hedwig, geb. Gonnermann"
+      "text": "am 10. Juli in Kirchberg bei Niedenstein (Kreis Fritzlar), als Tochter von Johannes Steinmetz und Anna Elise Auguste Hedwig, geb. Gonnermann"
+    },
+    {
+      "zeit": "29. Oktober 1922",
+      "titel": "Brief der Eltern",
+      "text": "Die 15-jährige Erna ist nicht zu Hause. Ihre Eltern schreiben ihr aus Kirchberg: Sie hoffen, dass sie ihrer Tante Nelly gut zur Hand geht, und berichten von Schlachtung, Obsternte und Weinmachen und davon, dass die kleine Schwester Agnes gerade laufen lernt"
     },
     {
       "zeit": "3. April 1938",
@@ -20,6 +26,36 @@
       "text": "in Lohne bei Fritzlar mit Friedrich Böttcher"
     },
     {
+      "zeit": "Dezember 1940",
+      "titel": "Weihnachtsgruß der Eltern",
+      "text": "Ihr Vater schreibt aus Kassel an „Erna und Fritz“ und schickt Kleinigkeiten für den Weihnachtsbaum. Die Mutter ist krank und hat noch viele Schmerzen"
+    },
+    {
+      "zeit": "3. März 1941",
+      "titel": "Ehemann eingezogen",
+      "text": "Friedrich Böttcher wird zum Militär eingezogen"
+    },
+    {
+      "zeit": "April 1941",
+      "titel": "Krankheit der Mutter",
+      "text": "Am 23. April bringt der Vater die Mutter in Kassel ins Marienkrankenhaus, wo eine Geschwulst operiert werden soll. Er bittet Erna, für einige Tage den elterlichen Haushalt zu führen. Eine Woche später schreibt er, die Mutter sei sehr schwach und er müsse auf das Schlimmste gefasst sein"
+    },
+    {
+      "zeit": "1941",
+      "titel": "Tod der Mutter",
+      "text": "Anna Elise Auguste Hedwig Steinmetz stirbt im Alter von etwa 59 Jahren"
+    },
+    {
+      "zeit": "1. November 1942",
+      "titel": "Beschäftigung bei der Wehrmacht",
+      "text": "Ihre Ersatz-Ausweiskarte der Deutschen Arbeitsfront (Abteilung Wehrmacht) nennt Kassel als Standort ihrer Beschäftigung"
+    },
+    {
+      "zeit": "28. August 1943",
+      "titel": "Kennkarte",
+      "text": "ausgestellt in Wolfhagen und gültig bis zum 27. August 1948. Als Beruf ist „Hausfrau“ eingetragen"
+    },
+    {
       "zeit": "Juni 1944",
       "titel": "Ehemann vermisst",
       "text": "Friedrich Böttcher wird in Weißrussland vermisst"
@@ -30,14 +66,44 @@
       "text": "Erna fragt beim Oberkommando des Heeres nach seinem Verbleib. Die Antwort vom 20. Dezember 1944: Die Personalunterlagen der Einheit sind verloren, sein Verbleib ist unbekannt"
     },
     {
+      "zeit": "26. April 1945",
+      "titel": "Entlassung aus dem Lazarett",
+      "text": "Das Reserve-Lazarett Merxhausen entlässt sie zum 30. April 1945, weil das Zivilpersonal verringert wird, und dankt für ihre „treue Mitarbeit“"
+    },
+    {
+      "zeit": "1945",
+      "titel": "Bericht eines Kameraden",
+      "text": "Peter Winkler, ein ehemaliger Kamerad aus Fritz’ Einheit, schreibt ihr aus Tirol. Am 26. Juni 1944 seien sie von Witebsk aufgebrochen und hätten sich am Abend aus den Augen verloren. Er selbst geriet am 9. Juli 1944 in Gefangenschaft und hörte dort, dass auch Fritz gefangen genommen wurde. Der Brief ist undatiert, vermutlich von 1945"
+    },
+    {
+      "zeit": "5. Oktober 1948",
+      "titel": "Tagebuch",
+      "text": "Ein Kind erzählt, „Onkel Fritz“ komme bald aus Russland. Erna schreibt, wie sehr sie sich wünscht, dass es wahr wäre, und dass sie selbst nicht wisse, was sie denken soll"
+    },
+    {
       "zeit": "19. Januar 1955",
       "titel": "Registrierung beim Roten Kreuz",
       "text": "Das DRK in Fritzlar bestätigt die Registrierung ihres Mannes in der Vermissten- und Kriegsgefangenen-Registrierung des Kreisnachforschungsdienstes"
     },
     {
+      "zeit": "um 1958",
+      "titel": "Schwimmen",
+      "text": "Mit 51 Jahren lernt sie schwimmen, mit 52 schafft sie 50 Meter, mit 53 schon 100 Meter"
+    },
+    {
+      "zeit": "1962 – 1964",
+      "titel": "Führerschein und Auto",
+      "text": "Mit 55 Jahren legt sie im Herbst nach fünf Wochen Übung die Autoprüfung ab, mit 56 kauft sie ein Auto"
+    },
+    {
       "zeit": "31. Januar 1972",
       "titel": "Gutachten des DRK-Suchdienstes",
       "text": "Der Suchdienst München teilt ihr das Ergebnis seiner Nachforschungen mit: Fritz ist mit hoher Wahrscheinlichkeit kurz nach seiner Gefangennahme im Sommer 1944 gestorben"
+    },
+    {
+      "zeit": "um 1973",
+      "titel": "Flugreisen",
+      "text": "Mit 66 Jahren fliegt sie von Frankfurt nach Klagenfurt (Klopeiner See) und nach drei Wochen zurück, mit 67 nach Salzburg und zurück"
     },
     {
       "zeit": "1990",
