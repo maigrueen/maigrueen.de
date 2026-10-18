@@ -1,0 +1,8 @@
+{
+  "name": "Name der Frau",
+  "lebensdaten": "geboren 1918 in …, gestorben 19…",
+  "text": "Kurze Beschreibung.",
+  "lebenslauf": [
+    { "zeit": "1918", "titel": "Geburt", "text": "in …" }
+  ]
+}

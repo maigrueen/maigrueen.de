@@ -1,0 +1,9 @@
+{
+  "name": "Name des Mannes",
+  "lebensdaten": "geboren 1915 in …, gestorben 19…",
+  "text": "Kurze Beschreibung.\n\nZweiter Absatz.",
+  "lebenslauf": [
+    { "zeit": "1915", "titel": "Geburt", "text": "in …" },
+    { "zeit": "1941 – 1942", "titel": "Flensburg", "text": "Grundausbildung" }
+  ]
+}
