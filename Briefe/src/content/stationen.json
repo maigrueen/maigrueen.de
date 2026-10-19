@@ -1,4 +1,74 @@
 [
-  { "ort": "Flensburg", "lat": 54.78, "lng": 9.44, "von": "03/1941", "bis": "06/1942", "notiz": "Grundausbildung" },
-  { "ort": "Smolensk", "lat": 54.78, "lng": 32.04, "von": "07/1942", "bis": "12/1943", "notiz": "" }
+  {
+    "ort": "Hagen-Kabel und Herdecke",
+    "lat": 51.38, "lng": 7.48,
+    "zeit": "1905 – 1924", "typ": "leben",
+    "notiz": "Geboren am 5. August 1905 in Hagen-Kabel. Dort Volksschule von 1911 bis 1919, danach Lehrerseminar in Herdecke. Ab 1924 Lehrer."
+  },
+  {
+    "ort": "Riede und Lohne (Nordhessen)",
+    "lat": 51.20, "lng": 9.27,
+    "zeit": "ab 1937", "typ": "leben",
+    "notiz": "Im Ahnenpass ist Riede (Kreis Wolfhagen) als Fritz’ Ort eingetragen, von hier schreibt er 1937 an Erna. Am 29. September 1938 heiraten die beiden im nahen Lohne bei Fritzlar. Erna bleibt bis mindestens 1945 in Riede. Heimaturlaub vom 7. bis 13. Dezember 1943."
+  },
+  {
+    "ort": "Pilsen (Böhmen)",
+    "lat": 49.7384, "lng": 13.3736,
+    "zeit": "1943 – 18. Januar 1944", "typ": "militaer",
+    "notiz": "Die Einheit liegt im Realgymnasium, ab Ende Dezember 1943 als Marschbataillon Böhmen und Mähren/2. Am 1. Dezember 1943 wird Fritz zum Unteroffizier befördert. Am 18. Januar 1944 Abmarsch nach Osten."
+  },
+  {
+    "ort": "Prag",
+    "lat": 50.0755, "lng": 14.4378,
+    "zeit": "18. Januar 1944", "typ": "reise",
+    "notiz": "Abfahrt von Pilsen am Nachmittag, weiter nach Prag."
+  },
+  {
+    "ort": "Breslau",
+    "lat": 51.1079, "lng": 17.0385,
+    "zeit": "19. Januar 1944", "typ": "reise",
+    "notiz": "Weiterfahrt in der Nacht und am nächsten Tag über Mittelwalde nach Breslau."
+  },
+  {
+    "ort": "Litzmannstadt (Łódź)",
+    "lat": 51.7592, "lng": 19.4560,
+    "zeit": "Januar 1944", "typ": "reise",
+    "notiz": "Durchfahrt, über Ostrowo und Kalisch nach Warschau."
+  },
+  {
+    "ort": "Warschau",
+    "lat": 52.2297, "lng": 21.0122,
+    "zeit": "Januar 1944", "typ": "reise",
+    "notiz": "Zwei Tage Aufenthalt auf dem Rangierbahnhof."
+  },
+  {
+    "ort": "Brest-Litowsk",
+    "lat": 52.0976, "lng": 23.7341,
+    "zeit": "Januar 1944", "typ": "reise",
+    "notiz": "Zwischenhalt auf der Fahrt, danach über Baranowitschi nach Minsk."
+  },
+  {
+    "ort": "Baranowitschi",
+    "lat": 53.1327, "lng": 26.0139,
+    "zeit": "Januar 1944", "typ": "reise",
+    "notiz": "Durchfahrt Richtung Minsk."
+  },
+  {
+    "ort": "Minsk",
+    "lat": 53.9006, "lng": 27.5590,
+    "zeit": "25. Januar 1944", "typ": "reise",
+    "notiz": "Der Zug hält einige Stunden. Viele Kameraden bleiben hier zurück, Fritz fährt weiter."
+  },
+  {
+    "ort": "Witebsk (Weißrussland)",
+    "lat": 55.1904, "lng": 30.2049,
+    "zeit": "27. Januar – Juni 1944", "typ": "militaer",
+    "notiz": "Ankunft am 27. Januar um 1.20 Uhr. Von hier Einsätze in der Umgebung, im April und Mai auch im Partisanengebiet etwa 100 km entfernt. Ende Mai Stellungsbau am Stadtrand, im Juni ein Panzer-Vernichtungs-Lehrgang. Letzter Brief am 20. Juni 1944."
+  },
+  {
+    "ort": "Raum Wolma (südöstlich von Minsk)",
+    "lat": 53.889, "lng": 27.907,
+    "zeit": "Ende Juni 1944", "typ": "ungewiss",
+    "notiz": "Laut DRK-Gutachten (1972) wurde die 6. Luftwaffen-Feld-Division in diesem Raum eingeschlossen. Fritz gilt seit Juni 1944 als vermisst, ob er selbst dort war, ist nicht belegt. Ein Kamerad berichtet, die Einheit sei am 26. Juni von Witebsk aufgebrochen. Mit hoher Wahrscheinlichkeit starb Fritz Ende Juni oder Anfang Juli 1944 nach der Gefangennahme."
+  }
 ]

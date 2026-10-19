@@ -12,7 +12,7 @@ import ThemeToggle from "./components/ThemeToggle.vue";
       <router-link to="/">Briefe</router-link>
       <router-link to="/mann">Fritz</router-link>
       <router-link to="/frau">Erna</router-link>
-      <!-- <router-link to="/karte">Karte</router-link> -->
+      <router-link to="/karte">Karte</router-link>
     </nav>
     <main><router-view /></main>
   </div>
