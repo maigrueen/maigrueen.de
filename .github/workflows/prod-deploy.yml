@@ -1,55 +1,52 @@
-name: CI
+name: Build and Push Docker Images
 
 on:
   push:
     branches: [ main ]
   schedule:
-    - cron: '0 1 * * *'  # every night at 1 (UTC) new comment so that the workflow doesn't get disabled
+    - cron: '0 1 * * *'  # Beibehaltung deines Nightly Cron-Jobs
+
 jobs:
-  build:
+  build-and-push:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        app:
+          - name: maigrueen
+            image: maigrueen
+          - name: Briefe
+            image: briefe
+          - name: Dashboard
+            image: dashboard
+          - name: Affirmations
+            image: affirmations
+          - name: DogTracker
+            image: dogtracker
+          - name: FTEchart
+            image: ftechart
+          - name: PeriodTracker
+            image: periodtracker
+          - name: ToDoList
+            image: todolist
+
+    permissions:
+      contents: read
+      packages: write
+
     steps:
-      - uses: actions/checkout@v5
-      
-      - name: Setup Node.js
-        uses: actions/setup-node@v6.3.0
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Log in to GitHub Container Registry
+        uses: docker/login-action@v3
         with:
-          node-version: '24.x'
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Build Node.js for maigrueen Website
-        working-directory: ./maigrueen
-        run: |
-          npm ci
-          npm run build --if-present
-
-      - name: Build Node.js for Briefe App
-        working-directory: ./Briefe
-        run: |
-          npm ci
-          npm run build --if-present
-
-      - id: 'auth'
-        name: 'Authenticate to Google Cloud for Dashboard App'
-        uses: 'google-github-actions/auth@v3'
+      - name: Build and Push Image
+        uses: docker/build-push-action@v5
         with:
-          credentials_json: ${{ secrets.GOOGLE_API }}
-
-#      - name: Build Go for Dashboard App
-#        uses: actions/setup-go@v6.3.0
-#        with: 
-#          go-version-file: './go.mod'
-#      - name: Install dependencies
-#        run: |
-#          go version
-#          go get -u golang.org/x/lint/golint
-#      - name: Run build for Dashboard
-#        working-directory: Dashboard
-#        run: go run .
-
-      - name: FTP Prod Deploy
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.6
-        with:
-          server: server45.webgo24.de
-          username: web6
-          password: ${{ secrets.PROD_FTP_PASSWORD }}
-          server-dir: /home/www/maigrueen.de/
+          context: ./${{ matrix.app.name }}
+          push: true
+          tags: ghcr.io/maigrueen/${{ matrix.app.image }}:latest
