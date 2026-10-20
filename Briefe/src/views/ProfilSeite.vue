@@ -1,11 +1,27 @@
 <script setup>
-import { computed } from "vue";
+import { computed, ref } from "vue";
 import Lebenslauf from "../components/Lebenslauf.vue";
+import Lightbox from "../components/Lightbox.vue";
+import StationenKarte from "../components/StationenKarte.vue";
 import { bildUrl } from "../briefe";
 
 const props = defineProps({ datei: String });
 const profile = import.meta.glob("../content/profil-*.json", { eager: true, import: "default" });
 const profil = computed(() => profile[`../content/${props.datei}.json`]);
+
+// Karte der Person: profil-mann -> karte-mann.json, profil-frau -> karte-frau.json
+const karten = import.meta.glob("../content/karte-*.json", { eager: true, import: "default" });
+const karte = computed(() => karten[`../content/karte-${props.datei.replace("profil-", "")}.json`]);
+
+// Alle Dokumentbilder als eine Liste, damit man in der Bildansicht blättern kann
+const offen = ref(null);
+const dokBilder = computed(() =>
+  (profil.value?.dokumente ?? []).flatMap((g) =>
+    g.bilder.map((b) => ({ src: bildUrl(b.datei), text: `${g.titel}: ${b.text}` }))
+  )
+);
+const dokIndex = (gi, bi) =>
+  profil.value.dokumente.slice(0, gi).reduce((n, g) => n + g.bilder.length, 0) + bi;
 </script>
 
 <template>
@@ -23,6 +39,11 @@ const profil = computed(() => profile[`../content/${props.datei}.json`]);
     <h3>Lebenslauf</h3>
     <Lebenslauf :eintraege="profil.lebenslauf" />
 
+    <template v-if="karte">
+      <h3>Karte</h3>
+      <StationenKarte :key="datei" :daten="karte" />
+    </template>
+
     <template v-if="profil.familie && profil.familie.length">
       <h3>Familie</h3>
       <ul class="familie">
@@ -36,17 +57,25 @@ const profil = computed(() => profile[`../content/${props.datei}.json`]);
 
     <template v-if="profil.dokumente && profil.dokumente.length">
       <h3>Dokumente</h3>
-      <details v-for="gruppe in profil.dokumente" :key="gruppe.titel" class="dok">
+      <details v-for="(gruppe, gi) in profil.dokumente" :key="gruppe.titel" class="dok">
         <summary>{{ gruppe.titel }} ({{ gruppe.bilder.length }})</summary>
         <div class="galerie">
-          <figure v-for="b in gruppe.bilder" :key="b.datei">
-            <a :href="bildUrl(b.datei)" target="_blank">
-              <img :src="bildUrl(b.datei)" :alt="b.text" loading="lazy" />
-            </a>
+          <figure v-for="(b, bi) in gruppe.bilder" :key="b.datei">
+            <img
+              :src="bildUrl(b.datei)"
+              :alt="b.text"
+              loading="lazy"
+              role="button"
+              tabindex="0"
+              @click="offen = dokIndex(gi, bi)"
+              @keydown.enter.prevent="offen = dokIndex(gi, bi)"
+              @keydown.space.prevent="offen = dokIndex(gi, bi)"
+            />
             <figcaption class="meta">{{ b.text }}</figcaption>
           </figure>
         </div>
       </details>
+      <Lightbox :bilder="dokBilder" v-model="offen" />
     </template>
   </article>
 </template>
@@ -64,5 +93,5 @@ const profil = computed(() => profile[`../content/${props.datei}.json`]);
 .dok summary { cursor: pointer; font-weight: 600; margin-bottom: 1rem; }
 .galerie { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1.5rem; }
 .galerie figure { margin: 0; }
-.galerie img { width: 100%; height: auto; border: 1px solid var(--btn-color-border); }
+.galerie img { width: 100%; height: auto; border: 1px solid var(--btn-color-border); cursor: zoom-in; }
 </style>
