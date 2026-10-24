@@ -9,7 +9,7 @@ function parse(pfad, roh) {
   const m = roh.replace(/\r\n/g, "\n").match(/^---\n([\s\S]*?)\n---\n?([\s\S]*)$/);
   const kopf = m ? m[1] : "";
   const text = (m ? m[2] : roh).trim();
-  const brief = { id, datum: "", ort: "", titel: "", art: "", bilder: [], text };
+  const brief = { id, datum: "", von: "", ort: "", titel: "", art: "", bilder: [], text };
   let liste = false;
   for (const zeile of kopf.split("\n")) {
     const kv = zeile.match(/^(\w+):\s*(.*)$/);
@@ -37,5 +37,9 @@ export const datumDe = (iso) => {
   return d ? `${d}. ${monat} ${y}` : `${monat} ${y}`;
 };
 
-// Zeile unter dem Datum: z. B. "Postkarte, Im Osten"
-export const metaZeile = (b) => [b.art, b.ort].filter(Boolean).join(", ");
+// Absender: "von: …" im Kopf der Datei, sonst Fritz
+export const absender = (b) => b.von || "Fritz";
+
+// Zeile unter dem Datum: z. B. "von Fritz · Postkarte, Im Osten"
+export const metaZeile = (b) =>
+  ["von " + absender(b), [b.art, b.ort].filter(Boolean).join(", ")].filter(Boolean).join(" · ");

@@ -41,8 +41,8 @@
   --btn-prim-bg-focus: #7e8eeb;
   --btn-prim-text-focus: #00241b;
   --form-color-border: #5b6c5d;
-  --button-active-background: #5b6c5d;
-  --button-active-font: #a3d698;
+  --button-active-background: #a3d698;
+  --button-active-font: #00241b;
 }
 
 html {
@@ -167,8 +167,11 @@ button.button-primary:focus {
   border-color: var(--btn-prim-bg-focus);
 }
 
-.active {
+.active,
+.active:hover,
+.active:focus {
   background-color: var(--button-active-background);
+  border-color: var(--button-active-background);
   color: var(--button-active-font);
 }
 

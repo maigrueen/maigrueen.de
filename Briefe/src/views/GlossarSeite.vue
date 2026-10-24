@@ -105,7 +105,7 @@ const sichtbar = (e) => (offen.value[e.id] ? e.briefIds : e.briefIds.slice(0, GR
 .sprung { display: flex; flex-wrap: wrap; align-items: center; gap: 1.5rem; margin: 2rem 0; }
 .sprung input { flex: 1 1 200px; height: 38px; padding: 0 1rem; border: 1px solid var(--form-color-border); border-radius: 4px; background: transparent; color: var(--text-color); font: inherit; }
 dt { font-weight: 600; margin-top: 1.8rem; scroll-margin-top: 2rem; }
-dt:target { background: var(--background-timeline); }
+dt:target { background: color-mix(in srgb, var(--timeline) 25%, transparent); }
 dd { margin: 0.3rem 0 0; }
 dd.mit-foto { display: flow-root; }
 .foto { float: left; width: 72px; height: 90px; object-fit: cover; object-position: top; margin: 0.3rem 1.2rem 0.5rem 0; border: 1px solid var(--btn-color-border); cursor: zoom-in; filter: grayscale(0.2); }
