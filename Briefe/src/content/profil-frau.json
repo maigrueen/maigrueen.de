@@ -18,12 +18,18 @@
     {
       "zeit": "3. April 1938",
       "titel": "Verlobung",
-      "text": "mit Friedrich Böttcher"
+      "text": "mit Friedrich Böttcher",
+      "briefe": [
+        "1938-04-03"
+      ]
     },
     {
       "zeit": "29. September 1938",
       "titel": "Hochzeit",
-      "text": "in Lohne bei Fritzlar mit Friedrich Böttcher"
+      "text": "in Lohne bei Fritzlar mit Friedrich Böttcher",
+      "briefe": [
+        "1938-09-29"
+      ]
     },
     {
       "zeit": "Dezember 1940",
@@ -48,32 +54,60 @@
     {
       "zeit": "1. November 1942",
       "titel": "Beschäftigung bei der Wehrmacht",
-      "text": "Ihre Ersatz-Ausweiskarte der Deutschen Arbeitsfront (Abteilung Wehrmacht) nennt Kassel als Standort ihrer Beschäftigung"
+      "text": "Ihre Ersatz-Ausweiskarte der Deutschen Arbeitsfront (Abteilung Wehrmacht) nennt Kassel als Standort ihrer Beschäftigung",
+      "bilder": [
+        {
+          "datei": "19421101-Ersatzausweiskarte-Erna.jpg",
+          "text": "Ersatz-Ausweiskarte der Deutschen Arbeitsfront"
+        }
+      ]
     },
     {
       "zeit": "28. August 1943",
       "titel": "Kennkarte",
-      "text": "ausgestellt in Wolfhagen und gültig bis zum 27. August 1948. Als Beruf ist „Hausfrau“ eingetragen"
+      "text": "ausgestellt in Wolfhagen und gültig bis zum 27. August 1948. Als Beruf ist „Hausfrau“ eingetragen",
+      "bilder": [
+        {
+          "datei": "19430828-Kennkarte-Erna.jpg",
+          "text": "Kennkarte"
+        },
+        {
+          "datei": "19430828-Kennkarte-Erna-02.jpg",
+          "text": "Kennkarte, zweite Seite"
+        }
+      ]
     },
     {
       "zeit": "Juni 1944",
       "titel": "Ehemann vermisst",
-      "text": "Friedrich Böttcher wird in Weißrussland vermisst"
+      "text": "Erna bekommt keine Briefe mehr von Fritz"
     },
     {
       "zeit": "2. November 1944",
       "titel": "Anfrage beim Heer",
-      "text": "Erna fragt beim Oberkommando des Heeres nach seinem Verbleib. Die Antwort vom 20. Dezember 1944: Die Personalunterlagen der Einheit sind verloren, sein Verbleib ist unbekannt"
+      "text": "Erna fragt beim Oberkommando des Heeres nach seinem Verbleib. Die Antwort vom 20. Dezember 1944: Die Personalunterlagen der Einheit sind verloren, sein Verbleib ist unbekannt",
+      "briefe": [
+        "1944-12-20"
+      ]
     },
     {
       "zeit": "26. April 1945",
       "titel": "Entlassung aus dem Lazarett",
-      "text": "Das Reserve-Lazarett Merxhausen entlässt sie zum 30. April 1945, weil das Zivilpersonal verringert wird, und dankt für ihre „treue Mitarbeit“"
+      "text": "Das Reserve-Lazarett Merxhausen entlässt sie zum 30. April 1945, weil das Zivilpersonal verringert wird, und dankt für ihre „treue Mitarbeit“",
+      "bilder": [
+        {
+          "datei": "19450426-Entlassung-Lazarett-Erna.jpg",
+          "text": "Entlassungsschreiben des Reserve-Lazaretts Merxhausen"
+        }
+      ]
     },
     {
       "zeit": "1945",
       "titel": "Bericht eines Kameraden",
-      "text": "Peter Winkler, ein ehemaliger Kamerad aus Fritz’ Einheit, schreibt ihr aus Tirol. Am 26. Juni 1944 seien sie von Witebsk aufgebrochen und hätten sich am Abend aus den Augen verloren. Er selbst geriet am 9. Juli 1944 in Gefangenschaft und hörte dort, dass auch Fritz gefangen genommen wurde. Der Brief ist undatiert, vermutlich von 1945"
+      "text": "Peter Winkler, ein ehemaliger Kamerad aus Fritz’ Einheit, schreibt ihr aus Tirol. Am 26. Juni 1944 seien sie von Witebsk aufgebrochen und hätten sich am Abend aus den Augen verloren. Er selbst geriet am 9. Juli 1944 in Gefangenschaft und hörte dort, dass auch Fritz gefangen genommen wurde. Der Brief ist undatiert, vermutlich von 1945",
+      "briefe": [
+        "1945"
+      ]
     },
     {
       "zeit": "5. Oktober 1948",
@@ -83,7 +117,10 @@
     {
       "zeit": "19. Januar 1955",
       "titel": "Registrierung beim Roten Kreuz",
-      "text": "Das DRK in Fritzlar bestätigt die Registrierung ihres Mannes in der Vermissten- und Kriegsgefangenen-Registrierung des Kreisnachforschungsdienstes"
+      "text": "Das DRK in Fritzlar bestätigt die Registrierung ihres Mannes in der Vermissten- und Kriegsgefangenen-Registrierung des Kreisnachforschungsdienstes",
+      "briefe": [
+        "1955-01-19"
+      ]
     },
     {
       "zeit": "um 1958",
@@ -98,7 +135,10 @@
     {
       "zeit": "31. Januar 1972",
       "titel": "Gutachten des DRK-Suchdienstes",
-      "text": "Der Suchdienst München teilt ihr das Ergebnis seiner Nachforschungen mit: Fritz ist mit hoher Wahrscheinlichkeit kurz nach seiner Gefangennahme im Sommer 1944 gestorben"
+      "text": "Der Suchdienst München teilt ihr das Ergebnis seiner Nachforschungen mit: Fritz ist mit hoher Wahrscheinlichkeit kurz nach seiner Gefangennahme im Sommer 1944 gestorben",
+      "briefe": [
+        "1972-01-31"
+      ]
     },
     {
       "zeit": "um 1973",
