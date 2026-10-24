@@ -165,7 +165,30 @@
       },
       {
         "datei": "110072015_0084.jpg",
-        "text": "Musik: Fini col desiare...!"
+        "text": "Musik: Fini col desiare...!",
+        "audioText": "Vier Interpretationen von Fritz’ Noten, eingespielt von Nutzern des Reddit-Forums r/piano.",
+        "quelle": {
+          "url": "https://www.reddit.com/r/piano/comments/3cyb13/found_those_in_a_friends_grandfathers_notes_a",
+          "text": "Beitrag im Forum r/piano auf Reddit, in dem Musikerinnen und Musiker die Noten eingespielt haben"
+        },
+        "audio": [
+          {
+            "datei": "110072015_0084_played_by_Ohjann.mp3",
+            "text": "Interpretation von Ohjann"
+          },
+          {
+            "datei": "110072015_0084_played_by_philipawalker.mp3",
+            "text": "Interpretation von philipawalker"
+          },
+          {
+            "datei": "110072015_0084_played_by_maestro2005.mp3",
+            "text": "Interpretation von maestro2005"
+          },
+          {
+            "datei": "110072015_0084_played_by_676339784.mp3",
+            "text": "Interpretation von 676339784"
+          }
+        ]
       }
     ]
   },

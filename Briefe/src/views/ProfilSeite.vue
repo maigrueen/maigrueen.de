@@ -26,6 +26,13 @@ const kunstBilder = computed(() =>
   (profil.value?.kunst?.bilder ?? []).map((b) => ({ src: bildUrl(b.datei), text: b.text }))
 );
 
+// Kunstwerke mit Aufnahmen ("audio": [{ "datei": "x.mp3", "text": "…" }], Dateien in public/music/)
+const mitAudio = computed(() => (profil.value?.kunst?.bilder ?? []).filter((b) => b.audio?.length));
+const audioUrl = (name) => import.meta.env.BASE_URL + "music/" + name;
+// Immer nur eine Aufnahme gleichzeitig abspielen
+const nurEine = (e) =>
+  document.querySelectorAll("audio.aufnahme").forEach((a) => a !== e.target && a.pause());
+
 const dokIndex = (gi, bi) =>
   profil.value.dokumente.slice(0, gi).reduce((n, g) => n + g.bilder.length, 0) + bi;
 </script>
@@ -64,6 +71,21 @@ const dokIndex = (gi, bi) =>
         </figure>
       </div>
       <Lightbox :bilder="kunstBilder" v-model="kunstOffen" />
+
+      <section v-for="b in mitAudio" :key="'audio-' + b.datei" class="hoeren">
+        <h4>Zum Anhören: {{ b.text }}</h4>
+        <p v-if="b.audioText" class="text">{{ b.audioText }}</p>
+        <p v-if="b.quelle" class="meta">
+          Quelle: <a :href="b.quelle.url" target="_blank" rel="noopener">{{ b.quelle.text }}</a>
+        </p>
+        <figure v-for="a in b.audio" :key="a.datei">
+          <figcaption>{{ a.text }}</figcaption>
+          <audio class="aufnahme" controls preload="none" :src="audioUrl(a.datei)" @play="nurEine">
+            Dein Browser kann diese Aufnahme nicht abspielen.
+            <a :href="audioUrl(a.datei)">Datei herunterladen</a>
+          </audio>
+        </figure>
+      </section>
     </template>
 
     <template v-if="karte">
@@ -114,6 +136,12 @@ const dokIndex = (gi, bi) =>
 .portrait { margin: 2rem 0; width: 320px; max-width: 100%; }
 .portrait img { display: block; width: 100%; height: auto; border: 1px solid var(--btn-color-border); }
 .portrait figcaption { margin-top: 0.5rem; }
+
+.hoeren { margin: 2.5rem 0; }
+.hoeren h4 { font-size: 1.8rem; margin-bottom: 1rem; }
+.hoeren figure { margin: 0 0 1.5rem; }
+.hoeren figcaption { font-size: 1.4rem; margin-bottom: 0.4rem; }
+.hoeren audio { width: 100%; max-width: 520px; display: block; }
 
 .familie { list-style: none; }
 .dok { margin-bottom: 1.5rem; }
