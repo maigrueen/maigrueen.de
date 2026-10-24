@@ -11,9 +11,31 @@
       "text": "am 10. Juli in Kirchberg bei Niedenstein (Kreis Fritzlar), als Tochter von Johannes Steinmetz und Anna Elise Auguste Hedwig, geb. Gonnermann"
     },
     {
+      "zeit": "um 1913",
+      "titel": "Kindheit",
+      "text": "Erna mit ihren Brüdern Heini und Hugo, fotografiert im Atelier Otto Gliesche in Kassel (Jahr geschätzt)",
+      "bilder": [
+        {
+          "datei": "Erna_Heini_Hugo-Kassel.jpg",
+          "text": "Erna mit ihren Brüdern Heini und Hugo, Atelier Otto Gliesche, Kassel"
+        }
+      ]
+    },
+    {
       "zeit": "29. Oktober 1922",
       "titel": "Brief der Eltern",
       "text": "Die 15-jährige Erna ist zu Besuch bei Onkel Heinrich und Tante Nelly in den Niederlanden. Ihre Eltern schreiben ihr aus Kirchberg: Sie hoffen, dass sie ihrer Tante gut zur Hand geht, und berichten von Schlachtung, Obsternte und Weinmachen und davon, dass die kleine Schwester Agnes gerade laufen lernt"
+    },
+    {
+      "zeit": "1928",
+      "titel": "Mit 21 Jahren",
+      "text": "Porträt der 21-jährigen Erna; die Altersangabe steht von Hand auf dem Foto",
+      "bilder": [
+        {
+          "datei": "19280000-Erna.jpg",
+          "text": "Erna mit 21 Jahren, 1928"
+        }
+      ]
     },
     {
       "zeit": "3. April 1938",
@@ -34,7 +56,13 @@
     {
       "zeit": "Dezember 1940",
       "titel": "Weihnachtsgruß der Eltern",
-      "text": "Ihr Vater schreibt aus Kassel an „Erna und Fritz“ und schickt Kleinigkeiten für den Weihnachtsbaum. Die Mutter ist krank und hat noch viele Schmerzen"
+      "text": "Ihr Vater schreibt aus Kassel an „Erna und Fritz“ und schickt Kleinigkeiten für den Weihnachtsbaum. Die Mutter ist krank und hat noch viele Schmerzen",
+      "bilder": [
+        {
+          "datei": "19400401-Hans_Hedwig_Steinmetz.jpg",
+          "text": "Ernas Eltern Johannes und Hedwig Steinmetz, 1. April 1940"
+        }
+      ]
     },
     {
       "zeit": "3. März 1941",
@@ -59,6 +87,21 @@
         {
           "datei": "19421101-Ersatzausweiskarte-Erna.jpg",
           "text": "Ersatz-Ausweiskarte der Deutschen Arbeitsfront"
+        }
+      ]
+    },
+    {
+      "zeit": "2. Mai 1943",
+      "titel": "Hochzeit der Schwester",
+      "text": "Ernas jüngste Schwester Agnes heiratet in Zennern Otto Trömner; verlobt hatten sich die beiden im September 1942. Die Familie feiert mitten im Krieg, unter den Gästen sind mehrere Männer in Uniform",
+      "bilder": [
+        {
+          "datei": "19420905-Otto_Agnes_Troemmer-Verlobung.jpg",
+          "text": "Agnes und Otto Trömner zur Verlobung, 5. September 1942"
+        },
+        {
+          "datei": "Troemmer-Steinmetz Hochz.2.5.1943.jpg",
+          "text": "Hochzeitsgesellschaft am 2. Mai 1943"
         }
       ]
     },
@@ -125,7 +168,13 @@
     {
       "zeit": "9. – 24. September 1955",
       "titel": "Erste Urlaubsreise",
-      "text": "Mit 48 Jahren fährt sie für 430 DM mit dem Reisebus nach Langenargen am Bodensee, „meine erste Urlaubsreise“, wie sie in ihrem Reisetagebuch schreibt. Von dort unternimmt sie Ausflüge nach Lindau, Bregenz und Konstanz, auf die Mainau, ins Kleinwalsertal, in die Schweiz bis Lugano und über die Alpen bis an die italienische Grenze. Fritz begleitet sie in Gedanken: Beim ersten Blick auf den See denkt sie, „wie immer bei allem Schönen“, an ihn und weint, und auf einer Alm im Kleinwalsertal fragt sie, warum er nicht bei ihr ist. Am Ende nennt sie die 14 Tage herrlich und wünscht sich, als Nächstes nach Italien zu reisen"
+      "text": "Mit 48 Jahren fährt sie für 430 DM mit dem Reisebus nach Langenargen am Bodensee, „meine erste Urlaubsreise“, wie sie in ihrem Reisetagebuch schreibt. Von dort unternimmt sie Ausflüge nach Lindau, Bregenz und Konstanz, auf die Mainau, ins Kleinwalsertal, in die Schweiz bis Lugano und über die Alpen bis an die italienische Grenze. Fritz begleitet sie in Gedanken: Beim ersten Blick auf den See denkt sie, „wie immer bei allem Schönen“, an ihn und weint, und auf einer Alm im Kleinwalsertal fragt sie, warum er nicht bei ihr ist. Am Ende nennt sie die 14 Tage herrlich und wünscht sich, als Nächstes nach Italien zu reisen",
+      "bilder": [
+        {
+          "datei": "19550000-Erna.jpg",
+          "text": "Erna, 1955"
+        }
+      ]
     },
     {
       "zeit": "um 1958",
@@ -133,9 +182,36 @@
       "text": "Mit 51 Jahren lernt sie schwimmen, mit 52 schafft sie 50 Meter, mit 53 schon 100 Meter"
     },
     {
+      "zeit": "Dezember 1958",
+      "titel": "Familienfeier",
+      "text": "Erna mit ihrem Vater und ihren Geschwistern Edith, Agnes, Hugo und Heini, vermutlich zum 82. Geburtstag des Vaters am 1. Dezember",
+      "bilder": [
+        {
+          "datei": "19581200-Edith_Erna_Hans_Agnes_Hugo_Heini.jpg",
+          "text": "Edith, Erna, ihr Vater, Agnes, Hugo und Heini, Dezember 1958"
+        }
+      ]
+    },
+    {
       "zeit": "1962 – 1964",
       "titel": "Führerschein und Auto",
       "text": "Mit 55 Jahren legt sie im Herbst nach fünf Wochen Übung die Autoprüfung ab, mit 56 kauft sie ein Auto"
+    },
+    {
+      "zeit": "5. August 1966",
+      "titel": "Tod des Vaters",
+      "text": "Johannes Steinmetz stirbt mit 89 Jahren in Fritzlar"
+    },
+    {
+      "zeit": "1967",
+      "titel": "Mit 60 Jahren",
+      "text": "Porträt von Erna im Jahr ihres 60. Geburtstags",
+      "bilder": [
+        {
+          "datei": "19670000-Erna.jpg",
+          "text": "Erna, 1967"
+        }
+      ]
     },
     {
       "zeit": "31. Januar 1972",
