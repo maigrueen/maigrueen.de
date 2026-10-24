@@ -1,0 +1,382 @@
+{
+  "intro": "Wer ist wer, und was bedeuten die Wörter, die heute kaum noch jemand kennt? Unter jedem Eintrag stehen die Briefe, in denen die Person oder der Begriff vorkommt. Schreibweisen von Namen sind aus der Handschrift übernommen und nicht immer sicher.",
+  "personen": [
+    {
+      "id": "erna",
+      "name": "Erna Böttcher, geb. Steinmetz",
+      "gruppe": "Familie Steinmetz",
+      "text": "1907 – 1990. Empfängerin der Briefe. Fritz nennt sie „liebe Frau“, „Kleines“ oder „Hexe“.",
+      "link": "/frau"
+    },
+    {
+      "id": "vater-steinmetz",
+      "name": "Johannes Steinmetz",
+      "gruppe": "Familie Steinmetz",
+      "text": "1876 – 1966, Ernas Vater, Lehrer in Kirchberg, später in Kassel; er unterschreibt mit „H. Steinmetz“. 1944 lebt er bei Erna in Riede. Zusammen mit Fritz’ Mutter ist er gemeint, wenn Fritz „die beiden Alten“ grüßen lässt.",
+      "suche": ["Deinem Vater", "Dein Vater", "beiden Alten"]
+    },
+    {
+      "id": "mutter-steinmetz",
+      "name": "Anna Elise Auguste Hedwig Steinmetz, geb. Gonnermann",
+      "gruppe": "Familie Steinmetz",
+      "text": "1882 – 1941, Ernas Mutter. Ihre Krankheit und ihr Tod 1941 sind in den Briefen des Vaters an Erna beschrieben (siehe Ernas Lebenslauf)."
+    },
+    {
+      "id": "edith",
+      "name": "Edith (Dorothea Nelly Edith Wackerbarth, geb. Steinmetz)",
+      "gruppe": "Familie Steinmetz",
+      "text": "1914 – 2007, Ernas Schwester und Urgroßmutter der Autorin dieser Seite. Im Frühjahr 1944 schreibt sie wie ihre Schwestern ihrem Mann Konrad Wackerbarth bei der Wehrmacht.",
+      "suche": ["Edith"]
+    },
+    {
+      "id": "agnes",
+      "name": "Agnes (Erna Wally Agnes Trömner, geb. Steinmetz)",
+      "gruppe": "Familie Steinmetz",
+      "text": "1921 – 1974, Ernas jüngste Schwester; 1922 lernt sie gerade laufen. Im März 1944 flüchtet sie mit ihrem kleinen Sohn Klaus aus Fritzlar zu Erna nach Riede. Ihr Mann ist der Unteroffizier Hermann Otto Trömner.",
+      "suche": ["Agnes"]
+    },
+    {
+      "id": "klaus",
+      "name": "Klaus (Klaus Jürgen Erich Trömner)",
+      "gruppe": "Familie Steinmetz",
+      "text": "1944 - 2002, Agnes’ Sohn, 1944 noch ein Baby. Im Oktober 1948 erzählt „der Klaus“ Erna, Onkel Fritz komme bald aus Russland zurück (Ernas Tagebuch). Dass es derselbe Klaus ist, ist wahrscheinlich, aber nicht belegt. Die Inge, mit der er kam, ist noch nicht zugeordnet.",
+      "suche": ["Klaus", "dem Kleinen"]
+    },
+    {
+      "id": "heini",
+      "name": "Heini (Johann Heinrich Steinmetz)",
+      "gruppe": "Familie Steinmetz",
+      "text": "Geboren 1905, Ernas Bruder. 1944 Soldat; Fritz hält im Dezember 1943 in Kassel nach ihm Ausschau.",
+      "suche": ["Heini"]
+    },
+    {
+      "id": "hugo",
+      "name": "Hugo Steinmetz",
+      "gruppe": "Familie Steinmetz",
+      "text": "1910 – 1978, Ernas Bruder. Kommt nur in den Briefen der Eltern vor (1922 und 1940)."
+    },
+    {
+      "id": "schwaeger",
+      "name": "Otto, Konrad und Elise",
+      "gruppe": "Familie Steinmetz",
+      "text": "Ostern 1944 fragt sich Fritz, wo „Konrad, Heini, Otto und ich“ gerade sind, und Edith und Elise schreiben „an ihren Obergefreiten“. Wer genau Otto, Konrad und Elise sind (Schwäger, Schwägerin?), ist noch offen.",
+      "suche": ["Konrad", "Otto", "Elise"]
+    },
+    {
+      "id": "gonnermann",
+      "name": "Onkel Heinrich und Tante Nelly Gonnermann",
+      "gruppe": "Familie Steinmetz",
+      "text": "Verwandte der Mutter in Velsen bei Haarlem (Niederlande). 1922 ist die 15-jährige Erna bei ihnen zu Besuch; in den Briefen der Eltern werden auch Onkel Justus und Horst gegrüßt."
+    },
+    {
+      "id": "fritz",
+      "name": "Fritz (Friedrich) Böttcher",
+      "gruppe": "Familie Böttcher",
+      "text": "1905 – vermisst 1944. Schreiber der Briefe, Volksschullehrer in Riede. Unterschreibt mit „Dein Fritz“, einmal „d.O.“.",
+      "link": "/mann"
+    },
+    {
+      "id": "mutter-boettcher",
+      "name": "Katharina Luise Böttcher, geb. Schäfer",
+      "gruppe": "Familie Böttcher",
+      "text": "Geboren 1867, Fritz’ Mutter, in den Briefen „Mama“ oder „Mutter“. Sie lebt 1944 bei Erna in Riede. Im Mai 1944 gibt es Streit zwischen den beiden Frauen, den Erna wieder beilegt.",
+      "suche": ["Mama", "meiner Mutter", "meine Mutter"]
+    },
+    {
+      "id": "karl",
+      "name": "Karl",
+      "gruppe": "Familie Böttcher",
+      "text": "Fritz’ Bruder, ebenfalls Soldat. Im Januar 1944 hätten sich die beiden auf der Fahrt nach Osten fast getroffen. Ob der Karl, nach dessen Feldpostnummer Fritz bei Frau Schaake fragt, derselbe ist, ist unklar.",
+      "briefe": ["1944-01-21", "1944-03-27", "1944-03-31", "1944-05-12"]
+    },
+    {
+      "id": "bremen",
+      "name": "Heinrich, Friedchen und Rita in Bremen",
+      "gruppe": "Familie Böttcher",
+      "text": "Verwandte oder Freunde in Bremen, die Fritz Bücher und Zeitungen schicken. Friedchen bekommt zum Geburtstag Durchschläge seiner Briefe vom Bandeneinsatz. Wie sie mit Fritz verwandt sind, ist noch offen.",
+      "suche": ["von Heinrich", "Heinrich hatte", "Friedchen", "Rita", "Bremen"]
+    },
+    {
+      "id": "haag",
+      "name": "Paul Haag",
+      "gruppe": "Kameraden und Vorgesetzte",
+      "text": "Hauptfeldwebel („Spieß“), im Zivilberuf Justizsekretär in Auma (Thüringen), verheiratet mit Frieda Haag, eine Tochter. Fritz’ engster Kamerad von Pilsen bis Witebsk. Nach Peter Winkler kam er im Sommer 1944 zusammen mit Fritz in Gefangenschaft.",
+      "suche": ["Haag"]
+    },
+    {
+      "id": "winkler",
+      "name": "Peter Winkler",
+      "gruppe": "Kameraden und Vorgesetzte",
+      "text": "Futtermeister in Fritz’ Einheit aus Kolsassberg (Tirol). Schreibt Erna nach dem Krieg vom Aufbruch aus Witebsk am 26. Juni 1944 und davon, dass Fritz gefangen genommen worden sei.",
+      "suche": ["Winkler"]
+    },
+    {
+      "id": "keitler",
+      "name": "Josef Keitler (oder Keckler)",
+      "gruppe": "Kameraden und Vorgesetzte",
+      "text": "Aus Graz. Nach Winkler zusammen mit Fritz und Paul Haag gefangen genommen.",
+      "suche": ["Keitler"]
+    },
+    {
+      "id": "dietmar",
+      "name": "Dr. jur. Dietmar / Diptunar",
+      "gruppe": "Kameraden und Vorgesetzte",
+      "text": "Gefreiter, später Obergefreiter, Jurist und Steuerfachmann aus Kitzbühel (Tirol). Schreiberkamerad und Koch der Schreibstube vor Witebsk 1944. Der Name ist in den Briefen unterschiedlich geschrieben.",
+      "suche": ["Dietmar", "Diptunar", "Diptinar", "Dr. jur"]
+    },
+    {
+      "id": "recha",
+      "name": "Dr. phil. Recha",
+      "gruppe": "Kameraden und Vorgesetzte",
+      "text": "Rechnungsführer, Mittelschullehrer aus Brünn, mit „Ostmärker Dialekt“.",
+      "suche": ["Recha"]
+    },
+    {
+      "id": "teicher",
+      "name": "Oberfeldwebel Teicher(t)",
+      "gruppe": "Kameraden und Vorgesetzte",
+      "text": "Junger Spieß von der Luftwaffe, 1944.",
+      "suche": ["Teicher"]
+    },
+    {
+      "id": "schaake",
+      "name": "Schaake",
+      "gruppe": "Kameraden und Vorgesetzte",
+      "text": "Kamerad aus Pilsen, fährt mit Fritz im selben Waggon nach Witebsk; Fritz besorgt ihm eine neue Pfeife. Danach verlieren sie sich aus den Augen. Fritz schreibt auch an Frau Schaake.",
+      "suche": ["Schaake", "Schanke"]
+    },
+    {
+      "id": "witte",
+      "name": "Witte",
+      "gruppe": "Kameraden und Vorgesetzte",
+      "text": "Kamerad aus der Pilsener Schreibstube, bleibt im Januar 1944 in Minsk zurück. Frau Witte in Frankfurt bewahrt Ernas Koffer auf.",
+      "suche": ["Witte"]
+    },
+    {
+      "id": "ramm",
+      "name": "Herbert Ramm",
+      "gruppe": "Kameraden und Vorgesetzte",
+      "text": "Bekannter, mit dem Fritz und Erna Feldpost tauschen.",
+      "suche": ["Ramm"]
+    },
+    {
+      "id": "pilsen-stab",
+      "name": "Bataillonsstab in Pilsen",
+      "gruppe": "Kameraden und Vorgesetzte",
+      "text": "1942/43 genannt: die Schreiber Buecheler, Becker, Hohlinghausen und Bierwisch; Hauptfeldwebel Haase; Stabsarzt Dr. Bach, Limmer, Adjutant Kunge und Obergefreiter Buchta, die Weihnachten 1943 mit Fritz vom Major ein Buch geschenkt bekommen; Oberleutnant Klenzmann aus Baden-Baden.",
+      "suche": ["Buecheler", "Hohlinghausen", "Bierwisch", "Haase", "Dr. Bach", "Kunge", "Buchta", "Klenzmann"]
+    },
+    {
+      "id": "witebsk-kameraden",
+      "name": "Kameraden vor Witebsk",
+      "gruppe": "Kameraden und Vorgesetzte",
+      "text": "1944 genannt: Günter Schulze aus Frankfurt, Führer der Nachrichtenstaffel; der Adjutant „Oberst Rose“ (so in der Abschrift); die Kameraden Walter und Seppl (Seppi).",
+      "suche": ["Schulze", "Oberst Rose", "Seppl", "Seppi", "Walter"]
+    },
+    {
+      "id": "zeichnungen",
+      "name": "Leutnant Gildemeister und Unteroffizier Schmaltz (?)",
+      "gruppe": "Kameraden und Vorgesetzte",
+      "text": "Von Fritz gezeichnet; die Zeichnungen sind auf seiner Seite unter „Kunst“ zu sehen.",
+      "link": "/mann"
+    },
+    {
+      "id": "riede",
+      "name": "Nachbarn und Bekannte in Riede",
+      "gruppe": "Heimat",
+      "text": "Nachbar Liebert, Ruppel (Rüppel), Siebert (schickt Wurst und Butter), Maltus, Lehrer Vöhl (besaß eine Stoppuhr für die Wettkämpfe der Schulkinder), „Wilhelm im Sand“ und Brünen.",
+      "suche": ["Liebert", "Ruppel", "Rüppel", "Siebert", "Maltus", "Vöhl", "Wilhelm im Sand", "Brünen"]
+    },
+    {
+      "id": "bodensee",
+      "name": "Fräulein Seiler und Fräulein Bode",
+      "gruppe": "Heimat",
+      "text": "Reisebekanntschaften aus Hannover und Berlin auf Ernas erster Urlaubsreise an den Bodensee 1955 (Reisetagebuch)."
+    },
+    {
+      "id": "drk",
+      "name": "Max Heinrich",
+      "gruppe": "Behörden",
+      "text": "Direktor des DRK-Suchdienstes in München, unterschreibt 1972 das Gutachten über Fritz’ Schicksal.",
+      "suche": ["Max Heinrich", "M. Heinrich"]
+    }
+  ],
+  "begriffe": [
+    {
+      "id": "feldpost",
+      "begriff": "Feldpost, Feldpostnummer",
+      "text": "Der Postdienst der Wehrmacht. Statt einer Ortsangabe trug jeder Brief an einen Soldaten eine Feldpostnummer, die für eine Einheit stand. So konnte niemand aus der Adresse ablesen, wo die Einheit lag. Fritz’ Nummern: 58937 A, 58937 B, zuletzt 58787 A.",
+      "suche": ["Feldpost"]
+    },
+    {
+      "id": "zensur",
+      "begriff": "Zensur",
+      "text": "Feldpostbriefe konnten geöffnet und gelesen werden. Ortsnamen, Truppenbewegungen und Kritik an der Kriegsführung waren verboten. Deshalb schreibt Fritz oft nur „W.“ für Witebsk oder „Im Osten“ und vereinbart mit Erna Codewörter: „Ostern bedeutet Osten“."
+    },
+    {
+      "id": "landesschuetzen",
+      "begriff": "Landesschützen",
+      "text": "Einheiten aus älteren Soldaten, die im Hinterland Wach- und Sicherungsdienst leisteten. Fritz diente vor seiner Verlegung nach Osten bei ihnen und nennt sie die „verkannten Landesschützen“.",
+      "suche": ["Landesschützen"]
+    },
+    {
+      "id": "marschbataillon",
+      "begriff": "Marschbataillon",
+      "text": "Ein für den Transport zusammengestellter Verband, der Ersatz an die Front bringt und dort auf andere Einheiten verteilt wird. Unterwegs hatte er keine Feldpostnummer.",
+      "suche": ["Marschbataillon", "Marschkompanie"]
+    },
+    {
+      "id": "lwfd",
+      "begriff": "Luftwaffen-Feld-Division",
+      "text": "Infanteriedivisionen, die ab 1942 aus Personal der Luftwaffe gebildet wurden, oft schlecht ausgebildet und ausgerüstet. Die 6. Luftwaffen-Feld-Division, zu der Fritz ab Februar 1944 gehörte, lag bei Witebsk und wurde Ende Juni 1944 dort eingeschlossen und zerschlagen.",
+      "suche": ["Luftwaffen"]
+    },
+    {
+      "id": "spiess",
+      "begriff": "Spieß, Hauptfeldwebel",
+      "text": "Der ranghöchste Unteroffizier einer Kompanie, zuständig für Innendienst, Verwaltung und Personal. „Hauptfelder.“ ist eine Abkürzung.",
+      "suche": ["Spieß", "Hauptfeldwebel"]
+    },
+    {
+      "id": "schreibstube",
+      "begriff": "Schreibstube, Gefechtsschreiber",
+      "text": "Die Verwaltung einer Einheit. Fritz war dort die meiste Zeit Schreiber: Listen, Meldungen, Befehle, Post. Als Gefechtsschreiber begleitete er den Bataillonsstab in den Einsatz.",
+      "suche": ["Schreibstube", "Gefechtsschreiber", "Bataillons-Schreiber", "Papierkrieg"]
+    },
+    {
+      "id": "dienstgrade",
+      "begriff": "Schütze, Obergefreiter, Unteroffizier",
+      "text": "Mannschafts- und Unteroffiziersdienstgrade. Ein Obergefreiter trug Winkel am Ärmel, ein Unteroffizier eine Litze (Tresse) am Kragen und eine Troddel am Seitengewehr. Fritz wurde am 1. Dezember 1943 Unteroffizier.",
+      "suche": ["Unteroffizier", "Obergefreite", "Litze", "Winkel"]
+    },
+    {
+      "id": "hkl",
+      "begriff": "H.K.L. (Hauptkampflinie)",
+      "text": "Die vorderste Linie, an der die eigenen Stellungen dem Gegner gegenüberliegen.",
+      "suche": ["H.K.L", "Hauptkampflinie", "vordersten Linie"]
+    },
+    {
+      "id": "rollbahn",
+      "begriff": "Rollbahn",
+      "text": "Die wenigen größeren Straßen in Weißrussland, über die der Nachschub lief. Im Tauwetter oft unpassierbar; Fritz vergleicht sie mit der Straße von Riede nach Merxhausen.",
+      "suche": ["Rollbahn"]
+    },
+    {
+      "id": "panje",
+      "begriff": "Panjewagen",
+      "text": "Kleiner, leichter Bauernwagen mit einem Pferd, wie er in Osteuropa üblich war. Die Wehrmacht nutzte ihn, weil er auch durch Schlamm kam.",
+      "suche": ["Panje"]
+    },
+    {
+      "id": "schlamm",
+      "begriff": "Schlammperiode",
+      "text": "Im Frühjahr und Herbst weichten Schneeschmelze und Regen die unbefestigten Wege so auf, dass Fahrzeuge steckenblieben (russisch „Rasputiza“). Knüppeldämme aus Stämmen und Reisig sollten helfen.",
+      "suche": ["Schlamm", "Knüppeldamm"]
+    },
+    {
+      "id": "banden",
+      "begriff": "Bandeneinsatz, Banditen",
+      "text": "So nannte die deutsche Seite den Kampf gegen Partisanen; „Bandit“ war die befohlene Sprachregelung. Bei diesen Einsätzen wurden ganze Dörfer niedergebrannt, die Bewohner getötet oder als Zwangsarbeiter verschleppt. Fritz’ „Bandeneinsatz“ vom 6. April bis Mai 1944 rund 100 km westlich von Witebsk fällt zeitlich und räumlich mit dem Unternehmen „Frühlingsfest“ gegen das Partisanengebiet um Uschatschi zusammen. Ob seine Einheit daran beteiligt war, ist nicht belegt.",
+      "suche": ["Banditen", "Bandeneinsatz", "Bandengebiet", "Bandenrepublik", "Partisanen"]
+    },
+    {
+      "id": "organisieren",
+      "begriff": "„Organisieren“",
+      "text": "Soldatensprache für das Beschaffen auf eigene Faust, oft das Wegnehmen von Lebensmitteln, Vieh und Gegenständen der Bevölkerung.",
+      "suche": ["organisieren"]
+    },
+    {
+      "id": "landser",
+      "begriff": "Landser",
+      "text": "Umgangssprachlich für den einfachen Soldaten.",
+      "suche": ["Landser"]
+    },
+    {
+      "id": "frontleitstelle",
+      "begriff": "Frontleitstelle",
+      "text": "Sammel- und Durchgangsstelle hinter der Front, an der ankommende Soldaten untergebracht und auf ihre Einheiten verteilt wurden.",
+      "suche": ["Frontleitstelle"]
+    },
+    {
+      "id": "urlaub",
+      "begriff": "Heimaturlaub, Urlaubssperre",
+      "text": "Soldaten an der Ostfront bekamen nur selten Heimaturlaub, Fritz zuletzt vom 7. bis 13. Dezember 1943. Vor großen Kämpfen wurde der Urlaub gesperrt; die Sperre vom 13. Juni 1944 ging der sowjetischen Offensive voraus.",
+      "suche": ["Urlaub"]
+    },
+    {
+      "id": "arrest",
+      "begriff": "Arrest, „Bau“",
+      "text": "Militärische Strafe: Einschließen für einige Tage. Fritz bekommt im Mai 1944 drei Tage geschlossenen Arrest, weil er sich gegen einen Vorgesetzten gewehrt hat.",
+      "suche": ["Arrest", "Tage Bau", "Kerker"]
+    },
+    {
+      "id": "laeuse",
+      "begriff": "Wanzen und Läuse",
+      "text": "Ungeziefer war an der Ostfront allgegenwärtig. Läuse übertrugen das Fleckfieber; Kleidung wurde ausgekocht, die Tiere täglich „geknackt“.",
+      "suche": ["Läuse", "Wanzen", "verlaust"]
+    },
+    {
+      "id": "sauna",
+      "begriff": "Sauna (Banja)",
+      "text": "Das russische Dampfbad in einer kleinen Holzhütte. Fritz beschreibt es im Brief vom 18. März 1944 ausführlich.",
+      "suche": ["Sauna", "saunen"]
+    },
+    {
+      "id": "knobelbecher",
+      "begriff": "Knobelbecher",
+      "text": "Soldatensprache für die kurzen Marschstiefel der Wehrmacht.",
+      "suche": ["Knobelbecher"]
+    },
+    {
+      "id": "hindenburglicht",
+      "begriff": "Hindenburglicht",
+      "text": "Flache Talgkerze in einer Pappschale, Notbeleuchtung in Unterständen und Quartieren.",
+      "suche": ["Hindenburglicht"]
+    },
+    {
+      "id": "machorka",
+      "begriff": "Machorka",
+      "text": "Grober russischer Bauerntabak.",
+      "suche": ["Machorka"]
+    },
+    {
+      "id": "teufelsgeige",
+      "begriff": "Teufelsgeige",
+      "text": "Einfaches Rhythmus-Instrument aus einem Stock mit Schellen und Blechscheiben, das bei Feiern geschlagen und gestrichen wird.",
+      "suche": ["Teufelsgeige"]
+    },
+    {
+      "id": "kvk",
+      "begriff": "Kriegsverdienstkreuz",
+      "text": "Auszeichnung für Verdienste, die nicht im direkten Kampf erworben wurden, etwa in Verwaltung und Nachschub.",
+      "suche": ["Kriegsverdienstkreuz"]
+    },
+    {
+      "id": "vergeltung",
+      "begriff": "Invasion und „Vergeltung“",
+      "text": "Die Landung der Alliierten in der Normandie am 6. Juni 1944 und der Beginn der Angriffe mit der „Vergeltungswaffe“ V1 auf London ab dem 13. Juni 1944. Die Propaganda stellte beides als Wende zugunsten Deutschlands dar.",
+      "suche": ["Invasion", "Vergeltung"]
+    },
+    {
+      "id": "bagration",
+      "begriff": "Sowjetische Sommeroffensive 1944",
+      "text": "Am 22. Juni 1944, zwei Tage nach Fritz’ letztem Brief, griff die Rote Armee in Weißrussland an (Operation „Bagration“). Innerhalb weniger Wochen brach die deutsche Heeresgruppe Mitte zusammen; Hunderttausende deutsche Soldaten fielen, wurden vermisst oder gerieten in Gefangenschaft."
+    },
+    {
+      "id": "kennkarte",
+      "begriff": "Kennkarte",
+      "text": "Der Personalausweis im Deutschen Reich ab 1938. Ernas Kennkarte wurde 1943 in Wolfhagen ausgestellt."
+    },
+    {
+      "id": "ahnenpass",
+      "begriff": "Ahnenpass",
+      "text": "Ein Heft, in dem die Abstammung über mehrere Generationen eingetragen wurde, um eine „arische“ Herkunft nachzuweisen, wie es die NS-Rassegesetze für viele Berufe verlangten, auch für Lehrer."
+    },
+    {
+      "id": "suchdienst",
+      "begriff": "DRK-Suchdienst, Vermisstenbildliste",
+      "text": "Der Suchdienst des Deutschen Roten Kreuzes klärt seit 1945 das Schicksal von Vermissten. Ab den 1950er Jahren wurden Heimkehrern Bildlisten mit Fotos der Vermissten vorgelegt; Fritz steht in Band LM, Seite 219.",
+      "suche": ["Roten Kreuz", "Rotes Kreuz", "Suchdienst", "Bildliste"]
+    }
+  ]
+}
