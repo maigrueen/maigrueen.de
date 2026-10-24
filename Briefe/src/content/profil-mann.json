@@ -3,50 +3,55 @@
   "lebensdaten": "* 5. August 1905 in Hagen-Kabel · vermisst seit Juni 1944, vermutlich gestorben Juni/Juli 1944 in sowjetischer Gefangenschaft",
   "foto": "Fritz-Pilsen.jpg",
   "fotoText": "Fritz Böttcher in Pilsen",
-  "text": "Friedrich „Fritz“ Böttcher wurde am 5. August 1905 in Hagen-Kabel in Westfalen geboren, als Sohn des Schuhmachermeisters Carl Böttcher und seiner Frau Wilhelmine Louise, geb. Schäfer. Er hatte zwei Brüder, den älteren Karl und Heinrich. Nach der Volksschule besuchte er das Lehrerseminar in Herdecke und arbeitete ab 1924 als Volksschullehrer. Als er 1937 die ersten erhaltenen Briefe an Erna schrieb, lebte er in Riede im Kreis Wolfhagen.\n\nAm 29. September 1938 heiratete er Erna Steinmetz in Lohne bei Fritzlar. Am 3. März 1941 wurde er zum Militär eingezogen. Zuletzt gehörte er als Unteroffizier (befördert am 1. Dezember 1943) zum Füsilier-Bataillon der 6. Luftwaffen-Feld-Division. Ab Januar 1944 war er in Weißrussland eingesetzt.\n\nSein letzter erhaltener Brief stammt vom 20. Juni 1944. Zwei Tage später begann die sowjetische Großoffensive, die die deutsche Front in Weißrussland zusammenbrechen ließ. Nach dem Bericht eines Kameraden brach seine Einheit am 26. Juni von Witebsk auf. Fritz blieb vermisst. Der Kamerad schrieb Erna später, er habe in Gefangenschaft gehört, dass auch Fritz gefangen genommen wurde. Ein Gutachten des DRK-Suchdienstes von 1972 kommt zu dem Schluss, dass er mit hoher Wahrscheinlichkeit Ende Juni oder Anfang Juli 1944 in Gefangenschaft geriet und kurz danach starb. Ort und Datum seines Todes sind nicht bekannt.",
+  "text": "Friedrich „Fritz“ Böttcher kommt am 5. August 1905 in Hagen-Kabel am Rand des Ruhrgebiets zur Welt. Seine Eltern stammen aus Dörfern im waldeckischen Edertal: Der Vater Carl ist Schuhmachermeister in Kabel, die Mutter Louise war vor der Ehe Dienstmagd in Barmen. Fritz wächst mit seinen Brüdern Karl, der älter ist als er, und Heinrich auf. Nach der Volksschule geht er mit 14 Jahren ans Lehrerseminar in Herdecke, mit 19 ist er Volksschullehrer. Ein Jahr später stirbt sein Vater.\n\nSpätestens 1937 unterrichtet Fritz an der kleinen Volksschule in Riede im Kreis Wolfhagen. Seine Briefe zeigen einen vielseitig interessierten Menschen: Er schreibt Gedichte und kleine Geschichten, zeichnet, komponiert, lernt Englisch und Italienisch und liest viel. Im Herbst 1937 umwirbt er Erna Steinmetz aus Kirchberg mit Briefen und Versen, 1938 heiraten die beiden, er ist 33.\n\nMit 35 Jahren wird Fritz im März 1941 eingezogen. Die meiste Zeit ist er Schreiber in einer Schreibstube in Pilsen, Ende 1943 wird er mit 38 Unteroffizier, worüber er sich vor allem Ernas wegen freut. Im Januar 1944 kommt er an die Front bei Witebsk in Weißrussland. In seinen Briefen klagt er über den „Papierkrieg“, Läuse, Hunger und Schikanen; im Mai 1944 wehrt er sich so heftig gegen einen jungen Vorgesetzten, dass er Arrest bekommt und versetzt wird. Dabei plant er die Zeit nach dem Krieg: in Riede bleiben, das alte Fachwerkhaus schön einrichten, mit Erna lesen, Musik hören und „ein paar Jahre noch friedlich“ leben.\n\nSein letzter erhaltener Brief stammt vom 20. Juni 1944. Zwei Tage später beginnt die sowjetische Großoffensive, die die deutsche Front in Weißrussland zusammenbrechen lässt. Nach dem Bericht eines Kameraden bricht seine Einheit am 26. Juni von Witebsk auf, und Fritz gerät in Gefangenschaft. Ein Gutachten des DRK-Suchdienstes von 1972 kommt zu dem Schluss, dass er mit hoher Wahrscheinlichkeit kurz danach starb, mit 38 Jahren. Wo und wann genau, weiß niemand.",
   "lebenslauf": [
     {
       "zeit": "1905",
       "titel": "Geburt",
-      "text": "am 5. August in Hagen-Kabel (Westfalen), als Sohn des Schuhmachermeisters Carl Böttcher und Wilhelmine Louise Charlotte Catharine, geb. Schäfer; seine Brüder heißen Karl und Heinrich"
+      "text": "am 5. August in Hagen-Kabel (Westfalen). Fritz ist ein Sohn des Schuhmachermeisters Carl Böttcher und seiner Frau Wilhelmine Louise, geb. Schäfer; er hat zwei Brüder, den älteren Karl und Heinrich"
     },
     {
       "zeit": "1911 – 1919",
       "titel": "Volksschule",
-      "text": "in Hagen-Kabel"
+      "text": "Mit sechs Jahren kommt Fritz in die Volksschule in Hagen-Kabel"
     },
     {
       "zeit": "1919 – 1924",
       "titel": "Lehrerseminar",
-      "text": "Ausbildung zum Volksschullehrer in Herdecke"
+      "text": "Mit 14 Jahren beginnt Fritz die Ausbildung zum Volksschullehrer am Lehrerseminar in Herdecke"
     },
     {
       "zeit": "1924",
       "titel": "Lehrer",
-      "text": "Beginn seiner Tätigkeit als Volksschullehrer"
+      "text": "Mit 19 Jahren ist Fritz Volksschullehrer. Wo er in den ersten Jahren unterrichtet, ist noch nicht bekannt"
+    },
+    {
+      "zeit": "27. April 1926",
+      "titel": "Tod des Vaters",
+      "text": "Fritz verliert seinen Vater, der mit 58 Jahren in Kabel stirbt; Fritz ist 20"
     },
     {
       "zeit": "1937",
       "titel": "Riede (Kreis Wolfhagen)",
-      "text": "Von hier schreibt er im Herbst 1937 die frühesten erhaltenen Briefe an Erna. Im Ahnenpass ist Riede als sein Ort eingetragen",
+      "text": "Fritz ist Lehrer in Riede und umwirbt Erna Steinmetz aus Kirchberg mit Briefen, kleinen Geschichten und Gedichten. Im Ahnenpass ist Riede als sein Wohnort eingetragen",
       "briefe": ["1937-09", "1937-09-30", "1937-10-09-1", "1937-10-09-2", "1937-12"]
     },
     {
       "zeit": "3. April 1938",
       "titel": "Verlobung",
-      "text": "mit Erna Steinmetz",
+      "text": "Fritz verlobt sich mit Erna Steinmetz",
       "briefe": ["1938-04-03"]
     },
     {
       "zeit": "29. September 1938",
       "titel": "Hochzeit",
-      "text": "mit Ida Elisabeth Erna Steinmetz in Lohne bei Fritzlar (Fritz ist 33, Erna 31)",
+      "text": "Mit 33 Jahren heiratet Fritz die 31-jährige Erna in Lohne bei Fritzlar. Zum Hochzeitstag schreibt er ihr ein Gedicht",
       "briefe": ["1938-09-29"]
     },
     {
       "zeit": "3. März 1941",
       "titel": "Einberufung",
-      "text": "zum Militär",
+      "text": "Mit 35 Jahren wird Fritz zum Militär eingezogen",
       "bilder": [
         {
           "datei": "Fritz-Rahmendaten-Armee.jpg",
@@ -55,55 +60,72 @@
       ]
     },
     {
-      "zeit": "1943",
+      "zeit": "spätestens 1942 – Januar 1944",
       "titel": "Pilsen",
-      "text": "Seine Einheit liegt in Pilsen (Böhmen) im Realgymnasium. Heimaturlaub vom 7. bis 13. Dezember 1943",
+      "text": "Fritz ist Schreiber in der Schreibstube eines Bataillons, das im Realgymnasium von Pilsen (Böhmen) liegt. Abends lernt er Englisch und Italienisch und schreibt ein Wiegenlied. Vom 7. bis 13. Dezember 1943 ist er zum letzten Mal auf Heimaturlaub in Riede",
       "briefe": ["1942-01-25", "1943-01-04", "1943-01-07", "1943-11-28", "1943-12-02", "1943-12-14"]
     },
     {
       "zeit": "1. Dezember 1943",
       "titel": "Beförderung zum Unteroffizier",
-      "text": "Zu Weihnachten 1943 schickt er Erna eine handgeschriebene Karte „Es lebe unser Unteroffizier!!!“ („Kriegsweihnacht 1943“) und einen Zettel „aus dem Tannenzweig“: Er sei ab dem 1. Dezember 1943 zum Unteroffizier befördert, und er habe sich sehr gefreut",
+      "text": "Mit 38 Jahren wird Fritz Unteroffizier. Zu Weihnachten schickt er Erna eine handgeschriebene Karte „Es lebe unser Unteroffizier!!!“ und einen Zettel an einem Tannenzweig: „Ich habe mich sehr gefreut für Dich.“",
       "briefe": ["1943-12-01"]
     },
     {
       "zeit": "18. – 27. Januar 1944",
       "titel": "Verlegung nach Osten",
-      "text": "Abmarsch aus Pilsen am 18. Januar, am 25. Januar in Minsk, am 27. Januar in Witebsk",
+      "text": "Abmarsch aus Pilsen am 18. Januar, zehn Tage im Güterwagen. In Minsk schreibt Fritz Erna, dass er vielleicht nicht wiederkommt, am 27. Januar erreicht er Witebsk",
       "briefe": ["1944-01-17", "1944-01-19", "1944-01-21", "1944-01-25-1", "1944-01-25-2", "1944-01-25-3", "1944-01-27"]
     },
     {
       "zeit": "8. Februar 1944",
       "titel": "Feldersatz-Bataillon 6 (L)",
-      "text": "Feldpostnummer 58937 A, ab 27. Mai 1944 58937 B (1. Kompanie)"
+      "text": "Fritz wird Schreiber im Stab des neu aufgestellten Bataillons und bekommt die Feldpostnummer 58937 A"
+    },
+    {
+      "zeit": "6. April – Mitte Mai 1944",
+      "titel": "Bandeneinsatz",
+      "text": "Als Gefechtsschreiber ist Fritz wochenlang im Einsatz gegen Partisanen, rund 100 km westlich von Witebsk. Er schreibt von Märschen durch Schlamm, halb abgebrannten Dörfern und erbeutetem Vieh. Ob seine Einheit am Unternehmen „Frühlingsfest“ beteiligt war, bei dem Tausende Zivilisten getötet wurden, ist nicht belegt",
+      "briefe": ["1944-04-11", "1944-04-24", "1944-05-01", "1944-05-21"]
+    },
+    {
+      "zeit": "19. Mai 1944",
+      "titel": "Arrest und Versetzung",
+      "text": "Fritz wehrt sich so drastisch gegen die Schikanen eines jungen Vorgesetzten, dass er drei Tage Arrest bekommt und als Maschinengewehrschütze in die 2. Kompanie versetzt wird; ab 21. Mai Feldpostnummer 58937 B",
+      "briefe": ["1944-05-21"]
     },
     {
       "zeit": "5. Juni 1944",
       "titel": "Füsilier-Bataillon 6 (L)",
-      "text": "Feldpostnummer 58787 A. Das Bataillon gehört zur 6. Luftwaffen-Feld-Division, Fritz ist Unteroffizier (seit 1. Dezember 1943)"
+      "text": "Fritz wird Gefechtsschreiber im Stab des Füsilier-Bataillons der 6. Luftwaffen-Feld-Division, Feldpostnummer 58787 A. Er hofft auf Urlaub im Juli, doch am 13. Juni wird eine Urlaubssperre verhängt"
     },
     {
       "zeit": "20. Juni 1944",
       "titel": "Letzter Brief",
-      "text": "der letzte erhaltene Brief an Erna",
+      "text": "Nachts als Wachhabender schreibt Fritz seinen letzten erhaltenen Brief an Erna. Um ihn herum sei alles „maßlos traurig“",
       "briefe": ["1944-06-20-1", "1944-06-20-2"]
     },
     {
       "zeit": "22. Juni 1944",
       "titel": "Sowjetische Großoffensive",
-      "text": "Beginn des Angriffs der Roten Armee in Weißrussland. Laut DRK-Gutachten muss die 6. Luftwaffen-Feld-Division, die im Raum Orscha (75 km südlich von Witebsk) eingesetzt ist, nach Südwesten zurückgehen und wird bei Wolma, südöstlich von Minsk, eingeschlossen"
+      "text": "Die Rote Armee greift in Weißrussland an. Laut DRK-Gutachten muss Fritz’ Division aus dem Raum Orscha nach Südwesten zurückgehen und wird bei Wolma eingeschlossen; seine Briefe und der Bericht eines Kameraden sprechen eher dafür, dass sie bei Witebsk eingeschlossen wurde"
     },
     {
       "zeit": "26. Juni 1944",
       "titel": "Aufbruch von Witebsk",
-      "text": "Nach dem Bericht eines Kameraden (Peter Winkler, Brief an Erna, vermutlich 1945) bricht die Einheit an diesem Tag von Witebsk auf, und die Männer verlieren sich am Abend aus den Augen",
+      "text": "Nach dem Bericht seines Kameraden Peter Winkler bricht Fritz’ Einheit an diesem Tag von Witebsk auf; am Abend verlieren sich die Männer aus den Augen",
       "briefe": ["1945"]
     },
     {
       "zeit": "Juni/Juli 1944",
       "titel": "Vermisst, vermutlich gestorben",
-      "text": "Winkler gerät am 9. Juli 1944 in Gefangenschaft und hört dort, dass auch Fritz und zwei weitere Kameraden gefangen genommen wurden. Nach dem Gutachten des DRK-Suchdienstes (1972) starb Fritz mit hoher Wahrscheinlichkeit kurz nach der Gefangennahme in einem Sammellager, auf dem Transport oder in einem Arbeitslager. Ort und Datum sind nicht bekannt",
+      "text": "Winkler hört in Gefangenschaft, dass auch Fritz, Paul Haag und ein weiterer Kamerad gefangen genommen wurden. Haag stirbt am 30. Oktober 1944 in einem Kriegsgefangenenlager im Donbass, rund 1.000 km weiter südöstlich. Nach dem Gutachten des DRK-Suchdienstes (1972) starb Fritz mit hoher Wahrscheinlichkeit kurz nach der Gefangennahme, mit 38 Jahren, in einem Sammellager, auf dem Transport oder in einem Arbeitslager. Ort und Datum sind nicht bekannt",
       "briefe": ["1945", "1972-01-31"]
+    },
+    {
+      "zeit": "1950er-Jahre",
+      "titel": "In der Vermisstenbildliste des DRK",
+      "text": "Mit Ernas Foto erscheint Fritz in der Vermisstenbildliste des DRK-Suchdienstes (Band LM, Seite 219), sortiert nach seiner letzten Feldpostnummer 58787. Mit diesen Listen sollten Heimkehrer Vermisste wiedererkennen. Eingetragen sind „Böttcher Fritz, Lehrer, 5.8.05, Uffz., Witebsk 6.44“; als Heimatort steht dort irrtümlich „Riede/Württemberg“. Das DRK selbst nennt hier also Witebsk als letzten Ort"
     }
   ],
   "kunst": {
@@ -122,7 +144,7 @@
       },
       {
         "datei": "Pilsen.jpg",
-        "text": "Vermutlich Fritz in Pilsen, um 1941/42 – Vorlage der Zeichnung? (aus Ernas Nachlass; nicht sicher)"
+        "text": "Fritz in Uniform der Luftwaffe, vermutlich Winter 1943/44 oder 1944 – Vorlage der Zeichnung? Dasselbe Foto steht in der Vermisstenbildliste des DRK"
       },
       {
         "datei": "110072015_0088.jpg",
