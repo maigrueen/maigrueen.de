@@ -5,14 +5,17 @@ import ThemeToggle from "./components/ThemeToggle.vue";
 <template>
   <div>
     <header>
-      <img src="./assets/logo.png" alt="Logo" />
+      <router-link to="/" class="logo" aria-label="Zur Startseite">
+        <img src="./assets/logo.png" alt="Logo" />
+      </router-link>
       <ThemeToggle />
     </header>
     <nav>
-      <router-link to="/">Briefe</router-link>
+      <router-link to="/briefe">Briefe</router-link>
       <router-link to="/mann">Fritz</router-link>
       <router-link to="/frau">Erna</router-link>
       <router-link to="/karte">Karte</router-link>
+      <router-link to="/glossar">Glossar</router-link>
     </nav>
     <main><router-view /></main>
   </div>
@@ -28,7 +31,8 @@ header {
   margin-top: 5%;
   margin-bottom: 2%;
 }
-header img { max-height: 80px; }
+header img { max-height: 80px; display: block; }
+header .logo { display: inline-block; line-height: 0; }
 nav { display: flex; flex-wrap: wrap; gap: 2rem; margin-bottom: 3rem; }
 nav a.router-link-exact-active { font-weight: 600; }
 .meta { font-size: 1.3rem; opacity: 0.8; margin: 0; }
