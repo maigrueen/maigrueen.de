@@ -108,49 +108,5 @@
       "jahre": "1907 – 1990",
       "link": "/frau"
     }
-  ],
-  "dokumente": [
-    {
-      "titel": "Weihnachten 1943",
-      "bilder": [
-        {
-          "datei": "19431224-Fritz.jpg",
-          "text": "Kriegsweihnacht 1943: „Es lebe unser Unteroffizier!!!“"
-        },
-        {
-          "datei": "19431224-Fritz-02.jpg",
-          "text": "Zettel von Fritz an Erna: ab 1.12.43 zum Unteroffizier befördert"
-        }
-      ]
-    },
-    {
-      "titel": "Die Suche nach Fritz",
-      "bilder": [
-        {
-          "datei": "19441220-Suchantrag-Armee-Fritz.jpg",
-          "text": "20.12.1944: Oberkommando des Heeres an Erna Böttcher, Verbleib unbekannt"
-        },
-        {
-          "datei": "19550119-Suchantrag-Rotes-Kreuz-Fritz.jpg",
-          "text": "19.01.1955: Deutsches Rotes Kreuz, Fritzlar"
-        },
-        {
-          "datei": "19720131-Suchantrag-Rotes-Kreuz-Fritz.jpg",
-          "text": "31.01.1972: DRK-Suchdienst München, Anschreiben"
-        },
-        {
-          "datei": "19720131-Suchantrag-Rotes-Kreuz-Fritz-02.jpg",
-          "text": "31.01.1972: Gutachten, Blatt 1"
-        },
-        {
-          "datei": "19720131-Suchantrag-Rotes-Kreuz-Fritz-03.jpg",
-          "text": "31.01.1972: Gutachten, Blatt 2"
-        },
-        {
-          "datei": "Fritz-Rahmendaten-Armee.jpg",
-          "text": "Handschriftliche Notiz zu den Eckdaten 1938 bis 1944"
-        }
-      ]
-    }
   ]
 }
