@@ -58,9 +58,11 @@ const bildIndex = (ei, bi) =>
 </template>
 
 <style scoped>
-.lebenslauf { list-style: none; border-left: 6px solid var(--timeline); padding-left: 2rem; }
-.lebenslauf li { background: var(--background-timeline); padding: 1.5rem; margin-bottom: 1.5rem; }
-time { display: block; font-size: 1.2rem; font-weight: bold; margin-bottom: 0.5rem; }
+/* Zeitleiste wie auf der Startseite: grüne Linie mit Punkten, ohne Farbkästen */
+.lebenslauf { list-style: none; border-left: 2px solid var(--timeline); margin: 0 0 0 0.6rem; padding-left: 2.4rem; }
+.lebenslauf li { position: relative; margin: 0; padding: 0 0 2.2rem; }
+.lebenslauf li::before { content: ""; position: absolute; left: calc(-2.4rem - 8px); top: 0.4rem; width: 14px; height: 14px; border-radius: 50%; background: var(--timeline); border: 3px solid var(--background-color); box-sizing: border-box; }
+time { display: block; font-size: 1.3rem; font-weight: 600; letter-spacing: 0.03rem; color: var(--link-color); margin-bottom: 0.2rem; }
 
 .briefe { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.4rem 1.2rem; margin: 1rem 0 0; }
 .briefe .meta { font-size: inherit; }
