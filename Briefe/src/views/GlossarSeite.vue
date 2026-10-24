@@ -2,6 +2,7 @@
 import { computed, ref } from "vue";
 import { briefe, bildUrl, datumDe } from "../briefe";
 import Lightbox from "../components/Lightbox.vue";
+import Stammbaum from "../components/Stammbaum.vue";
 import { glossarIntro, personen, begriffe } from "../glossar";
 
 const briefNachId = Object.fromEntries(briefe.map((b) => [b.id, b]));
@@ -42,10 +43,16 @@ const sichtbar = (e) => (offen.value[e.id] ? e.briefIds : e.briefIds.slice(0, GR
   <p class="meta">{{ glossarIntro }}</p>
 
   <nav class="sprung" aria-label="Abschnitte">
+    <a href="#" @click.prevent="$router.push({ hash: '#stammbaum' })">Stammbaum</a>
     <a href="#" @click.prevent="$router.push({ hash: '#personen' })">Personen</a>
     <a href="#" @click.prevent="$router.push({ hash: '#begriffe' })">Begriffe</a>
     <input v-model="suche" type="search" placeholder="Suchen …" aria-label="Glossar durchsuchen" />
   </nav>
+
+  <details id="stammbaum" class="stammbaum" open>
+    <summary>Stammbaum</summary>
+    <Stammbaum />
+  </details>
 
   <h2 id="personen">Personen</h2>
   <p v-if="!gruppen.length">Keine Person gefunden.</p>
@@ -102,6 +109,8 @@ const sichtbar = (e) => (offen.value[e.id] ? e.briefIds : e.briefIds.slice(0, GR
 </template>
 
 <style scoped>
+.stammbaum { margin-top: 2rem; scroll-margin-top: 2rem; }
+.stammbaum summary { cursor: pointer; font-size: 2.4rem; font-weight: 300; }
 .sprung { display: flex; flex-wrap: wrap; align-items: center; gap: 1.5rem; margin: 2rem 0; }
 .sprung input { flex: 1 1 200px; height: 38px; padding: 0 1rem; border: 1px solid var(--form-color-border); border-radius: 4px; background: transparent; color: var(--text-color); font: inherit; }
 dt { font-weight: 600; margin-top: 1.8rem; scroll-margin-top: 2rem; }

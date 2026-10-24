@@ -102,6 +102,7 @@ const dokIndex = (gi, bi) =>
           <span class="meta"> · {{ p.beziehung }}, {{ p.jahre }}</span>
         </li>
       </ul>
+      <p class="meta"><router-link :to="{ path: '/glossar', hash: '#stammbaum' }">Zum Stammbaum der Familien</router-link></p>
     </template>
 
     <template v-if="profil.dokumente && profil.dokumente.length">
