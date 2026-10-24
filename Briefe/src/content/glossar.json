@@ -12,61 +12,81 @@
       "id": "vater-steinmetz",
       "name": "Johannes Steinmetz",
       "gruppe": "Familie Steinmetz",
-      "text": "1876 – 1966, Ernas Vater, Lehrer in Kirchberg, später in Kassel; er unterschreibt mit „H. Steinmetz“. 1944 lebt er bei Erna in Riede. Zusammen mit Fritz’ Mutter ist er gemeint, wenn Fritz „die beiden Alten“ grüßen lässt.",
+      "text": "* 1. Dezember 1876 in Lohne bei Fritzlar, † 5. August 1966 in Fritzlar. Ernas Vater, Lehrer in Kirchberg, später in Kassel; er unterschreibt mit „H. Steinmetz“. 1944 lebt er bei Erna in Riede. Ihn und Fritz’ Mutter meint Fritz, wenn er „die beiden Alten“ grüßen lässt.",
       "suche": ["Deinem Vater", "Dein Vater", "beiden Alten"]
     },
     {
       "id": "mutter-steinmetz",
       "name": "Anna Elise Auguste Hedwig Steinmetz, geb. Gonnermann",
       "gruppe": "Familie Steinmetz",
-      "text": "1882 – 1941, Ernas Mutter. Ihre Krankheit und ihr Tod 1941 sind in den Briefen des Vaters an Erna beschrieben (siehe Ernas Lebenslauf)."
+      "text": "* 28. November 1882 in Tann (Ludwigsau), † 15. Mai 1941 in Kassel. Ernas Mutter, seit dem 6. Oktober 1904 mit Johannes Steinmetz verheiratet. Ihre Krankheit und ihr Tod sind in den Briefen des Vaters an Erna beschrieben (siehe Ernas Lebenslauf)."
     },
     {
       "id": "edith",
       "name": "Edith (Dorothea Nelly Edith Wackerbarth, geb. Steinmetz)",
       "gruppe": "Familie Steinmetz",
-      "text": "1914 – 2007, Ernas Schwester und Urgroßmutter der Autorin dieser Seite. Im Frühjahr 1944 schreibt sie wie ihre Schwestern ihrem Mann Konrad Wackerbarth bei der Wehrmacht.",
+      "text": "* 26. April 1914 in Lohne bei Fritzlar, † 29. Juli 2007 in Wolfhagen. Ernas Schwester und Urgroßmutter der Autorin dieser Seite. Seit dem 8. August 1936 mit Konrad Wackerbarth verheiratet, drei Kinder, darunter Inge. Im Frühjahr 1944 schreibt sie wie ihre Schwägerin Elise einem Mann bei der Wehrmacht.",
       "suche": ["Edith"]
+    },
+    {
+      "id": "konrad",
+      "name": "Konrad Wackerbarth",
+      "gruppe": "Familie Steinmetz",
+      "text": "* 14. November 1905 in Lohne bei Fritzlar, † 27. Februar 1990 in Wolfhagen. Ediths Mann. Ostern 1944 ist er Soldat; Fritz fragt sich, wo „Konrad, Heini, Otto und ich“ gerade sind.",
+      "suche": ["Konrad"]
+    },
+    {
+      "id": "inge",
+      "name": "Inge (Ingeborg Erna Wackerbarth)",
+      "gruppe": "Familie Steinmetz",
+      "text": "* 24. September 1936 in Fritzlar, † 21. November 1995. Ediths älteste Tochter und Großmutter der Autorin dieser Seite. Am 5. Oktober 1948 kommt die Zwölfjährige mit ihrem kleinen Cousin Klaus auf dem Rad zu Erna (Ernas Tagebuch)."
     },
     {
       "id": "agnes",
       "name": "Agnes (Erna Wally Agnes Trömner, geb. Steinmetz)",
       "gruppe": "Familie Steinmetz",
-      "text": "1921 – 1974, Ernas jüngste Schwester; 1922 lernt sie gerade laufen. Im März 1944 flüchtet sie mit ihrem kleinen Sohn Klaus aus Fritzlar zu Erna nach Riede. Ihr Mann ist der Unteroffizier Hermann Otto Trömner.",
+      "text": "* 5. April 1921, † 11. März 1974 in Fritzlar. Ernas jüngste Schwester; 1922 lernt sie gerade laufen. Am 2. Mai 1943 heiratet sie in Zennern Otto Trömner, im Februar 1944 kommt ihr Sohn Klaus zur Welt. Im März 1944 flüchtet sie mit dem Baby aus Fritzlar zu Erna nach Riede.",
       "suche": ["Agnes"]
+    },
+    {
+      "id": "otto",
+      "name": "Otto (Hermann Otto Trömner)",
+      "gruppe": "Familie Steinmetz",
+      "text": "* 6. September 1916 in Zennern (Wabern), † 20. Mai 1981 in Kassel. Agnes’ Mann, seit 2. Mai 1943. 1944 ist er Unteroffizier; Agnes schreibt „an ihren Unteroffizier“.",
+      "suche": ["Otto"]
     },
     {
       "id": "klaus",
       "name": "Klaus (Klaus Jürgen Erich Trömner)",
       "gruppe": "Familie Steinmetz",
-      "text": "1944 - 2002, Agnes’ Sohn, 1944 noch ein Baby. Im Oktober 1948 erzählt „der Klaus“ Erna, Onkel Fritz komme bald aus Russland zurück (Ernas Tagebuch). Dass es derselbe Klaus ist, ist wahrscheinlich, aber nicht belegt. Die Inge, mit der er kam, ist noch nicht zugeordnet.",
+      "text": "* 4. Februar 1944 in Zennern (Wabern), † 2002 in Rüsselsheim. Sohn von Agnes und Otto Trömner, im Frühjahr 1944 „der Kleine“ in Riede. Am 5. Oktober 1948 sitzt er hinten auf dem Rad seiner Cousine Inge und erzählt Erna, Onkel Fritz komme bald aus Russland zurück (Ernas Tagebuch).",
       "suche": ["Klaus", "dem Kleinen"]
     },
     {
       "id": "heini",
       "name": "Heini (Johann Heinrich Steinmetz)",
       "gruppe": "Familie Steinmetz",
-      "text": "Geboren 1905, Ernas Bruder. 1944 Soldat; Fritz hält im Dezember 1943 in Kassel nach ihm Ausschau.",
+      "text": "* 9. August 1905, Ernas älterer Bruder. Verheiratet mit Elise, geb. Höhmann, ein Sohn. 1944 ist er Soldat; Fritz hält im Dezember 1943 in Kassel nach ihm Ausschau.",
       "suche": ["Heini"]
+    },
+    {
+      "id": "elise",
+      "name": "Elise Steinmetz, geb. Höhmann",
+      "gruppe": "Familie Steinmetz",
+      "text": "* 11. Juni 1906. Heinis Frau. 1941 verwahrt sie wohl den Hausschlüssel der Eltern in Kassel; 1944 schreibt sie wie Edith „an ihren Obergefreiten“.",
+      "suche": ["Elise"]
     },
     {
       "id": "hugo",
       "name": "Hugo Steinmetz",
       "gruppe": "Familie Steinmetz",
-      "text": "1910 – 1978, Ernas Bruder. Kommt nur in den Briefen der Eltern vor (1922 und 1940)."
-    },
-    {
-      "id": "schwaeger",
-      "name": "Otto, Konrad und Elise",
-      "gruppe": "Familie Steinmetz",
-      "text": "Ostern 1944 fragt sich Fritz, wo „Konrad, Heini, Otto und ich“ gerade sind, und Edith und Elise schreiben „an ihren Obergefreiten“. Wer genau Otto, Konrad und Elise sind (Schwäger, Schwägerin?), ist noch offen.",
-      "suche": ["Konrad", "Otto", "Elise"]
+      "text": "* 30. Mai 1910 in Lohne bei Fritzlar, † 30. Januar 1978 in Kirchberg. Ernas Bruder, Lehrer wie sein Vater und Fritz, verheiratet mit Minna, geb. Kirchhoff. Kommt nur in den Briefen der Eltern vor (1922 und 1940)."
     },
     {
       "id": "gonnermann",
       "name": "Onkel Heinrich und Tante Nelly Gonnermann",
       "gruppe": "Familie Steinmetz",
-      "text": "Verwandte der Mutter in Velsen bei Haarlem (Niederlande). 1922 ist die 15-jährige Erna bei ihnen zu Besuch; in den Briefen der Eltern werden auch Onkel Justus und Horst gegrüßt."
+      "text": "Onkel Heinrich Rudolf Gonnermann (1881 – 1927), Bruder von Ernas Mutter, Ingenieur in Velsen bei Haarlem (Niederlande), und seine niederländische Frau Nelly (Neeltje Cornelia, geb. Mets, 1882 – 1956). 1922 ist die 15-jährige Erna bei ihnen zu Besuch; in den Briefen der Eltern werden auch Onkel Justus und Horst gegrüßt."
     },
     {
       "id": "fritz",
@@ -76,10 +96,16 @@
       "link": "/mann"
     },
     {
+      "id": "vater-boettcher",
+      "name": "Karl Böttcher",
+      "gruppe": "Familie Böttcher",
+      "text": "* 31. Oktober 1867 in Buhlen (Edertal), † 27. April 1926 in Hagen. Fritz’ Vater, Schuhmacher in Hagen. Er starb, als Fritz 20 Jahre alt war."
+    },
+    {
       "id": "mutter-boettcher",
       "name": "Katharina Luise Böttcher, geb. Schäfer",
       "gruppe": "Familie Böttcher",
-      "text": "Geboren 1867, Fritz’ Mutter, in den Briefen „Mama“ oder „Mutter“. Sie lebt 1944 bei Erna in Riede. Im Mai 1944 gibt es Streit zwischen den beiden Frauen, den Erna wieder beilegt.",
+      "text": "* 21. Oktober 1867 in Anraff (Edertal). Fritz’ Mutter, in den Briefen „Mama“ oder „Mutter“; seit 1896 mit dem Schuhmacher Karl Böttcher verheiratet. Ihre Familie und die ihres Mannes stammen aus Buhlen im Edertal, wohin Fritz im März 1944 ein Päckchen Bonbons schickt. Sie lebt 1944 bei Erna in Riede. Im Mai 1944 gibt es Streit zwischen den beiden Frauen, den Erna wieder beilegt.",
       "suche": ["Mama", "meiner Mutter", "meine Mutter"]
     },
     {
