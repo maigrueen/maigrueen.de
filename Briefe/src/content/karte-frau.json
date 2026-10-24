@@ -1,5 +1,5 @@
 {
-  "intro": "Orte aus Ernas Leben, soweit sie in Briefen und Dokumenten belegt sind. Klicke auf einen Punkt oder in der Liste auf „Auf der Karte zeigen“.",
+  "intro": "Orte aus Ernas Leben, soweit sie in Briefen und Dokumenten belegt sind. Ein Klick auf einen Punkt zeigt eine Kurzfassung; in der Liste unter der Karte stehen ausführlichere Texte und die passenden Briefe.",
   "linie": false,
   "stationen": [
     {
@@ -8,7 +8,19 @@
       "lng": 9.295,
       "zeit": "ab 1907",
       "typ": "leben",
-      "notiz": "Hier wird Erna am 10. Juli 1907 geboren (damals Kreis Fritzlar). Ihr Vater ist Lehrer und im Elternhaus gibt es Landwirtschaft: Im Oktober 1922 schreiben die Eltern von Obsternte, Schlachtung und der kleinen Schwester Agnes. Die 15-jährige Erna ist da nicht zu Hause, sie soll ihrer Tante Nelly zur Hand gehen."
+      "notiz": "Hier wird Erna am 10. Juli 1907 geboren (damals Kreis Fritzlar), als Tochter des Lehrers Johannes Steinmetz und seiner Frau Hedwig. Sie wächst mit ihren Geschwistern Heini, Hugo, Edith und Agnes auf; im Elternhaus gibt es auch Landwirtschaft. Im Oktober 1922 schreiben die Eltern der 15-Jährigen, die gerade bei Onkel und Tante in Holland ist, von Obsternte, Schlachtung und der kleinen Agnes, die laufen lernt.",
+      "kurz": "Geburtsort; hier wächst Erna mit vier Geschwistern auf.",
+      "glossar": ["vater-steinmetz", "mutter-steinmetz", "heini", "hugo", "edith", "agnes", "gonnermann"]
+    },
+    {
+      "ort": "Velsen bei Haarlem (Niederlande)",
+      "lat": 52.46,
+      "lng": 4.63,
+      "zeit": "Herbst 1922",
+      "typ": "neben",
+      "kurz": "Die 15-jährige Erna ist bei Onkel und Tante zu Besuch.",
+      "notiz": "Im Herbst 1922 ist die 15-jährige Erna bei ihrem Onkel Heinrich Gonnermann, einem Bruder der Mutter, und seiner niederländischen Frau Nelly in Velsen zu Besuch und soll der Tante im Haushalt helfen. Die Eltern schreiben ihr aus Kirchberg; die Geschwister beneiden sie um eine ganze Kiste Schokolade. Kurz vor Weihnachten kehrt sie zurück.",
+      "glossar": ["gonnermann"]
     },
     {
       "ort": "Riede, Lohne und Merxhausen (Nordhessen)",
@@ -16,7 +28,21 @@
       "lng": 9.27,
       "zeit": "ab 1938, bis mindestens 1945",
       "typ": "leben",
-      "notiz": "Am 29. September 1938 heiratet Erna in Lohne bei Fritzlar. Als Frau Böttcher lebt sie in Riede (Kreis Wolfhagen), 1943 stellt der Landrat in Wolfhagen ihre Kennkarte aus. Im Dezember 1943 ist Fritz hier auf Heimaturlaub. Zuletzt arbeitet sie im Reserve-Lazarett Merxhausen, aus dem sie zum 30. April 1945 entlassen wird."
+      "notiz": "Am 29. September 1938 heiratet Erna in Lohne bei Fritzlar und lebt als Frau Böttcher in Riede (Kreis Wolfhagen). Hierher gehen alle Feldpostbriefe; 1943 stellt der Landrat in Wolfhagen ihre Kennkarte aus. Im Dezember 1943 ist Fritz zum letzten Mal auf Heimaturlaub. 1944 wohnen auch ihr Vater und Fritz’ Mutter bei ihr, im März flüchtet die Schwester Agnes mit ihrem Baby aus Fritzlar hierher. Zuletzt arbeitet Erna im Reserve-Lazarett Merxhausen, das sie zum 30. April 1945 entlässt. Fritz’ Mutter lebt bis zu ihrem Tod 1957 in Riede.",
+      "kurz": "Ernas Zuhause mit Fritz; hierher gehen alle Feldpostbriefe.",
+      "orte": ["Riede"],
+      "briefe": ["1938-04-03", "1938-09-29", "1943-12-02", "1943-12-14", "1944-03-27", "1944-12-20"],
+      "glossar": ["fritz", "mutter-boettcher", "vater-steinmetz", "agnes", "klaus", "riede", "kennkarte"]
+    },
+    {
+      "ort": "Wolfhagen",
+      "lat": 51.326,
+      "lng": 9.172,
+      "zeit": "28. August 1943",
+      "typ": "neben",
+      "kurz": "Kreisstadt; hier wird Ernas Kennkarte ausgestellt.",
+      "notiz": "Riede gehört zum Kreis Wolfhagen. Am 28. August 1943 stellt der Landrat in Wolfhagen Ernas Kennkarte aus, als Beruf ist „Hausfrau“ eingetragen.",
+      "glossar": ["kennkarte"]
     },
     {
       "ort": "Kassel",
@@ -24,7 +50,19 @@
       "lng": 9.4797,
       "zeit": "1940 – 1942",
       "typ": "leben",
-      "notiz": "Ihre Eltern wohnen 1940/41 in Kassel. Im April 1941 wird die Mutter im Marienkrankenhaus operiert, Erna soll den Haushalt führen. Die Mutter stirbt 1941. Ein Kasseler Fotograf macht 1941 Ernas Porträt, und ihre Ersatz-Ausweiskarte der Deutschen Arbeitsfront nennt Kassel am 1. November 1942 als Standort ihrer Beschäftigung."
+      "notiz": "Ernas Eltern wohnen 1940/41 in Kassel, Wolfhager Straße. Erna hilft immer wieder im Haushalt, als erst die Mutter, dann der Vater krank sind. Im April 1941 wird die Mutter im Marienkrankenhaus operiert, sie stirbt am 15. Mai 1941. Ein Kasseler Fotograf macht 1941 Ernas Porträt, und ihre Ersatz-Ausweiskarte der Deutschen Arbeitsfront nennt Kassel am 1. November 1942 als Standort ihrer Beschäftigung.",
+      "kurz": "Hier wohnen die Eltern; 1941 stirbt die Mutter.",
+      "glossar": ["mutter-steinmetz", "vater-steinmetz", "elise"]
+    },
+    {
+      "ort": "Zennern (bei Wabern)",
+      "lat": 51.11,
+      "lng": 9.31,
+      "zeit": "2. Mai 1943",
+      "typ": "neben",
+      "kurz": "Hochzeit von Ernas Schwester Agnes mit Otto Trömner.",
+      "notiz": "Am 2. Mai 1943 heiratet Ernas jüngste Schwester Agnes in Zennern Otto Trömner; die Familie feiert mitten im Krieg. Hier kommt im Februar 1944 auch ihr Sohn Klaus zur Welt.",
+      "glossar": ["agnes", "otto", "klaus"]
     },
     {
       "ort": "Fritzlar",
@@ -32,7 +70,11 @@
       "lng": 9.2793,
       "zeit": "1955 – 1972",
       "typ": "leben",
-      "notiz": "Das Deutsche Rote Kreuz schreibt Erna 1955 und 1972 nach Fritzlar. 1972 erhält sie hier das Gutachten des DRK-Suchdienstes über das Schicksal ihres Mannes."
+      "notiz": "1955 bestätigt das DRK in Fritzlar, dass Fritz in der Vermissten-Registrierung des Kreises geführt wird; 1972 schickt ihr der DRK-Suchdienst München hierher sein Gutachten: Fritz sei mit hoher Wahrscheinlichkeit kurz nach seiner Gefangennahme im Sommer 1944 gestorben. In Fritzlar stirbt 1966 auch ihr Vater.",
+      "kurz": "Hierhin schreibt das Rote Kreuz 1955 und 1972.",
+      "orte": ["Fritzlar"],
+      "briefe": ["1955-01-19", "1972-01-31"],
+      "glossar": ["suchdienst", "vater-steinmetz", "agnes"]
     },
     {
       "ort": "Langenargen am Bodensee",
@@ -40,7 +82,29 @@
       "lng": 9.542,
       "zeit": "9. – 24. September 1955",
       "typ": "leben",
-      "notiz": "Ihre erste Urlaubsreise: 14 Tage wohnt Erna in Langenargen-Waldeck und fährt von hier nach Lindau, Bregenz, Konstanz und auf die Mainau, ins Kleinwalsertal, über die Alpen bis an die italienische Grenze und mit der Bahn bis Lugano. Beim ersten Blick auf den See denkt sie an Fritz, der so gern neben ihr stehen würde, und weint."
+      "notiz": "Ihre erste Urlaubsreise: 14 Tage wohnt Erna in Langenargen-Waldeck und fährt von hier nach Lindau, Bregenz, Konstanz und auf die Mainau, ins Kleinwalsertal, über die Alpen bis an die italienische Grenze und mit der Bahn bis Lugano. Beim ersten Blick auf den See denkt sie an Fritz, der so gern neben ihr stehen würde, und weint.",
+      "kurz": "Erste Urlaubsreise; am See denkt Erna an Fritz und weint.",
+      "glossar": ["bodensee"]
+    },
+    {
+      "ort": "Kleinwalsertal",
+      "lat": 47.322,
+      "lng": 10.151,
+      "zeit": "19. September 1955",
+      "typ": "neben",
+      "kurz": "Auf einer Alm fragt Erna: „ach warum ist mein lieber Fritz nicht da!“",
+      "notiz": "Ein Tagesausflug von Langenargen ins Allgäu: durch die Breitachklamm hinauf ins Kleinwalsertal bis Mittelberg, wo Erna gern einmal 14 Tage wohnen möchte. Auf einer Alm mit Kühen und Glöckchen schreibt sie in ihr Tagebuch: „ach warum ist mein lieber Fritz nicht da!“",
+      "glossar": ["bodensee"]
+    },
+    {
+      "ort": "Lugano",
+      "lat": 46.005,
+      "lng": 8.951,
+      "zeit": "23. September 1955",
+      "typ": "neben",
+      "kurz": "Der weiteste Ausflug der Reise: mit der Bahn durch den Gotthard in den Süden.",
+      "notiz": "Am letzten Tag fährt Erna mit der Schweizer Bundesbahn durch den Gotthardtunnel nach Lugano, 614 km an einem Tag. Palmen, Weintrauben, der Duft nach Pfirsichen: „nun muss ich endlich nach Italien“, schreibt sie.",
+      "glossar": ["bodensee"]
     },
     {
       "ort": "Riedstadt (Südhessen)",
@@ -48,7 +112,8 @@
       "lng": 8.49,
       "zeit": "zuletzt, † 1990",
       "typ": "leben",
-      "notiz": "Erna stirbt am 28. Mai 1990 in Riedstadt im Alter von 82 Jahren."
+      "notiz": "Erna stirbt am 28. Mai 1990 in Riedstadt im Alter von 82 Jahren, 46 Jahre nach Fritz’ letztem Brief.",
+      "kurz": "Hier stirbt Erna 1990, 46 Jahre nach Fritz’ letztem Brief."
     }
   ]
 }

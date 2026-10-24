@@ -1,19 +1,34 @@
 {
-  "intro": "Wo Fritz lebte und stationiert war. Klicke auf einen Punkt oder in der Liste auf „Auf der Karte zeigen“.",
+  "intro": "Wo Fritz lebte und stationiert war. Ein Klick auf einen Punkt zeigt eine Kurzfassung; in der Liste unter der Karte stehen ausführlichere Texte und die Briefe, die von dort stammen.",
   "linie": true,
   "fahrt": {
-    "titel": "Die Fahrt nach Osten (18. – 27. Januar 1944)",
+    "titel": "Fahrt nach Osten",
+    "zeit": "18. – 27. Januar 1944",
     "von": "Pilsen",
-    "bis": "Witebsk"
+    "bis": "Witebsk",
+    "notiz": "Zehn Tage im Güterwagen: Mit rund 2.000 Mann in 51 Waggons fährt Fritz von Pilsen über Prag und Breslau nach Warschau, wo der Zug zwei Tage auf dem Rangierbahnhof steht, dann über Brest-Litowsk nach Minsk. Dort bleiben viele Kameraden zurück; die jüngeren Jahrgänge, auch Fritz, fahren weiter bis Witebsk."
   },
   "stationen": [
+    {
+      "ort": "Buhlen und Anraff (Edertal)",
+      "lat": 51.17,
+      "lng": 9.11,
+      "zeit": "Herkunft der Familie",
+      "typ": "neben",
+      "kurz": "Hier stammen Fritz’ Eltern und Großeltern her.",
+      "notiz": "Fritz’ Vater Carl Böttcher wird 1867 in Buhlen geboren, seine Mutter im selben Jahr im Nachbarort Anraff, beide im Edertal in Waldeck. Fritz’ Großvater mütterlicherseits ist Schmied in Buhlen, die Großmutter stammt aus der Buhlener Familie Steinmetz. Im März 1944 schickt Fritz ein Päckchen Bonbons nach Buhlen.",
+      "briefe": ["1944-03-27"],
+      "glossar": ["vater-boettcher", "mutter-boettcher", "grossmutter-schaefer"]
+    },
     {
       "ort": "Hagen-Kabel und Herdecke",
       "lat": 51.38,
       "lng": 7.48,
       "zeit": "1905 – 1924",
       "typ": "leben",
-      "notiz": "Geboren am 5. August 1905 in Hagen-Kabel. Dort Volksschule von 1911 bis 1919, danach Lehrerseminar in Herdecke. Ab 1924 Lehrer."
+      "notiz": "Geboren am 5. August 1905 in Hagen-Kabel als Sohn des Schuhmachermeisters Carl Böttcher und seiner Frau Wilhelmine Louise; die Familien beider Eltern stammen aus dem Edertal in Waldeck. Von 1911 bis 1919 besucht Fritz die Volksschule in Kabel, danach bis 1924 das Lehrerseminar in Herdecke. Sein Vater stirbt 1926 in Kabel.",
+      "kurz": "Geburtsort, Schulzeit und Ausbildung zum Volksschullehrer.",
+      "glossar": ["vater-boettcher", "mutter-boettcher", "karl", "heinrich-boettcher"]
     },
     {
       "ort": "Riede und Lohne (Nordhessen)",
@@ -21,15 +36,33 @@
       "lng": 9.27,
       "zeit": "ab 1937",
       "typ": "leben",
-      "notiz": "Im Ahnenpass ist Riede (Kreis Wolfhagen) als Fritz’ Ort eingetragen, von hier schreibt er 1937 an Erna. Am 29. September 1938 heiraten die beiden im nahen Lohne bei Fritzlar. Erna bleibt bis mindestens 1945 in Riede. Heimaturlaub vom 7. bis 13. Dezember 1943."
+      "notiz": "Im Ahnenpass ist Riede (Kreis Wolfhagen) als Fritz’ Wohnort eingetragen; hier unterrichtet er an der Volksschule und schreibt Erna im Herbst 1937 die ersten erhaltenen Briefe und Gedichte. Am 29. September 1938 heiraten die beiden im nahen Lohne bei Fritzlar. Riede bleibt ihr gemeinsames Zuhause: Vom 7. bis 13. Dezember 1943 ist Fritz hier zum letzten Mal auf Heimaturlaub, Erna bringt ihn mit dem Rad zum Zug nach Fritzlar.",
+      "kurz": "Fritz ist hier Lehrer, lernt Erna kennen und heiratet sie 1938.",
+      "zeitraum": ["1937", "1938-12-31"],
+      "briefe": ["1943-12-02", "1943-12-14"],
+      "glossar": ["erna", "riede", "mutter-boettcher", "vater-steinmetz", "ahnenpass", "urlaub"]
     },
     {
       "ort": "Pilsen (Böhmen)",
       "lat": 49.7384,
       "lng": 13.3736,
-      "zeit": "1943 – 18. Januar 1944",
+      "zeit": "spätestens 1942 – 18. Januar 1944",
       "typ": "militaer",
-      "notiz": "Die Einheit liegt im Realgymnasium, ab Ende Dezember 1943 als Marschbataillon Böhmen und Mähren/2. Am 1. Dezember 1943 wird Fritz zum Unteroffizier befördert. Am 18. Januar 1944 Abmarsch nach Osten."
+      "notiz": "Spätestens ab Januar 1942 ist Fritz in Pilsen bei den Landesschützen und arbeitet als Schreiber in der Schreibstube des Bataillonsstabs. Die Einheit liegt im Realgymnasium. Am 1. Dezember 1943 wird er zum Unteroffizier befördert. Ab Ende Dezember 1943 gehört er zum Marschbataillon Böhmen und Mähren/2, das am 18. Januar 1944 nach Osten abrückt. Ende Dezember bekommt er dort einen neuen Hauptfeldwebel, Paul Haag; die beiden verstehen sich gut und bleiben bis zuletzt zusammen.",
+      "kurz": "Fritz ist Schreiber in einer Kaserne, bis er im Januar 1944 nach Osten muss.",
+      "orte": ["Pilsen"],
+      "glossar": ["landesschuetzen", "schreibstube", "dienstgrade", "marschbataillon", "haag", "pilsen-stab"]
+    },
+    {
+      "ort": "Strakonitz (Böhmen)",
+      "lat": 49.261,
+      "lng": 13.902,
+      "zeit": "1943",
+      "typ": "neben",
+      "kurz": "Wachdienst außerhalb von Pilsen, den Fritz selbst auch einmal leistet.",
+      "notiz": "Von Pilsen aus wird auch in Strakonitz Wache gehalten. Fritz erwähnt im Dezember 1943, dass er selbst schon dort war; sein Kamerad Schaake muss über Weihnachten hin.",
+      "briefe": ["1943-12-14"],
+      "glossar": ["schaake", "landesschuetzen"]
     },
     {
       "ort": "Prag",
@@ -37,7 +70,8 @@
       "lng": 14.4378,
       "zeit": "18. Januar 1944",
       "typ": "reise",
-      "notiz": "Abfahrt von Pilsen am Nachmittag, weiter nach Prag."
+      "notiz": "Abfahrt von Pilsen am Nachmittag, weiter nach Prag.",
+      "kurz": "Abfahrt von Pilsen am 18. Januar 1944."
     },
     {
       "ort": "Breslau",
@@ -45,7 +79,9 @@
       "lng": 17.0385,
       "zeit": "19. Januar 1944",
       "typ": "reise",
-      "notiz": "Weiterfahrt in der Nacht und am nächsten Tag über Mittelwalde nach Breslau."
+      "notiz": "Weiterfahrt in der Nacht und am nächsten Tag über Mittelwalde nach Breslau.",
+      "briefe": ["1944-01-19"],
+      "kurz": "Weiterfahrt über Mittelwalde."
     },
     {
       "ort": "Litzmannstadt (Łódź)",
@@ -85,7 +121,9 @@
       "lng": 27.559,
       "zeit": "25. Januar 1944",
       "typ": "reise",
-      "notiz": "Der Zug hält einige Stunden. Viele Kameraden bleiben hier zurück, Fritz fährt weiter."
+      "notiz": "Der Zug hält einige Stunden. Viele Kameraden bleiben hier zurück, Fritz fährt weiter.",
+      "briefe": ["1944-01-21", "1944-01-25-1", "1944-01-25-2", "1944-01-25-3"],
+      "kurz": "Halt kurz vor der Front: Fritz schreibt, dass er vielleicht nicht wiederkommt."
     },
     {
       "ort": "Witebsk (Weißrussland)",
@@ -93,15 +131,35 @@
       "lng": 30.2049,
       "zeit": "27. Januar – Juni 1944",
       "typ": "militaer",
-      "notiz": "Ankunft am 27. Januar um 1.20 Uhr. Von hier Einsätze in der Umgebung, im April und Mai auch im Partisanengebiet etwa 100 km entfernt. Ende Mai Stellungsbau am Stadtrand, im Juni ein Panzer-Vernichtungs-Lehrgang. Letzter Brief am 20. Juni 1944."
+      "notiz": "Ankunft am 27. Januar 1944. Fritz wird Schreiber im Stab eines neu aufgestellten Bataillons der 6. Luftwaffen-Feld-Division; die Front ist „etwa von Riede bis Fritzlar entfernt“. Die Quartiere wechseln ständig: erst das Dorf Sarowzy nahe der Front, dann Dörfer an der Düna, zeitweise die zerstörte Stadt selbst. Vom 6. April bis Mitte Mai ist er im „Bandeneinsatz“ gegen Partisanen etwa 100 km weiter westlich. Ende Mai Stellungsbau am Stadtrand, Anfang Juni ein Panzer-Vernichtungs-Lehrgang, dann Gefechtsschreiber eines anderen Bataillons. Sein letzter erhaltener Brief ist vom 20. Juni 1944. Nach dem Bericht seines Kameraden Peter Winkler bricht die Einheit am 26. Juni von Witebsk auf; die 6. Luftwaffen-Feld-Division wird in diesen Tagen bei Witebsk eingeschlossen.",
+      "kurz": "Die letzten Monate an der Front; von hier stammen die meisten Briefe.",
+      "orte": ["Witebsk", "Sarowzy"],
+      "zeitraum": ["1944-01-27", "1944-06-30"],
+      "ohne": ["1944-04-11", "1944-04-13", "1944-04-15", "1944-04-23", "1944-04-24", "1944-05-01", "1944-05-07", "1944-05-10-1", "1944-05-10-2", "1944-05-12", "1944-05-21"],
+      "glossar": ["lwfd", "schreibstube", "spiess", "haag", "dietmar", "rollbahn", "laeuse", "sauna", "arrest", "urlaub", "bagration"]
     },
     {
-      "ort": "Raum Wolma (südöstlich von Minsk)",
+      "ort": "Partisanengebiet um Uschatschi (ungefähr)",
+      "lat": 55.18,
+      "lng": 28.61,
+      "zeit": "6. April – Mitte Mai 1944",
+      "typ": "ungewiss",
+      "linie": false,
+      "kurz": "Wochenlanger „Bandeneinsatz“ gegen Partisanen, etwa 100 km westlich von Witebsk.",
+      "notiz": "Vom 6. April bis Mitte Mai 1944 ist Fritz als Gefechtsschreiber im „Bandeneinsatz“, rund 100 km westlich von Witebsk in einem Gebiet, das die Soldaten „Bandenrepublik“ nennen; die „Banditenhauptstadt U…“ liegt nur 4 km entfernt. Er schildert Märsche durch Schlamm und Sumpf, halb abgebrannte Dörfer und wie die Soldaten Hühner, Kälber und Ferkel „organisieren“. Zeit und Gegend passen zum Unternehmen „Frühlingsfest“ gegen das Partisanengebiet um Uschatschi, bei dem und einem weiteren Einsatz nach heutigem Wissen über 7.000 Menschen getötet und mehr als 11.000 verschleppt wurden, die meisten Zivilisten. Ob Fritz’ Einheit daran beteiligt war, ist nicht belegt. Der Punkt auf der Karte ist ungefähr gesetzt.",
+      "zeitraum": ["1944-04-11", "1944-05-21"],
+      "glossar": ["banden", "organisieren", "schlamm", "arrest", "dietmar"]
+    },
+    {
+      "ort": "Raum Wolma (laut DRK-Gutachten)",
       "lat": 53.889,
       "lng": 27.907,
       "zeit": "Ende Juni 1944",
       "typ": "ungewiss",
-      "notiz": "Laut DRK-Gutachten (1972) wurde die 6. Luftwaffen-Feld-Division in diesem Raum eingeschlossen. Fritz gilt seit Juni 1944 als vermisst, ob er selbst dort war, ist nicht belegt. Ein Kamerad berichtet, die Einheit sei am 26. Juni von Witebsk aufgebrochen. Mit hoher Wahrscheinlichkeit starb Fritz Ende Juni oder Anfang Juli 1944 nach der Gefangennahme."
+      "notiz": "Das Gutachten des DRK-Suchdienstes von 1972 schreibt, die 6. Luftwaffen-Feld-Division habe bei Orscha gelegen und sei beim Rückzug im Raum Wolma südöstlich von Minsk eingeschlossen worden. Das passt nicht zu den übrigen Quellen: Fritz schreibt bis zuletzt aus der Gegend von Witebsk, Peter Winkler berichtet vom Aufbruch aus Witebsk am 26. Juni, und nach heutigem Forschungsstand wurde die Division Ende Juni 1944 bei Witebsk eingeschlossen. Sicher ist nur: Fritz gilt seit Juni 1944 als vermisst. Nach Winkler kam er in Gefangenschaft, nach dem Gutachten starb er mit hoher Wahrscheinlichkeit bald danach, in einem Sammellager, auf dem Transport oder in einem Arbeitslager.",
+      "kurz": "Laut DRK hier eingeschlossen; die anderen Quellen sprechen eher für Witebsk.",
+      "briefe": ["1945", "1972-01-31"],
+      "glossar": ["bagration", "winkler", "keitler", "haag", "suchdienst"]
     }
   ]
 }
