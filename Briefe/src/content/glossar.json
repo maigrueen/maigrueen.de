@@ -133,30 +133,43 @@
     },
     {
       "id": "vater-boettcher",
-      "name": "Karl Böttcher",
+      "name": "Carl (Johann Carl Ludwig Christian) Böttcher",
       "gruppe": "Familie Böttcher",
-      "text": "* 31. Oktober 1867 in Buhlen (Edertal), † 27. April 1926 in Hagen. Fritz’ Vater, Schuhmacher in Hagen. Er starb, als Fritz 20 Jahre alt war."
+      "text": "* 31. Oktober 1867 in Buhlen (Edertal), † 27. April 1926 in Hagen-Kabel. Fritz’ Vater, Schuhmachermeister in Kabel, zuletzt Schwerter Straße 221a. Sohn von Heinrich Böttcher und Dorothea geb. Schäfer aus Buhlen. Er starb, als Fritz 20 Jahre alt war; den Tod meldete sein Sohn Karl."
+    },
+    {
+      "id": "grossmutter-schaefer",
+      "name": "Elisabeth Schäfer, geb. Steinmetz",
+      "gruppe": "Familie Böttcher",
+      "text": "* 8. Dezember 1832 in Buhlen, † 20. März 1904 in Hagen-Kabel. Fritz’ Großmutter, Witwe des Schmieds August Schäfer. Sie starb in der Wohnung ihres Schwiegersohns Carl Böttcher, anderthalb Jahre vor Fritz’ Geburt. Ihre Eltern werden in der Sterbeurkunde nur als „Eheleute Steinmetz“ aus Buhlen genannt. Ob sie mit Ernas Steinmetz-Familie verwandt war, ist offen."
     },
     {
       "id": "mutter-boettcher",
-      "name": "Katharina Luise Böttcher, geb. Schäfer",
+      "name": "Wilhelmine Louise Charlotte Catharine Böttcher, geb. Schäfer",
       "gruppe": "Familie Böttcher",
-      "text": "* 21. Oktober 1867 in Anraff (Edertal). Fritz’ Mutter, in den Briefen „Mama“ oder „Mutter“; seit 1896 mit dem Schuhmacher Karl Böttcher verheiratet. Ihre Familie und die ihres Mannes stammen aus Buhlen im Edertal, wohin Fritz im März 1944 ein Päckchen Bonbons schickt. Sie lebt 1944 bei Erna in Riede. Im Mai 1944 gibt es Streit zwischen den beiden Frauen, den Erna wieder beilegt.",
+      "text": "* 21. Oktober 1867 in Anraff (Waldeck), † 7. September 1957 in Riede. Fritz’ Mutter, in den Briefen „Mama“ oder „Mutter“. Tochter des Schmieds August Schäfer und Elisabeth geb. Steinmetz aus Buhlen im Edertal, wohin Fritz im März 1944 ein Päckchen Bonbons schickt. Vor der Ehe Dienstmagd in Barmen; am 1. August 1896 heiratet sie in Altenhagen bei Hagen den Schuhmacher Carl Böttcher. 1944 lebt sie bei Erna in Riede; im Mai gibt es Streit zwischen den beiden Frauen, den Erna wieder beilegt. Sie bleibt in Riede und stirbt dort mit 89 Jahren, im Haus Nr. 14.",
       "suche": ["Mama", "meiner Mutter", "meine Mutter"]
     },
     {
       "id": "karl",
-      "name": "Karl",
+      "name": "Karl Böttcher",
       "gruppe": "Familie Böttcher",
-      "text": "Fritz’ Bruder, ebenfalls Soldat. Im Januar 1944 hätten sich die beiden auf der Fahrt nach Osten fast getroffen. Ob der Karl, nach dessen Feldpostnummer Fritz bei Frau Schaake fragt, derselbe ist, ist unklar.",
+      "text": "Fritz’ älterer Bruder, geboren zwischen 1896 und 1905. Schuhmacher wie der Vater; 1926 wohnt er bei den Eltern in Kabel und meldet den Tod des Vaters. 1944 ist er Soldat: Im Januar hätten sich die beiden auf der Fahrt nach Osten fast getroffen, im März schreibt Fritz ihm. Ob der Karl, nach dessen Feldpostnummer Fritz bei Frau Schaake fragt, derselbe ist, ist unklar.",
       "briefe": ["1944-01-21", "1944-03-27", "1944-03-31", "1944-05-12"]
     },
     {
-      "id": "bremen",
-      "name": "Heinrich, Friedchen und Rita in Bremen",
+      "id": "heinrich-boettcher",
+      "name": "Heinrich Böttcher",
       "gruppe": "Familie Böttcher",
-      "text": "Verwandte oder Freunde in Bremen, die Fritz Bücher und Zeitungen schicken. Friedchen bekommt zum Geburtstag Durchschläge seiner Briefe vom Bandeneinsatz. Wie sie mit Fritz verwandt sind, ist noch offen.",
-      "suche": ["von Heinrich", "Heinrich hatte", "Friedchen", "Rita", "Bremen"]
+      "text": "Fritz’ Bruder, Prokurist in Bremen, 1957 wohnhaft Arensburgstraße 35. Er schickt Fritz Bücher, Zeitungen und Briefe an die Front und erfährt seine Feldpostnummer über Rita. 1957 meldet er den Tod der Mutter in Riede.",
+      "suche": ["von Heinrich", "Heinrich hatte", "Bremen"]
+    },
+    {
+      "id": "friedchen-rita",
+      "name": "Friedchen und Rita",
+      "gruppe": "Familie Böttcher",
+      "text": "Aus dem Umfeld von Heinrich in Bremen, vermutlich seine Frau und seine Tochter; belegt ist das noch nicht. Friedchen bekommt im Mai 1944 zum Geburtstag Durchschläge von Fritz’ Briefen über den Bandeneinsatz.",
+      "suche": ["Friedchen", "Rita"]
     },
     {
       "id": "haag",

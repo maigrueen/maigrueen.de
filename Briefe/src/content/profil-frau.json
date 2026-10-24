@@ -41,17 +41,13 @@
       "zeit": "3. April 1938",
       "titel": "Verlobung",
       "text": "mit Friedrich Böttcher",
-      "briefe": [
-        "1938-04-03"
-      ]
+      "briefe": ["1938-04-03"]
     },
     {
       "zeit": "29. September 1938",
       "titel": "Hochzeit",
       "text": "in Lohne bei Fritzlar mit Friedrich Böttcher",
-      "briefe": [
-        "1938-09-29"
-      ]
+      "briefe": ["1938-09-29"]
     },
     {
       "zeit": "Dezember 1940",
@@ -129,9 +125,7 @@
       "zeit": "2. November 1944",
       "titel": "Anfrage beim Heer",
       "text": "Erna fragt beim Oberkommando des Heeres nach seinem Verbleib. Die Antwort vom 20. Dezember 1944: Die Personalunterlagen der Einheit sind verloren, sein Verbleib ist unbekannt",
-      "briefe": [
-        "1944-12-20"
-      ]
+      "briefe": ["1944-12-20"]
     },
     {
       "zeit": "26. April 1945",
@@ -148,9 +142,7 @@
       "zeit": "1945",
       "titel": "Bericht eines Kameraden",
       "text": "Peter Winkler, ein ehemaliger Kamerad aus Fritz’ Einheit, schreibt ihr aus Tirol. Am 26. Juni 1944 seien sie von Witebsk aufgebrochen und hätten sich am Abend aus den Augen verloren. Er selbst geriet am 9. Juli 1944 in Gefangenschaft und hörte dort, dass auch Fritz gefangen genommen wurde. Der Brief ist undatiert, vermutlich von 1945",
-      "briefe": [
-        "1945"
-      ]
+      "briefe": ["1945"]
     },
     {
       "zeit": "5. Oktober 1948",
@@ -161,9 +153,7 @@
       "zeit": "19. Januar 1955",
       "titel": "Registrierung beim Roten Kreuz",
       "text": "Das DRK in Fritzlar bestätigt die Registrierung ihres Mannes in der Vermissten- und Kriegsgefangenen-Registrierung des Kreisnachforschungsdienstes",
-      "briefe": [
-        "1955-01-19"
-      ]
+      "briefe": ["1955-01-19"]
     },
     {
       "zeit": "9. – 24. September 1955",
@@ -175,6 +165,11 @@
           "text": "Erna, 1955"
         }
       ]
+    },
+    {
+      "zeit": "7. September 1957",
+      "titel": "Tod der Schwiegermutter",
+      "text": "Fritz’ Mutter Wilhelmine Louise Charlotte Catharine Böttcher stirbt mit 89 Jahren in Riede, Haus Nr. 14, 13 Jahre nach Fritz’ Verschwinden. Ihren Tod meldet ihr Sohn Heinrich aus Bremen"
     },
     {
       "zeit": "um 1958",
@@ -217,9 +212,7 @@
       "zeit": "31. Januar 1972",
       "titel": "Gutachten des DRK-Suchdienstes",
       "text": "Der Suchdienst München teilt ihr das Ergebnis seiner Nachforschungen mit: Fritz ist mit hoher Wahrscheinlichkeit kurz nach seiner Gefangennahme im Sommer 1944 gestorben",
-      "briefe": [
-        "1972-01-31"
-      ]
+      "briefe": ["1972-01-31"]
     },
     {
       "zeit": "um 1973",

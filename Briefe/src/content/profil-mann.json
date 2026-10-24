@@ -3,12 +3,12 @@
   "lebensdaten": "* 5. August 1905 in Hagen-Kabel · vermisst seit Juni 1944, vermutlich gestorben Juni/Juli 1944 in sowjetischer Gefangenschaft",
   "foto": "Fritz-Pilsen.jpg",
   "fotoText": "Fritz Böttcher in Pilsen",
-  "text": "Friedrich „Fritz“ Böttcher wurde am 5. August 1905 in Hagen-Kabel in Westfalen geboren, als Sohn des Schuhmachers Karl Böttcher und seiner Frau Katharina Luise, geb. Schäfer. Nach der Volksschule besuchte er das Lehrerseminar in Herdecke und arbeitete ab 1924 als Volksschullehrer. Als er 1937 die ersten erhaltenen Briefe an Erna schrieb, lebte er in Riede im Kreis Wolfhagen.\n\nAm 29. September 1938 heiratete er Erna Steinmetz in Lohne bei Fritzlar. Am 3. März 1941 wurde er zum Militär eingezogen. Zuletzt gehörte er als Unteroffizier (befördert am 1. Dezember 1943) zum Füsilier-Bataillon der 6. Luftwaffen-Feld-Division. Ab Januar 1944 war er in Weißrussland eingesetzt.\n\nSein letzter erhaltener Brief stammt vom 20. Juni 1944. Zwei Tage später begann die sowjetische Großoffensive, die die deutsche Front in Weißrussland zusammenbrechen ließ. Nach dem Bericht eines Kameraden brach seine Einheit am 26. Juni von Witebsk auf. Fritz blieb vermisst. Der Kamerad schrieb Erna später, er habe in Gefangenschaft gehört, dass auch Fritz gefangen genommen wurde. Ein Gutachten des DRK-Suchdienstes von 1972 kommt zu dem Schluss, dass er mit hoher Wahrscheinlichkeit Ende Juni oder Anfang Juli 1944 in Gefangenschaft geriet und kurz danach starb. Ort und Datum seines Todes sind nicht bekannt.",
+  "text": "Friedrich „Fritz“ Böttcher wurde am 5. August 1905 in Hagen-Kabel in Westfalen geboren, als Sohn des Schuhmachermeisters Carl Böttcher und seiner Frau Wilhelmine Louise, geb. Schäfer. Er hatte zwei Brüder, den älteren Karl und Heinrich. Nach der Volksschule besuchte er das Lehrerseminar in Herdecke und arbeitete ab 1924 als Volksschullehrer. Als er 1937 die ersten erhaltenen Briefe an Erna schrieb, lebte er in Riede im Kreis Wolfhagen.\n\nAm 29. September 1938 heiratete er Erna Steinmetz in Lohne bei Fritzlar. Am 3. März 1941 wurde er zum Militär eingezogen. Zuletzt gehörte er als Unteroffizier (befördert am 1. Dezember 1943) zum Füsilier-Bataillon der 6. Luftwaffen-Feld-Division. Ab Januar 1944 war er in Weißrussland eingesetzt.\n\nSein letzter erhaltener Brief stammt vom 20. Juni 1944. Zwei Tage später begann die sowjetische Großoffensive, die die deutsche Front in Weißrussland zusammenbrechen ließ. Nach dem Bericht eines Kameraden brach seine Einheit am 26. Juni von Witebsk auf. Fritz blieb vermisst. Der Kamerad schrieb Erna später, er habe in Gefangenschaft gehört, dass auch Fritz gefangen genommen wurde. Ein Gutachten des DRK-Suchdienstes von 1972 kommt zu dem Schluss, dass er mit hoher Wahrscheinlichkeit Ende Juni oder Anfang Juli 1944 in Gefangenschaft geriet und kurz danach starb. Ort und Datum seines Todes sind nicht bekannt.",
   "lebenslauf": [
     {
       "zeit": "1905",
       "titel": "Geburt",
-      "text": "am 5. August in Hagen-Kabel (Westfalen), als Sohn des Schuhmachers Karl Böttcher und Katharina Luise, geb. Schäfer"
+      "text": "am 5. August in Hagen-Kabel (Westfalen), als Sohn des Schuhmachermeisters Carl Böttcher und Wilhelmine Louise Charlotte Catharine, geb. Schäfer; seine Brüder heißen Karl und Heinrich"
     },
     {
       "zeit": "1911 – 1919",
@@ -29,29 +29,19 @@
       "zeit": "1937",
       "titel": "Riede (Kreis Wolfhagen)",
       "text": "Von hier schreibt er im Herbst 1937 die frühesten erhaltenen Briefe an Erna. Im Ahnenpass ist Riede als sein Ort eingetragen",
-      "briefe": [
-        "1937-09",
-        "1937-09-30",
-        "1937-10-09-1",
-        "1937-10-09-2",
-        "1937-12"
-      ]
+      "briefe": ["1937-09", "1937-09-30", "1937-10-09-1", "1937-10-09-2", "1937-12"]
     },
     {
       "zeit": "3. April 1938",
       "titel": "Verlobung",
       "text": "mit Erna Steinmetz",
-      "briefe": [
-        "1938-04-03"
-      ]
+      "briefe": ["1938-04-03"]
     },
     {
       "zeit": "29. September 1938",
       "titel": "Hochzeit",
       "text": "mit Ida Elisabeth Erna Steinmetz in Lohne bei Fritzlar (Fritz ist 33, Erna 31)",
-      "briefe": [
-        "1938-09-29"
-      ]
+      "briefe": ["1938-09-29"]
     },
     {
       "zeit": "3. März 1941",
@@ -68,36 +58,19 @@
       "zeit": "1943",
       "titel": "Pilsen",
       "text": "Seine Einheit liegt in Pilsen (Böhmen) im Realgymnasium. Heimaturlaub vom 7. bis 13. Dezember 1943",
-      "briefe": [
-        "1942-01-25",
-        "1943-01-04",
-        "1943-01-07",
-        "1943-11-28",
-        "1943-12-02",
-        "1943-12-14"
-      ]
+      "briefe": ["1942-01-25", "1943-01-04", "1943-01-07", "1943-11-28", "1943-12-02", "1943-12-14"]
     },
     {
       "zeit": "1. Dezember 1943",
       "titel": "Beförderung zum Unteroffizier",
       "text": "Zu Weihnachten 1943 schickt er Erna eine handgeschriebene Karte „Es lebe unser Unteroffizier!!!“ („Kriegsweihnacht 1943“) und einen Zettel „aus dem Tannenzweig“: Er sei ab dem 1. Dezember 1943 zum Unteroffizier befördert, und er habe sich sehr gefreut",
-      "briefe": [
-        "1943-12-01"
-      ]
+      "briefe": ["1943-12-01"]
     },
     {
       "zeit": "18. – 27. Januar 1944",
       "titel": "Verlegung nach Osten",
       "text": "Abmarsch aus Pilsen am 18. Januar, am 25. Januar in Minsk, am 27. Januar in Witebsk",
-      "briefe": [
-        "1944-01-17",
-        "1944-01-19",
-        "1944-01-21",
-        "1944-01-25-1",
-        "1944-01-25-2",
-        "1944-01-25-3",
-        "1944-01-27"
-      ]
+      "briefe": ["1944-01-17", "1944-01-19", "1944-01-21", "1944-01-25-1", "1944-01-25-2", "1944-01-25-3", "1944-01-27"]
     },
     {
       "zeit": "8. Februar 1944",
@@ -113,10 +86,7 @@
       "zeit": "20. Juni 1944",
       "titel": "Letzter Brief",
       "text": "der letzte erhaltene Brief an Erna",
-      "briefe": [
-        "1944-06-20-1",
-        "1944-06-20-2"
-      ]
+      "briefe": ["1944-06-20-1", "1944-06-20-2"]
     },
     {
       "zeit": "22. Juni 1944",
@@ -127,18 +97,13 @@
       "zeit": "26. Juni 1944",
       "titel": "Aufbruch von Witebsk",
       "text": "Nach dem Bericht eines Kameraden (Peter Winkler, Brief an Erna, vermutlich 1945) bricht die Einheit an diesem Tag von Witebsk auf, und die Männer verlieren sich am Abend aus den Augen",
-      "briefe": [
-        "1945"
-      ]
+      "briefe": ["1945"]
     },
     {
       "zeit": "Juni/Juli 1944",
       "titel": "Vermisst, vermutlich gestorben",
       "text": "Winkler gerät am 9. Juli 1944 in Gefangenschaft und hört dort, dass auch Fritz und zwei weitere Kameraden gefangen genommen wurden. Nach dem Gutachten des DRK-Suchdienstes (1972) starb Fritz mit hoher Wahrscheinlichkeit kurz nach der Gefangennahme in einem Sammellager, auf dem Transport oder in einem Arbeitslager. Ort und Datum sind nicht bekannt",
-      "briefe": [
-        "1945",
-        "1972-01-31"
-      ]
+      "briefe": ["1945", "1972-01-31"]
     }
   ],
   "kunst": {
@@ -198,14 +163,29 @@
   },
   "familie": [
     {
-      "name": "Karl Johann Ludwig Christian Böttcher",
+      "name": "Elisabeth Schäfer, geb. Steinmetz",
+      "beziehung": "Großmutter (Mutter der Mutter)",
+      "jahre": "1832 – 1904"
+    },
+    {
+      "name": "Johann Carl Ludwig Christian Böttcher",
       "beziehung": "Vater",
       "jahre": "1867 – 1926"
     },
     {
-      "name": "Katharina Luise Böttcher, geb. Schäfer",
+      "name": "Wilhelmine Louise Charlotte Catharine Böttcher, geb. Schäfer",
       "beziehung": "Mutter",
-      "jahre": "geboren 1867"
+      "jahre": "1867 – 1957"
+    },
+    {
+      "name": "Karl Böttcher",
+      "beziehung": "Bruder, Schuhmacher in Hagen-Kabel",
+      "jahre": "geboren zwischen 1896 und 1905"
+    },
+    {
+      "name": "Heinrich Böttcher",
+      "beziehung": "Bruder, Prokurist in Bremen",
+      "jahre": "Lebensdaten unbekannt"
     },
     {
       "name": "Erna Böttcher, geb. Steinmetz",
