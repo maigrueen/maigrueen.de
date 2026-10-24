@@ -1,6 +1,7 @@
 <script setup>
 import { computed, ref } from "vue";
-import { briefe, datumDe } from "../briefe";
+import { briefe, bildUrl, datumDe } from "../briefe";
+import Lightbox from "../components/Lightbox.vue";
 import { glossarIntro, personen, begriffe } from "../glossar";
 
 const briefNachId = Object.fromEntries(briefe.map((b) => [b.id, b]));
@@ -23,6 +24,12 @@ const gruppen = computed(() => {
 const begriffListe = computed(() =>
   begriffe.filter((b) => passt(b.begriff, b.text)).sort((a, b) => a.begriff.localeCompare(b.begriff, "de"))
 );
+
+// Porträts der Personen ("foto": { "datei", "text" }), in der Bildansicht durchblätterbar
+const mitFoto = personen.filter((p) => p.foto);
+const fotos = mitFoto.map((p) => ({ src: bildUrl(p.foto.datei), text: p.foto.text }));
+const fotoIndex = (p) => mitFoto.indexOf(p);
+const fotoOffen = ref(null);
 
 // Lange Brieflisten zuerst eingeklappt
 const offen = ref({});
@@ -50,7 +57,20 @@ const sichtbar = (e) => (offen.value[e.id] ? e.briefIds : e.briefIds.slice(0, GR
           <router-link v-if="p.link" :to="p.link">{{ p.name }}</router-link>
           <template v-else>{{ p.name }}</template>
         </dt>
-        <dd>
+        <dd :class="{ 'mit-foto': p.foto }">
+          <img
+            v-if="p.foto"
+            class="foto"
+            :src="bildUrl(p.foto.datei)"
+            :alt="p.foto.text"
+            :title="p.foto.text"
+            loading="lazy"
+            role="button"
+            tabindex="0"
+            @click="fotoOffen = fotoIndex(p)"
+            @keydown.enter.prevent="fotoOffen = fotoIndex(p)"
+            @keydown.space.prevent="fotoOffen = fotoIndex(p)"
+          />
           {{ p.text }}
           <span v-if="p.briefIds.length" class="briefe">
             <span class="meta">{{ p.briefIds.length > 1 ? `${p.briefIds.length} Briefe` : "Brief" }}:</span>
@@ -61,6 +81,8 @@ const sichtbar = (e) => (offen.value[e.id] ? e.briefIds : e.briefIds.slice(0, GR
       </template>
     </dl>
   </section>
+
+  <Lightbox :bilder="fotos" v-model="fotoOffen" />
 
   <h2 id="begriffe">Begriffe</h2>
   <p v-if="!begriffListe.length">Kein Begriff gefunden.</p>
@@ -85,5 +107,7 @@ const sichtbar = (e) => (offen.value[e.id] ? e.briefIds : e.briefIds.slice(0, GR
 dt { font-weight: 600; margin-top: 1.8rem; scroll-margin-top: 2rem; }
 dt:target { background: var(--background-timeline); }
 dd { margin: 0.3rem 0 0; }
+dd.mit-foto { display: flow-root; }
+.foto { float: left; width: 72px; height: 90px; object-fit: cover; object-position: top; margin: 0.3rem 1.2rem 0.5rem 0; border: 1px solid var(--btn-color-border); cursor: zoom-in; filter: grayscale(0.2); }
 .briefe { display: flex; flex-wrap: wrap; gap: 0.4rem 1.2rem; margin-top: 0.5rem; font-size: 1.3rem; }
 </style>

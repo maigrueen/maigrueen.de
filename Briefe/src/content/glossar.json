@@ -6,27 +6,43 @@
       "name": "Erna Böttcher, geb. Steinmetz",
       "gruppe": "Familie Steinmetz",
       "text": "1907 – 1990. Empfängerin der Briefe. Fritz nennt sie „liebe Frau“, „Kleines“ oder „Hexe“.",
-      "link": "/frau"
+      "link": "/frau",
+      "foto": {
+        "datei": "19280000-Erna.jpg",
+        "text": "Erna mit 21 Jahren, 1928"
+      }
     },
     {
       "id": "vater-steinmetz",
-      "name": "Johannes Steinmetz",
+      "name": "Johannes (Hans) Steinmetz",
       "gruppe": "Familie Steinmetz",
       "text": "* 1. Dezember 1876 in Lohne bei Fritzlar, † 5. August 1966 in Fritzlar. Ernas Vater, Lehrer in Kirchberg, später in Kassel; er unterschreibt mit „H. Steinmetz“. 1944 lebt er bei Erna in Riede. Ihn und Fritz’ Mutter meint Fritz, wenn er „die beiden Alten“ grüßen lässt.",
-      "suche": ["Deinem Vater", "Dein Vater", "beiden Alten"]
+      "suche": ["Deinem Vater", "Dein Vater", "beiden Alten"],
+      "foto": {
+        "datei": "19530400-Hans.jpg",
+        "text": "Johannes (Hans) Steinmetz, April 1953"
+      }
     },
     {
       "id": "mutter-steinmetz",
-      "name": "Anna Elise Auguste Hedwig Steinmetz, geb. Gonnermann",
+      "name": "Hedwig (Anna Elise Auguste Hedwig) Steinmetz, geb. Gonnermann",
       "gruppe": "Familie Steinmetz",
-      "text": "* 28. November 1882 in Tann (Ludwigsau), † 15. Mai 1941 in Kassel. Ernas Mutter, seit dem 6. Oktober 1904 mit Johannes Steinmetz verheiratet. Ihre Krankheit und ihr Tod sind in den Briefen des Vaters an Erna beschrieben (siehe Ernas Lebenslauf)."
+      "text": "* 28. November 1882 in Tann (Ludwigsau), † 15. Mai 1941 in Kassel. Ernas Mutter, seit dem 6. Oktober 1904 mit Johannes Steinmetz verheiratet. Ihre Krankheit und ihr Tod sind in den Briefen des Vaters an Erna beschrieben (siehe Ernas Lebenslauf).",
+      "foto": {
+        "datei": "19400401-Hans_Hedwig_Steinmetz.jpg",
+        "text": "Hedwig und Johannes Steinmetz, 1. April 1940"
+      }
     },
     {
       "id": "edith",
       "name": "Edith (Dorothea Nelly Edith Wackerbarth, geb. Steinmetz)",
       "gruppe": "Familie Steinmetz",
       "text": "* 26. April 1914 in Lohne bei Fritzlar, † 29. Juli 2007 in Wolfhagen. Ernas Schwester und Urgroßmutter der Autorin dieser Seite. Seit dem 8. August 1936 mit Konrad Wackerbarth verheiratet, drei Kinder, darunter Inge. Im Frühjahr 1944 schreibt sie wie ihre Schwägerin Elise einem Mann bei der Wehrmacht.",
-      "suche": ["Edith"]
+      "suche": ["Edith"],
+      "foto": {
+        "datei": "19421224-Inge_Edith_Ursula.jpg",
+        "text": "Edith mit ihren Töchtern Inge und Ursula, Heiligabend 1942"
+      }
     },
     {
       "id": "konrad",
@@ -39,21 +55,33 @@
       "id": "inge",
       "name": "Inge (Ingeborg Erna Wackerbarth)",
       "gruppe": "Familie Steinmetz",
-      "text": "* 24. September 1936 in Fritzlar, † 21. November 1995. Ediths älteste Tochter und Großmutter der Autorin dieser Seite. Am 5. Oktober 1948 kommt die Zwölfjährige mit ihrem kleinen Cousin Klaus auf dem Rad zu Erna (Ernas Tagebuch)."
+      "text": "* 24. September 1936 in Fritzlar, † 21. November 1995. Ediths älteste Tochter und Großmutter der Autorin dieser Seite. Am 5. Oktober 1948 kommt die Zwölfjährige mit ihrem kleinen Cousin Klaus auf dem Rad zu Erna (Ernas Tagebuch).",
+      "foto": {
+        "datei": "19421224-Inge_Edith_Ursula.jpg",
+        "text": "Inge mit ihrer Mutter Edith und ihrer Schwester Ursula, Heiligabend 1942"
+      }
     },
     {
       "id": "agnes",
       "name": "Agnes (Erna Wally Agnes Trömner, geb. Steinmetz)",
       "gruppe": "Familie Steinmetz",
       "text": "* 5. April 1921, † 11. März 1974 in Fritzlar. Ernas jüngste Schwester; 1922 lernt sie gerade laufen. Am 2. Mai 1943 heiratet sie in Zennern Otto Trömner, im Februar 1944 kommt ihr Sohn Klaus zur Welt. Im März 1944 flüchtet sie mit dem Baby aus Fritzlar zu Erna nach Riede.",
-      "suche": ["Agnes"]
+      "suche": ["Agnes"],
+      "foto": {
+        "datei": "19390000-Agnes.jpg",
+        "text": "Agnes, 1939"
+      }
     },
     {
       "id": "otto",
       "name": "Otto (Hermann Otto Trömner)",
       "gruppe": "Familie Steinmetz",
       "text": "* 6. September 1916 in Zennern (Wabern), † 20. Mai 1981 in Kassel. Agnes’ Mann, seit 2. Mai 1943. 1944 ist er Unteroffizier; Agnes schreibt „an ihren Unteroffizier“.",
-      "suche": ["Otto"]
+      "suche": ["Otto"],
+      "foto": {
+        "datei": "19420905-Otto_Agnes_Troemmer-Verlobung.jpg",
+        "text": "Otto und Agnes Trömner zur Verlobung, 5. September 1942"
+      }
     },
     {
       "id": "klaus",
@@ -67,7 +95,11 @@
       "name": "Heini (Johann Heinrich Steinmetz)",
       "gruppe": "Familie Steinmetz",
       "text": "* 9. August 1905, Ernas älterer Bruder. Verheiratet mit Elise, geb. Höhmann, ein Sohn. 1944 ist er Soldat; Fritz hält im Dezember 1943 in Kassel nach ihm Ausschau.",
-      "suche": ["Heini"]
+      "suche": ["Heini"],
+      "foto": {
+        "datei": "Erna_Heini_Hugo-Kassel.jpg",
+        "text": "Heini mit seinen Geschwistern Erna und Hugo als Kinder"
+      }
     },
     {
       "id": "elise",
@@ -80,7 +112,11 @@
       "id": "hugo",
       "name": "Hugo Steinmetz",
       "gruppe": "Familie Steinmetz",
-      "text": "* 30. Mai 1910 in Lohne bei Fritzlar, † 30. Januar 1978 in Kirchberg. Ernas Bruder, Lehrer wie sein Vater und Fritz, verheiratet mit Minna, geb. Kirchhoff. Kommt nur in den Briefen der Eltern vor (1922 und 1940)."
+      "text": "* 30. Mai 1910 in Lohne bei Fritzlar, † 30. Januar 1978 in Kirchberg. Ernas Bruder, Lehrer wie sein Vater und Fritz, verheiratet mit Minna, geb. Kirchhoff. Kommt nur in den Briefen der Eltern vor (1922 und 1940).",
+      "foto": {
+        "datei": "Erna_Heini_Hugo-Kassel.jpg",
+        "text": "Hugo mit seinen Geschwistern Erna und Heini als Kinder"
+      }
     },
     {
       "id": "gonnermann",
