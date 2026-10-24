@@ -20,6 +20,12 @@ const dokBilder = computed(() =>
     g.bilder.map((b) => ({ src: bildUrl(b.datei), text: `${g.titel}: ${b.text}` }))
   )
 );
+// Kapitel "Kunst": eigene Bildansicht
+const kunstOffen = ref(null);
+const kunstBilder = computed(() =>
+  (profil.value?.kunst?.bilder ?? []).map((b) => ({ src: bildUrl(b.datei), text: b.text }))
+);
+
 const dokIndex = (gi, bi) =>
   profil.value.dokumente.slice(0, gi).reduce((n, g) => n + g.bilder.length, 0) + bi;
 </script>
@@ -37,7 +43,28 @@ const dokIndex = (gi, bi) =>
     <p class="text">{{ profil.text }}</p>
 
     <h3>Lebenslauf</h3>
-    <Lebenslauf :eintraege="profil.lebenslauf" />
+    <Lebenslauf :key="datei" :eintraege="profil.lebenslauf" />
+
+    <template v-if="profil.kunst && profil.kunst.bilder && profil.kunst.bilder.length">
+      <h3>Kunst</h3>
+      <p v-if="profil.kunst.text" class="text">{{ profil.kunst.text }}</p>
+      <div class="galerie">
+        <figure v-for="(b, n) in profil.kunst.bilder" :key="b.datei">
+          <img
+            :src="bildUrl(b.datei)"
+            :alt="b.text"
+            loading="lazy"
+            role="button"
+            tabindex="0"
+            @click="kunstOffen = n"
+            @keydown.enter.prevent="kunstOffen = n"
+            @keydown.space.prevent="kunstOffen = n"
+          />
+          <figcaption class="meta">{{ b.text }}</figcaption>
+        </figure>
+      </div>
+      <Lightbox :bilder="kunstBilder" v-model="kunstOffen" />
+    </template>
 
     <template v-if="karte">
       <h3>Karte</h3>

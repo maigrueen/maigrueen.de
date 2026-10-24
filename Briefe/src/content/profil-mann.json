@@ -28,37 +28,76 @@
     {
       "zeit": "1937",
       "titel": "Riede (Kreis Wolfhagen)",
-      "text": "Von hier schreibt er im Herbst 1937 die frühesten erhaltenen Briefe an Erna. Im Ahnenpass ist Riede als sein Ort eingetragen"
+      "text": "Von hier schreibt er im Herbst 1937 die frühesten erhaltenen Briefe an Erna. Im Ahnenpass ist Riede als sein Ort eingetragen",
+      "briefe": [
+        "1937-09",
+        "1937-09-30",
+        "1937-10-09-1",
+        "1937-10-09-2",
+        "1937-12"
+      ]
     },
     {
       "zeit": "3. April 1938",
       "titel": "Verlobung",
-      "text": "mit Erna Steinmetz"
+      "text": "mit Erna Steinmetz",
+      "briefe": [
+        "1938-04-03"
+      ]
     },
     {
       "zeit": "29. September 1938",
       "titel": "Hochzeit",
-      "text": "mit Ida Elisabeth Erna Steinmetz in Lohne bei Fritzlar (Fritz ist 33, Erna 31)"
+      "text": "mit Ida Elisabeth Erna Steinmetz in Lohne bei Fritzlar (Fritz ist 33, Erna 31)",
+      "briefe": [
+        "1938-09-29"
+      ]
     },
     {
       "zeit": "3. März 1941",
       "titel": "Einberufung",
-      "text": "zum Militär"
+      "text": "zum Militär",
+      "bilder": [
+        {
+          "datei": "Fritz-Rahmendaten-Armee.jpg",
+          "text": "Handschriftliche Notiz mit seinen Lebensdaten: geheiratet Sept. 38, eingezogen 3.3.41, letzter Brief 20. Juni 44, Gutachten vom Roten Kreuz 1972"
+        }
+      ]
     },
     {
       "zeit": "1943",
       "titel": "Pilsen",
-      "text": "Seine Einheit liegt in Pilsen (Böhmen) im Realgymnasium. Heimaturlaub vom 7. bis 13. Dezember 1943"
+      "text": "Seine Einheit liegt in Pilsen (Böhmen) im Realgymnasium. Heimaturlaub vom 7. bis 13. Dezember 1943",
+      "briefe": [
+        "1942-01-25",
+        "1943-01-04",
+        "1943-01-07",
+        "1943-11-28",
+        "1943-12-02",
+        "1943-12-14"
+      ]
     },
     {
       "zeit": "1. Dezember 1943",
       "titel": "Beförderung zum Unteroffizier",
-      "text": "Zu Weihnachten 1943 schickt er Erna eine handgeschriebene Karte „Es lebe unser Unteroffizier!!!“ („Kriegsweihnacht 1943“) und einen Zettel „aus dem Tannenzweig“: Er sei ab dem 1. Dezember 1943 zum Unteroffizier befördert, und er habe sich sehr gefreut"
+      "text": "Zu Weihnachten 1943 schickt er Erna eine handgeschriebene Karte „Es lebe unser Unteroffizier!!!“ („Kriegsweihnacht 1943“) und einen Zettel „aus dem Tannenzweig“: Er sei ab dem 1. Dezember 1943 zum Unteroffizier befördert, und er habe sich sehr gefreut",
+      "briefe": [
+        "1943-12-01"
+      ]
     },
     {
       "zeit": "18. – 27. Januar 1944",
       "titel": "Verlegung nach Osten",
-      "text": "Abmarsch aus Pilsen am 18. Januar, am 25. Januar in Minsk, am 27. Januar in Witebsk"
+      "text": "Abmarsch aus Pilsen am 18. Januar, am 25. Januar in Minsk, am 27. Januar in Witebsk",
+      "briefe": [
+        "1944-01-17",
+        "1944-01-19",
+        "1944-01-21",
+        "1944-01-25-1",
+        "1944-01-25-2",
+        "1944-01-25-3",
+        "1944-01-27"
+      ]
     },
     {
       "zeit": "8. Februar 1944",
@@ -73,7 +112,11 @@
     {
       "zeit": "20. Juni 1944",
       "titel": "Letzter Brief",
-      "text": "der letzte erhaltene Brief an Erna"
+      "text": "der letzte erhaltene Brief an Erna",
+      "briefe": [
+        "1944-06-20-1",
+        "1944-06-20-2"
+      ]
     },
     {
       "zeit": "22. Juni 1944",
@@ -83,14 +126,41 @@
     {
       "zeit": "26. Juni 1944",
       "titel": "Aufbruch von Witebsk",
-      "text": "Nach dem Bericht eines Kameraden (Peter Winkler, Brief an Erna, vermutlich 1945) bricht die Einheit an diesem Tag von Witebsk auf, und die Männer verlieren sich am Abend aus den Augen"
+      "text": "Nach dem Bericht eines Kameraden (Peter Winkler, Brief an Erna, vermutlich 1945) bricht die Einheit an diesem Tag von Witebsk auf, und die Männer verlieren sich am Abend aus den Augen",
+      "briefe": [
+        "1945"
+      ]
     },
     {
       "zeit": "Juni/Juli 1944",
       "titel": "Vermisst, vermutlich gestorben",
-      "text": "Winkler gerät am 9. Juli 1944 in Gefangenschaft und hört dort, dass auch Fritz und zwei weitere Kameraden gefangen genommen wurden. Nach dem Gutachten des DRK-Suchdienstes (1972) starb Fritz mit hoher Wahrscheinlichkeit kurz nach der Gefangennahme in einem Sammellager, auf dem Transport oder in einem Arbeitslager. Ort und Datum sind nicht bekannt"
+      "text": "Winkler gerät am 9. Juli 1944 in Gefangenschaft und hört dort, dass auch Fritz und zwei weitere Kameraden gefangen genommen wurden. Nach dem Gutachten des DRK-Suchdienstes (1972) starb Fritz mit hoher Wahrscheinlichkeit kurz nach der Gefangennahme in einem Sammellager, auf dem Transport oder in einem Arbeitslager. Ort und Datum sind nicht bekannt",
+      "briefe": [
+        "1945",
+        "1972-01-31"
+      ]
     }
   ],
+  "kunst": {
+    "bilder": [
+      {
+        "datei": "110072015_0085.jpg",
+        "text": "Lt Gildemeister, Bleistiftzeichnung"
+      },
+      {
+        "datei": "110072015_0086.jpg",
+        "text": "Porträt mit Brille, Tuschezeichnung"
+      },
+      {
+        "datei": "110072015_0087.jpg",
+        "text": "Porträt mit Feldmütze, Tuschezeichnung"
+      },
+      {
+        "datei": "110072015_0088.jpg",
+        "text": "Unteroffizier Schmaltz (?), Bleistiftzeichnung"
+      }
+    ]
+  },
   "familie": [
     {
       "name": "Karl Johann Ludwig Christian Böttcher",
