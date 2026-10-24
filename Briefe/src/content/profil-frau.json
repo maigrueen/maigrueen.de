@@ -47,9 +47,9 @@
       "text": "Am 23. April bringt der Vater die Mutter in Kassel ins Marienkrankenhaus, wo eine Geschwulst operiert werden soll. Er bittet Erna, für einige Tage den elterlichen Haushalt zu führen. Eine Woche später schreibt er, die Mutter sei sehr schwach und er müsse auf das Schlimmste gefasst sein"
     },
     {
-      "zeit": "1941",
+      "zeit": "15. Mai 1941",
       "titel": "Tod der Mutter",
-      "text": "Anna Elise Auguste Hedwig Steinmetz stirbt im Alter von etwa 59 Jahren"
+      "text": "Anna Elise Auguste Hedwig Steinmetz stirbt in Kassel im Alter von 58 Jahren"
     },
     {
       "zeit": "1. November 1942",
@@ -192,6 +192,26 @@
       "name": "Erna Wally Agnes Trömner, geb. Steinmetz",
       "beziehung": "Schwester",
       "jahre": "1921 – 1974"
+    },
+    {
+      "name": "Konrad Wackerbarth",
+      "beziehung": "Schwager, Mann von Edith",
+      "jahre": "1905 – 1990"
+    },
+    {
+      "name": "Hermann Otto Trömner",
+      "beziehung": "Schwager, Mann von Agnes",
+      "jahre": "1916 – 1981"
+    },
+    {
+      "name": "Elise Steinmetz, geb. Höhmann",
+      "beziehung": "Schwägerin, Frau von Johann Heinrich",
+      "jahre": "geboren 1906"
+    },
+    {
+      "name": "Minna Katharina Steinmetz, geb. Kirchhoff",
+      "beziehung": "Schwägerin, Frau von Hugo",
+      "jahre": "1918 – 1980"
     }
   ]
 }

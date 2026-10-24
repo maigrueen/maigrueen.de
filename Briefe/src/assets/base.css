@@ -11,8 +11,12 @@
   --btn-color-border: #bbb;
   --btn-color-focus: #333;
   --btn-color-focus-border: #888;
-  --btn-prim-color: #7e8eeb;
-  --btn-prim-color-focus: #1eaedb;
+  --btn-prim-color: #7e8eeb; /* auch für Militär-Stationen auf der Karte */
+  /* Hauptknopf, Farben aus der Palette im README (coolors.co) */
+  --btn-prim-bg: #273582;
+  --btn-prim-text: #FFF;
+  --btn-prim-bg-focus: #a3d698;
+  --btn-prim-text-focus: #00241b;
   --form-color-border: #d1d1d1;
   --button-active-background: #a3d698;
   --button-active-font: #222;
@@ -32,7 +36,10 @@
   --btn-color-focus: #bbb;
   --btn-color-focus-border: #5b6c5d;
   --btn-prim-color: #7e8eeb;
-  --btn-prim-color-focus: #1eaedb;
+  --btn-prim-bg: #a3d698;
+  --btn-prim-text: #00241b;
+  --btn-prim-bg-focus: #7e8eeb;
+  --btn-prim-text-focus: #00241b;
   --form-color-border: #5b6c5d;
   --button-active-background: #5b6c5d;
   --button-active-font: #a3d698;
@@ -147,17 +154,17 @@ button:focus {
 }
 .button.button-primary,
 button.button-primary {
-  color: var(--background-color);
-  background-color: var(--btn-prim-color);
-  border-color: var(--btn-prim-color);
+  color: var(--btn-prim-text);
+  background-color: var(--btn-prim-bg);
+  border-color: var(--btn-prim-bg);
 }
 .button.button-primary:hover,
 button.button-primary:hover,
 .button.button-primary:focus,
 button.button-primary:focus {
-  color: var(--background-color);
-  background-color: var(--btn-prim-color-focus);
-  border-color: var(--btn-prim-color-focus);
+  color: var(--btn-prim-text-focus);
+  background-color: var(--btn-prim-bg-focus);
+  border-color: var(--btn-prim-bg-focus);
 }
 
 .active {
