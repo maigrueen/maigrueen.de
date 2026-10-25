@@ -31,6 +31,69 @@
       "glossar": ["vater-boettcher", "mutter-boettcher", "karl", "heinrich-boettcher"]
     },
     {
+      "ort": "Mengeringshausen (Waldeck)",
+      "lat": 51.364,
+      "lng": 8.996,
+      "zeit": "1928 – 1934",
+      "typ": "leben",
+      "kurz": "Erste Lehrerstellen: Aushilfe an wechselnden Schulen.",
+      "notiz": "Laut seiner Personalakte (Stadtarchiv Hanau) hat Fritz lange keine feste Stelle. 1928 unterrichtet er als Elementarlehrer an der Landwirtschaftsschule Mengeringshausen, 1929 als Hilfslehrer an der Volksschule dort. Danach folgen kurze Vertretungen und Aushilfsstellen: 1932 Langenstein, 1933 Hombressen und Odershausen, 1934 Oberellenbach, Hemfurth und die Hilfsschule in Hanau. Die übrigen Orte sind als kleine Punkte eingezeichnet."
+    },
+    {
+      "ort": "Langenstein (vermutlich bei Kirchhain)",
+      "lat": 50.79,
+      "lng": 8.97,
+      "zeit": "1932",
+      "typ": "neben",
+      "kurz": "Vertretung als Lehrer.",
+      "notiz": "Station aus Fritz’ Personalakte als Lehrer 1928–1934 (Stadtarchiv Hanau, C 3, 550). Vertretung als Lehrer."
+    },
+    {
+      "ort": "Hombressen",
+      "lat": 51.48,
+      "lng": 9.43,
+      "zeit": "1933",
+      "typ": "neben",
+      "kurz": "Hilfslehrer.",
+      "notiz": "Station aus Fritz’ Personalakte als Lehrer 1928–1934 (Stadtarchiv Hanau, C 3, 550). Hilfslehrer."
+    },
+    {
+      "ort": "Odershausen",
+      "lat": 51.1,
+      "lng": 9.1,
+      "zeit": "1933",
+      "typ": "neben",
+      "kurz": "Hilfslehrer.",
+      "notiz": "Station aus Fritz’ Personalakte als Lehrer 1928–1934 (Stadtarchiv Hanau, C 3, 550). Hilfslehrer."
+    },
+    {
+      "ort": "Oberellenbach",
+      "lat": 51.01,
+      "lng": 9.67,
+      "zeit": "1934",
+      "typ": "neben",
+      "kurz": "Vertretung als Lehrer.",
+      "notiz": "Station aus Fritz’ Personalakte als Lehrer 1928–1934 (Stadtarchiv Hanau, C 3, 550). Vertretung als Lehrer."
+    },
+    {
+      "ort": "Hemfurth am Edersee",
+      "lat": 51.17,
+      "lng": 9.05,
+      "zeit": "1934",
+      "typ": "neben",
+      "kurz": "Hilfslehrer, nah am Heimatdorf der Eltern.",
+      "notiz": "Station aus Fritz’ Personalakte als Lehrer 1928–1934 (Stadtarchiv Hanau, C 3, 550). Hilfslehrer, nah am Heimatdorf der Eltern."
+    },
+    {
+      "ort": "Hanau",
+      "lat": 50.13,
+      "lng": 8.92,
+      "zeit": "1934",
+      "typ": "neben",
+      "kurz": "Vertretung an der Hilfsschule.",
+      "notiz": "Station aus Fritz’ Personalakte als Lehrer 1928–1934 (Stadtarchiv Hanau, C 3, 550). Vertretung an der Hilfsschule."
+    },
+    {
       "ort": "Riede und Lohne (Nordhessen)",
       "lat": 51.2,
       "lng": 9.27,
