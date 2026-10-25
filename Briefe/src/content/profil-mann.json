@@ -42,6 +42,11 @@
       "briefe": ["1937-09", "1937-09-30", "1937-10-09-1", "1937-10-09-2", "1937-12"]
     },
     {
+      "zeit": "18. Juni 1937",
+      "titel": "Eintritt in die NSDAP",
+      "text": "Fritz beantragt die Mitgliedschaft in der NSDAP und wird rückwirkend zum 1. Mai 1937 aufgenommen, Mitgliedsnummer 5.700.219, Ortsgruppe Merxhausen. Von 1933 bis 1937 hatte die Partei keine neuen Mitglieder aufgenommen; nach der Öffnung traten 1937 sehr viele bei, besonders Beamte und Lehrer, von denen das erwartet wurde. Was Fritz bewogen hat, ist nicht überliefert. Quelle ist seine Karte in der NSDAP-Gaukartei (US National Archives, Rolle A3340-MFOK-B0069)"
+    },
+    {
       "zeit": "3. April 1938",
       "titel": "Verlobung",
       "text": "Fritz verlobt sich mit Erna Steinmetz",
@@ -85,7 +90,8 @@
     {
       "zeit": "8. Februar 1944",
       "titel": "Feldersatz-Bataillon 6 (L)",
-      "text": "Fritz wird Schreiber im Stab des neu aufgestellten Bataillons und bekommt die Feldpostnummer 58937 A"
+      "text": "Eigentlich soll Fritz zur 3. Luftwaffen-Feld-Division, die im Winter bei Witebsk schwere Verluste erlitten hat: Im Brief vom 8. Februar nennt er Erna deren Feldpostnummer L 50035 D und streicht sie wieder durch. Die Division wird gerade aufgelöst, ihre Reste kommen zur 4. und 6. Luftwaffen-Feld-Division. So wird Fritz Schreiber im Stab des neu aufgestellten Feldersatz-Bataillons 6 (L) und bekommt die Feldpostnummer 58937 A",
+      "briefe": ["1944-02-08-1", "1944-02-08-2"]
     },
     {
       "zeit": "6. April – Mitte Mai 1944",
