@@ -3,7 +3,7 @@
   "lebensdaten": "* 5. August 1905 in Hagen-Kabel · vermisst seit Juni 1944, vermutlich gestorben Juni/Juli 1944 in sowjetischer Gefangenschaft",
   "foto": "Fritz-Pilsen.jpg",
   "fotoText": "Fritz Böttcher in Pilsen",
-  "text": "Friedrich „Fritz“ Böttcher kommt am 5. August 1905 in Hagen-Kabel am Rand des Ruhrgebiets zur Welt. Seine Eltern stammen aus Dörfern im waldeckischen Edertal: Der Vater Carl ist Schuhmachermeister in Kabel, die Mutter Louise war vor der Ehe Dienstmagd in Barmen. Fritz wächst mit seinen Brüdern Karl, der älter ist als er, und Heinrich auf. Nach der Volksschule geht er mit 14 Jahren ans Lehrerseminar in Herdecke, mit 19 ist er Volksschullehrer. Ein Jahr später stirbt sein Vater.\n\nSpätestens 1937 unterrichtet Fritz an der kleinen Volksschule in Riede im Kreis Wolfhagen. Seine Briefe zeigen einen vielseitig interessierten Menschen: Er schreibt Gedichte und kleine Geschichten, zeichnet, komponiert, lernt Englisch und Italienisch und liest viel. Im Herbst 1937 umwirbt er Erna Steinmetz aus Kirchberg mit Briefen und Versen, 1938 heiraten die beiden, er ist 33.\n\nMit 35 Jahren wird Fritz im März 1941 eingezogen. Die meiste Zeit ist er Schreiber in einer Schreibstube in Pilsen, Ende 1943 wird er mit 38 Unteroffizier, worüber er sich vor allem Ernas wegen freut. Im Januar 1944 kommt er an die Front bei Witebsk in Weißrussland. In seinen Briefen klagt er über den „Papierkrieg“, Läuse, Hunger und Schikanen; im Mai 1944 wehrt er sich so heftig gegen einen jungen Vorgesetzten, dass er Arrest bekommt und versetzt wird. Dabei plant er die Zeit nach dem Krieg: in Riede bleiben, das alte Fachwerkhaus schön einrichten, mit Erna lesen, Musik hören und „ein paar Jahre noch friedlich“ leben.\n\nSein letzter erhaltener Brief stammt vom 20. Juni 1944. Zwei Tage später beginnt die sowjetische Großoffensive, die die deutsche Front in Weißrussland zusammenbrechen lässt. Nach dem Bericht eines Kameraden bricht seine Einheit am 26. Juni von Witebsk auf, und Fritz gerät in Gefangenschaft. Ein Gutachten des DRK-Suchdienstes von 1972 kommt zu dem Schluss, dass er mit hoher Wahrscheinlichkeit kurz danach starb, mit 38 Jahren. Wo und wann genau, weiß niemand.",
+  "text": "Friedrich „Fritz“ Böttcher kommt am 5. August 1905 in Hagen-Kabel am Rand des Ruhrgebiets zur Welt. Seine Eltern stammen aus Dörfern im waldeckischen Edertal: Der Vater Carl ist Schuhmachermeister in Kabel, die Mutter Louise war vor der Ehe Dienstmagd in Barmen. Fritz wächst mit seinen Brüdern Karl, der älter ist als er, und Heinrich auf. Nach der Volksschule geht er mit 14 Jahren ans Lehrerseminar in Herdecke, mit 19 ist er Volksschullehrer. Ein Jahr später stirbt sein Vater. Eine feste Stelle bekommt Fritz lange nicht: Wie viele junge Lehrer dieser Jahre zieht er von einer Aushilfsstelle zur nächsten, von Mengeringshausen in Waldeck über Dörfer in Nordhessen bis an eine Hilfsschule in Hanau.\n\nSpätestens 1937 unterrichtet Fritz an der kleinen Volksschule in Riede im Kreis Wolfhagen. Seine Briefe zeigen einen vielseitig interessierten Menschen: Er schreibt Gedichte und kleine Geschichten, zeichnet, komponiert, lernt Englisch und Italienisch und liest viel. Im Herbst 1937 umwirbt er Erna Steinmetz aus Kirchberg mit Briefen und Versen, 1938 heiraten die beiden, er ist 33.\n\nMit 35 Jahren wird Fritz im März 1941 eingezogen. Die meiste Zeit ist er Schreiber in einer Schreibstube in Pilsen, Ende 1943 wird er mit 38 Unteroffizier, worüber er sich vor allem Ernas wegen freut. Im Januar 1944 kommt er an die Front bei Witebsk in Weißrussland. In seinen Briefen klagt er über den „Papierkrieg“, Läuse, Hunger und Schikanen; im Mai 1944 wehrt er sich so heftig gegen einen jungen Vorgesetzten, dass er Arrest bekommt und versetzt wird. Dabei plant er die Zeit nach dem Krieg: in Riede bleiben, das alte Fachwerkhaus schön einrichten, mit Erna lesen, Musik hören und „ein paar Jahre noch friedlich“ leben.\n\nSein letzter erhaltener Brief stammt vom 20. Juni 1944. Zwei Tage später beginnt die sowjetische Großoffensive, die die deutsche Front in Weißrussland zusammenbrechen lässt. Nach dem Bericht eines Kameraden bricht seine Einheit am 26. Juni von Witebsk auf, und Fritz gerät in Gefangenschaft. Ein Gutachten des DRK-Suchdienstes von 1972 kommt zu dem Schluss, dass er mit hoher Wahrscheinlichkeit kurz danach starb, mit 38 Jahren. Wo und wann genau, weiß niemand.",
   "lebenslauf": [
     {
       "zeit": "1905",
@@ -22,13 +22,18 @@
     },
     {
       "zeit": "1924",
-      "titel": "Lehrer",
-      "text": "Mit 19 Jahren ist Fritz Volksschullehrer. Wo er in den ersten Jahren unterrichtet, ist noch nicht bekannt"
+      "titel": "Lehrerseminar abgeschlossen",
+      "text": "Mit 19 Jahren ist Fritz ausgebildeter Volksschullehrer. Wo er bis 1928 unterrichtet, ist noch nicht bekannt"
     },
     {
       "zeit": "27. April 1926",
       "titel": "Tod des Vaters",
       "text": "Fritz verliert seinen Vater, der mit 58 Jahren in Kabel stirbt; Fritz ist 20"
+    },
+    {
+      "zeit": "1928 – 1934",
+      "titel": "Wechselnde Aushilfsstellen",
+      "text": "Fritz hat jahrelang keine feste Stelle. 1928 ist er Elementarlehrer an der Landwirtschaftsschule Mengeringshausen (Waldeck), 1929 Hilfslehrer an der Volksschule dort. 1932 vertritt er einen Lehrer in Langenstein, 1933 ist er Hilfslehrer in Hombressen und in Odershausen, 1934 vertritt er in Oberellenbach, ist Hilfslehrer in Hemfurth am Edersee, ganz nah am Heimatdorf seiner Eltern, und vertritt einen Lehrer an der Hilfsschule in Hanau. Das geht aus seiner Personalakte im Stadtarchiv Hanau hervor"
     },
     {
       "zeit": "1937",
