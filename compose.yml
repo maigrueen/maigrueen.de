@@ -5,56 +5,56 @@
 services:
   maigrueen:
     container_name: maigrueen
-    image: ghcr.io/maigrueen/maigrueen:v1702
+    image: ghcr.io/maigrueen/maigrueen:v1703
     pull_policy: missing
     networks:
       - proxy_net
 
   briefe:
     container_name: briefe
-    image: ghcr.io/maigrueen/briefe:v1702
+    image: ghcr.io/maigrueen/briefe:v1703
     pull_policy: missing
     networks:
       - proxy_net
 
   dashboard:
     container_name: dashboard
-    image: ghcr.io/maigrueen/dashboard:v1702
+    image: ghcr.io/maigrueen/dashboard:v1703
     pull_policy: missing
     networks:
       - proxy_net
 
   affirmations:
     container_name: affirmations
-    image: ghcr.io/maigrueen/affirmations:v1702
+    image: ghcr.io/maigrueen/affirmations:v1703
     pull_policy: missing
     networks:
       - proxy_net
 
   dogtracker:
     container_name: dogtracker
-    image: ghcr.io/maigrueen/dogtracker:v1702
+    image: ghcr.io/maigrueen/dogtracker:v1703
     pull_policy: missing
     networks:
       - proxy_net
 
   ftechart:
     container_name: ftechart
-    image: ghcr.io/maigrueen/ftechart:v1702
+    image: ghcr.io/maigrueen/ftechart:v1703
     pull_policy: missing
     networks:
       - proxy_net
 
   periodtracker:
     container_name: periodtracker
-    image: ghcr.io/maigrueen/periodtracker:v1702
+    image: ghcr.io/maigrueen/periodtracker:v1703
     pull_policy: missing
     networks:
       - proxy_net
 
   todolist:
     container_name: todolist
-    image: ghcr.io/maigrueen/todolist:v1702
+    image: ghcr.io/maigrueen/todolist:v1703
     pull_policy: missing
     networks:
       - proxy_net
