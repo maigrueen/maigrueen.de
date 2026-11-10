@@ -14,10 +14,13 @@
     <meta property="og:locale" content="de_DE" />
     <meta property="og:description" content="Feldpostbriefe von Fritz Böttcher an seine Frau Erna, 1937–1944. Ein digitales Denkmal." />
     <script>
-      // Alte Links der Form https://briefe.maigrueen.de/#/brief/1943-05-12 auf die neue Adresse umleiten
+      // Alte Links der Form https://briefe.maigrueen.de/#/brief/1943-05-12 auf die neue Adresse umleiten.
+      // Nur bekannte Pfade der eigenen Seite werden weitergeleitet, und zwar immer auf dieselbe Domain.
       (function () {
-        var h = location.hash;
-        if (h.indexOf("#/") === 0) location.replace(h.slice(1));
+        var m = location.hash.match(
+          /^#(\/(?:(?:briefe|brief)\/[A-Za-z0-9-]+|briefe|fritz|erna|mann|frau|karte|glossar|datenschutz)?)(#[A-Za-z0-9_-]+)?$/
+        );
+        if (m) location.replace(location.origin + m[1] + (m[2] || ""));
       })();
     </script>
   </head>
