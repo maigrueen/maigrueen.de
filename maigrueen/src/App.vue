@@ -82,6 +82,11 @@ import Timeline from "./components/Timeline.vue";
       <h3>Experience</h3>
       <Timeline />
     </main>
+    <footer>
+      <a href="/impressum.html">Impressum</a>
+      ·
+      <a href="https://briefe.maigrueen.de/datenschutz">Datenschutz</a>
+    </footer>
   </div>
 </template>
 
@@ -97,5 +102,12 @@ header {
 
   margin-top: 5%;
   margin-bottom: 5%;
+}
+
+footer {
+  margin: 4rem 0 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--btn-color-border);
+  font-size: 1.3rem;
 }
 </style>

@@ -18,7 +18,7 @@ import ThemeToggle from "./components/ThemeToggle.vue";
       <router-link to="/glossar">Glossar</router-link>
     </nav>
     <main><router-view /></main>
-    <footer><router-link to="/datenschutz">Datenschutz und Kontakt</router-link></footer>
+    <footer><router-link to="/datenschutz">Datenschutz und Kontakt</router-link> · <a href="https://maigrueen.de/impressum.html">Impressum</a></footer>
   </div>
 </template>
 

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Impressum | maigrueen.de</title>
+    <meta name="description" content="Impressum von maigrueen.de" />
+    <link rel="canonical" href="https://maigrueen.de/impressum.html" />
+    <link rel="icon" href="/favicon.png" />
+    <script>
+      // Gleiche Hell/Dunkel-Auswahl wie auf der Hauptseite
+      try {
+        var t = localStorage.getItem("user-theme");
+        if (t) document.documentElement.className = t;
+      } catch (e) {}
+    </script>
+    <style>
+      :root { --bg: #fff; --text: #222; --link: #273582; --linie: #bbb; }
+      :root.dark-theme { --bg: #00241b; --text: #a3d698; --link: #e5f3e2; --linie: #5b6c5d; }
+      @media (prefers-color-scheme: dark) {
+        :root:not(.light-theme):not(.dark-theme) { --bg: #00241b; --text: #a3d698; --link: #e5f3e2; --linie: #5b6c5d; }
+      }
+      html { font-size: 62.5%; }
+      body {
+        font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 1.6rem; line-height: 1.6; color: var(--text); background: var(--bg);
+        max-width: 720px; margin: 0 auto; padding: 4rem 2rem;
+      }
+      h1, h2 { font-weight: 300; }
+      h1 { margin-top: 0; }
+      a { color: var(--link); }
+      footer { margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--linie); font-size: 1.4rem; }
+    </style>
+  </head>
+  <body>
+    <p><a href="/">← Zur Startseite</a></p>
+    <h1>Impressum</h1>
+
+    <h2>Angaben gemäß § 5 DDG</h2>
+    <p>
+      Astrid Deichmann<br />
+      Meisenstraße 2
+      24939 Flensburg
+    </p>
+
+    <h2>Kontakt</h2>
+    <p>E-Mail: <a href="mailto:astrid@maigrueen.de">astrid@maigrueen.de</a></p>
+
+    <h2>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</h2>
+    <p>
+      Astrid Deichmann, Anschrift wie oben
+    </p>
+
+    <footer>
+      <a href="https://briefe.maigrueen.de/datenschutz">Datenschutz und Kontakt</a>
+    </footer>
+  </body>
+</html>
