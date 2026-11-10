@@ -1,5 +1,6 @@
-import { createApp } from "vue";
+import { ViteSSG } from "vite-ssg";
 import App from "./App.vue";
-import router from "./router";
+import { routes, scrollBehavior } from "./router";
 
-createApp(App).use(router).mount("#app");
+// vite-ssg rendert beim Build jede Seite vorab zu echtem HTML und übernimmt sie im Browser ("Hydration").
+export const createApp = ViteSSG(App, { routes, scrollBehavior, base: import.meta.env.BASE_URL });

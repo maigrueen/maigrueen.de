@@ -12,12 +12,13 @@ import ThemeToggle from "./components/ThemeToggle.vue";
     </header>
     <nav>
       <router-link to="/briefe">Briefe</router-link>
-      <router-link to="/mann">Fritz</router-link>
-      <router-link to="/frau">Erna</router-link>
+      <router-link to="/fritz">Fritz</router-link>
+      <router-link to="/erna">Erna</router-link>
       <router-link to="/karte">Karte</router-link>
       <router-link to="/glossar">Glossar</router-link>
     </nav>
     <main><router-view /></main>
+    <footer><router-link to="/datenschutz">Datenschutz und Kontakt</router-link></footer>
   </div>
 </template>
 
@@ -35,6 +36,7 @@ header img { max-height: 80px; display: block; }
 header .logo { display: inline-block; line-height: 0; }
 nav { display: flex; flex-wrap: wrap; gap: 2rem; margin-bottom: 3rem; }
 nav a.router-link-exact-active { font-weight: 600; }
+footer { margin: 4rem 0 2rem; padding-top: 1.5rem; border-top: 1px solid var(--btn-color-border); font-size: 1.3rem; }
 .meta { font-size: 1.3rem; opacity: 0.8; margin: 0; }
 .karte { border: 1px solid var(--btn-color-border); background: var(--background-timeline); padding: 1.5rem; margin-bottom: 2rem; }
 </style>

@@ -1,6 +1,7 @@
 <script setup>
 import { computed, ref } from "vue";
-import { briefe, bildUrl, datumDe, metaZeile } from "../briefe";
+import { briefe, bildUrl, datumDe, metaZeile, absender } from "../briefe";
+import { useSeite, kurz } from "../seo";
 import Lightbox from "../components/Lightbox.vue";
 import { personenIn, begriffeIn } from "../glossar";
 
@@ -13,6 +14,19 @@ const zurueck = computed(() => briefe[i.value - 1]);
 const weiter = computed(() => briefe[i.value + 1]);
 
 const offen = ref(null);
+
+useSeite(() => {
+  const b = brief.value;
+  if (!b) return { titel: "Brief nicht gefunden", beschreibung: "Diesen Brief gibt es nicht.", pfad: "/briefe/" + props.id };
+  const von = absender(b) === "Fritz" ? "Fritz Böttcher" : absender(b);
+  const was = b.art || "Brief";
+  return {
+    titel: `${was} vom ${datumDe(b.datum)}${b.ort ? ", " + b.ort : ""} – ${von}`,
+    beschreibung: kurz(`${was} von ${von} vom ${datumDe(b.datum)}${b.ort ? " aus " + b.ort : ""}: ${b.titel ? b.titel + ". " : ""}${b.text}`),
+    pfad: "/briefe/" + b.id,
+    typ: "article",
+  };
+});
 const bilder = computed(() =>
   brief.value
     ? brief.value.bilder.map((b, n) => ({
@@ -59,8 +73,8 @@ const bilder = computed(() =>
     </aside>
 
     <p class="paging">
-      <router-link v-if="zurueck" :to="'/brief/' + zurueck.id">← {{ datumDe(zurueck.datum) }}</router-link>
-      <router-link v-if="weiter" :to="'/brief/' + weiter.id">{{ datumDe(weiter.datum) }} →</router-link>
+      <router-link v-if="zurueck" :to="'/briefe/' + zurueck.id">← {{ datumDe(zurueck.datum) }}</router-link>
+      <router-link v-if="weiter" :to="'/briefe/' + weiter.id">{{ datumDe(weiter.datum) }} →</router-link>
     </p>
   </article>
 </template>

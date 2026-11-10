@@ -4,6 +4,13 @@ import { briefe, bildUrl, datumDe } from "../briefe";
 import Lightbox from "../components/Lightbox.vue";
 import Stammbaum from "../components/Stammbaum.vue";
 import { glossarIntro, personen, begriffe } from "../glossar";
+import { useSeite } from "../seo";
+
+useSeite(() => ({
+  titel: "Glossar: Stammbaum, Personen und Begriffe",
+  beschreibung: "Stammbaum der Familien Böttcher und Steinmetz, Personen aus den Briefen von Fritz Böttcher und Erklärungen zu Begriffen der Feldpost und des Soldatenalltags.",
+  pfad: "/glossar",
+}));
 
 const briefNachId = Object.fromEntries(briefe.map((b) => [b.id, b]));
 const briefLabel = (id) => briefNachId[id].titel || datumDe(briefNachId[id].datum);
@@ -81,7 +88,7 @@ const sichtbar = (e) => (offen.value[e.id] ? e.briefIds : e.briefIds.slice(0, GR
           {{ p.text }}
           <span v-if="p.briefIds.length" class="briefe">
             <span class="meta">{{ p.briefIds.length > 1 ? `${p.briefIds.length} Briefe` : "Brief" }}:</span>
-            <router-link v-for="id in sichtbar(p)" :key="id" :to="'/brief/' + id">{{ briefLabel(id) }}</router-link>
+            <router-link v-for="id in sichtbar(p)" :key="id" :to="'/briefe/' + id">{{ briefLabel(id) }}</router-link>
             <a v-if="p.briefIds.length > GRENZE && !offen[p.id]" href="#" @click.prevent="offen[p.id] = true">alle zeigen</a>
           </span>
         </dd>
@@ -100,7 +107,7 @@ const sichtbar = (e) => (offen.value[e.id] ? e.briefIds : e.briefIds.slice(0, GR
         {{ b.text }}
         <span v-if="b.briefIds.length" class="briefe">
           <span class="meta">{{ b.briefIds.length > 1 ? `${b.briefIds.length} Briefe` : "Brief" }}:</span>
-          <router-link v-for="id in sichtbar(b)" :key="id" :to="'/brief/' + id">{{ briefLabel(id) }}</router-link>
+          <router-link v-for="id in sichtbar(b)" :key="id" :to="'/briefe/' + id">{{ briefLabel(id) }}</router-link>
           <a v-if="b.briefIds.length > GRENZE && !offen[b.id]" href="#" @click.prevent="offen[b.id] = true">alle zeigen</a>
         </span>
       </dd>

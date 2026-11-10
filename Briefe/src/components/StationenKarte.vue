@@ -1,6 +1,5 @@
 <script setup>
 import { nextTick, onBeforeUnmount, onMounted, ref } from "vue";
-import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import { briefe, datumDe } from "../briefe";
 import { personen, begriffe } from "../glossar";
@@ -123,6 +122,9 @@ function details(s) {
 }
 
 onMounted(async () => {
+  // Leaflet erst im Browser laden: Beim Vorab-Rendern (Build) gibt es kein "window"
+  const mod = await import("leaflet");
+  const L = mod.default ?? mod;
   karte = L.map(el.value);
   L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
     className: "kacheln", // für die Einfärbung, siehe CSS unten
@@ -221,7 +223,7 @@ onBeforeUnmount(() => karte && karte.remove());
           <router-link
             v-for="b in offen[s.ort] ? links.get(s).briefe : links.get(s).briefe.slice(0, GRENZE)"
             :key="b.id"
-            :to="'/brief/' + b.id"
+            :to="'/briefe/' + b.id"
           >{{ briefLabel(b) }}</router-link>
           <a v-if="links.get(s).briefe.length > GRENZE && !offen[s.ort]" href="#" @click.prevent="offen[s.ort] = true">alle zeigen</a>
         </p>

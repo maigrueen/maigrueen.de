@@ -33,7 +33,7 @@ const bildIndex = (ei, bi) =>
 
       <p v-if="passendeBriefe(e).length" class="briefe">
         <span class="meta">{{ passendeBriefe(e).length > 1 ? "Briefe" : "Brief" }}:</span>
-        <router-link v-for="b in passendeBriefe(e)" :key="b.id" :to="'/brief/' + b.id">{{ briefLabel(b) }}</router-link>
+        <router-link v-for="b in passendeBriefe(e)" :key="b.id" :to="'/briefe/' + b.id">{{ briefLabel(b) }}</router-link>
       </p>
 
       <div v-if="e.bilder && e.bilder.length" class="bilder">

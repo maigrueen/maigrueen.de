@@ -6,7 +6,7 @@
       "name": "Erna (Ida Elisabeth Erna) Böttcher, geb. Steinmetz",
       "gruppe": "Familie Steinmetz",
       "text": "* 10. Juli 1907 in Kirchberg (Niedenstein), † 28. Mai 1990 in Riedstadt. Empfängerin der Briefe. Fritz nennt sie „liebe Frau“, „Kleines“ oder „Hexe“.",
-      "link": "/frau",
+      "link": "/erna",
       "foto": {
         "datei": "19280000-Erna.jpg",
         "text": "Erna mit 21 Jahren, 1928"
@@ -129,7 +129,7 @@
       "name": "Fritz (Friedrich) Böttcher",
       "gruppe": "Familie Böttcher",
       "text": "1905 – vermisst 1944. Schreiber der Briefe, Volksschullehrer in Riede. Unterschreibt mit „Dein Fritz“, einmal „d.O.“.",
-      "link": "/mann"
+      "link": "/fritz"
     },
     {
       "id": "vater-boettcher",
@@ -161,7 +161,7 @@
       "id": "heinrich-boettcher",
       "name": "Heinrich Böttcher",
       "gruppe": "Familie Böttcher",
-      "text": "Fritz’ Bruder, Prokurist in Bremen, 1957 wohnhaft Arensburgstraße 35. Er schickt Fritz Bücher, Zeitungen und Briefe an die Front und erfährt seine Feldpostnummer über Rita. 1957 meldet er den Tod der Mutter in Riede.",
+      "text": "Fritz’ Bruder, Prokurist in Bremen. Er schickt Fritz Bücher, Zeitungen und Briefe an die Front und erfährt seine Feldpostnummer über Rita. 1957 meldet er den Tod der Mutter in Riede.",
       "suche": ["von Heinrich", "Heinrich hatte", "Bremen"]
     },
     {
@@ -175,7 +175,7 @@
       "id": "haag",
       "name": "Paul Haag",
       "gruppe": "Kameraden und Vorgesetzte",
-      "text": "* 13. November 1903 in Meuselwitz (Thüringen), † 30. Oktober 1944 in sowjetischer Kriegsgefangenschaft im Raum Bokowo-Antrazit (Donbass). Oberfeldwebel und Hauptfeldwebel („Spieß“), im Zivilberuf Justizsekretär in Auma (Thüringen), verheiratet mit Frieda Haag, eine Tochter. Fritz’ engster Kamerad von Pilsen bis Witebsk. Nach Peter Winkler kam er im Sommer 1944 zusammen mit Fritz in Gefangenschaft. Er steht in der Vermisstenbildliste des DRK (Feldersatz-Bataillon 6, Feldpostnummer 58937 A); Geburtsdatum und Todesort stammen aus der Gräbersuche des Volksbunds.",
+      "text": "* 13. November 1903 in Meuselwitz (Thüringen), † 30. Oktober 1944 in sowjetischer Kriegsgefangenschaft im Raum Bokowo-Antrazit (Donbass). Oberfeldwebel und Hauptfeldwebel („Spieß“), im Zivilberuf Justizsekretär in Auma (Thüringen), verheiratet, eine Tochter. Fritz’ engster Kamerad von Pilsen bis Witebsk. Nach Peter Winkler kam er im Sommer 1944 zusammen mit Fritz in Gefangenschaft. Er steht in der Vermisstenbildliste des DRK (Feldersatz-Bataillon 6, Feldpostnummer 58937 A); Geburtsdatum und Todesort stammen aus der Gräbersuche des Volksbunds.",
       "suche": ["Haag"]
     },
     {
@@ -253,7 +253,7 @@
       "name": "Leutnant Gildemeister und Unteroffizier Schmaltz (?)",
       "gruppe": "Kameraden und Vorgesetzte",
       "text": "Von Fritz gezeichnet; die Zeichnungen sind auf seiner Seite unter „Kunst“ zu sehen.",
-      "link": "/mann"
+      "link": "/fritz"
     },
     {
       "id": "riede",
