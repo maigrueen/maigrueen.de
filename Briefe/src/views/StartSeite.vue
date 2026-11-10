@@ -170,7 +170,7 @@ const zeitleiste = [
     <section class="ueber">
       <h2>Über diese Seite</h2>
       <p>
-        Erna war die Schwester meiner Urgroßmutter Edith. Ich bin 1987 geboren und habe keine Erinnerungen an sie.
+        Erna war die Schwester meiner Urgroßmutter Edith.
         Kennengelernt habe ich sie und Fritz erst durch diese Briefe.
       </p>
       <p>

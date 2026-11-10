@@ -4,6 +4,7 @@ import BriefDetail from "./views/BriefDetail.vue";
 import ProfilSeite from "./views/ProfilSeite.vue";
 import KartenSeite from "./views/KartenSeite.vue";
 import GlossarSeite from "./views/GlossarSeite.vue";
+import DatenschutzSeite from "./views/DatenschutzSeite.vue";
 
 // Sprungmarken (z. B. /glossar#haag) anspringen, sonst nach oben
 export const scrollBehavior = (to) =>
@@ -24,4 +25,5 @@ export const routes = [
     { path: "/frau", redirect: "/erna" },
     { path: "/karte", component: KartenSeite },
     { path: "/glossar", component: GlossarSeite },
+    { path: "/datenschutz", component: DatenschutzSeite },
 ];

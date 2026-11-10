@@ -30,6 +30,7 @@ export function useSeite(daten) {
         { property: "og:image", content: SITE + "/logo-512.png" },
         { property: "og:locale", content: "de_DE" },
         { name: "twitter:card", content: "summary" },
+        ...(d.noindex ? [{ name: "robots", content: "noindex" }] : []),
       ],
       link: [{ rel: "canonical", href: url }],
       script: d.json
