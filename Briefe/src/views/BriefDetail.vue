@@ -59,8 +59,8 @@ const bilder = computed(() =>
     </aside>
 
     <p class="paging">
-      <router-link v-if="zurueck" :to="'/brief/' + zurueck.id">← {{ datumDe(zurueck.datum) }}</router-link>
-      <router-link v-if="weiter" :to="'/brief/' + weiter.id">{{ datumDe(weiter.datum) }} →</router-link>
+      <router-link v-if="zurueck" :to="'/briefe/' + zurueck.id">← {{ datumDe(zurueck.datum) }}</router-link>
+      <router-link v-if="weiter" :to="'/briefe/' + weiter.id">{{ datumDe(weiter.datum) }} →</router-link>
     </p>
   </article>
 </template>

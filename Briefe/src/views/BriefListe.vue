@@ -62,7 +62,7 @@ const vorschau = (t) => (t.length > 180 ? t.slice(0, 180).replace(/\s+\S*$/, "")
     <h2 class="jahr">{{ g.jahr }}</h2>
     <ol class="liste">
       <li v-for="b in g.briefe" :key="b.id">
-        <router-link :to="'/brief/' + b.id" class="eintrag">
+        <router-link :to="'/briefe/' + b.id" class="eintrag">
           <img v-if="b.bilder.length" :src="bildUrl(b.bilder[0])" alt="" loading="lazy" class="scan" />
           <span v-else class="scan leer" aria-hidden="true"></span>
           <span class="inhalt">

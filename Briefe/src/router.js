@@ -1,4 +1,4 @@
-import { createRouter, createWebHashHistory } from "vue-router";
+import { createRouter, createWebHistory } from "vue-router";
 import StartSeite from "./views/StartSeite.vue";
 import BriefListe from "./views/BriefListe.vue";
 import BriefDetail from "./views/BriefDetail.vue";
@@ -7,7 +7,7 @@ import KartenSeite from "./views/KartenSeite.vue";
 import GlossarSeite from "./views/GlossarSeite.vue";
 
 export default createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(import.meta.env.BASE_URL),
   // Sprungmarken (z. B. /glossar#haag) anspringen, sonst nach oben
   scrollBehavior: (to) =>
     to.hash
@@ -16,9 +16,14 @@ export default createRouter({
   routes: [
     { path: "/", component: StartSeite },
     { path: "/briefe", component: BriefListe },
-    { path: "/brief/:id", component: BriefDetail, props: true },
-    { path: "/mann", component: ProfilSeite, props: { datei: "profil-mann" } },
-    { path: "/frau", component: ProfilSeite, props: { datei: "profil-frau" } },
+    { path: "/briefe/:id", component: BriefDetail, props: true },
+    // alte Adresse (und alte #/brief/…-Links) weiterleiten
+    { path: "/brief/:id", redirect: (to) => "/briefe/" + to.params.id },
+    { path: "/fritz", component: ProfilSeite, props: { datei: "profil-mann" } },
+    { path: "/erna", component: ProfilSeite, props: { datei: "profil-frau" } },
+    // alte Adressen weiterleiten
+    { path: "/mann", redirect: "/fritz" },
+    { path: "/frau", redirect: "/erna" },
     { path: "/karte", component: KartenSeite },
     { path: "/glossar", component: GlossarSeite },
   ],

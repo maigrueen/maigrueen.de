@@ -8,7 +8,7 @@ RUN npm run build
 
 # 2. Auslieferung mit Nginx
 FROM nginx:alpine
-# Passe 'dist' an, falls der Build-Ordner anders heißt (z.B. 'build' oder 'public')
+COPY nginx.conf /etc/nginx/conf.d/default.conf
 COPY --from=builder /app/dist /usr/share/nginx/html
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]

@@ -6,7 +6,7 @@
       "name": "Erna (Ida Elisabeth Erna) Böttcher, geb. Steinmetz",
       "gruppe": "Familie Steinmetz",
       "text": "* 10. Juli 1907 in Kirchberg (Niedenstein), † 28. Mai 1990 in Riedstadt. Empfängerin der Briefe. Fritz nennt sie „liebe Frau“, „Kleines“ oder „Hexe“.",
-      "link": "/frau",
+      "link": "/erna",
       "foto": {
         "datei": "19280000-Erna.jpg",
         "text": "Erna mit 21 Jahren, 1928"
@@ -129,7 +129,7 @@
       "name": "Fritz (Friedrich) Böttcher",
       "gruppe": "Familie Böttcher",
       "text": "1905 – vermisst 1944. Schreiber der Briefe, Volksschullehrer in Riede. Unterschreibt mit „Dein Fritz“, einmal „d.O.“.",
-      "link": "/mann"
+      "link": "/fritz"
     },
     {
       "id": "vater-boettcher",
@@ -253,7 +253,7 @@
       "name": "Leutnant Gildemeister und Unteroffizier Schmaltz (?)",
       "gruppe": "Kameraden und Vorgesetzte",
       "text": "Von Fritz gezeichnet; die Zeichnungen sind auf seiner Seite unter „Kunst“ zu sehen.",
-      "link": "/mann"
+      "link": "/fritz"
     },
     {
       "id": "riede",

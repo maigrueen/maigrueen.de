@@ -12,8 +12,8 @@ import ThemeToggle from "./components/ThemeToggle.vue";
     </header>
     <nav>
       <router-link to="/briefe">Briefe</router-link>
-      <router-link to="/mann">Fritz</router-link>
-      <router-link to="/frau">Erna</router-link>
+      <router-link to="/fritz">Fritz</router-link>
+      <router-link to="/erna">Erna</router-link>
       <router-link to="/karte">Karte</router-link>
       <router-link to="/glossar">Glossar</router-link>
     </nav>

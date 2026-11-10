@@ -70,8 +70,8 @@ const zeitleiste = [
     <section>
       <h2>Worum es geht</h2>
       <p>
-        <router-link to="/mann">Fritz Böttcher</router-link> ist Volksschullehrer in Riede bei Wolfhagen, als er 1937
-        <router-link to="/frau">Erna Steinmetz</router-link> kennenlernt. Er schreibt ihr Gedichte, 1938 heiraten die
+        <router-link to="/fritz">Fritz Böttcher</router-link> ist Volksschullehrer in Riede bei Wolfhagen, als er 1937
+        <router-link to="/erna">Erna Steinmetz</router-link> kennenlernt. Er schreibt ihr Gedichte, 1938 heiraten die
         beiden. Im März 1941 wird Fritz eingezogen. Lange Zeit ist er Schreiber in Pilsen in Böhmen,
         im Januar 1944 kommt er an die Front bei Witebsk in Weißrussland. Von dort schreibt er Erna oft mehrmals in der Woche.
       </p>
@@ -118,7 +118,7 @@ const zeitleiste = [
           <blockquote>„{{ z.text }}“</blockquote>
           <p class="meta">
             {{ z.kontext }} ·
-            <router-link :to="'/brief/' + z.id">{{ datumDe(briefNachId[z.id].datum) }}</router-link>
+            <router-link :to="'/briefe/' + z.id">{{ datumDe(briefNachId[z.id].datum) }}</router-link>
           </p>
         </li>
       </ul>
@@ -139,7 +139,7 @@ const zeitleiste = [
       <p>Wer nicht alle Briefe lesen möchte, findet hier eine Auswahl:</p>
       <ul class="einstieg">
         <li v-for="e in einstieg" :key="e.id">
-          <router-link :to="'/brief/' + e.id">{{ datumDe(briefNachId[e.id].datum) }}</router-link>
+          <router-link :to="'/briefe/' + e.id">{{ datumDe(briefNachId[e.id].datum) }}</router-link>
           <span>{{ e.text }}</span>
         </li>
       </ul>

@@ -221,7 +221,7 @@ onBeforeUnmount(() => karte && karte.remove());
           <router-link
             v-for="b in offen[s.ort] ? links.get(s).briefe : links.get(s).briefe.slice(0, GRENZE)"
             :key="b.id"
-            :to="'/brief/' + b.id"
+            :to="'/briefe/' + b.id"
           >{{ briefLabel(b) }}</router-link>
           <a v-if="links.get(s).briefe.length > GRENZE && !offen[s.ort]" href="#" @click.prevent="offen[s.ort] = true">alle zeigen</a>
         </p>
