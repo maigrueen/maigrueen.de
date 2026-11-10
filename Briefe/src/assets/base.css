@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:400,300,600');
+@import "@fontsource/raleway/300.css";
+@import "@fontsource/raleway/400.css";
+@import "@fontsource/raleway/600.css";
 
 :root {
   --background-color: #FFF;

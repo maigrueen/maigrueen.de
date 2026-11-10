@@ -1,6 +1,20 @@
 <script setup>
 import ThemeToggle from "./components/ThemeToggle.vue";
 import Timeline from "./components/Timeline.vue";
+import { onMounted, onBeforeUnmount, ref } from "vue";
+import kontakt from "./content/kontakt.json";
+
+// Zweite Ansicht "Impressum und Datenschutz" unter /#impressum, im selben Rahmen wie die Startseite
+const recht = ref(false);
+const aktualisieren = () => {
+  recht.value = window.location.hash === "#impressum";
+  window.scrollTo(0, 0);
+};
+onMounted(() => {
+  aktualisieren();
+  window.addEventListener("hashchange", aktualisieren);
+});
+onBeforeUnmount(() => window.removeEventListener("hashchange", aktualisieren));
 </script>
 
 <template>
@@ -10,7 +24,7 @@ import Timeline from "./components/Timeline.vue";
       <ThemeToggle />
     </header>
 
-    <main>
+    <main v-if="!recht">
       <h1>Moin!</h1>
       <p>
         My name is Astrid, I'm living in Schleswig-Holstein in Germany and I'm working as a
@@ -82,10 +96,70 @@ import Timeline from "./components/Timeline.vue";
       <h3>Experience</h3>
       <Timeline />
     </main>
+    <main v-else>
+      <h1>Impressum und Datenschutz</h1>
+
+      <h2>Impressum</h2>
+      <h3>Angaben gemäß § 5 DDG</h3>
+      <p>
+        {{ kontakt.name }}<br />
+        <template v-for="zeile in kontakt.anschrift" :key="zeile">{{ zeile }}<br /></template>
+      </p>
+      <h3>Kontakt</h3>
+      <p>E-Mail: <a :href="'mailto:' + kontakt.email">{{ kontakt.email }}</a></p>
+      <h3>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</h3>
+      <p>{{ kontakt.name }}, Anschrift wie oben</p>
+
+      <h2>Datenschutz</h2>
+      <h3>Wer ist verantwortlich?</h3>
+      <p>
+        {{ kontakt.name }}, Anschrift und Kontakt siehe oben.<br />
+        E-Mail: <a :href="'mailto:' + kontakt.email">{{ kontakt.email }}</a>
+      </p>
+
+      <h3>Was passiert, wenn du die Seite besuchst?</h3>
+      <p>
+        Die Seite wird auf einem eigenen Server betrieben. Beim Aufruf speichert der Webserver in Protokolldateien
+        (Logs) automatisch die IP-Adresse, Datum und Uhrzeit, die aufgerufene Adresse, den Antwortcode und die
+        Browser-Kennung. Das ist technisch nötig, um die Seite auszuliefern und Missbrauch abzuwehren (Art. 6 Abs. 1
+        lit. f DSGVO). Die Logs werden {{ kontakt.logDauer }} gespeichert und dann gelöscht. Eine Auswertung zu
+        Werbe- oder Statistikzwecken findet nicht statt.
+      </p>
+      <p>
+        Es gibt keine Cookies, keine Analyse- oder Werbedienste und keine eingebundenen Inhalte von Dritten. Schriften
+        und Symbole werden von meinem eigenen Server geladen.
+      </p>
+
+      <h3>Einstellung für Hell oder Dunkel</h3>
+      <p>
+        Wenn du zwischen hellem und dunklem Erscheinungsbild wechselst, merkt sich dein Browser die Auswahl lokal
+        (Local Storage). Diese Information bleibt auf deinem Gerät und wird nicht an mich übertragen.
+      </p>
+
+      <h3>Kontakt per E-Mail</h3>
+      <p>
+        Wenn du mir schreibst, verarbeite ich deine Nachricht und deine E-Mail-Adresse, um zu antworten
+        (Art. 6 Abs. 1 lit. b oder f DSGVO). Ich lösche sie, sobald die Anfrage erledigt ist und keine gesetzlichen
+        Aufbewahrungspflichten entgegenstehen.
+      </p>
+
+      <h3>Links zu anderen Seiten</h3>
+      <p>
+        Die Seite verlinkt auf LinkedIn, GitHub und weitere Seiten. Diese Angebote sind nicht eingebunden. Erst wenn du
+        einen Link anklickst, verlässt du meine Seite, und es gelten die Datenschutzbestimmungen des jeweiligen
+        Anbieters.
+      </p>
+
+      <h3>Deine Rechte</h3>
+      <p>
+        Du hast das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung und Widerspruch
+        (Art. 15 bis 21 DSGVO). Du kannst dich außerdem bei einer Datenschutz-Aufsichtsbehörde beschweren, zum
+        Beispiel beim Unabhängigen Landeszentrum für Datenschutz Schleswig-Holstein.
+      </p>
+    </main>
     <footer>
-      <a href="/impressum.html">Impressum</a>
-      ·
-      <a href="https://briefe.maigrueen.de/datenschutz">Datenschutz</a>
+      <a v-if="!recht" href="#impressum">Impressum und Datenschutz</a>
+      <a v-else href="#start">Zurück zur Startseite</a>
     </footer>
   </div>
 </template>

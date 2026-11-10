@@ -20,7 +20,6 @@ useSeite(() => ({
       <template v-if="kontakt.anschrift">{{ kontakt.anschrift }}<br /></template>
       E-Mail: <a :href="'mailto:' + kontakt.email">{{ kontakt.email }}</a>
     </p>
-    <p>Das <a href="https://maigrueen.de/impressum.html">Impressum</a> steht auf maigrueen.de.</p>
     <p>
       Diese Seite ist ein privates, nicht kommerzielles Familienprojekt. Sie zeigt Briefe, Fotos und Dokumente von
       Menschen, die vor langer Zeit gelebt haben.
