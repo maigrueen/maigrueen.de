@@ -1,0 +1,64 @@
+# Stack "maigrueen" für Portainer (Workflow aus dieser Git-Source).
+# Die Image-Tags (:latest oder vNN) setzt die GitHub-Action nach jedem Build per sed. Das Format der image-Zeilen bitte beibehalten.
+# Tags sind eindeutig, Portainer zieht ein Image daher nur, wenn es lokal fehlt.
+
+services:
+  maigrueen:
+    container_name: maigrueen
+    image: ghcr.io/maigrueen/maigrueen:latest
+    pull_policy: missing
+    networks:
+      - proxy_net
+
+  briefe:
+    container_name: briefe
+    image: ghcr.io/maigrueen/briefe:latest
+    pull_policy: missing
+    networks:
+      - proxy_net
+
+  dashboard:
+    container_name: dashboard
+    image: ghcr.io/maigrueen/dashboard:latest
+    pull_policy: missing
+    networks:
+      - proxy_net
+
+  affirmations:
+    container_name: affirmations
+    image: ghcr.io/maigrueen/affirmations:latest
+    pull_policy: missing
+    networks:
+      - proxy_net
+
+  dogtracker:
+    container_name: dogtracker
+    image: ghcr.io/maigrueen/dogtracker:latest
+    pull_policy: missing
+    networks:
+      - proxy_net
+
+  ftechart:
+    container_name: ftechart
+    image: ghcr.io/maigrueen/ftechart:latest
+    pull_policy: missing
+    networks:
+      - proxy_net
+
+  periodtracker:
+    container_name: periodtracker
+    image: ghcr.io/maigrueen/periodtracker:latest
+    pull_policy: missing
+    networks:
+      - proxy_net
+
+  todolist:
+    container_name: todolist
+    image: ghcr.io/maigrueen/todolist:latest
+    pull_policy: missing
+    networks:
+      - proxy_net
+
+networks:
+  proxy_net:
+    external: true

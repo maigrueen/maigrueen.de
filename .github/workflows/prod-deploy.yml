@@ -49,4 +49,47 @@ jobs:
         with:
           context: ./${{ matrix.app.name }}
           push: true
-          tags: ghcr.io/maigrueen/${{ matrix.app.image }}:latest
+          tags: |
+            ghcr.io/maigrueen/${{ matrix.app.image }}:v${{ github.run_number }}
+            ghcr.io/maigrueen/${{ matrix.app.image }}:latest
+
+  deploy:
+    needs: build-and-push
+    # Nur bei Pushes nach main, nicht beim nächtlichen Neubau
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    # Nie zwei Deployments gleichzeitig
+    concurrency:
+      group: deploy
+      cancel-in-progress: false
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Neue Version in compose.yml eintragen
+        run: |
+          # Setzt bei allen Apps den Tag auf die Nummer dieses Laufs, z. B. :v42
+          sed -i -E "s|(image: ghcr.io/maigrueen/[a-z]+):.*|\1:v${{ github.run_number }}|" compose.yml
+          git config user.name "GitHub Action Bot"
+          git config user.email "actions@github.com"
+          git add compose.yml
+          git commit -m "Deploy version v${{ github.run_number }} [skip ci]"
+          git pull --rebase origin main
+          git push
+
+      - name: Portainer-Webhook aufrufen
+        env:
+          PORTAINER_WEBHOOK_URL: ${{ secrets.PORTAINER_WEBHOOK_URL }}
+        run: |
+          if [ -z "$PORTAINER_WEBHOOK_URL" ]; then
+            echo "Kein Webhook hinterlegt, Portainer wird nicht angestoßen."
+            exit 0
+          fi
+          STATUS_CODE=$(curl -s -o /dev/null -w "%{http_code}" -X POST "$PORTAINER_WEBHOOK_URL")
+          echo "Portainer antwortete mit Statuscode: $STATUS_CODE"
+          if [ "$STATUS_CODE" -ne 200 ] && [ "$STATUS_CODE" -ne 204 ]; then
+            echo "Fehler beim Deployment! Portainer meldet Status $STATUS_CODE"
+            exit 1
+          fi
