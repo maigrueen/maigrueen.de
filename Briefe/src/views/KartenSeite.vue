@@ -3,6 +3,7 @@ import { computed, ref } from "vue";
 import StationenKarte from "../components/StationenKarte.vue";
 import mann from "../content/karte-mann.json";
 import frau from "../content/karte-frau.json";
+import { useSeite } from "../seo";
 
 // "Beide": alle Orte von Fritz und Erna auf einer Karte (ohne die Zwischenhalte der Zugfahrt)
 const beide = {
@@ -15,6 +16,12 @@ const beide = {
     ...frau.stationen.map((s) => ({ ...s, person: "frau" })),
   ],
 };
+
+useSeite(() => ({
+  titel: "Karte: die Orte von Fritz und Erna Böttcher",
+  beschreibung: "Von Hagen-Kabel über Riede und Pilsen bis Witebsk: die Stationen von Fritz Böttcher und Erna Böttcher auf einer Karte, mit den Briefen von dort.",
+  pfad: "/karte",
+}));
 
 const personen = [
   { id: "mann", label: "Fritz", daten: mann },

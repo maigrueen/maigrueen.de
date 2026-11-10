@@ -1,6 +1,7 @@
 <script setup>
 import { ref, computed } from "vue";
 import { briefe, bildUrl, datumDe, metaZeile } from "../briefe";
+import { useSeite } from "../seo";
 
 // Lebensabschnitte statt "vor/im Krieg". Grenzen hier anpassen, falls nötig.
 // "bis" ist jeweils das erste Datum, das nicht mehr dazugehört.
@@ -12,6 +13,12 @@ const abschnitte = [
   { id: "suche", label: "Die Suche", bis: "9999", text: "Was Erna nach seinem Verschwinden erfahren hat: Antworten von Heer und Rotem Kreuz und der Brief eines Kameraden." },
 ];
 const abschnittVon = (b) => abschnitte.find((a) => a.bis && b.datum < a.bis).id;
+
+useSeite(() => ({
+  titel: "Alle Briefe und Postkarten von Fritz Böttcher an Erna",
+  beschreibung: `${briefe.length} Briefe, Postkarten und Dokumente von Fritz Böttcher (1905–1944) an seine Frau Erna, 1937 bis 1944, mit Scans und Transkriptionen.`,
+  pfad: "/briefe",
+}));
 
 const zeitraum = ref("alle");
 const neuesZuerst = ref(false);

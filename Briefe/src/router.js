@@ -1,4 +1,3 @@
-import { createRouter, createWebHistory } from "vue-router";
 import StartSeite from "./views/StartSeite.vue";
 import BriefListe from "./views/BriefListe.vue";
 import BriefDetail from "./views/BriefDetail.vue";
@@ -6,14 +5,13 @@ import ProfilSeite from "./views/ProfilSeite.vue";
 import KartenSeite from "./views/KartenSeite.vue";
 import GlossarSeite from "./views/GlossarSeite.vue";
 
-export default createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
-  // Sprungmarken (z. B. /glossar#haag) anspringen, sonst nach oben
-  scrollBehavior: (to) =>
+// Sprungmarken (z. B. /glossar#haag) anspringen, sonst nach oben
+export const scrollBehavior = (to) =>
     to.hash
       ? new Promise((ok) => setTimeout(() => ok({ el: to.hash, top: 20, behavior: "smooth" }), 50))
-      : { top: 0 },
-  routes: [
+      : { top: 0 };
+
+export const routes = [
     { path: "/", component: StartSeite },
     { path: "/briefe", component: BriefListe },
     { path: "/briefe/:id", component: BriefDetail, props: true },
@@ -26,5 +24,4 @@ export default createRouter({
     { path: "/frau", redirect: "/erna" },
     { path: "/karte", component: KartenSeite },
     { path: "/glossar", component: GlossarSeite },
-  ],
-});
+];

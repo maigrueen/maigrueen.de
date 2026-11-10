@@ -1,6 +1,5 @@
 <script setup>
 import { nextTick, onBeforeUnmount, onMounted, ref } from "vue";
-import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import { briefe, datumDe } from "../briefe";
 import { personen, begriffe } from "../glossar";
@@ -123,6 +122,9 @@ function details(s) {
 }
 
 onMounted(async () => {
+  // Leaflet erst im Browser laden: Beim Vorab-Rendern (Build) gibt es kein "window"
+  const mod = await import("leaflet");
+  const L = mod.default ?? mod;
   karte = L.map(el.value);
   L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
     className: "kacheln", // für die Einfärbung, siehe CSS unten

@@ -4,10 +4,39 @@ import Lebenslauf from "../components/Lebenslauf.vue";
 import Lightbox from "../components/Lightbox.vue";
 import StationenKarte from "../components/StationenKarte.vue";
 import { bildUrl } from "../briefe";
+import { useSeite, kurz } from "../seo";
 
 const props = defineProps({ datei: String });
 const profile = import.meta.glob("../content/profil-*.json", { eager: true, import: "default" });
 const profil = computed(() => profile[`../content/${props.datei}.json`]);
+
+// Seitentitel, Beschreibung und strukturierte Daten (schema.org/Person)
+const PERSON = {
+  "profil-mann": { pfad: "/fritz", name: "Fritz Böttcher", alt: "Friedrich Böttcher", geboren: "1905-08-05", geburtsort: "Hagen-Kabel", partner: "Erna Böttcher", beruf: "Lehrer" },
+  "profil-frau": { pfad: "/erna", name: "Erna Böttcher", alt: "Erna Steinmetz", geboren: "1907-07-10", geburtsort: "Kirchberg (Niedenstein)", gestorben: "1990-05-28", sterbeort: "Riedstadt", partner: "Fritz Böttcher" },
+};
+useSeite(() => {
+  const p = PERSON[props.datei];
+  const json = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: p.name,
+    alternateName: p.alt,
+    birthDate: p.geboren,
+    birthPlace: p.geburtsort,
+    ...(p.gestorben && { deathDate: p.gestorben, deathPlace: p.sterbeort }),
+    ...(p.beruf && { jobTitle: p.beruf }),
+    spouse: { "@type": "Person", name: p.partner },
+    url: "https://briefe.maigrueen.de" + p.pfad,
+  };
+  return {
+    titel: `${profil.value?.name ?? p.name} – Lebenslauf, Briefe und Orte`,
+    beschreibung: kurz(profil.value?.text ?? ""),
+    pfad: p.pfad,
+    typ: "profile",
+    json,
+  };
+});
 
 // Karte der Person: profil-mann -> karte-mann.json, profil-frau -> karte-frau.json
 const karten = import.meta.glob("../content/karte-*.json", { eager: true, import: "default" });

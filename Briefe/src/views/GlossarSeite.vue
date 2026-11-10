@@ -4,6 +4,13 @@ import { briefe, bildUrl, datumDe } from "../briefe";
 import Lightbox from "../components/Lightbox.vue";
 import Stammbaum from "../components/Stammbaum.vue";
 import { glossarIntro, personen, begriffe } from "../glossar";
+import { useSeite } from "../seo";
+
+useSeite(() => ({
+  titel: "Glossar: Stammbaum, Personen und Begriffe",
+  beschreibung: "Stammbaum der Familien Böttcher und Steinmetz, Personen aus den Briefen von Fritz Böttcher und Erklärungen zu Begriffen der Feldpost und des Soldatenalltags.",
+  pfad: "/glossar",
+}));
 
 const briefNachId = Object.fromEntries(briefe.map((b) => [b.id, b]));
 const briefLabel = (id) => briefNachId[id].titel || datumDe(briefNachId[id].datum);

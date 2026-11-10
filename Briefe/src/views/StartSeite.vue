@@ -1,5 +1,13 @@
 <script setup>
 import { briefe, bildUrl, datumDe } from "../briefe";
+import { useSeite } from "../seo";
+
+useSeite(() => ({
+  titel: "Fritz und Erna – Briefe 1937–1944",
+  ganzerTitel: true,
+  beschreibung: "Feldpostbriefe und Postkarten von Fritz Böttcher (1905–1944), Lehrer aus Nordhessen, an seine Frau Erna, 1937 bis 1944. Mit Transkriptionen, Lebensläufen, Karte und Glossar.",
+  pfad: "/",
+}));
 
 const anzahlFritz = briefe.filter((b) => b.datum >= "1937" && b.datum < "1944-07").length;
 
