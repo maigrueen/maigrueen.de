@@ -17,16 +17,16 @@ const kaesten = [
   { fam: "s", x: 357, y: 24, w: 104, zeilen: [["Johannes", "vater-steinmetz"]], jahre: "1876–1966", info: "Lehrer", foto: "19400401-Hans_Hedwig_Steinmetz.jpg", ausschnitt: "xMinYMin" },
   { fam: "s", x: 479, y: 24, w: 104, zeilen: [["Hedwig", "mutter-steinmetz"]], jahre: "1882–1941", info: "geb. Gonnermann", foto: "19400401-Hans_Hedwig_Steinmetz.jpg", ausschnitt: "xMaxYMin" },
   // Geschwister
-  { fam: "b", x: 6, y: 146, zeilen: [["Karl", "karl"]], jahre: "* um 1900", info: "Schuhmacher" },
-  { fam: "b", x: 88, y: 146, zeilen: [["Heinrich", "heinrich-boettcher"]], jahre: "Prokurist", info: "in Bremen" },
+  { fam: "b", x: 6, y: 146, zeilen: [["Heinrich", "heinrich-boettcher"]], jahre: "* 1899", info: "Prokurist" },
+  { fam: "b", x: 88, y: 146, zeilen: [["Karl", "karl"]], jahre: "* 1902", info: "Schuhmacher" },
   { fam: "b", x: 170, y: 146, zeilen: [["Fritz", "fritz"]], jahre: "1905–1944", info: "Lehrer", haupt: true, foto: "Fritz-Pilsen.jpg" },
   { fam: "s", x: 268, y: 146, zeilen: [["Erna", "erna"]], jahre: "1907–1990", info: "⚭ 1938", haupt: true, foto: "19410000-Erna.jpg" },
-  { fam: "s", x: 350, y: 146, zeilen: [["Heini", "heini"]], jahre: "* 1905", info: "⚭ Elise", info2: "elise" },
-  { fam: "s", x: 432, y: 146, zeilen: [["Hugo", "hugo"]], jahre: "1910–1978", info: "⚭ Minna" },
+  { fam: "s", x: 350, y: 146, zeilen: [["Heini", "heini"]], jahre: "* 1905", info: "⚭ Elise", info2: "elise", foto: "19581200-Heini.jpg" },
+  { fam: "s", x: 432, y: 146, zeilen: [["Hugo", "hugo"]], jahre: "1910–1978", info: "⚭ Minna", foto: "19581200-Hugo.jpg" },
   { fam: "s", x: 514, y: 146, zeilen: [["Edith", "edith"]], jahre: "1914–2007", info: "⚭ Konrad", info2: "konrad", foto: "19421224-Inge_Edith_Ursula.jpg" },
   { fam: "s", x: 596, y: 146, zeilen: [["Agnes", "agnes"]], jahre: "1921–1974", info: "⚭ Otto", info2: "otto", foto: "19390000-Agnes.jpg" },
   // Nächste Generation (nur, wer in Briefen oder Tagebuch vorkommt)
-  { fam: "s", x: 514, y: 286, h: 58, zeilen: [["Inge", "inge"]], jahre: "1936–1995" },
+  { fam: "s", x: 514, y: 286, h: 58, zeilen: [["Inge", "inge"]], jahre: "1936–1995", foto: "19371224-Inge.jpg" },
   { fam: "s", x: 596, y: 286, h: 58, zeilen: [["Klaus", "klaus"]], jahre: "1944–2002" },
 ].map((k) => ({ w: B, h: 76, ...k }));
 
@@ -54,7 +54,7 @@ onMounted(() => {
     <svg viewBox="0 0 680 410" role="img" aria-labelledby="sb-titel sb-text">
       <title id="sb-titel">Stammbaum von Fritz und Erna</title>
       <desc id="sb-text">
-        Links Fritz’ Familie Böttcher mit den Eltern Carl und Louise und den Brüdern Karl und Heinrich, rechts Ernas
+        Links Fritz’ Familie Böttcher mit den Eltern Carl und Louise und den Brüdern Heinrich und Karl, rechts Ernas
         Familie Steinmetz mit den Eltern Johannes und Hedwig und den Geschwistern Heini, Hugo, Edith und Agnes. Fritz und Erna
         heiraten 1938. Darunter Ediths Tochter Inge und Agnes’ Sohn Klaus.
       </desc>

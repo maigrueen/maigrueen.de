@@ -16,7 +16,7 @@
       "id": "vater-steinmetz",
       "name": "Johannes (Hans) Steinmetz",
       "gruppe": "Familie Steinmetz",
-      "text": "* 1. Dezember 1876 in Lohne bei Fritzlar, † 5. August 1966 in Fritzlar. Ernas Vater, Lehrer in Kirchberg, später in Kassel; er unterschreibt mit „H. Steinmetz“. 1944 lebt er bei Erna in Riede. Ihn und Fritz’ Mutter meint Fritz, wenn er „die beiden Alten“ grüßen lässt.",
+      "text": "* 1. Dezember 1876 in Lohne bei Fritzlar, † 5. August 1966 in Fritzlar. Ernas Vater, seit 1905 Lehrer und Organist in Kirchberg (Wohnung im Schulhaus), nach der Pensionierung 1938/39 in Kassel-Rothenditmold, Wolfhager Straße 184, und seit dem Luftangriff im Oktober 1943 in Riede; er unterschreibt mit „H. Steinmetz“. 1944 lebt er bei Erna in Riede. Ihn und Fritz’ Mutter meint Fritz, wenn er „die beiden Alten“ grüßen lässt. Nach seiner Spruchkammerakte war er nie in der NSDAP, wohl aber im NS-Lehrerbund und in der NS-Volkswohlfahrt und Kassierer der Ortsgruppe des Reichskolonialbunds; deshalb wird er 1948 angeklagt. In seiner eigenhändigen Klageerwiderung schreibt er, er habe sich dem wiederholten Drängen zum Parteieintritt widersetzt und sich gegen die Forderung gewehrt, sein Organistenamt aufzugeben: „Meine Existenz und die meiner Familie mit 5 Kindern war bedroht.“ Das Verfahren wird eingestellt. Quelle: Hessisches Hauptstaatsarchiv Wiesbaden, 520/40 Nr. 4263.",
       "suche": ["Deinem Vater", "Dein Vater", "beiden Alten"],
       "foto": {
         "datei": "19530400-Hans.jpg",
@@ -37,7 +37,7 @@
       "id": "edith",
       "name": "Edith (Dorothea Nelly Edith Wackerbarth, geb. Steinmetz)",
       "gruppe": "Familie Steinmetz",
-      "text": "* 26. April 1914 in Lohne bei Fritzlar, † 29. Juli 2007 in Wolfhagen. Ernas Schwester und Urgroßmutter der Autorin dieser Seite. Seit dem 8. August 1936 mit Konrad Wackerbarth verheiratet, drei Kinder, darunter Inge. Im Frühjahr 1944 schreibt sie wie ihre Schwägerin Elise einem Mann bei der Wehrmacht.",
+      "text": "* 26. April 1914 in Kirchberg, † 29. Juli 2007 in Wolfhagen. Ernas Schwester und Urgroßmutter der Autorin dieser Seite. Seit dem 8. August 1936 mit Konrad Wackerbarth verheiratet, drei Kinder, darunter Inge. Im Frühjahr 1944 schreibt sie wie ihre Schwägerin Elise einem Mann bei der Wehrmacht.",
       "suche": ["Edith"],
       "foto": {
         "datei": "19421224-Inge_Edith_Ursula.jpg",
@@ -94,7 +94,7 @@
       "id": "heini",
       "name": "Heini (Johann Heinrich Steinmetz)",
       "gruppe": "Familie Steinmetz",
-      "text": "* 9. August 1905, Ernas älterer Bruder. Verheiratet mit Elise, geb. Höhmann, ein Sohn. 1944 ist er Soldat; Fritz hält im Dezember 1943 in Kassel nach ihm Ausschau.",
+      "text": "* 9. August 1905 in Kirchberg, Ernas älterer Bruder. Verwaltungsangestellter beim Bezirksverband Kassel. Verheiratet mit Elise, geb. Höhmann, ein Sohn. Seit 1938 wohnt die Familie in Kassel-Rothenditmold, Wolfhager Straße 184; das Haus wird am 22. Oktober 1943 bei einem Luftangriff zerstört, Elise und das Kind ziehen nach Metze. Heini ist von August 1939 bis Kriegsende Soldat und kommt am 25. Dezember 1946 aus der Gefangenschaft zurück; Fritz hält im Dezember 1943 in Kassel nach ihm Ausschau. Er war seit 1933 in der NSDAP und 1933/34 Blockleiter in Kirchberg, die Spruchkammer stuft ihn 1948 als Mitläufer ein. Quelle: Hessisches Hauptstaatsarchiv Wiesbaden, 520/22 Nr. 10840.",
       "suche": ["Heini"],
       "foto": {
         "datei": "Erna_Heini_Hugo-Kassel.jpg",
@@ -112,7 +112,7 @@
       "id": "hugo",
       "name": "Hugo Steinmetz",
       "gruppe": "Familie Steinmetz",
-      "text": "* 30. Mai 1910 in Lohne bei Fritzlar, † 30. Januar 1978 in Kirchberg. Ernas Bruder, Lehrer wie sein Vater und Fritz, verheiratet mit Minna, geb. Kirchhoff. Kommt nur in den Briefen der Eltern vor (1922 und 1940).",
+      "text": "* 30. Mai 1910 in Kirchberg, † 30. Januar 1978 in Kirchberg. Ernas Bruder, Lehrer wie sein Vater und Fritz, verheiratet mit Minna, geb. Kirchhoff, der Tochter des Kirchberger SPD-Vorsitzenden bis 1933. Bei einem Unfall im Chemieunterricht verliert er 1926 das Sehvermögen des linken Auges. Nach dem Abitur 1932 in Kassel arbeitet er im Büro, bis er 1936 bis 1938 in Weilburg die Lehrerausbildung macht; ab November 1938 ist er Lehrer in Ausbach bei Hersfeld. Im Februar 1944 wird er Soldat (Pionier-Ersatz-Bataillon 9, Aschaffenburg) und bleibt bis Weihnachten 1945 in amerikanischer Gefangenschaft. Ab 1947 unterrichtet er wieder in Kirchberg, seit 1954 als Schulleiter. Er war seit 1933 in der NSDAP und in der HJ; die Spruchkammer stuft ihn 1947 als Mitläufer ein. Kommt in den Briefen nur in denen der Eltern vor (1922 und 1940). Quelle: Hessisches Hauptstaatsarchiv Wiesbaden, 520/13 Nr. 10092 und 527 Nr. II-26832.",
       "foto": {
         "datei": "Erna_Heini_Hugo-Kassel.jpg",
         "text": "Hugo mit seinen Geschwistern Erna und Heini als Kinder"
@@ -147,21 +147,21 @@
       "id": "mutter-boettcher",
       "name": "Wilhelmine Louise Charlotte Catharine Böttcher, geb. Schäfer",
       "gruppe": "Familie Böttcher",
-      "text": "* 21. Oktober 1867 in Anraff (Waldeck), † 7. September 1957 in Riede. Fritz’ Mutter, in den Briefen „Mama“ oder „Mutter“. Tochter des Schmieds August Schäfer und Elisabeth geb. Steinmetz aus Buhlen im Edertal, wohin Fritz im März 1944 ein Päckchen Bonbons schickt. Vor der Ehe Dienstmagd in Barmen; am 1. August 1896 heiratet sie in Altenhagen bei Hagen den Schuhmacher Carl Böttcher. 1944 lebt sie bei Erna in Riede; im Mai gibt es Streit zwischen den beiden Frauen, den Erna wieder beilegt. Sie bleibt in Riede und stirbt dort mit 89 Jahren, im Haus Nr. 14.",
+      "text": "* 21. Oktober 1867 in Anraff (Waldeck), † 7. September 1957 in Riede. Fritz’ Mutter, in den Briefen „Mama“ oder „Mutter“. Tochter des Schmieds August Schäfer und Elisabeth geb. Steinmetz aus Buhlen im Edertal, wohin Fritz im März 1944 ein Päckchen Bonbons schickt. Vor der Ehe Dienstmagd in Barmen; am 1. August 1896 heiratet sie in Altenhagen bei Hagen den Schuhmacher Carl Böttcher. 1944 lebt sie bei Erna in Riede; im Mai gibt es Streit zwischen den beiden Frauen, den Erna wieder beilegt. Sie bleibt in Riede und stirbt dort mit 89 Jahren, im Haus Nr. 14. Im Ahnenpass und in Ernas Aussage vor der Spruchkammer 1948 heißt sie Katharina Luise; in den Kirchenbüchern von 1896 und 1899 stehen vier Vornamen (Wilhelmine Louise Charlotte Catharine).",
       "suche": ["Mama", "meiner Mutter", "meine Mutter"]
     },
     {
       "id": "karl",
       "name": "Karl Böttcher",
       "gruppe": "Familie Böttcher",
-      "text": "Fritz’ älterer Bruder, geboren zwischen 1896 und 1905. Schuhmacher wie der Vater; 1926 wohnt er bei den Eltern in Kabel und meldet den Tod des Vaters. 1944 ist er Soldat: Im Januar hätten sich die beiden auf der Fahrt nach Osten fast getroffen, im März schreibt Fritz ihm. Ob der Karl, nach dessen Feldpostnummer Fritz bei Frau Schaake fragt, derselbe ist, ist unklar.",
+      "text": "Fritz’ älterer Bruder Karl Wilhelm, * 13. Juli 1902 in Hagen-Kabel, getauft am 3. August 1902. Schuhmacher wie der Vater; 1926 wohnt er bei den Eltern in Kabel und meldet den Tod des Vaters. 1944 ist er Soldat: Im Januar hätten sich die beiden auf der Fahrt nach Osten fast getroffen, im März schreibt Fritz ihm. Ob der Karl, nach dessen Feldpostnummer Fritz bei Frau Schaake fragt, derselbe ist, ist unklar.",
       "briefe": ["1944-01-21", "1944-03-27", "1944-03-31", "1944-05-12"]
     },
     {
       "id": "heinrich-boettcher",
       "name": "Heinrich Böttcher",
       "gruppe": "Familie Böttcher",
-      "text": "Fritz’ Bruder, Prokurist in Bremen. Er schickt Fritz Bücher, Zeitungen und Briefe an die Front und erfährt seine Feldpostnummer über Rita. 1957 meldet er den Tod der Mutter in Riede.",
+      "text": "Fritz’ älterer Bruder, * 7. Januar 1899 in Hagen-Kabel, getauft am 29. Januar 1899. Prokurist in Bremen; laut den Bremer Adressbüchern wohnt er von 1957 bis mindestens 1970 in der Arensburgstraße 35. Er schickt Fritz Bücher, Zeitungen und Briefe an die Front und erfährt seine Feldpostnummer über Rita. 1957 meldet er den Tod der Mutter in Riede.",
       "suche": ["von Heinrich", "Heinrich hatte", "Bremen"]
     },
     {
