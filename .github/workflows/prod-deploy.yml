@@ -14,8 +14,6 @@ jobs:
             image: maigrueen
           - name: Briefe
             image: briefe
-          - name: Dashboard
-            image: dashboard
           - name: Affirmations
             image: affirmations
           - name: DogTracker
