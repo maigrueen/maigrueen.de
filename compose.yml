@@ -17,13 +17,6 @@ services:
     networks:
       - proxy_net
 
-  dashboard:
-    container_name: dashboard
-    image: ghcr.io/maigrueen/dashboard:v1703
-    pull_policy: missing
-    networks:
-      - proxy_net
-
   affirmations:
     container_name: affirmations
     image: ghcr.io/maigrueen/affirmations:v1703
