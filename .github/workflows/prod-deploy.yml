@@ -3,8 +3,6 @@ name: Build and Push Docker Images
 on:
   push:
     branches: [ main ]
-  schedule:
-    - cron: '0 1 * * *'  # Beibehaltung deines Nightly Cron-Jobs
 
 jobs:
   build-and-push:
